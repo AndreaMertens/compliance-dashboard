@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Weekly Compliance Dashboard",
+    "subtitle": "Leadership view",
+    "week_label": "Week of April 20–26, 2026",
+    "generated_at": "2026-04-22T07:34:00-04:00",
+    "generated_at_display": "Generated Apr 22, 7:34 AM"
+  },
+  "summary": [
+    {
+      "number": 9,
+      "label": "Reports tracked"
+    },
+    {
+      "number": 41,
+      "label": "Shops flagged this week"
+    },
+    {
+      "number": 7,
+      "label": "Action-required reports"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Manager Accountability",
+      "reports": [
+        {
+          "id": "manager-attendance",
+          "title": "Manager Attendance",
+          "review_day": "Monday",
+          "metric": 3,
+          "metric_unit": "managers flagged",
+          "description": "Fell short of 5 days worked across one or both of the last two completed weeks.",
+          "status": "alert",
+          "last_refreshed_display": "Last refreshed: Mon 7:32 AM",
+          "covers_label": "Covers Apr 6 – Apr 19"
+        },
+        {
+          "id": "schedule-review",
+          "title": "Schedule Review",
+          "review_day": "Monday",
+          "metric": 5,
+          "metric_unit": "shops with gaps",
+          "description": "Missing days or uncovered shifts detected in the coming week's published schedule.",
+          "status": "watch",
+          "last_refreshed_display": "Last refreshed: Mon 7:32 AM",
+          "covers_label": "Covers week of Apr 20"
+        },
+        {
+          "id": "no-coverage-days",
+          "title": "No Coverage Days",
+          "review_day": "Monday",
+          "metric": 0,
+          "metric_unit": "incidents",
+          "description": "No shop had a day last week with zero employee clock-ins.",
+          "status": "good",
+          "last_refreshed_display": "Last refreshed: Mon 7:32 AM",
+          "covers_label": "Covers Apr 13 – Apr 19"
+        },
+        {
+          "id": "schedule-publication",
+          "title": "Schedule Publication",
+          "review_day": "Monday",
+          "metric": 4,
+          "metric_unit": "shops non-compliant",
+          "description": "Have not yet published schedules the required lead time before the next work week.",
+          "status": "alert",
+          "last_refreshed_display": "Last refreshed: Mon 7:32 AM",
+          "covers_label": "Next check: Wed Apr 22"
+        },
+        {
+          "id": "unapproved-timecards",
+          "title": "Unapproved Timecards",
+          "review_day": "Wednesday",
+          "metric": 3,
+          "metric_unit": "shops outstanding",
+          "description": "14 timecards still unapproved past the 3-day grace period.",
+          "status": "alert",
+          "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
+          "covers_label": "Covers Apr 13 – Apr 19"
+        }
+      ]
+    },
+    {
+      "heading": "Team Operations",
+      "reports": [
+        {
+          "id": "tardiness",
+          "title": "Tardiness",
+          "review_day": "Wednesday",
+          "metric": 36,
+          "metric_unit": "shops flagged",
+          "description": "166 late clock-ins across the network last week. Boston led with 22 instances.",
+          "status": "alert",
+          "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
+          "covers_label": "Covers Apr 13 – Apr 19"
+        },
+        {
+          "id": "early-clock-in",
+          "title": "Early Clock-In",
+          "review_day": "Wednesday",
+          "metric": 28,
+          "metric_unit": "shops flagged",
+          "description": "95 instances of employees clocking in 15+ minutes before their scheduled start.",
+          "status": "watch",
+          "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
+          "covers_label": "Covers Apr 13 – Apr 19"
+        },
+        {
+          "id": "long-shifts",
+          "title": "Long Shifts",
+          "review_day": "Wednesday",
+          "metric": 8,
+          "metric_unit": "shifts over 10 hrs",
+          "description": "Across 5 shops last week. None exceeded 12 hours.",
+          "status": "watch",
+          "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
+          "covers_label": "Covers Apr 13 – Apr 19"
+        },
+        {
+          "id": "break-compliance",
+          "title": "Break Compliance",
+          "review_day": "Wednesday",
+          "metric": 1,
+          "metric_unit": "shift flagged",
+          "description": "Bellevue only (Washington L&I rule). 14 qualifying shifts last week, 1 short on breaks.",
+          "status": "good",
+          "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
+          "covers_label": "Covers Apr 13 – Apr 19"
+        }
+      ]
+    }
+  ],
+  "legend": [
+    {
+      "label": "On track",
+      "status_class": "good"
+    },
+    {
+      "label": "Needs attention",
+      "status_class": "watch"
+    },
+    {
+      "label": "Action required",
+      "status_class": "alert"
+    }
+  ]
+}

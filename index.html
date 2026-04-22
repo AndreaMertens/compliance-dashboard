@@ -1,3 +1,11 @@
+
+index-source.txt
+
+Page
+1
+/
+1
+100%
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -195,191 +203,144 @@
     color: #5a4300;
   }
   .disclaimer strong { color: #3d2d00; }
+
+  .error-banner {
+    margin: 1rem 0 2rem;
+    padding: 1rem 1.25rem;
+    background: #fdecea;
+    border-left: 4px solid #b23a3a;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #5a1a1a;
+    display: none;
+  }
+  .error-banner.visible { display: block; }
+  .error-banner strong { color: #3d1010; }
+  .error-banner code {
+    background: #f3d3d0;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+  }
 </style>
 </head>
 <body>
 
 <header>
   <div class="brand">State &amp; Liberty</div>
-  <h1>Weekly Compliance Dashboard</h1>
-  <div class="subtitle">Leadership view &middot; Week of April 20&ndash;26, 2026</div>
+  <h1 id="dashboard-title">Weekly Compliance Dashboard</h1>
+  <div class="subtitle" id="dashboard-subtitle">Leadership view</div>
 </header>
 
 <div class="wrapper">
 
-  <div class="summary-bar">
-    <div class="summary-item">
-      <div class="summary-number">9</div>
-      <div class="summary-label">Reports tracked</div>
-    </div>
-    <div class="summary-item">
-      <div class="summary-number">41</div>
-      <div class="summary-label">Shops flagged this week</div>
-    </div>
-    <div class="summary-item">
-      <div class="summary-number">7</div>
-      <div class="summary-label">Action-required reports</div>
-    </div>
+  <div id="error-banner" class="error-banner">
+    <strong>Couldn't load dashboard data.</strong>
+    This usually means the page was opened directly from disk (<code>file://</code>) —
+    browsers block <code>fetch()</code> in that mode. View it via the live URL, or run
+    <code>python3 -m http.server</code> from this folder and visit
+    <code>http://localhost:8000</code>.
   </div>
 
-  <h2 class="section-heading">Manager Accountability</h2>
+  <div class="summary-bar" id="summary-bar"></div>
 
-  <div class="tiles">
+  <div id="sections-container"></div>
 
-    <a class="tile status-alert" href="manager-attendance.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Monday</div>
-      <h2 class="tile-title">Manager Attendance</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">3</span>
-        <span class="tile-metric-unit">managers flagged</span>
-      </div>
-      <p class="tile-description">Fell short of 5 days worked across one or both of the last two completed weeks.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Mon 7:32 AM</span>
-        <span>Covers Apr 6 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-    <a class="tile status-watch" href="schedule-review.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Monday</div>
-      <h2 class="tile-title">Schedule Review</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">5</span>
-        <span class="tile-metric-unit">shops with gaps</span>
-      </div>
-      <p class="tile-description">Missing days or uncovered shifts detected in the coming week's published schedule.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Mon 7:32 AM</span>
-        <span>Covers week of Apr 20</span>
-      </div>
-    </a>
-
-    <a class="tile status-good" href="no-coverage-days.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Monday</div>
-      <h2 class="tile-title">No Coverage Days</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">0</span>
-        <span class="tile-metric-unit">incidents</span>
-      </div>
-      <p class="tile-description">No shop had a day last week with zero employee clock-ins.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Mon 7:32 AM</span>
-        <span>Covers Apr 13 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-    <a class="tile status-alert" href="schedule-publication.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Monday</div>
-      <h2 class="tile-title">Schedule Publication</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">4</span>
-        <span class="tile-metric-unit">shops non-compliant</span>
-      </div>
-      <p class="tile-description">Have not yet published schedules the required lead time before the next work week.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Mon 7:32 AM</span>
-        <span>Next check: Wed Apr 22</span>
-      </div>
-    </a>
-
-    <a class="tile status-alert" href="unapproved-timecards.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Wednesday</div>
-      <h2 class="tile-title">Unapproved Timecards</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">3</span>
-        <span class="tile-metric-unit">shops outstanding</span>
-      </div>
-      <p class="tile-description">14 timecards still unapproved past the 3-day grace period.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Wed 7:34 AM</span>
-        <span>Covers Apr 13 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-  </div>
-
-  <h2 class="section-heading">Team Operations</h2>
-
-  <div class="tiles">
-
-    <a class="tile status-alert" href="tardiness.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Wednesday</div>
-      <h2 class="tile-title">Tardiness</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">36</span>
-        <span class="tile-metric-unit">shops flagged</span>
-      </div>
-      <p class="tile-description">166 late clock-ins across the network last week. Boston led with 22 instances.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Wed 7:34 AM</span>
-        <span>Covers Apr 13 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-    <a class="tile status-watch" href="early-clock-in.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Wednesday</div>
-      <h2 class="tile-title">Early Clock-In</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">28</span>
-        <span class="tile-metric-unit">shops flagged</span>
-      </div>
-      <p class="tile-description">95 instances of employees clocking in 15+ minutes before their scheduled start.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Wed 7:34 AM</span>
-        <span>Covers Apr 13 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-    <a class="tile status-watch" href="long-shifts.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Wednesday</div>
-      <h2 class="tile-title">Long Shifts</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">8</span>
-        <span class="tile-metric-unit">shifts over 10 hrs</span>
-      </div>
-      <p class="tile-description">Across 5 shops last week. None exceeded 12 hours.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Wed 7:34 AM</span>
-        <span>Covers Apr 13 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-    <a class="tile status-good" href="break-compliance.html">
-      <span class="tile-arrow">&rarr;</span>
-      <div class="tile-review">Review Wednesday</div>
-      <h2 class="tile-title">Break Compliance</h2>
-      <div class="tile-metric-row">
-        <span class="tile-metric">1</span>
-        <span class="tile-metric-unit">shift flagged</span>
-      </div>
-      <p class="tile-description">Bellevue only (Washington L&amp;I rule). 14 qualifying shifts last week, 1 short on breaks.</p>
-      <div class="tile-footer">
-        <span>Last refreshed: Wed 7:34 AM</span>
-        <span>Covers Apr 13 &ndash; Apr 19</span>
-      </div>
-    </a>
-
-  </div>
-
-  <div class="legend">
-    <span><span class="legend-dot good"></span>On track</span>
-    <span><span class="legend-dot watch"></span>Needs attention</span>
-    <span><span class="legend-dot alert"></span>Action required</span>
-  </div>
+  <div class="legend" id="legend"></div>
 
   <div class="disclaimer">
-    <strong>Mock data.</strong> Numbers are placeholders for layout review. Real data gets wired in at Step 3.
+    <strong>Mock data.</strong> Numbers are still placeholders. Real data gets wired in at Step 3.
   </div>
 
 </div>
+
+<script>
+  // --- Rendering helpers ---------------------------------------------------
+  // Each helper takes a chunk of data and returns an HTML string. Kept tiny
+  // and flat on purpose — when this moves to per-report detail pages, we'll
+  // reuse the same shape.
+
+  function renderSummary(items) {
+    return items.map(item => `
+      <div class="summary-item">
+        <div class="summary-number">${item.number}</div>
+        <div class="summary-label">${escapeHtml(item.label)}</div>
+      </div>
+    `).join("");
+  }
+
+  function renderTile(report) {
+    return `
+      <a class="tile status-${report.status}" href="${report.id}.html">
+        <span class="tile-arrow">&rarr;</span>
+        <div class="tile-review">Review ${escapeHtml(report.review_day)}</div>
+        <h2 class="tile-title">${escapeHtml(report.title)}</h2>
+        <div class="tile-metric-row">
+          <span class="tile-metric">${report.metric}</span>
+          <span class="tile-metric-unit">${escapeHtml(report.metric_unit)}</span>
+        </div>
+        <p class="tile-description">${escapeHtml(report.description)}</p>
+        <div class="tile-footer">
+          <span>${escapeHtml(report.last_refreshed_display)}</span>
+          <span>${escapeHtml(report.covers_label)}</span>
+        </div>
+      </a>
+    `;
+  }
+
+  function renderSection(section) {
+    const tiles = section.reports.map(renderTile).join("");
+    return `
+      <h2 class="section-heading">${escapeHtml(section.heading)}</h2>
+      <div class="tiles">${tiles}</div>
+    `;
+  }
+
+  function renderLegend(items) {
+    return items.map(item => `
+      <span><span class="legend-dot ${item.status_class}"></span>${escapeHtml(item.label)}</span>
+    `).join("");
+  }
+
+  // Guard against any stray characters in data breaking the HTML.
+  function escapeHtml(s) {
+    if (s == null) return "";
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  // --- Load + render -------------------------------------------------------
+
+  async function loadDashboard() {
+    try {
+      const response = await fetch("data.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      const data = await response.json();
+
+      document.getElementById("dashboard-subtitle").textContent =
+        `${data.meta.subtitle} · ${data.meta.week_label}`;
+
+      document.getElementById("summary-bar").innerHTML =
+        renderSummary(data.summary);
+
+      document.getElementById("sections-container").innerHTML =
+        data.sections.map(renderSection).join("");
+
+      document.getElementById("legend").innerHTML =
+        renderLegend(data.legend);
+
+    } catch (err) {
+      document.getElementById("error-banner").classList.add("visible");
+      console.error("Dashboard load failed:", err);
+    }
+  }
+
+  loadDashboard();
+</script>
 
 </body>
 </html>
