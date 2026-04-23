@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Long Shifts",
+    "subtitle": "Week of April 13\u201319, 2026",
+    "summary_line": "5 shifts over 10 hours across 3 shops",
+    "last_refreshed_display": "Last refreshed: Wed 9:04 PM",
+    "back_label": "Dashboard",
+    "back_url": "index.html"
+  },
+  "columns": [
+    "Employee",
+    "Date",
+    "Start",
+    "End",
+    "Hours"
+  ],
+  "groups": [
+    {
+      "shop": "Dallas - 3699 McKinney",
+      "manager": "Miguel Trevino-Martinez",
+      "count": 1,
+      "rows": [
+        [
+          "Kweshaan Thomas",
+          "Sat Apr 18",
+          "10:46 AM",
+          "8:56 PM",
+          "10.17"
+        ]
+      ]
+    },
+    {
+      "shop": "Dedham",
+      "manager": "Justin Komins",
+      "count": 1,
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Fri Apr 17",
+          "9:05 AM",
+          "7:13 PM",
+          "10.13"
+        ]
+      ]
+    },
+    {
+      "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "Matt Russell",
+      "count": 3,
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Wed Apr 15",
+          "12:06 PM",
+          "11:36 PM",
+          "11.50"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Apr 18",
+          "12:16 PM",
+          "11:12 PM",
+          "10.93"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Apr 16",
+          "12:58 PM",
+          "11:17 PM",
+          "10.32"
+        ]
+      ]
+    }
+  ]
+}
