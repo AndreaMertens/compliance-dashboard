@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Long Shifts",
+    "title": "Long Shift Penalties",
     "subtitle": "Week of April 13\u201319, 2026",
-    "summary_line": "5 shifts over 10 hours across 3 shops",
-    "last_refreshed_display": "Last refreshed: Wed 9:04 PM",
+    "summary_line": "4 flagged shifts across 2 shops \u2014 4 OT, 1 over 11 hrs",
+    "last_refreshed_display": "Last refreshed: Thu 11:12 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,23 +12,11 @@
     "Date",
     "Start",
     "End",
-    "Hours"
+    "Hours",
+    "Weekly",
+    "Triggered"
   ],
   "groups": [
-    {
-      "shop": "Dallas - 3699 McKinney",
-      "manager": "Miguel Trevino-Martinez",
-      "count": 1,
-      "rows": [
-        [
-          "Kweshaan Thomas",
-          "Sat Apr 18",
-          "10:46 AM",
-          "8:56 PM",
-          "10.17"
-        ]
-      ]
-    },
     {
       "shop": "Dedham",
       "manager": "Justin Komins",
@@ -39,7 +27,9 @@
           "Fri Apr 17",
           "9:05 AM",
           "7:13 PM",
-          "10.13"
+          "10.13",
+          "45.12 (OT)",
+          "OT"
         ]
       ]
     },
@@ -53,21 +43,27 @@
           "Wed Apr 15",
           "12:06 PM",
           "11:36 PM",
-          "11.50"
+          "11.50",
+          "45.75 (OT)",
+          "OT \u00b7 Over 11"
         ],
         [
           "Gloria Alexander",
           "Sat Apr 18",
           "12:16 PM",
           "11:12 PM",
-          "10.93"
+          "10.93",
+          "45.75 (OT)",
+          "OT"
         ],
         [
           "Gloria Alexander",
           "Thu Apr 16",
           "12:58 PM",
           "11:17 PM",
-          "10.32"
+          "10.32",
+          "45.75 (OT)",
+          "OT"
         ]
       ]
     }

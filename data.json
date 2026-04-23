@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 13\u201319, 2026",
-    "generated_at": "2026-04-22T21:04:17.209127",
-    "generated_at_display": "Generated Apr 22, 9:04 PM"
+    "generated_at": "2026-04-23T11:12:28.570608",
+    "generated_at_display": "Generated Apr 23, 11:12 AM"
   },
   "summary": [
     {
@@ -80,7 +80,7 @@
           "metric_unit": "shops outstanding",
           "description": "94 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Wed 9:04 PM",
+          "last_refreshed_display": "Last refreshed: Thu 11:12 AM",
           "covers_label": "Covers Apr 13 \u2013 Apr 19",
           "is_mock": false
         }
@@ -115,13 +115,13 @@
         },
         {
           "id": "long-shifts",
-          "title": "Long Shifts",
+          "title": "Long Shift Penalties",
           "review_day": "Wednesday",
-          "metric": 5,
-          "metric_unit": "shifts over 10 hrs",
-          "description": "Across 3 shops last week. None exceeded 12 hours.",
+          "metric": 4,
+          "metric_unit": "shifts flagged",
+          "description": "Across 2 shops last week \u2014 4 OT, 1 over 11 hrs.",
           "status": "watch",
-          "last_refreshed_display": "Last refreshed: Wed 9:04 PM",
+          "last_refreshed_display": "Last refreshed: Thu 11:12 AM",
           "covers_label": "Covers Apr 13 \u2013 Apr 19",
           "is_mock": false
         },
