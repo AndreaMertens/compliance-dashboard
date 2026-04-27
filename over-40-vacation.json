@@ -1,7 +1,12 @@
 {
-  "title": "Over 40 + Vacation",
-  "covers_label": "Covers Apr 20 \u2013 Apr 26",
-  "last_refreshed_display": "Last refreshed: Mon 1:02 PM",
+  "meta": {
+    "title": "Over 40 + Vacation",
+    "subtitle": "Covers Apr 20 \u2013 Apr 26",
+    "summary_line": "63 employees flagged across 33 shops",
+    "last_refreshed_display": "Last refreshed: Mon 1:10 PM",
+    "back_label": "Dashboard",
+    "back_url": "index.html"
+  },
   "columns": [
     "Employee",
     "Worked",
@@ -9,9 +14,11 @@
     "Total",
     "Overage"
   ],
-  "sections": [
+  "groups": [
     {
       "shop": "1000 Pittsburgh",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Johnathan Rhodes",
@@ -24,6 +31,8 @@
     },
     {
       "shop": "103 Greenville",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Dylan",
@@ -43,6 +52,8 @@
     },
     {
       "shop": "1151 Roseville",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Inessa Samusenko",
@@ -55,6 +66,8 @@
     },
     {
       "shop": "1425 Basecamp",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Connor Dominiec",
@@ -67,6 +80,8 @@
     },
     {
       "shop": "17250 Omaha",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Christian Van Dam",
@@ -86,6 +101,8 @@
     },
     {
       "shop": "234 Bellevue Square",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Daylon Johnson",
@@ -105,6 +122,8 @@
     },
     {
       "shop": "2900 Minneapolis",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Grant Fuller",
@@ -117,6 +136,8 @@
     },
     {
       "shop": "333 Milwaukee",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Ivory Turner",
@@ -136,6 +157,8 @@
     },
     {
       "shop": "4002 Columbus",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Larry Whitaker",
@@ -155,6 +178,8 @@
     },
     {
       "shop": "629 Alexandria",
+      "manager": "",
+      "count": 4,
       "rows": [
         [
           "Darius Barnes",
@@ -188,6 +213,8 @@
     },
     {
       "shop": "696 Lynnfield",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Alexa Albanese",
@@ -207,6 +234,8 @@
     },
     {
       "shop": "7878 Cincinnati",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Kelly Sears",
@@ -219,6 +248,8 @@
     },
     {
       "shop": "Birmingham - 141 W Maple",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Trevon Mills",
@@ -231,6 +262,8 @@
     },
     {
       "shop": "Boston - 201 Newbury Street",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Anne Malloy",
@@ -257,6 +290,8 @@
     },
     {
       "shop": "Charleston",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Madison Tadlock",
@@ -269,6 +304,8 @@
     },
     {
       "shop": "Chicago - 840 W Armitage",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Christian Sikorski",
@@ -288,6 +325,8 @@
     },
     {
       "shop": "Cleveland - 251 Main Street",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Michael",
@@ -300,6 +339,8 @@
     },
     {
       "shop": "DC - 3101 M St",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Micah Wheeler",
@@ -326,6 +367,8 @@
     },
     {
       "shop": "Dallas - 3699 McKinney",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Cole Graham",
@@ -352,6 +395,8 @@
     },
     {
       "shop": "Dedham",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Dillon Stanas",
@@ -364,6 +409,8 @@
     },
     {
       "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Alex Cichy",
@@ -390,6 +437,8 @@
     },
     {
       "shop": "Fort Lauderdale - 1016 E",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Bryan Appleby",
@@ -416,6 +465,8 @@
     },
     {
       "shop": "Houston - 888 Westheimer",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Clayton Brown",
@@ -428,6 +479,8 @@
     },
     {
       "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Charles Wolff",
@@ -440,6 +493,8 @@
     },
     {
       "shop": "Miami - Brickell",
+      "manager": "",
+      "count": 4,
       "rows": [
         [
           "Alejandro Rojas",
@@ -473,6 +528,8 @@
     },
     {
       "shop": "Nashville - 5th + Broadway",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Cody Crites",
@@ -485,6 +542,8 @@
     },
     {
       "shop": "New York - 57 Spring",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Lekwan Massey-Phillips",
@@ -504,6 +563,8 @@
     },
     {
       "shop": "New York - Flatiron",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Ian Adams",
@@ -516,6 +577,8 @@
     },
     {
       "shop": "Philadelphia - 1702 Walnut",
+      "manager": "",
+      "count": 1,
       "rows": [
         [
           "Andrew Bell",
@@ -528,6 +591,8 @@
     },
     {
       "shop": "Salt Lake City - 50 E Main St. N",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Henry Pigott",
@@ -547,6 +612,8 @@
     },
     {
       "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "",
+      "count": 2,
       "rows": [
         [
           "Gloria Alexander",
@@ -566,6 +633,8 @@
     },
     {
       "shop": "Tampa - 2223 N Westshore",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Ivan Rhodes",
@@ -592,6 +661,8 @@
     },
     {
       "shop": "Westport - 72 Main St",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "Ethan Platt",
