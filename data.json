@@ -3,12 +3,12 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-27T10:47:55.098139",
-    "generated_at_display": "Generated Apr 27, 10:47 AM"
+    "generated_at": "2026-04-27T12:46:54.743505",
+    "generated_at_display": "Generated Apr 27, 12:46 PM"
   },
   "summary": [
     {
-      "number": 9,
+      "number": 10,
       "label": "Reports tracked"
     },
     {
@@ -32,7 +32,7 @@
           "metric_unit": "managers flagged",
           "description": "24 managers flagged \u2014 12 short on days \u00b7 12 short on hours only.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Mon 10:47 AM",
+          "last_refreshed_display": "Last refreshed: Mon 12:46 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -80,7 +80,7 @@
           "metric_unit": "shops outstanding",
           "description": "185 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Mon 10:47 AM",
+          "last_refreshed_display": "Last refreshed: Mon 12:46 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
@@ -121,7 +121,7 @@
           "metric_unit": "shifts flagged",
           "description": "Across 4 shops last week \u2014 5 OT.",
           "status": "watch",
-          "last_refreshed_display": "Last refreshed: Mon 10:47 AM",
+          "last_refreshed_display": "Last refreshed: Mon 12:46 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -136,6 +136,18 @@
           "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": true
+        },
+        {
+          "id": "over_40_with_vacation",
+          "title": "Over 40 + Vacation",
+          "review_day": "Monday",
+          "metric": 63,
+          "metric_unit": "employees flagged",
+          "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
+          "status": "attention",
+          "last_refreshed_display": "Last refreshed: Mon 12:46 PM",
+          "covers_label": "Covers Apr 20 \u2013 Apr 26",
+          "is_mock": false
         }
       ]
     }
