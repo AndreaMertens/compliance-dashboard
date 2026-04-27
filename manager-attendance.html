@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">State &amp; Liberty &mdash; Compliance Detail</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f6;
+    color: #1a1a1a;
+    line-height: 1.5;
+  }
+
+  header {
+    background: #14213d;
+    color: #ffffff;
+    padding: 1.75rem 3rem 1.5rem;
+  }
+  header .brand {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #8ea1c4;
+    margin-bottom: 0.35rem;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+  }
+  header .subtitle {
+    margin-top: 0.25rem;
+    color: #a8b4cc;
+    font-size: 0.95rem;
+  }
+
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 3rem 4rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: #14213d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .back-link:hover { text-decoration: underline; }
+
+  .summary-line {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1.75rem;
+  }
+
+  .group {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+  }
+  .group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f2f7;
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid #e3e5eb;
+  }
+  .group-header .header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .group-header .shop-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #14213d;
+  }
+  .group-header .manager-name {
+    font-size: 0.78rem;
+    color: #666;
+  }
+  .group-header .group-count {
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  thead th {
+    text-align: left;
+    padding: 0.65rem 1.25rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #777;
+    border-bottom: 1px solid #e3e5eb;
+    background: #fafbfc;
+  }
+  tbody td {
+    padding: 0.7rem 1.25rem;
+    border-bottom: 1px solid #f0f1f4;
+    color: #333;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: #fafbfc; }
+
+  .footer-note {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #888;
+  }
+
+  .error-banner {
+    margin: 1rem 0 2rem;
+    padding: 1rem 1.25rem;
+    background: #fdecea;
+    border-left: 4px solid #b23a3a;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #5a1a1a;
+    display: none;
+  }
+  .error-banner.visible { display: block; }
+  .error-banner strong { color: #3d1010; }
+  .error-banner code {
+    background: #f3d3d0;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+  }
+
+  .empty-state {
+    padding: 2.5rem 1.25rem;
+    text-align: center;
+    color: #777;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">State &amp; Liberty</div>
+  <h1 id="detail-title">Loading…</h1>
+  <div class="subtitle" id="detail-subtitle"></div>
+</header>
+
+<div class="wrapper">
+
+  <a class="back-link" id="back-link" href="index.html">&larr; Dashboard</a>
+
+  <div id="error-banner" class="error-banner">
+    <strong>Couldn't load detail data.</strong>
+    Open this page via the live URL or <code>python3 -m http.server</code>.
+  </div>
+
+  <div class="summary-line" id="summary-line"></div>
+
+  <div id="groups-container"></div>
+
+  <div class="footer-note" id="footer-note"></div>
+
+</div>
+
+<script>
+  // The detail page figures out which JSON to load from its own filename.
+  // "unapproved-timecards.html" -> "unapproved-timecards.json", etc.
+  function jsonFileForThisPage() {
+    const name = location.pathname.split("/").pop() || "index.html";
+    return name.replace(/\.html$/, ".json");
+  }
+
+  function escapeHtml(s) {
+    if (s == null) return "";
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function renderGroup(group, columns) {
+    const headerCells = columns.map(c => `<th>${escapeHtml(c)}</th>`).join("");
+    const bodyRows = group.rows.map(row => {
+      const cells = row.map(cell => `<td>${escapeHtml(cell)}</td>`).join("");
+      return `<tr>${cells}</tr>`;
+    }).join("");
+    const managerLine = group.manager
+      ? `<span class="manager-name">${escapeHtml(group.manager)}</span>`
+      : "";
+    return `
+      <div class="group">
+        <div class="group-header">
+          <div class="header-left">
+            <span class="shop-name">${escapeHtml(group.shop)}</span>
+            ${managerLine}
+          </div>
+          <span class="group-count">${group.count} ${group.count === 1 ? "item" : "items"}</span>
+        </div>
+        <table>
+          <thead><tr>${headerCells}</tr></thead>
+          <tbody>${bodyRows}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  async function loadDetail() {
+    try {
+      const jsonFile = jsonFileForThisPage();
+      const response = await fetch(jsonFile, { cache: "no-store" });
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      const data = await response.json();
+
+      document.getElementById("page-title").textContent =
+        `State & Liberty — ${data.meta.title}`;
+      document.getElementById("detail-title").textContent = data.meta.title;
+      document.getElementById("detail-subtitle").textContent = data.meta.subtitle;
+      document.getElementById("back-link").textContent = `← ${data.meta.back_label}`;
+      document.getElementById("back-link").href = data.meta.back_url;
+      document.getElementById("summary-line").textContent = data.meta.summary_line;
+      document.getElementById("footer-note").textContent = data.meta.last_refreshed_display;
+
+      const container = document.getElementById("groups-container");
+      if (!data.groups || data.groups.length === 0) {
+        container.innerHTML = `<div class="empty-state">Nothing to show for this week.</div>`;
+      } else {
+        container.innerHTML = data.groups
+          .map(g => renderGroup(g, data.columns))
+          .join("");
+      }
+    } catch (err) {
+      document.getElementById("error-banner").classList.add("visible");
+      console.error("Detail load failed:", err);
+    }
+  }
+
+  loadDetail();
+</script>
+
+</body>
+</html>

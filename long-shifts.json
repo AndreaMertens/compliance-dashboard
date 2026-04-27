@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Long Shift Penalties",
-    "subtitle": "Week of April 13\u201319, 2026",
-    "summary_line": "4 flagged shifts across 2 shops \u2014 4 OT, 1 over 11 hrs",
-    "last_refreshed_display": "Last refreshed: Thu 11:12 AM",
+    "subtitle": "Week of April 20\u201326, 2026",
+    "summary_line": "5 flagged shifts across 4 shops \u2014 5 OT",
+    "last_refreshed_display": "Last refreshed: Mon 10:47 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -18,17 +18,49 @@
   ],
   "groups": [
     {
+      "shop": "234 Bellevue Square",
+      "manager": "Jack Werner",
+      "count": 1,
+      "rows": [
+        [
+          "Daylon Johnson",
+          "Thu Apr 23",
+          "2:00 PM",
+          "12:17 AM",
+          "10.28",
+          "43.48 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 1,
+      "rows": [
+        [
+          "Chanthan Hing",
+          "Sat Apr 25",
+          "9:42 AM",
+          "8:02 PM",
+          "10.33",
+          "42.62 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
       "shop": "Dedham",
       "manager": "Justin Komins",
       "count": 1,
       "rows": [
         [
           "Dillon Stanas",
-          "Fri Apr 17",
-          "9:05 AM",
-          "7:13 PM",
-          "10.13",
-          "45.12 (OT)",
+          "Fri Apr 24",
+          "8:55 AM",
+          "7:16 PM",
+          "10.35",
+          "45.14 (OT)",
           "OT"
         ]
       ]
@@ -36,33 +68,24 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 3,
+      "count": 2,
       "rows": [
         [
           "Gloria Alexander",
-          "Wed Apr 15",
-          "12:06 PM",
-          "11:36 PM",
-          "11.50",
-          "45.75 (OT)",
-          "OT \u00b7 Over 11"
-        ],
-        [
-          "Gloria Alexander",
-          "Sat Apr 18",
-          "12:16 PM",
-          "11:12 PM",
-          "10.93",
-          "45.75 (OT)",
+          "Sat Apr 25",
+          "12:01 PM",
+          "10:32 PM",
+          "10.52",
+          "40.55 (OT)",
           "OT"
         ],
         [
           "Gloria Alexander",
-          "Thu Apr 16",
-          "12:58 PM",
-          "11:17 PM",
-          "10.32",
-          "45.75 (OT)",
+          "Thu Apr 23",
+          "12:00 PM",
+          "10:03 PM",
+          "10.05",
+          "40.55 (OT)",
           "OT"
         ]
       ]
