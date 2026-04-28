@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-28T12:41:23.834726",
-    "generated_at_display": "Generated Apr 28, 12:41 PM"
+    "generated_at": "2026-04-28T13:40:22.239127",
+    "generated_at_display": "Generated Apr 28, 1:40 PM"
   },
   "summary": [
     {
@@ -16,7 +16,7 @@
       "label": "Shops flagged this week"
     },
     {
-      "number": 4,
+      "number": 3,
       "label": "Action-required reports"
     }
   ],
@@ -32,7 +32,7 @@
           "metric_unit": "managers flagged",
           "description": "24 managers flagged \u2014 12 short on days \u00b7 12 short on hours only.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Tue 12:41 PM",
+          "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -56,7 +56,7 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "ok",
-          "last_refreshed_display": "Last refreshed: Tue 12:41 PM",
+          "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -64,13 +64,13 @@
           "id": "schedule-publication",
           "title": "Schedule Publication",
           "review_day": "Monday",
-          "metric": 4,
+          "metric": 7,
           "metric_unit": "shops non-compliant",
-          "description": "Have not yet published schedules the required lead time before the next work week.",
-          "status": "alert",
-          "last_refreshed_display": "Last refreshed: Mon 7:32 AM",
-          "covers_label": "Next check: Wed Apr 22",
-          "is_mock": true
+          "description": "Shops with unpublished shifts in the 14-day compliance window. Policy: publish 3 weeks ahead.",
+          "status": "attention",
+          "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
+          "covers_label": "Compliance window: next 14 days from 2026-04-28",
+          "is_mock": false
         },
         {
           "id": "unapproved-timecards",
@@ -80,7 +80,7 @@
           "metric_unit": "shops outstanding",
           "description": "185 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Tue 12:41 PM",
+          "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
@@ -121,7 +121,7 @@
           "metric_unit": "shifts flagged",
           "description": "Across 4 shops last week \u2014 5 OT.",
           "status": "watch",
-          "last_refreshed_display": "Last refreshed: Tue 12:41 PM",
+          "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -145,7 +145,7 @@
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Tue 12:41 PM",
+          "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
