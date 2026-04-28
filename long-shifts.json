@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Week of April 20\u201326, 2026",
-    "summary_line": "5 flagged shifts across 4 shops \u2014 5 OT",
-    "last_refreshed_display": "Last refreshed: Tue 1:40 PM",
+    "summary_line": "7 flagged shifts across 5 shops \u2014 7 OT",
+    "last_refreshed_display": "Last refreshed: Tue 4:18 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -17,6 +17,31 @@
     "Triggered"
   ],
   "groups": [
+    {
+      "shop": "17250 Omaha",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Tue Apr 21",
+          "8:21 AM",
+          "7:00 PM",
+          "10.65",
+          "61.90 (OT)",
+          "OT"
+        ],
+        [
+          "Thomas Blackadar",
+          "Fri Apr 24",
+          "10:15 AM",
+          "8:39 PM",
+          "10.40",
+          "59.66 (OT)",
+          "OT"
+        ]
+      ]
+    },
     {
       "shop": "234 Bellevue Square",
       "manager": "Jack Werner",
@@ -44,7 +69,7 @@
           "9:42 AM",
           "8:02 PM",
           "10.33",
-          "42.62 (OT)",
+          "42.87 (OT)",
           "OT"
         ]
       ]
