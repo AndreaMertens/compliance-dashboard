@@ -3,12 +3,12 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-28T17:03:51.005529",
-    "generated_at_display": "Generated Apr 28, 5:03 PM"
+    "generated_at": "2026-04-28T18:02:54.416514",
+    "generated_at_display": "Generated Apr 28, 6:02 PM"
   },
   "summary": [
     {
-      "number": 10,
+      "number": 8,
       "label": "Reports tracked"
     },
     {
@@ -22,7 +22,7 @@
   ],
   "sections": [
     {
-      "heading": "Manager Accountability",
+      "heading": "Admin",
       "reports": [
         {
           "id": "manager-attendance",
@@ -32,21 +32,9 @@
           "metric_unit": "managers flagged",
           "description": "13 managers flagged \u2014 5 short on days \u00b7 8 short on hours only.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Tue 5:03 PM",
+          "last_refreshed_display": "Last refreshed: Tue 6:02 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
-        },
-        {
-          "id": "schedule-review",
-          "title": "Schedule Review",
-          "review_day": "Monday",
-          "metric": 5,
-          "metric_unit": "shops with gaps",
-          "description": "Missing days or uncovered shifts detected in the coming week's published schedule.",
-          "status": "watch",
-          "last_refreshed_display": "Last refreshed: Mon 7:32 AM",
-          "covers_label": "Covers week of Apr 20",
-          "is_mock": true
         },
         {
           "id": "no-coverage-days",
@@ -56,7 +44,7 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "ok",
-          "last_refreshed_display": "Last refreshed: Tue 5:03 PM",
+          "last_refreshed_display": "Last refreshed: Tue 6:02 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -68,26 +56,14 @@
           "metric_unit": "shops non-compliant",
           "description": "Shops with unpublished shifts in the 14-day compliance window. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Tue 5:03 PM",
+          "last_refreshed_display": "Last refreshed: Tue 6:02 PM",
           "covers_label": "Compliance window: next 14 days from 2026-04-28",
-          "is_mock": false
-        },
-        {
-          "id": "unapproved-timecards",
-          "title": "Unapproved Timecards",
-          "review_day": "Wednesday",
-          "metric": 1,
-          "metric_unit": "shops outstanding",
-          "description": "9 timecards still unapproved past the 3-day grace period.",
-          "status": "alert",
-          "last_refreshed_display": "Last refreshed: Tue 5:03 PM",
-          "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
       ]
     },
     {
-      "heading": "Team Operations",
+      "heading": "Manager Dashboard",
       "reports": [
         {
           "id": "tardiness",
@@ -102,18 +78,6 @@
           "is_mock": true
         },
         {
-          "id": "early-clock-in",
-          "title": "Early Clock-In",
-          "review_day": "Wednesday",
-          "metric": 28,
-          "metric_unit": "shops flagged",
-          "description": "95 instances of employees clocking in 15+ minutes before their scheduled start.",
-          "status": "watch",
-          "last_refreshed_display": "Last refreshed: Wed 7:34 AM",
-          "covers_label": "Covers Apr 20 \u2013 Apr 26",
-          "is_mock": true
-        },
-        {
           "id": "long-shifts",
           "title": "Long Shift Penalties",
           "review_day": "Wednesday",
@@ -121,7 +85,7 @@
           "metric_unit": "shifts flagged",
           "description": "Across 5 shops last week \u2014 7 OT.",
           "status": "watch",
-          "last_refreshed_display": "Last refreshed: Tue 5:03 PM",
+          "last_refreshed_display": "Last refreshed: Tue 6:02 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -145,7 +109,19 @@
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Tue 5:03 PM",
+          "last_refreshed_display": "Last refreshed: Tue 6:02 PM",
+          "covers_label": "Covers Apr 20 \u2013 Apr 26",
+          "is_mock": false
+        },
+        {
+          "id": "unapproved-timecards",
+          "title": "Unapproved Timecards",
+          "review_day": "Wednesday",
+          "metric": 1,
+          "metric_unit": "shops outstanding",
+          "description": "9 timecards still unapproved past the 3-day grace period.",
+          "status": "alert",
+          "last_refreshed_display": "Last refreshed: Tue 6:02 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
