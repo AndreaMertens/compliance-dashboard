@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-29T14:33:02.784538",
-    "generated_at_display": "Generated Apr 29, 2:33 PM"
+    "generated_at": "2026-04-29T14:44:52.022289",
+    "generated_at_display": "Generated Apr 29, 2:44 PM"
   },
   "summary": [],
   "sections": [
@@ -51,12 +51,12 @@
           "id": "manual-punches",
           "title": "Manual Punches",
           "review_day": "Monday",
-          "metric": 65,
-          "metric_unit": "manual punches",
-          "description": "Salaried managers entering timesheets after the fact. 31 people, 65 entries.",
+          "metric": "20.9%",
+          "metric_unit": "all-manager avg",
+          "description": "Salaried managers' manual entry rate (2026 YTD). 29 above 20% threshold.",
           "status": "attention",
           "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
-          "covers_label": "Covers Apr 20 \u2013 Apr 26",
+          "covers_label": "YTD through 2026-04-26",
           "is_mock": false
         }
       ]

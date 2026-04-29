@@ -1,557 +1,167 @@
 {
   "meta": {
     "title": "Manual Punches",
-    "subtitle": "Covers Apr 20 \u2013 Apr 26",
-    "summary_line": "65 manual punches by 31 salaried managers",
+    "subtitle": "Overall manager average: 20.9% (2026 YTD)",
+    "summary_line": "29 salaried managers above 20% YTD threshold",
     "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
   "columns": [
-    "Date",
-    "Shop",
-    "Hours"
+    "Manager",
+    "2026 Avg",
+    "Last Week"
   ],
   "groups": [
     {
-      "shop": "Alexis Bass",
+      "shop": "Above 20% YTD",
       "manager": "",
-      "count": 3,
+      "count": 29,
       "rows": [
         [
-          "2026-04-20",
-          "La Jolla - 7857 Girard Ave",
-          "7.40h"
+          "Nathan Mylenek",
+          "37.1%",
+          "85.7%"
         ],
         [
-          "2026-04-24",
-          "La Jolla - 7857 Girard Ave",
-          "7.50h"
+          "Ana Cintron",
+          "61.6%",
+          "80.0%"
         ],
         [
-          "2026-04-26",
-          "La Jolla - 7857 Girard Ave",
-          "5.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "Ana Cintron",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "2026-04-20",
-          "Fort Lauderdale - 1016 E",
-          "8.50h"
+          "Mira Chong",
+          "56.3%",
+          "80.0%"
         ],
         [
-          "2026-04-23",
-          "Fort Lauderdale - 1016 E",
-          "8.00h"
+          "Conner Ralston",
+          "24.4%",
+          "80.0%"
         ],
         [
-          "2026-04-24",
-          "Fort Lauderdale - 1016 E",
-          "8.00h"
+          "Ian Draft",
+          "58.3%",
+          "75.0%"
         ],
         [
-          "2026-04-25",
-          "Fort Lauderdale - 1016 E",
-          "7.85h"
-        ]
-      ]
-    },
-    {
-      "shop": "Anna Ilina",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-23",
-          "Birmingham - 141 W Maple",
-          "3.17h"
-        ]
-      ]
-    },
-    {
-      "shop": "Anthony Perez Avila",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "2026-04-22",
-          "La Jolla - 7857 Girard Ave",
-          "7.73h"
+          "Paul Fregeau",
+          "24.5%",
+          "66.7%"
         ],
         [
-          "2026-04-23",
-          "La Jolla - 7857 Girard Ave",
-          "8.13h"
+          "Anthony Perez Avila",
+          "63.9%",
+          "60.0%"
         ],
         [
-          "2026-04-26",
-          "La Jolla - 7857 Girard Ave",
-          "7.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "Charles Tauck",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "2026-04-22",
-          "Westport - 72 Main St",
-          "9.02h"
+          "Kristian Kingdom-Saksek",
+          "51.4%",
+          "60.0%"
         ],
         [
-          "2026-04-23",
-          "Westport - 72 Main St",
-          "7.67h"
-        ]
-      ]
-    },
-    {
-      "shop": "Conner Ralston",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "2026-04-22",
-          "629 Alexandria",
-          "8.00h"
+          "Mariama Ndiaye",
+          "32.9%",
+          "60.0%"
         ],
         [
-          "2026-04-24",
-          "629 Alexandria",
-          "9.50h"
+          "Mike LeGree",
+          "44.2%",
+          "60.0%"
         ],
         [
-          "2026-04-25",
-          "629 Alexandria",
-          "9.25h"
+          "Kellen Slattery",
+          "53.8%",
+          "42.9%"
         ],
         [
-          "2026-04-26",
-          "629 Alexandria",
-          "10.00h"
-        ]
-      ]
-    },
-    {
-      "shop": "Craig Somma",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-23",
-          "2900 Minneapolis",
-          "4.62h"
-        ]
-      ]
-    },
-    {
-      "shop": "Danny Ismail",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-25",
-          "DC - 3101 M St",
-          "8.57h"
-        ]
-      ]
-    },
-    {
-      "shop": "Dominic Saenz",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "2026-04-24",
-          "Denver - 2800 E 2nd Ave",
-          "8.18h"
+          "Charles Tauck",
+          "54.3%",
+          "40.0%"
         ],
         [
-          "2026-04-25",
-          "Denver - 2800 E 2nd Ave",
-          "9.17h"
-        ]
-      ]
-    },
-    {
-      "shop": "Erin McGowan",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-23",
-          "New York - 57 Spring",
-          "10.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "Genna Gilroy",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-24",
-          "Ann Arbor - 212 S Main",
-          "2.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "George Rodriguez",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-20",
-          "Newport Beach - Fashion Island",
-          "7.22h"
-        ]
-      ]
-    },
-    {
-      "shop": "Ian Draft",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "2026-04-20",
-          "Birmingham - 141 W Maple",
-          "8.00h"
+          "Nathan Smith",
+          "24.2%",
+          "25.0%"
         ],
         [
-          "2026-04-24",
-          "Birmingham - 141 W Maple",
-          "8.00h"
+          "Erin McGowan",
+          "36.7%",
+          "25.0%"
         ],
         [
-          "2026-04-25",
-          "Birmingham - 141 W Maple",
-          "8.22h"
-        ]
-      ]
-    },
-    {
-      "shop": "Justin Komins",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-21",
-          "Dedham",
-          "8.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "Katherine Litchfield",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-22",
-          "Boston - 201 Newbury Street",
-          "8.22h"
-        ]
-      ]
-    },
-    {
-      "shop": "Kellen Slattery",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "2026-04-21",
-          "Manhattan Beach - The Point",
-          "1.00h"
+          "Kyle Harwood",
+          "62.3%",
+          "20.0%"
         ],
         [
-          "2026-04-22",
-          "Manhattan Beach - The Point",
-          "0.50h"
+          "Katherine Litchfield",
+          "56.2%",
+          "20.0%"
         ],
         [
-          "2026-04-23",
-          "10250 Century City",
-          "8.00h"
-        ]
-      ]
-    },
-    {
-      "shop": "Kristian Kingdom-Saksek",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "2026-04-24",
-          "Houston - 888 Westheimer",
-          "8.23h"
+          "George Rodriguez",
+          "20.3%",
+          "20.0%"
         ],
         [
-          "2026-04-25",
-          "Houston - 888 Westheimer",
-          "8.25h"
+          "Danny Ismail",
+          "57.8%",
+          "20.0%"
         ],
         [
-          "2026-04-26",
-          "Houston - 888 Westheimer",
-          "8.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "Kyle Harwood",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-21",
-          "Boston - 201 Newbury Street",
-          "8.25h"
-        ]
-      ]
-    },
-    {
-      "shop": "Kylee Johnson",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-24",
-          "103 Greenville",
-          "8.90h"
-        ]
-      ]
-    },
-    {
-      "shop": "Mariama Ndiaye",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "2026-04-21",
-          "Houston - 888 Westheimer",
-          "8.00h"
+          "Sarah McCaw",
+          "20.5%",
+          "20.0%"
         ],
         [
-          "2026-04-23",
-          "Houston - 888 Westheimer",
-          "8.00h"
+          "Justin Komins",
+          "33.3%",
+          "20.0%"
         ],
         [
-          "2026-04-26",
-          "Houston - 888 Westheimer",
-          "8.00h"
-        ]
-      ]
-    },
-    {
-      "shop": "Markisha Lauderdale",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-21",
-          "1151 Roseville",
-          "7.48h"
-        ]
-      ]
-    },
-    {
-      "shop": "Mike LeGree",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "2026-04-22",
-          "696 Lynnfield",
-          "9.27h"
+          "Brian Ward",
+          "46.9%",
+          "0.0%"
         ],
         [
-          "2026-04-25",
-          "696 Lynnfield",
-          "9.58h"
+          "Carly Radin",
+          "26.9%",
+          "0.0%"
         ],
         [
-          "2026-04-26",
-          "696 Lynnfield",
-          "6.75h"
-        ]
-      ]
-    },
-    {
-      "shop": "Mira Chong",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "2026-04-20",
-          "Newport Beach - Fashion Island",
-          "8.30h"
+          "Matthew Russell",
+          "21.0%",
+          "0.0%"
         ],
         [
-          "2026-04-22",
-          "Newport Beach - Fashion Island",
-          "8.50h"
+          "Gabriel Lujan",
+          "52.6%",
+          "0.0%"
         ],
         [
-          "2026-04-25",
-          "Newport Beach - Fashion Island",
-          "7.97h"
+          "Ian Cameron",
+          "24.7%",
+          "0.0%"
         ],
         [
-          "2026-04-26",
-          "Newport Beach - Fashion Island",
-          "4.92h"
-        ]
-      ]
-    },
-    {
-      "shop": "Nathan Mylenek",
-      "manager": "",
-      "count": 6,
-      "rows": [
-        [
-          "2026-04-21",
-          "Denver - 2800 E 2nd Ave",
-          "5.18h"
+          "Amber Long",
+          "45.1%",
+          "0.0%"
         ],
         [
-          "2026-04-22",
-          "Denver - 2800 E 2nd Ave",
-          "4.50h"
+          "Taylor Chase",
+          "20.3%",
+          "0.0%"
         ],
         [
-          "2026-04-23",
-          "Denver - 2800 E 2nd Ave",
-          "8.50h"
+          "Daryl",
+          "21.7%",
+          "0.0%"
         ],
         [
-          "2026-04-24",
-          "Denver - 2800 E 2nd Ave",
-          "9.00h"
-        ],
-        [
-          "2026-04-25",
-          "Denver - 2800 E 2nd Ave",
-          "9.50h"
-        ],
-        [
-          "2026-04-26",
-          "Denver - 2800 E 2nd Ave",
-          "8.50h"
-        ]
-      ]
-    },
-    {
-      "shop": "Nathan Smith",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-25",
-          "Salt Lake City - 50 E Main St. N",
-          "9.05h"
-        ]
-      ]
-    },
-    {
-      "shop": "Paul Fregeau",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "2026-04-20",
-          "4002 Columbus",
-          "8.00h"
-        ],
-        [
-          "2026-04-21",
-          "4002 Columbus",
-          "8.00h"
-        ],
-        [
-          "2026-04-22",
-          "4002 Columbus",
-          "8.00h"
-        ],
-        [
-          "2026-04-23",
-          "4002 Columbus",
-          "8.00h"
-        ]
-      ]
-    },
-    {
-      "shop": "Sarah McCaw",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-20",
-          "1425 Basecamp",
-          "9.27h"
-        ]
-      ]
-    },
-    {
-      "shop": "Shane Melnyk",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-23",
-          "1000 Pittsburgh",
-          "8.00h"
-        ]
-      ]
-    },
-    {
-      "shop": "Tia Reeves",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-22",
-          "333 Milwaukee",
-          "8.03h"
-        ]
-      ]
-    },
-    {
-      "shop": "Travis Evans",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "2026-04-23",
-          "Charleston",
-          "9.00h"
-        ],
-        [
-          "2026-04-24",
-          "Charleston",
-          "9.00h"
-        ]
-      ]
-    },
-    {
-      "shop": "Trent Johnson",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-04-21",
-          "Philadelphia - 1702 Walnut",
-          "8.00h"
+          "Andrea Mertens",
+          "28.6%",
+          "0.0%"
         ]
       ]
     }
