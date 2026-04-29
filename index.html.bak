@@ -231,29 +231,6 @@
     border-radius: 3px;
     font-size: 0.85rem;
   }
-
-  header {
-    position: relative;
-  }
-  .trends-link {
-    position: absolute;
-    top: 1.5rem;
-    right: 3rem;
-    background: #ffffff;
-    color: #14213d;
-    text-decoration: none;
-    padding: 0.55rem 1.15rem;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    transition: background 0.15s, transform 0.15s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  }
-  .trends-link:hover {
-    background: #e8efff;
-    transform: translateY(-1px);
-  }
 </style>
 </head>
 <body>
@@ -262,7 +239,6 @@
   <div class="brand">State &amp; Liberty</div>
   <h1 id="dashboard-title">Weekly Compliance Dashboard</h1>
   <div class="subtitle" id="dashboard-subtitle">Leadership view</div>
-  <a href="trends.html" class="trends-link">View Trends →</a>
 </header>
 
 <div class="wrapper">
