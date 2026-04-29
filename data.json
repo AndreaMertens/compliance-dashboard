@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-29T16:01:09.001744",
-    "generated_at_display": "Generated Apr 29, 4:01 PM"
+    "generated_at": "2026-04-29T16:07:56.375374",
+    "generated_at_display": "Generated Apr 29, 4:07 PM"
   },
   "summary": [],
   "sections": [
@@ -19,7 +19,7 @@
           "metric_unit": "managers flagged",
           "description": "12 managers flagged \u2014 4 short on days \u00b7 8 short on hours only.",
           "status": "alert",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -31,7 +31,7 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -43,7 +43,7 @@
           "metric_unit": "shops non-compliant",
           "description": "Shops with unpublished shifts in the 14-day compliance window. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Compliance window: next 14 days from 2026-04-29",
           "is_mock": false
         },
@@ -55,7 +55,7 @@
           "metric_unit": "all-manager avg",
           "description": "Salaried managers' manual entry rate (2026 YTD). 29 above 20% threshold.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "YTD through 2026-04-26",
           "is_mock": false
         }
@@ -72,7 +72,7 @@
           "metric_unit": "tardy clock-ins",
           "description": "Hourly employees clocked in >5 min after scheduled start. Spans 27 shop(s).",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -84,7 +84,7 @@
           "metric_unit": "shifts flagged",
           "description": "Across 5 shops last week \u2014 7 OT.",
           "status": "watch",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -108,7 +108,7 @@
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -120,7 +120,7 @@
           "metric_unit": "shops outstanding",
           "description": "All timecards approved on time.",
           "status": "good",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -132,7 +132,7 @@
           "metric_unit": "shops with penalties",
           "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 48 penalty events.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "last_refreshed_display": "Data through Wed Apr 29, 4:06 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
