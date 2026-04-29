@@ -2,7 +2,7 @@
   "meta": {
     "title": "No Coverage Days",
     "subtitle": "Covers Apr 20 \u2013 Apr 26",
-    "summary_line": "All retail shops covered every day this week.",
+    "summary_line": "7 shop-days across 1 shops",
     "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -11,5 +11,41 @@
     "Date",
     "Day of Week"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Test Location",
+      "manager": "",
+      "count": 7,
+      "rows": [
+        [
+          "2026-04-20",
+          "Monday"
+        ],
+        [
+          "2026-04-21",
+          "Tuesday"
+        ],
+        [
+          "2026-04-22",
+          "Wednesday"
+        ],
+        [
+          "2026-04-23",
+          "Thursday"
+        ],
+        [
+          "2026-04-24",
+          "Friday"
+        ],
+        [
+          "2026-04-25",
+          "Saturday"
+        ],
+        [
+          "2026-04-26",
+          "Sunday"
+        ]
+      ]
+    }
+  ]
 }

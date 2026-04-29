@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-29T12:28:11.599966",
-    "generated_at_display": "Generated Apr 29, 12:28 PM"
+    "generated_at": "2026-04-29T14:33:02.784538",
+    "generated_at_display": "Generated Apr 29, 2:33 PM"
   },
   "summary": [],
   "sections": [
@@ -27,10 +27,10 @@
           "id": "no-coverage-days",
           "title": "No Coverage Days",
           "review_day": "Monday",
-          "metric": 0,
+          "metric": 7,
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
-          "status": "ok",
+          "status": "attention",
           "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
