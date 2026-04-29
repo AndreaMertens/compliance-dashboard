@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-29T09:46:57.840332",
-    "generated_at_display": "Generated Apr 29, 9:46 AM"
+    "generated_at": "2026-04-29T11:19:25.110135",
+    "generated_at_display": "Generated Apr 29, 11:19 AM"
   },
   "summary": [
     {
@@ -32,7 +32,7 @@
           "metric_unit": "managers flagged",
           "description": "13 managers flagged \u2014 5 short on days \u00b7 8 short on hours only.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -44,7 +44,7 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "ok",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -52,11 +52,11 @@
           "id": "schedule-publication",
           "title": "Schedule Publication",
           "review_day": "Monday",
-          "metric": 7,
+          "metric": 4,
           "metric_unit": "shops non-compliant",
           "description": "Shops with unpublished shifts in the 14-day compliance window. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Compliance window: next 14 days from 2026-04-29",
           "is_mock": false
         },
@@ -68,7 +68,7 @@
           "metric_unit": "manual punches",
           "description": "Timesheets entered after the fact (not live clock-in). Spans 36 shop(s).",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
@@ -85,7 +85,7 @@
           "metric_unit": "tardy clock-ins",
           "description": "Hourly employees clocked in >5 min after scheduled start. Spans 27 shop(s).",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -97,7 +97,7 @@
           "metric_unit": "shifts flagged",
           "description": "Across 5 shops last week \u2014 7 OT.",
           "status": "watch",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -121,7 +121,7 @@
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         },
@@ -133,7 +133,7 @@
           "metric_unit": "shops outstanding",
           "description": "9 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
-          "last_refreshed_display": "Last refreshed: Wed 9:46 AM",
+          "last_refreshed_display": "Last refreshed: Wed 11:19 AM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
         }
