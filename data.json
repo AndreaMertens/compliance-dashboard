@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-04-29T14:51:54.465237",
-    "generated_at_display": "Generated Apr 29, 2:51 PM"
+    "generated_at": "2026-04-29T16:01:09.001744",
+    "generated_at_display": "Generated Apr 29, 4:01 PM"
   },
   "summary": [],
   "sections": [
@@ -120,6 +120,18 @@
           "metric_unit": "shops outstanding",
           "description": "All timecards approved on time.",
           "status": "good",
+          "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
+          "covers_label": "Covers Apr 20 \u2013 Apr 26",
+          "is_mock": false
+        },
+        {
+          "id": "penalty-pay",
+          "title": "Penalty Pay",
+          "review_day": "Wednesday",
+          "metric": 2,
+          "metric_unit": "shops with penalties",
+          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 48 penalty events.",
+          "status": "attention",
           "last_refreshed_display": "Data through Wed Apr 29, 12:15 PM",
           "covers_label": "Covers Apr 20 \u2013 Apr 26",
           "is_mock": false
