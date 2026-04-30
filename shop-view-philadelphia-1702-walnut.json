@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Philadelphia - 1702 Walnut",
+    "subtitle": "Manager view",
+    "summary_line": "4 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 4
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-21",
+          "Andrew Bell",
+          "11:30 AM",
+          "1:20 PM",
+          "110"
+        ],
+        [
+          "2026-04-21",
+          "Fabio Santos Panisson",
+          "11:30 AM",
+          "1:20 PM",
+          "110"
+        ],
+        [
+          "2026-04-24",
+          "Andrew Bell",
+          "10:30 AM",
+          "11:30 AM",
+          "60"
+        ],
+        [
+          "2026-04-25",
+          "Fabio Santos Panisson",
+          "10:30 AM",
+          "10:36 AM",
+          "6"
+        ]
+      ],
+      "count": 4
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

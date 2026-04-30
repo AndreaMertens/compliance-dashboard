@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Charleston",
+    "subtitle": "Manager view",
+    "summary_line": "7 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 7
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          "Jarell Davis",
+          "11:00 AM",
+          "11:09 AM",
+          "9"
+        ],
+        [
+          "2026-04-22",
+          "Jarell Davis",
+          "11:00 AM",
+          "11:21 AM",
+          "21"
+        ],
+        [
+          "2026-04-23",
+          "George Busnach",
+          "3:00 PM",
+          "4:12 PM",
+          "72"
+        ],
+        [
+          "2026-04-23",
+          "Ella Valentine",
+          "9:45 AM",
+          "9:51 AM",
+          "6"
+        ],
+        [
+          "2026-04-24",
+          "Lucas",
+          "2:00 PM",
+          "3:39 PM",
+          "99"
+        ],
+        [
+          "2026-04-26",
+          "Jarell Davis",
+          "10:45 AM",
+          "10:56 AM",
+          "11"
+        ],
+        [
+          "2026-04-26",
+          "Matt Schaeffer",
+          "10:45 AM",
+          "10:52 AM",
+          "7"
+        ]
+      ],
+      "count": 7
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

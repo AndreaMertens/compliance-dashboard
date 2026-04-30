@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "1425 Basecamp",
+    "subtitle": "Manager view",
+    "summary_line": "2 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 2
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          "Connor Dominiec",
+          "12:00 PM",
+          "12:47 PM",
+          "47"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [
+        [
+          "Connor Dominiec",
+          "34.21",
+          "7.50",
+          "41.71",
+          "+1.71"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop View — State &amp; Liberty</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0; background: #f5f5f7; color: #1d1d1f;
+    }
+    .header { background: #15243d; color: #fff; padding: 32px 40px; }
+    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .eyebrow {
+      font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: #8a9bb8; margin-bottom: 8px;
+    }
+    .header h1 { font-size: 28px; margin: 0 0 4px 0; font-weight: 700; }
+    .header .subtitle { color: #8a9bb8; font-size: 14px; }
+    .back-link {
+      color: #fff; background: rgba(255,255,255,0.1);
+      padding: 8px 14px; border-radius: 6px;
+      text-decoration: none; font-size: 14px;
+      border: 1px solid rgba(255,255,255,0.2); white-space: nowrap;
+    }
+    .back-link:hover { background: rgba(255,255,255,0.2); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 32px 40px; }
+    .summary-banner {
+      background: #fff; border-left: 4px solid #cccccc;
+      padding: 16px 20px; border-radius: 6px; margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05); font-size: 15px;
+    }
+    .tile {
+      background: #fff; border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      margin-bottom: 16px; overflow: hidden;
+    }
+    .tile-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 20px; border-bottom: 1px solid #ececec;
+    }
+    .tile-title { font-size: 16px; font-weight: 600; margin: 0; }
+    .tile-count { font-size: 13px; color: #555; }
+    .badge-mock {
+      background: #fef3c7; color: #92400e; font-size: 11px;
+      padding: 2px 8px; border-radius: 10px; letter-spacing: 0.05em;
+      text-transform: uppercase; margin-left: 10px;
+    }
+    .empty-state { padding: 24px 20px; text-align: center; color: #2e8b57; font-size: 14px; }
+    .empty-state .check { font-size: 24px; margin-right: 8px; vertical-align: middle; }
+    .mock-state { padding: 24px 20px; text-align: center; color: #888; font-size: 14px; }
+    table.data { width: 100%; border-collapse: collapse; }
+    table.data th, table.data td {
+      padding: 10px 20px; text-align: left;
+      border-bottom: 1px solid #f0f0f0; font-size: 14px;
+    }
+    table.data th {
+      background: #fafafa; font-weight: 600; color: #555;
+      font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;
+    }
+    table.data tbody tr:last-child td { border-bottom: none; }
+    .error {
+      background: #fee; border-left: 4px solid #b23a3a;
+      padding: 16px 20px; border-radius: 6px; color: #5a1f1f;
+    }
+    code { background: #f0f0f0; padding: 1px 6px; border-radius: 3px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-row">
+      <div>
+        <div class="eyebrow">State &amp; Liberty</div>
+        <h1 id="shop-title">Loading…</h1>
+        <div class="subtitle" id="shop-subtitle">Manager view</div>
+      </div>
+      <a class="back-link" href="index.html">← Dashboard</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="summary-banner" id="summary">Loading…</div>
+    <div id="tiles"></div>
+  </div>
+
+  <script>
+    function getShopSlug() {
+      return new URLSearchParams(window.location.search).get("shop") || "";
+    }
+    function escapeHtml(s) {
+      return String(s ?? "").replace(/[&<>"']/g, ch => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+      }[ch]));
+    }
+    function renderTile(tile) {
+      const title = escapeHtml(tile.title);
+      const mockBadge = tile.is_mock ? '<span class="badge-mock">Coming soon</span>' : '';
+      const count = tile.count || 0;
+      const countLabel = tile.is_mock
+        ? '—'
+        : (count === 0 ? 'Clean' : `${count} flag${count !== 1 ? 's' : ''}`);
+
+      let body;
+      if (tile.is_mock) {
+        body = '<div class="mock-state">Tile not yet wired to live data.</div>';
+      } else if (!tile.rows || tile.rows.length === 0) {
+        body = '<div class="empty-state"><span class="check">✓</span>No issues this week</div>';
+      } else {
+        const headerCells = (tile.columns || []).map(c => `<th>${escapeHtml(c)}</th>`).join('');
+        const bodyRows = tile.rows.map(row =>
+          `<tr>${row.map(v => `<td>${escapeHtml(v)}</td>`).join('')}</tr>`
+        ).join('');
+        body = `<table class="data"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
+      }
+      return `
+        <div class="tile">
+          <div class="tile-header">
+            <div><span class="tile-title">${title}</span>${mockBadge}</div>
+            <span class="tile-count">${countLabel}</span>
+          </div>
+          ${body}
+        </div>`;
+    }
+    async function load() {
+      const slug = getShopSlug();
+      if (!slug) {
+        document.getElementById("shop-title").textContent = "No shop selected";
+        document.getElementById("summary").innerHTML =
+          '<div class="error"><strong>No shop in URL.</strong> Use <code>?shop=&lt;slug&gt;</code> — e.g. <code>shop-view.html?shop=fort-lauderdale-1016-e</code></div>';
+        return;
+      }
+      try {
+        const res = await fetch(`shop-view-${slug}.json`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const bundle = await res.json();
+        document.getElementById("shop-title").textContent = bundle.meta.title;
+        document.getElementById("shop-subtitle").textContent = bundle.meta.subtitle || "Manager view";
+        document.getElementById("summary").innerHTML =
+          `<strong>${escapeHtml(bundle.meta.summary_line)}</strong> &nbsp;·&nbsp; Manager Dashboard tiles only`;
+        document.getElementById("tiles").innerHTML =
+          bundle.tiles.map(renderTile).join('');
+        document.title = `${bundle.meta.title} — Shop View`;
+      } catch (err) {
+        document.getElementById("shop-title").textContent = "Couldn't load shop";
+        document.getElementById("summary").innerHTML =
+          `<div class="error"><strong>Couldn't load shop view.</strong> ${escapeHtml(err.message)}<br>If you opened this from disk (<code>file://</code>), run <code>python3 -m http.server</code> in this folder and visit <code>http://localhost:8000</code>.</div>`;
+      }
+    }
+    load();
+  </script>
+</body>
+</html>

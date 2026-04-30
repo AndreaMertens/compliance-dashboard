@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Newport Beach - Fashion Island",
+    "subtitle": "Manager view",
+    "summary_line": "6 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 6
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-23",
+          "Elias Salgado",
+          "12:00 PM",
+          "12:12 PM",
+          "12"
+        ],
+        [
+          "2026-04-24",
+          "Elias Salgado",
+          "12:30 PM",
+          "12:48 PM",
+          "18"
+        ],
+        [
+          "2026-04-24",
+          "Nathaniel Faraone",
+          "3:00 PM",
+          "3:09 PM",
+          "9"
+        ],
+        [
+          "2026-04-25",
+          "Elias Salgado",
+          "3:00 PM",
+          "3:09 PM",
+          "9"
+        ],
+        [
+          "2026-04-25",
+          "Jacob McLaughlin",
+          "2:00 PM",
+          "2:07 PM",
+          "7"
+        ],
+        [
+          "2026-04-26",
+          "Elias Salgado",
+          "1:30 PM",
+          "1:45 PM",
+          "15"
+        ]
+      ],
+      "count": 6
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

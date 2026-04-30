@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "696 Lynnfield",
+    "subtitle": "Manager view",
+    "summary_line": "10 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 10
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          "Enrique Arias",
+          "10:45 AM",
+          "10:59 AM",
+          "14"
+        ],
+        [
+          "2026-04-21",
+          "Enrique Arias",
+          "11:45 AM",
+          "12:00 PM",
+          "15"
+        ],
+        [
+          "2026-04-21",
+          "Evan",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-04-22",
+          "Evan",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-04-23",
+          "Chanthan Hing",
+          "11:00 AM",
+          "11:13 AM",
+          "13"
+        ],
+        [
+          "2026-04-23",
+          "Evan",
+          "9:45 AM",
+          "9:53 AM",
+          "8"
+        ],
+        [
+          "2026-04-25",
+          "Evan",
+          "11:45 AM",
+          "11:52 AM",
+          "7"
+        ],
+        [
+          "2026-04-26",
+          "Evan",
+          "10:45 AM",
+          "11:03 AM",
+          "18"
+        ],
+        [
+          "2026-04-26",
+          "Alexa Albanese",
+          "10:45 AM",
+          "10:56 AM",
+          "11"
+        ]
+      ],
+      "count": 9
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [
+        [
+          "Chanthan Hing",
+          "Sat Apr 25",
+          "9:42 AM",
+          "8:02 PM",
+          "10.33",
+          "42.87 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

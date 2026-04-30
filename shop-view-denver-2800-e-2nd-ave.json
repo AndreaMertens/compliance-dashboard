@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Denver - 2800 E 2nd Ave",
+    "subtitle": "Manager view",
+    "summary_line": "3 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 3
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-21",
+          "John Le Bel",
+          "1:00 PM",
+          "7:02 PM",
+          "362"
+        ],
+        [
+          "2026-04-22",
+          "Alex Cichy",
+          "10:30 AM",
+          "10:37 AM",
+          "7"
+        ],
+        [
+          "2026-04-25",
+          "Brian Redington",
+          "12:00 PM",
+          "12:17 PM",
+          "17"
+        ]
+      ],
+      "count": 3
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

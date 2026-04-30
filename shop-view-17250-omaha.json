@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "17250 Omaha",
+    "subtitle": "Manager view",
+    "summary_line": "7 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 7
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-22",
+          "Thomas Blackadar",
+          "11:00 AM",
+          "11:48 AM",
+          "48"
+        ],
+        [
+          "2026-04-22",
+          "Christian Van Dam",
+          "10:30 AM",
+          "11:04 AM",
+          "34"
+        ],
+        [
+          "2026-04-23",
+          "Christian Van Dam",
+          "10:30 AM",
+          "10:47 AM",
+          "17"
+        ],
+        [
+          "2026-04-23",
+          "Thomas Blackadar",
+          "11:00 AM",
+          "11:14 AM",
+          "14"
+        ]
+      ],
+      "count": 4
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Tue Apr 21",
+          "8:21 AM",
+          "7:00 PM",
+          "10.65",
+          "61.90 (OT)",
+          "OT"
+        ],
+        [
+          "Thomas Blackadar",
+          "Fri Apr 24",
+          "10:15 AM",
+          "8:39 PM",
+          "10.40",
+          "59.66 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [
+        [
+          "Thomas Blackadar",
+          "59.66",
+          "8.00",
+          "67.66",
+          "+27.66"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

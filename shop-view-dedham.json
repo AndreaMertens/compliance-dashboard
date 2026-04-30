@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Dedham",
+    "subtitle": "Manager view",
+    "summary_line": "4 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 4
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          "Cooper Betancourt",
+          "11:00 AM",
+          "2:58 PM",
+          "238"
+        ],
+        [
+          "2026-04-22",
+          "Cooper Betancourt",
+          "11:00 AM",
+          "2:36 PM",
+          "216"
+        ],
+        [
+          "2026-04-23",
+          "Cooper Betancourt",
+          "11:00 AM",
+          "11:11 AM",
+          "11"
+        ]
+      ],
+      "count": 3
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Fri Apr 24",
+          "8:55 AM",
+          "7:16 PM",
+          "10.35",
+          "45.14 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

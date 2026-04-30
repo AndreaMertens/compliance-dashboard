@@ -252,13 +252,6 @@
   }
 
   .summary-bar { display: none !important; }
-
-  /* Recency category colors (left border) */
-  .tile.recency-previous-day    { border-left-color: #14b8a6; }
-  .tile.recency-previous-3-days { border-left-color: #2563eb; }
-  .tile.recency-previous-week   { border-left-color: #15243d; }
-  .tile.recency-future          { border-left-color: #8b5cf6; }
-  .tile.recency-mock            { border-left-color: #cccccc; }
 </style>
 </head>
 <body>
@@ -308,43 +301,22 @@
     `).join("");
   }
 
-
-  // --- Tile metadata: eyebrow label + recency category ---------------------
-  const TILE_META = {
-    "manager-attendance":   { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
-    "no-coverage-days":     { eyebrow: "PREVIOUS DAY",    recency: "previous-day" },
-    "schedule-publication": { eyebrow: "FUTURE",          recency: "future" },
-    "manual-punches":       { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
-    "tardiness":            { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
-    "long-shifts":          { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
-    "over-40-vacation":     { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
-    "unapproved-timecards": { eyebrow: "PREVIOUS 3 DAYS", recency: "previous-3-days" },
-    "penalty-pay":          { eyebrow: "PREVIOUS 3 DAYS", recency: "previous-3-days" },
-    "break-compliance":     { eyebrow: "COMING SOON",     recency: "mock" }
-  };
-  function tileEyebrow(id) { return (TILE_META[id] && TILE_META[id].eyebrow) || ""; }
-  function tileRecency(id) { return (TILE_META[id] && TILE_META[id].recency) || "unknown"; }
-  function stripLeadIn(s) {
-    if (!s) return s;
-    return s.replace(/^\d+\s+\w+(?:\s+\w+)?\s*[\u2014\u2013-]\s*/, "").trimStart();
-  }
-
   function renderTile(report) {
     const mockClass = report.is_mock ? " is-mock" : "";
     const mockBadge = report.is_mock
       ? `<div class="dummy-badge">Dummy data</div>`
       : "";
     return `
-      <a class="tile status-${report.status}${mockClass} recency-${tileRecency(report.id)}" href="${report.id}.html">
+      <a class="tile status-${report.status}${mockClass}" href="${report.id}.html">
         <span class="tile-arrow">&rarr;</span>
         ${mockBadge}
-        <div class="tile-review">${tileEyebrow(report.id) || ("Review " + escapeHtml(report.review_day || ""))}</div>
+        <div class="tile-review">Review ${escapeHtml(report.review_day)}</div>
         <h2 class="tile-title">${escapeHtml(report.title)}</h2>
         <div class="tile-metric-row">
           <span class="tile-metric">${report.metric}</span>
           <span class="tile-metric-unit">${escapeHtml(report.metric_unit)}</span>
         </div>
-        <p class="tile-description">${escapeHtml(stripLeadIn(report.description))}</p>
+        <p class="tile-description">${escapeHtml(report.description)}</p>
         <div class="tile-footer">
           <span>${escapeHtml(report.last_refreshed_display)}</span>
           <span>${escapeHtml(report.covers_label)}</span>

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Scottsdale - Scottsdale Quarte",
+    "subtitle": "Manager view",
+    "summary_line": "3 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 3
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          "Gloria Alexander",
+          "12:00 PM",
+          "12:14 PM",
+          "14"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Sat Apr 25",
+          "12:01 PM",
+          "10:32 PM",
+          "10.52",
+          "40.55 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Apr 23",
+          "12:00 PM",
+          "10:03 PM",
+          "10.05",
+          "40.55 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Miami - Brickell",
+    "subtitle": "Manager view",
+    "summary_line": "6 flags this week",
+    "back_label": "Dashboard",
+    "back_url": "index.html",
+    "total_flags": 6
+  },
+  "tiles": [
+    {
+      "id": "tardiness",
+      "title": "Tardiness",
+      "is_mock": false,
+      "columns": [
+        "Date",
+        "Employee",
+        "Scheduled",
+        "Actual",
+        "Min Late"
+      ],
+      "rows": [
+        [
+          "2026-04-20",
+          "Gabriel Gonzalez",
+          "11:00 AM",
+          "11:08 AM",
+          "8"
+        ],
+        [
+          "2026-04-22",
+          "Gabriel Gonzalez",
+          "10:30 AM",
+          "10:38 AM",
+          "8"
+        ],
+        [
+          "2026-04-23",
+          "Glen Noel",
+          "12:00 PM",
+          "12:28 PM",
+          "28"
+        ],
+        [
+          "2026-04-23",
+          "Gabriel Gonzalez",
+          "8:00 AM",
+          "8:14 AM",
+          "14"
+        ],
+        [
+          "2026-04-26",
+          "Gabriel Gonzalez",
+          "10:30 AM",
+          "10:38 AM",
+          "8"
+        ]
+      ],
+      "count": 5
+    },
+    {
+      "id": "long-shifts",
+      "title": "Long Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours",
+        "Weekly",
+        "Triggered"
+      ],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "break-compliance",
+      "title": "Break Compliance",
+      "is_mock": true,
+      "columns": [],
+      "rows": [],
+      "count": 0
+    },
+    {
+      "id": "over-40-vacation",
+      "title": "Over 40 + Vacation",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Worked",
+        "Leave",
+        "Total",
+        "Overage"
+      ],
+      "rows": [
+        [
+          "Alejandro Rojas",
+          "40.45",
+          "8.00",
+          "48.45",
+          "+8.45"
+        ]
+      ],
+      "count": 1
+    },
+    {
+      "id": "unapproved-timecards",
+      "title": "Unapproved Timecards",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Hours"
+      ],
+      "rows": [],
+      "count": 0
+    }
+  ]
+}
