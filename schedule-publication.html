@@ -241,8 +241,8 @@
       // Heads-up tier shows only draft count
       let countBadges = "";
       if (section.tier === "action" && row.gap_days > 0) {
-        const dayWord = row.gap_days === 1 ? "day" : "days";
-        countBadges += `<span class="badge badge-gap">${row.gap_days} ${dayWord} unscheduled</span>`;
+        const lad = row.lookahead_days || 14;
+        countBadges += `<span class="badge badge-gap">${row.gap_days} of ${lad} days unpublished</span>`;
       }
       const draftWord = row.draft_count === 1 ? "draft shift" : "draft shifts";
       countBadges += `<span class="badge badge-draft">${row.draft_count} ${draftWord}</span>`;

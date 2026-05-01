@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: May 1 \u2192 May 22, 2026",
-    "summary_line": "5 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Fri May 1, 9:30 AM",
+    "summary_line": "3 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Fri May 1, 1:21 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,34 +14,25 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 20,
+          "gap_days": 5,
+          "lookahead_days": 21
+        },
+        {
           "shop": "Indianapolis - 8702 Keystone Crossing",
           "manager": "",
-          "draft_count": 38,
-          "gap_days": 12
+          "draft_count": 19,
+          "gap_days": 5,
+          "lookahead_days": 14
         },
         {
           "shop": "Kansas City - 321 Nichols Rd",
           "manager": "",
-          "draft_count": 16,
-          "gap_days": 12
-        },
-        {
-          "shop": "2900 Minneapolis",
-          "manager": "",
-          "draft_count": 20,
-          "gap_days": 5
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 20,
-          "gap_days": 5
-        },
-        {
-          "shop": "New York - 57 Spring",
-          "manager": "",
-          "draft_count": 10,
-          "gap_days": 5
+          "draft_count": 7,
+          "gap_days": 5,
+          "lookahead_days": 14
         }
       ]
     },
@@ -53,38 +44,37 @@
         {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 7,
-          "gap_days": 0
+          "draft_count": 5,
+          "gap_days": 0,
+          "lookahead_days": 14
         },
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
           "draft_count": 5,
-          "gap_days": 0
+          "gap_days": 0,
+          "lookahead_days": 21
         },
         {
           "shop": "Newport Beach - Fashion Island",
           "manager": "",
           "draft_count": 3,
-          "gap_days": 0
-        },
-        {
-          "shop": "Dallas - 3699 McKinney",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0
+          "gap_days": 0,
+          "lookahead_days": 14
         },
         {
           "shop": "1000 Pittsburgh",
           "manager": "",
           "draft_count": 1,
-          "gap_days": 0
+          "gap_days": 0,
+          "lookahead_days": 14
         },
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
           "draft_count": 1,
-          "gap_days": 0
+          "gap_days": 0,
+          "lookahead_days": 14
         }
       ]
     }
