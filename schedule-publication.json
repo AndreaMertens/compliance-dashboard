@@ -1,176 +1,91 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: 2026-05-01 \u2192 2026-05-15",
-    "summary_line": "3 shops with unpublished shifts in the next 14 days",
-    "last_refreshed_display": "Data through Fri May 1, 7:00 AM",
+    "subtitle": "Window: May 1 \u2192 May 22, 2026",
+    "summary_line": "5 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Fri May 1, 9:22 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
-  "columns": [
-    "Employee",
-    "Date",
-    "Start",
-    "End"
-  ],
-  "groups": [
+  "sections": [
     {
-      "shop": "Indianapolis - 8702 Keystone Crossing",
-      "manager": "",
-      "count": 15,
+      "tier": "action",
+      "label": "Action Needed",
+      "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
-        [
-          "April Johnson",
-          "2026-05-11",
-          "9:00 AM",
-          "5:00 PM"
-        ],
-        [
-          "Parker Dean",
-          "2026-05-11",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Christian Bussman",
-          "2026-05-11",
-          "12:00 PM",
-          "8:00 PM"
-        ],
-        [
-          "Christian Bussman",
-          "2026-05-12",
-          "9:00 AM",
-          "5:00 PM"
-        ],
-        [
-          "Jakob Poore",
-          "2026-05-12",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Parker Dean",
-          "2026-05-12",
-          "12:00 PM",
-          "8:00 PM"
-        ],
-        [
-          "Jakob Poore",
-          "2026-05-13",
-          "9:30 AM",
-          "5:30 PM"
-        ],
-        [
-          "Christian Bussman",
-          "2026-05-13",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "April Johnson",
-          "2026-05-13",
-          "12:00 PM",
-          "8:00 PM"
-        ],
-        [
-          "April Johnson",
-          "2026-05-14",
-          "9:00 AM",
-          "5:00 PM"
-        ],
-        [
-          "Parker Dean",
-          "2026-05-14",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Jakob Poore",
-          "2026-05-14",
-          "12:00 PM",
-          "8:00 PM"
-        ],
-        [
-          "Jakob Poore",
-          "2026-05-15",
-          "9:30 AM",
-          "5:30 PM"
-        ],
-        [
-          "Christian Bussman",
-          "2026-05-15",
-          "10:00 AM",
-          "6:00 PM"
-        ],
-        [
-          "April Johnson",
-          "2026-05-15",
-          "12:30 PM",
-          "8:30 PM"
-        ]
+        {
+          "shop": "Indianapolis - 8702 Keystone Crossing",
+          "manager": "",
+          "draft_count": 38,
+          "gap_days": 12
+        },
+        {
+          "shop": "Kansas City - 321 Nichols Rd",
+          "manager": "",
+          "draft_count": 16,
+          "gap_days": 12
+        },
+        {
+          "shop": "2900 Minneapolis",
+          "manager": "",
+          "draft_count": 20,
+          "gap_days": 5
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 20,
+          "gap_days": 5
+        },
+        {
+          "shop": "New York - 57 Spring",
+          "manager": "",
+          "draft_count": 10,
+          "gap_days": 5
+        }
       ]
     },
     {
-      "shop": "Kansas City - 321 Nichols Rd",
-      "manager": "",
-      "count": 5,
+      "tier": "heads_up",
+      "label": "Heads Up",
+      "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
-        [
-          "Adam Lansdown",
-          "2026-05-11",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Charles Wolff",
-          "2026-05-11",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Charles Wolff",
-          "2026-05-12",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Adam Lansdown",
-          "2026-05-13",
-          "11:00 AM",
-          "7:00 PM"
-        ],
-        [
-          "Charles Wolff",
-          "2026-05-13",
-          "11:00 AM",
-          "7:00 PM"
-        ]
-      ]
-    },
-    {
-      "shop": "Newport Beach - Fashion Island",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "Nathaniel Faraone",
-          "2026-05-11",
-          "2:00 PM",
-          "10:30 PM"
-        ],
-        [
-          "Maria Carrillo",
-          "2026-05-12",
-          "2:00 PM",
-          "10:30 PM"
-        ],
-        [
-          "Maria Carrillo",
-          "2026-05-13",
-          "12:30 PM",
-          "9:00 PM"
-        ]
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 7,
+          "gap_days": 0
+        },
+        {
+          "shop": "Chicago - 840 W Armitage",
+          "manager": "",
+          "draft_count": 5,
+          "gap_days": 0
+        },
+        {
+          "shop": "Newport Beach - Fashion Island",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 0
+        },
+        {
+          "shop": "Dallas - 3699 McKinney",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0
+        },
+        {
+          "shop": "1000 Pittsburgh",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0
+        },
+        {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0
+        }
       ]
     }
   ]
