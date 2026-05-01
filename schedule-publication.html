@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="page-title">State &amp; Liberty &mdash; Compliance Detail</title>
+<title id="page-title">State &amp; Liberty &mdash; Schedule Publication</title>
 <style>
   * { box-sizing: border-box; }
   body {
@@ -61,65 +61,109 @@
     margin-bottom: 1.75rem;
   }
 
-  .group {
+  /* Two-tier section layout */
+  .tier {
+    margin-bottom: 2rem;
+  }
+
+  .tier-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  .tier-header h2 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .tier-action .tier-header h2   { color: #b23a3a; }
+  .tier-heads-up .tier-header h2 { color: #2563eb; }
+
+  .tier-description {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+  }
+
+  /* Shop summary rows (no table) */
+  .shop-rows {
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-    margin-bottom: 1.25rem;
     overflow: hidden;
   }
-  .group-header {
+
+  .shop-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f0f2f7;
     padding: 0.85rem 1.25rem;
-    border-bottom: 1px solid #e3e5eb;
+    border-bottom: 1px solid #f0f1f4;
   }
-  .group-header .header-left {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-  }
-  .group-header .shop-name {
-    font-size: 1rem;
+  .shop-row:last-child { border-bottom: none; }
+  .shop-row:hover { background: #fafbfc; }
+
+  .shop-row .shop-name {
+    font-size: 0.95rem;
     font-weight: 600;
     color: #14213d;
   }
-  .group-header .manager-name {
+  .shop-row .manager-name {
     font-size: 0.78rem;
-    color: #666;
-  }
-  .group-header .group-count {
-    font-size: 0.8rem;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    color: #777;
+    margin-top: 0.1rem;
   }
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
+  .shop-row .counts {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-shrink: 0;
   }
-  thead th {
-    text-align: left;
-    padding: 0.65rem 1.25rem;
+  .badge {
+    font-size: 0.78rem;
     font-weight: 600;
-    font-size: 0.75rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+  .badge-gap {
+    background: #fdecea;
+    color: #b23a3a;
+  }
+  .badge-draft {
+    background: #eff6ff;
+    color: #2563eb;
+  }
+
+  /* Left accent bar on tier headers */
+  .tier-action   .shop-rows { border-left: 3px solid #b23a3a; }
+  .tier-heads-up .shop-rows { border-left: 3px solid #2563eb; }
+
+  .empty-state {
+    padding: 2.5rem 1.25rem;
+    text-align: center;
     color: #777;
-    border-bottom: 1px solid #e3e5eb;
-    background: #fafbfc;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    font-size: 0.95rem;
   }
-  tbody td {
-    padding: 0.7rem 1.25rem;
-    border-bottom: 1px solid #f0f1f4;
-    color: #333;
+  .all-clear {
+    padding: 2.5rem 1.25rem;
+    text-align: center;
+    color: #166534;
+    background: #f0fdf4;
+    border-radius: 8px;
+    border: 1px solid #bbf7d0;
+    font-size: 1rem;
+    font-weight: 500;
   }
-  tbody tr:last-child td { border-bottom: none; }
-  tbody tr:hover { background: #fafbfc; }
 
   .footer-note {
     margin-top: 2rem;
@@ -138,21 +182,12 @@
     display: none;
   }
   .error-banner.visible { display: block; }
-  .error-banner strong { color: #3d1010; }
+  .error-banner strong  { color: #3d1010; }
   .error-banner code {
     background: #f3d3d0;
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
     font-size: 0.85rem;
-  }
-
-  .empty-state {
-    padding: 2.5rem 1.25rem;
-    text-align: center;
-    color: #777;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
   }
 </style>
 </head>
@@ -160,7 +195,7 @@
 
 <header>
   <div class="brand">State &amp; Liberty</div>
-  <h1 id="detail-title">Loading…</h1>
+  <h1 id="detail-title">Schedule Publication</h1>
   <div class="subtitle" id="detail-subtitle"></div>
 </header>
 
@@ -175,20 +210,13 @@
 
   <div class="summary-line" id="summary-line"></div>
 
-  <div id="groups-container"></div>
+  <div id="sections-container"></div>
 
   <div class="footer-note" id="footer-note"></div>
 
 </div>
 
 <script>
-  // The detail page figures out which JSON to load from its own filename.
-  // "unapproved-timecards.html" -> "unapproved-timecards.json", etc.
-  function jsonFileForThisPage() {
-    const name = location.pathname.split("/").pop() || "index.html";
-    return name.replace(/\.html$/, ".json");
-  }
-
   function escapeHtml(s) {
     if (s == null) return "";
     return String(s)
@@ -199,56 +227,77 @@
       .replace(/'/g, "&#39;");
   }
 
-  function renderGroup(group, columns) {
-    const headerCells = columns.map(c => `<th>${escapeHtml(c)}</th>`).join("");
-    const bodyRows = group.rows.map(row => {
-      const cells = row.map(cell => `<td>${escapeHtml(cell)}</td>`).join("");
-      return `<tr>${cells}</tr>`;
-    }).join("");
-    const managerLine = group.manager
-      ? `<span class="manager-name">${escapeHtml(group.manager)}</span>`
-      : "";
-    return `
-      <div class="group">
-        <div class="group-header">
-          <div class="header-left">
-            <span class="shop-name">${escapeHtml(group.shop)}</span>
+  function renderSection(section) {
+    const tierClass = section.tier === "action" ? "tier-action" : "tier-heads-up";
+
+    if (!section.rows || section.rows.length === 0) return "";
+
+    const rowsHtml = section.rows.map(row => {
+      const managerLine = row.manager
+        ? `<div class="manager-name">${escapeHtml(row.manager)}</div>`
+        : "";
+
+      // Action tier shows gap-days badge + draft count
+      // Heads-up tier shows only draft count
+      let countBadges = "";
+      if (section.tier === "action" && row.gap_days > 0) {
+        const dayWord = row.gap_days === 1 ? "day" : "days";
+        countBadges += `<span class="badge badge-gap">${row.gap_days} ${dayWord} unscheduled</span>`;
+      }
+      const draftWord = row.draft_count === 1 ? "draft shift" : "draft shifts";
+      countBadges += `<span class="badge badge-draft">${row.draft_count} ${draftWord}</span>`;
+
+      return `
+        <div class="shop-row">
+          <div>
+            <div class="shop-name">${escapeHtml(row.shop)}</div>
             ${managerLine}
           </div>
-          <span class="group-count">${group.count} ${group.count === 1 ? "item" : "items"}</span>
+          <div class="counts">${countBadges}</div>
+        </div>`;
+    }).join("");
+
+    return `
+      <div class="tier ${tierClass}">
+        <div class="tier-header">
+          <h2>${escapeHtml(section.label)}</h2>
+          <p class="tier-description">${escapeHtml(section.description)}</p>
         </div>
-        <table>
-          <thead><tr>${headerCells}</tr></thead>
-          <tbody>${bodyRows}</tbody>
-        </table>
-      </div>
-    `;
+        <div class="shop-rows">${rowsHtml}</div>
+      </div>`;
   }
 
   async function loadDetail() {
     try {
-      const jsonFile = jsonFileForThisPage();
+      const name     = location.pathname.split("/").pop() || "index.html";
+      const jsonFile = name.replace(/\.html$/, ".json");
       const response = await fetch(jsonFile, { cache: "no-store" });
       if (!response.ok) throw new Error("HTTP " + response.status);
       const data = await response.json();
 
       document.getElementById("page-title").textContent =
         `State & Liberty — ${data.meta.title}`;
-      document.getElementById("detail-title").textContent = data.meta.title;
+      document.getElementById("detail-title").textContent  = data.meta.title;
       document.getElementById("detail-subtitle").textContent = data.meta.subtitle;
       document.getElementById("back-link").textContent = `← ${data.meta.back_label}`;
-      document.getElementById("back-link").href = data.meta.back_url;
+      document.getElementById("back-link").href        = data.meta.back_url;
       document.getElementById("summary-line").textContent = data.meta.summary_line;
-      document.getElementById("footer-note").textContent = data.meta.last_refreshed_display;
+      document.getElementById("footer-note").textContent  = data.meta.last_refreshed_display;
 
-      const container = document.getElementById("groups-container");
-      if (!data.groups || data.groups.length === 0) {
-        container.innerHTML = `<div class="empty-state">Nothing to show for this week.</div>`;
-      } else {
-        container.innerHTML = data.groups
-          .map(g => renderGroup(g, data.columns))
-          .join("");
+      const container = document.getElementById("sections-container");
+
+      // All-clear state
+      const hasSections = data.sections &&
+        data.sections.some(s => s.rows && s.rows.length > 0);
+
+      if (!hasSections) {
+        container.innerHTML =
+          `<div class="all-clear">✓ All schedules published for the next 3 weeks.</div>`;
+        return;
       }
+
+      container.innerHTML = data.sections.map(renderSection).join("");
+
     } catch (err) {
       document.getElementById("error-banner").classList.add("visible");
       console.error("Detail load failed:", err);
