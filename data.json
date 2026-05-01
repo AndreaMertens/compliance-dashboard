@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of April 20\u201326, 2026",
-    "generated_at": "2026-05-01T09:22:01.628313",
-    "generated_at_display": "Generated May 1, 9:22 AM"
+    "generated_at": "2026-05-01T09:25:45.768707",
+    "generated_at_display": "Generated May 1, 9:25 AM"
   },
   "summary": [],
   "sections": [
@@ -38,8 +38,13 @@
         {
           "id": "schedule-publication",
           "title": "Schedule Publication",
+          "review_day": "Monday",
+          "metric": "5 action \u00b7 6 heads up",
+          "metric_unit": "",
+          "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "subtitle": "5 action \u00b7 6 heads up",
+          "last_refreshed_display": "Data through Fri May 1, 9:25 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-05-01",
           "is_mock": false
         },
         {
