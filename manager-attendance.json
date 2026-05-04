@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Manager Attendance",
-    "subtitle": "Week of April 20\u201326, 2026",
-    "summary_line": "13 managers flagged across 10 shops",
+    "subtitle": "Week of Apr 27 \u2013 May 3, 2026",
+    "summary_line": "19 managers flagged across 16 shops",
     "last_refreshed_display": "Data through Fri May 1, 7:00 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -23,23 +23,51 @@
         [
           "Craig Somma",
           "3 (3W + 0L)",
-          "21.65",
-          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2014 \u00b7 Sa \u2014 \u00b7 Su \u2014",
-          "3/5 days (worked + PTO) / 21.65 hrs worked (under 38.5)"
+          "8.18",
+          "M \u2014 \u00b7 T \u2014 \u00b7 W \u2014 \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
+          "3/5 days (worked + PTO) / 8.18 hrs worked (under 38.5)"
         ]
       ]
     },
     {
-      "shop": "Ann Arbor - 212 S Main",
+      "shop": "1425 Basecamp",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Genna Gilroy",
-          "6 (6W + 0L)",
-          "34.45",
-          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "34.45 hrs worked (under 38.5)"
+          "Sarah McCaw",
+          "3 (3W + 0L)",
+          "19.73",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "3/5 days (worked + PTO) / 19.73 hrs worked (under 38.5)"
+        ]
+      ]
+    },
+    {
+      "shop": "4002 Columbus",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Paul Fregeau",
+          "5 (5W + 0L)",
+          "37.47",
+          "M \u2014 \u00b7 T \u2014 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
+          "37.47 hrs worked (under 38.5)"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Mike LeGree",
+          "5 (4W + 1L)",
+          "29.10",
+          "M \u2014 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2014 \u00b7 Su L",
+          "36.6 hrs total (29.1w + 7.5l, under 38.5)"
         ]
       ]
     },
@@ -50,24 +78,38 @@
       "rows": [
         [
           "Ian Draft",
-          "5 (4W + 1L)",
-          "29.89",
-          "M \u2713 \u00b7 T \u2014 \u00b7 W L \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "37.39 hrs total (29.89w + 7.5l, under 38.5)"
+          "3 (3W + 0L)",
+          "22.77",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2014 \u00b7 Su \u2014",
+          "3/5 days (worked + PTO) / 22.77 hrs worked (under 38.5)"
         ]
       ]
     },
     {
-      "shop": "Boston - 201 Newbury Street",
+      "shop": "Denver - 2800 E 2nd Ave",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Brian Ward",
-          "3 (3W + 0L)",
-          "26.16",
-          "M \u2713 \u00b7 T \u2014 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2014 \u00b7 Su \u2713",
-          "3/5 days (worked + PTO) / 26.16 hrs worked (under 38.5)"
+          "Nathan Mylenek",
+          "4 (4W + 0L)",
+          "33.33",
+          "M \u2014 \u00b7 T \u2014 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
+          "4/5 days (worked + PTO) / 33.33 hrs worked (under 38.5)"
+        ]
+      ]
+    },
+    {
+      "shop": "Fort Lauderdale - 1016 E",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Ana Cintron",
+          "4 (4W + 0L)",
+          "32.30",
+          "M \u2713 \u00b7 T \u2014 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 32.3 hrs worked (under 38.5)"
         ]
       ]
     },
@@ -79,30 +121,86 @@
         [
           "Avery Acton",
           "5 (5W + 0L)",
-          "35.02",
+          "37.15",
           "M \u2713 \u00b7 T \u2014 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2014",
-          "35.02 hrs worked (under 38.5)"
+          "37.15 hrs worked (under 38.5)"
         ],
         [
           "Edward Valentine",
-          "5 (5W + 0L)",
-          "32.73",
-          "M \u2014 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "32.73 hrs worked (under 38.5)"
+          "3 (3W + 0L)",
+          "21.37",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2014 \u00b7 Su \u2014",
+          "3/5 days (worked + PTO) / 21.37 hrs worked (under 38.5)"
         ]
       ]
     },
     {
       "shop": "Greenwich Avenue",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Chris Ciarleglio",
+          "5 (5W + 0L)",
+          "35.39",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "35.39 hrs worked (under 38.5)"
+        ],
         [
           "Matt Dennis",
           "5 (5W + 0L)",
-          "37.25",
-          "M \u2014 \u00b7 T \u2014 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "37.25 hrs worked (under 38.5)"
+          "34.94",
+          "M \u2014 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2713",
+          "34.94 hrs worked (under 38.5)"
+        ]
+      ]
+    },
+    {
+      "shop": "Indianapolis - 8702 Keystone Crossing",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Alisha Reeve",
+          "5 (5W + 0L)",
+          "36.71",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2713",
+          "36.71 hrs worked (under 38.5)"
+        ]
+      ]
+    },
+    {
+      "shop": "La Jolla - 7857 Girard Ave",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Anthony Perez Avila",
+          "4 (4W + 0L)",
+          "31.40",
+          "M \u2014 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 31.4 hrs worked (under 38.5)"
+        ]
+      ]
+    },
+    {
+      "shop": "Manhattan Beach - The Point",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Gabriel Lujan",
+          "4 (4W + 0L)",
+          "32.85",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 32.85 hrs worked (under 38.5)"
+        ],
+        [
+          "Kellen Slattery",
+          "4 (4W + 0L)",
+          "32.40",
+          "M \u2713 \u00b7 T \u2014 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 32.4 hrs worked (under 38.5)"
         ]
       ]
     },
@@ -113,10 +211,10 @@
       "rows": [
         [
           "Grace Arnold",
-          "3 (3W + 0L)",
-          "23.62",
-          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2014 \u00b7 Su \u2014",
-          "3/5 days (worked + PTO) / 23.62 hrs worked (under 38.5)"
+          "4 (4W + 0L)",
+          "21.45",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2014 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 21.45 hrs worked (under 38.5)"
         ]
       ]
     },
@@ -128,51 +226,37 @@
         [
           "Erin McGowan",
           "4 (4W + 0L)",
-          "38.42",
-          "M \u2713 \u00b7 T \u2014 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2014 \u00b7 Su \u2014",
-          "4/5 days (worked + PTO) / 38.42 hrs worked (under 38.5)"
+          "33.18",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 33.18 hrs worked (under 38.5)"
         ]
       ]
     },
     {
-      "shop": "Newport Beach - Fashion Island",
+      "shop": "Philadelphia - 1702 Walnut",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Mira Chong",
-          "5 (5W + 0L)",
-          "37.49",
-          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2014 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "37.49 hrs worked (under 38.5)"
+          "Trent Johnson",
+          "4 (4W + 0L)",
+          "35.43",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2014",
+          "4/5 days (worked + PTO) / 35.43 hrs worked (under 38.5)"
         ]
       ]
     },
     {
-      "shop": "Walnut Creek - 147 Broadway",
+      "shop": "Tampa - 2223 N Westshore",
       "manager": "",
-      "count": 3,
+      "count": 1,
       "rows": [
         [
-          "Ariana Diaz",
+          "Taylor Chase",
           "5 (5W + 0L)",
-          "31.59",
-          "M \u2014 \u00b7 T \u2713 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "31.59 hrs worked (under 38.5)"
-        ],
-        [
-          "Jacquam Blue",
-          "4 (4W + 0L)",
-          "32.96",
-          "M \u2713 \u00b7 T \u2014 \u00b7 W \u2014 \u00b7 Th \u2713 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2014",
-          "4/5 days (worked + PTO) / 32.96 hrs worked (under 38.5)"
-        ],
-        [
-          "Mirna Rosales",
-          "5 (5W + 0L)",
-          "36.32",
-          "M \u2014 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2014 \u00b7 F \u2713 \u00b7 Sa \u2713 \u00b7 Su \u2713",
-          "36.32 hrs worked (under 38.5)"
+          "37.68",
+          "M \u2713 \u00b7 T \u2713 \u00b7 W \u2713 \u00b7 Th \u2713 \u00b7 F \u2014 \u00b7 Sa \u2014 \u00b7 Su \u2713",
+          "37.68 hrs worked (under 38.5)"
         ]
       ]
     }
