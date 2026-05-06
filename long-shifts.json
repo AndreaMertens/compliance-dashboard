@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Week of Apr 27 \u2013 May 3, 2026",
-    "summary_line": "2 flagged shifts across 2 shops \u2014 2 OT, 1 over 11 hrs",
+    "summary_line": "4 flagged shifts across 4 shops \u2014 4 OT, 2 over 11 hrs",
     "last_refreshed_display": "Data through Fri May 1, 7:00 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -18,6 +18,22 @@
   ],
   "groups": [
     {
+      "shop": "122 Lexington",
+      "manager": "Craig Somma",
+      "count": 1,
+      "rows": [
+        [
+          "Jhaidyn Brown",
+          "Wed Apr 29",
+          "10:00 AM",
+          "12:00 AM",
+          "14.00",
+          "55.00 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ]
+    },
+    {
       "shop": "17250 Omaha",
       "manager": "Christian Van Dam",
       "count": 1,
@@ -30,6 +46,22 @@
           "12.17",
           "46.46 (OT)",
           "OT \u00b7 Over 11"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 1,
+      "rows": [
+        [
+          "Chanthan Hing",
+          "Sat May 2",
+          "8:45 AM",
+          "7:13 PM",
+          "10.47",
+          "43.59 (OT)",
+          "OT"
         ]
       ]
     },
