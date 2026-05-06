@@ -282,11 +282,13 @@
     const rows = [];
     if (data.columns && data.groups) {
       // Standard shape: columns header + grouped rows
-      rows.push(data.columns);
+      rows.push(["Shop", ...data.columns]);
       for (const g of data.groups) {
         const shopLabel = g.shop || g.manager || "";
-        if (shopLabel) rows.push([shopLabel, ...new Array(Math.max(0, data.columns.length - 1)).fill("")]);
-        for (const r of g.rows) rows.push(Array.isArray(r) ? r : Object.values(r));
+        for (const r of g.rows) {
+          const rowData = Array.isArray(r) ? r : Object.values(r);
+          rows.push([shopLabel, ...rowData]);
+        }
       }
     } else if (data.sections) {
       // Schedule Publication shape: sections with tier rows
