@@ -189,6 +189,21 @@
     border-radius: 3px;
     font-size: 0.85rem;
   }
+
+  .download-btn {
+    float: right;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    padding: 0.4rem 0.9rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  .download-btn:hover { background: #1e3a6e; }
 </style>
 </head>
 <body>
@@ -202,6 +217,7 @@
 <div class="wrapper">
 
   <a class="back-link" id="back-link" href="index.html">&larr; Dashboard</a>
+  <button class="download-btn" id="download-btn" onclick="downloadCSV()" style="display:none">↓ Download CSV</button>
 
   <div id="error-banner" class="error-banner">
     <strong>Couldn't load detail data.</strong>
@@ -274,6 +290,9 @@
       const response = await fetch(jsonFile, { cache: "no-store" });
       if (!response.ok) throw new Error("HTTP " + response.status);
       const data = await response.json();
+      window._detailData = data;
+      document.getElementById('download-btn').style.display = 'inline-block';
+
 
       document.getElementById("page-title").textContent =
         `State & Liberty — ${data.meta.title}`;
@@ -305,6 +324,39 @@
   }
 
   loadDetail();
+
+  function downloadCSV() {
+    const data = window._detailData;
+    if (!data) return;
+    const rows = [];
+    if (data.columns && data.groups) {
+      // Standard shape: columns header + grouped rows
+      rows.push(data.columns);
+      for (const g of data.groups) {
+        const shopLabel = g.shop || g.manager || "";
+        if (shopLabel) rows.push([shopLabel, ...new Array(Math.max(0, data.columns.length - 1)).fill("")]);
+        for (const r of g.rows) rows.push(Array.isArray(r) ? r : Object.values(r));
+      }
+    } else if (data.sections) {
+      // Schedule Publication shape: sections with tier rows
+      rows.push(["Tier", "Shop", "Gap Days", "Lookahead Days", "Draft Shifts"]);
+      for (const s of data.sections) {
+        for (const r of s.rows) {
+          rows.push([s.label, r.shop, r.gap_days ?? 0, r.lookahead_days ?? 14, r.draft_count ?? 0]);
+        }
+      }
+    }
+    const csv = rows.map(r =>
+      r.map(c => '"' + String(c ?? "").replace(/"/g, '""') + '"').join(",")
+    ).join("\n");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+    a.download = (data.meta?.title || "export").replace(/[^a-z0-9 _-]/gi, "") + ".csv";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+
 </script>
 
 </body>

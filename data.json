@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of Apr 27 \u2013 May 3, 2026",
-    "generated_at": "2026-05-06T10:33:51.358059",
-    "generated_at_display": "Generated May 6, 10:33 AM"
+    "generated_at": "2026-05-06T10:55:15.449064",
+    "generated_at_display": "Generated May 6, 10:55 AM"
   },
   "summary": [],
   "sections": [
@@ -27,10 +27,10 @@
           "id": "no-coverage-days",
           "title": "No Coverage Days",
           "review_day": "Monday",
-          "metric": 7,
+          "metric": 0,
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
-          "status": "attention",
+          "status": "ok",
           "last_refreshed_display": "Data through Fri May 1, 7:00 AM",
           "covers_label": "Covers Apr 27 \u2013 May 3",
           "is_mock": false
@@ -43,7 +43,7 @@
           "metric_unit": " \u00b7 6 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed May 6, 10:33 AM",
+          "last_refreshed_display": "Data through Wed May 6, 10:55 AM",
           "covers_label": "Compliance window: next 21 days from 2026-05-06",
           "is_mock": false
         },
@@ -51,9 +51,9 @@
           "id": "manual-punches",
           "title": "Manual Punches",
           "review_day": "Monday",
-          "metric": "20.6%",
-          "metric_unit": "all-manager avg",
-          "description": "Salaried managers' manual entry rate (2026 YTD). 26 above 20% threshold.",
+          "metric": "16.1%",
+          "metric_unit": "last week",
+          "description": "2026 avg: 20.6%. 26 managers above 20% YTD threshold.",
           "status": "attention",
           "last_refreshed_display": "Data through Fri May 1, 7:00 AM",
           "covers_label": "YTD through 2026-05-03",
