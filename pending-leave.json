@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Pending Leave Approvals",
+    "subtitle": "Leave submitted for a past week, not yet approved/denied",
+    "summary_line": "4 pending leave requests across 4 shops",
+    "last_refreshed_display": "Data through Sun May 3, 2026",
+    "back_label": "Dashboard",
+    "back_url": "index.html"
+  },
+  "columns": [
+    "Employee",
+    "Date Start",
+    "Date End",
+    "Note"
+  ],
+  "groups": [
+    {
+      "shop": "10250 Century City",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Kellen Slattery",
+          "2026-05-03",
+          "2026-05-03",
+          "Personal"
+        ]
+      ]
+    },
+    {
+      "shop": "333 Milwaukee",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Ivory Turner",
+          "2026-05-01",
+          "2026-05-01",
+          "Please approve "
+        ]
+      ]
+    },
+    {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Anna Ilina",
+          "2026-04-30",
+          "2026-04-30",
+          "Sick "
+        ]
+      ]
+    },
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Zafit Olea Padilla",
+          "2026-04-25",
+          "2026-04-25",
+          "PTO Adjustment"
+        ]
+      ]
+    }
+  ]
+}
