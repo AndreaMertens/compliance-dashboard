@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of Apr 27 \u2013 May 3, 2026",
-    "generated_at": "2026-05-06T21:44:29.938225",
-    "generated_at_display": "Generated May 6, 9:44 PM"
+    "generated_at": "2026-05-07T07:56:36.971745",
+    "generated_at_display": "Generated May 7, 7:56 AM"
   },
   "summary": [],
   "sections": [
@@ -40,11 +40,11 @@
           "title": "Schedule Publication",
           "review_day": "Monday",
           "metric": 1,
-          "metric_unit": " \u00b7 10 heads up",
+          "metric_unit": " \u00b7 12 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed May 6, 9:44 PM",
-          "covers_label": "Compliance window: next 21 days from 2026-05-06",
+          "last_refreshed_display": "Data through Thu May 7, 7:56 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-05-07",
           "is_mock": false
         },
         {
@@ -128,9 +128,9 @@
           "id": "penalty-pay",
           "title": "Penalty Pay",
           "review_day": "Wednesday",
-          "metric": 2,
+          "metric": 3,
           "metric_unit": "shops with penalties",
-          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 32 penalty events.",
+          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 50 penalty events.",
           "status": "attention",
           "last_refreshed_display": "Data through Sun May 3, 2026",
           "covers_label": "Covers Apr 27 \u2013 May 3",
