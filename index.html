@@ -231,11 +231,16 @@
   header {
     position: relative;
   }
-  .trends-link {
+  .header-links {
     position: absolute;
     top: 1.5rem;
     right: 3rem;
+    display: flex;
+    gap: 0.6rem;
+  }
+  .trends-link {
     background: #ffffff;
+    position: static;
     color: #14213d;
     text-decoration: none;
     padding: 0.55rem 1.15rem;
@@ -277,8 +282,10 @@
   <div class="subtitle" id="dashboard-subtitle">Leadership view</div>
   <div class="pay-period-bar" id="pay-period-bar"></div>
   <select id="shop-picker" class="shop-picker" onchange="if(this.value)window.location.href='shop-view.html?shop='+this.value"><option value="">Browse shops…</option></select>
-  <a href="trends.html" class="trends-link">View Trends →</a>
-  <a href="payroll.html" class="trends-link" style="margin-left:0.75rem;">Payroll View →</a>
+  <div class="header-links">
+    <a href="trends.html" class="trends-link">View Trends →</a>
+    <a href="payroll.html" class="trends-link">Payroll View →</a>
+  </div>
 </header>
 
 <div class="wrapper">
