@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>State &amp; Liberty — Payroll Processing View</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    margin: 0; padding: 0;
+    background: #f4f4f6; color: #1a1a1a; line-height: 1.5;
+  }
+  header {
+    background: #14213d; color: #fff;
+    padding: 1.75rem 3rem 1.5rem;
+  }
+  header .brand {
+    font-size: 0.75rem; text-transform: uppercase;
+    letter-spacing: 0.15em; color: #8ea1c4; margin-bottom: 0.35rem;
+  }
+  header h1 { margin: 0; font-size: 1.6rem; font-weight: 600; letter-spacing: -0.015em; }
+  header .period-line {
+    margin-top: 0.4rem; font-size: 0.85rem; color: #8ea1c4; letter-spacing: 0.04em;
+  }
+  header .period-line strong { color: #c8d6f0; }
+  .back-link {
+    display: inline-block; margin: 1.5rem 0 0 3rem;
+    color: #14213d; text-decoration: none; font-size: 0.9rem; font-weight: 500;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .wrapper {
+    max-width: 1200px; margin: 0 auto;
+    padding: 1.5rem 3rem 4rem;
+  }
+  .tiles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  .tile {
+    background: #fff; border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    padding: 1.4rem 1.4rem 1.2rem;
+    border-left: 4px solid #15243d;
+  }
+  .tile.status-good   { border-left-color: #15803d; }
+  .tile.status-attention { border-left-color: #b23a3a; }
+  .tile-title {
+    font-size: 1rem; font-weight: 600; color: #14213d; margin: 0 0 0.5rem;
+  }
+  .tile-metric-row { display: flex; align-items: baseline; gap: 0.4rem; margin-bottom: 0.5rem; }
+  .tile-metric { font-size: 2.6rem; font-weight: 700; color: #14213d; line-height: 1; }
+  .tile-metric-unit { font-size: 0.85rem; color: #666; }
+  .tile-description { font-size: 0.85rem; color: #555; margin: 0; line-height: 1.45; }
+  .tile-footer { margin-top: 1rem; font-size: 0.75rem; color: #999; }
+  .all-clear-banner {
+    background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px;
+    padding: 1.5rem 2rem; text-align: center;
+    color: #166534; font-size: 1rem; font-weight: 500; margin-bottom: 1.5rem;
+  }
+  .error-banner {
+    margin: 1rem 0; padding: 1rem 1.25rem;
+    background: #fdecea; border-left: 4px solid #b23a3a;
+    border-radius: 4px; font-size: 0.9rem; color: #5a1a1a; display: none;
+  }
+  .error-banner.visible { display: block; }
+  .footer-note { margin-top: 2rem; font-size: 0.8rem; color: #888; padding: 0 3rem; }
+
+  @media (max-width: 900px) {
+    .tiles-grid { grid-template-columns: repeat(2, 1fr); }
+    .wrapper, .back-link { padding-left: 1.5rem; padding-right: 1.5rem; margin-left: 0; }
+    header { padding: 1.25rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">State &amp; Liberty</div>
+  <h1>Payroll Processing View</h1>
+  <div class="period-line" id="period-line">Loading…</div>
+</header>
+
+<a class="back-link" href="index.html">&larr; Dashboard</a>
+
+<div class="wrapper">
+
+  <div id="error-banner" class="error-banner">
+    <strong>Couldn't load payroll data.</strong> Open via the live URL or run <code>python3 -m http.server</code>.
+  </div>
+
+  <div id="tiles-container"></div>
+
+</div>
+
+<div class="footer-note" id="footer-note"></div>
+
+<script>
+  async function loadPayroll() {
+    try {
+      const res  = await fetch("payroll.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+
+      // Header
+      document.getElementById("period-line").innerHTML =
+        `PAY PERIOD &nbsp;<strong>${data.meta.period_label}</strong>` +
+        `&nbsp;&nbsp;·&nbsp;&nbsp;CHECK DATE &nbsp;<strong>${data.meta.check_label}</strong>`;
+      document.getElementById("footer-note").textContent = data.meta.last_refreshed_display;
+
+      const container = document.getElementById("tiles-container");
+      const allGood   = data.tiles.every(t => t.metric === 0);
+
+      if (allGood) {
+        container.innerHTML = `<div class="all-clear-banner">✓ Nothing flagged — clean payroll period!</div>`;
+      }
+
+      const grid = document.createElement("div");
+      grid.className = "tiles-grid";
+
+      for (const tile of data.tiles) {
+        const div = document.createElement("div");
+        div.className = `tile status-${tile.status}`;
+        div.innerHTML = `
+          <div class="tile-title">${escHtml(tile.title)}</div>
+          <div class="tile-metric-row">
+            <span class="tile-metric">${tile.metric}</span>
+            <span class="tile-metric-unit">${escHtml(tile.metric_unit)}</span>
+          </div>
+          <p class="tile-description">${escHtml(tile.description)}</p>
+        `;
+        grid.appendChild(div);
+      }
+      container.appendChild(grid);
+
+    } catch (err) {
+      document.getElementById("error-banner").classList.add("visible");
+      console.error(err);
+    }
+  }
+
+  function escHtml(s) {
+    return String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  loadPayroll();
+</script>
+</body>
+</html>

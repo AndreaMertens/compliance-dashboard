@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "period_label": "Apr 28 \u2013 May 12, 2026",
+    "check_label": "May 15, 2026",
+    "period_start": "2026-04-28",
+    "period_end": "2026-05-12",
+    "last_refreshed_display": "Data through Sun May 3, 2026"
+  },
+  "tiles": [
+    {
+      "id": "payroll-long-shifts",
+      "title": "Long Shift Penalties",
+      "metric": 1,
+      "metric_unit": "shift",
+      "description": "Shifts over 10 hours across 1 shop(s). OT and spread premiums may apply.",
+      "status": "attention"
+    },
+    {
+      "id": "payroll-over-40",
+      "title": "Over 40 + Vacation",
+      "metric": 0,
+      "metric_unit": "employees",
+      "description": "Hourly employees whose worked + leave exceeded 40 hrs in a week. 1 complete Mon\u2013Sun week(s) in this period.",
+      "status": "good"
+    },
+    {
+      "id": "payroll-unapproved",
+      "title": "Unapproved Timecards",
+      "metric": 7,
+      "metric_unit": "shops",
+      "description": "41 timecards still unapproved across the full pay period.",
+      "status": "attention"
+    },
+    {
+      "id": "payroll-pending-leave",
+      "title": "Pending Leave",
+      "metric": 8,
+      "metric_unit": "requests",
+      "description": "Leave requests overlapping this pay period not yet approved or denied.",
+      "status": "attention"
+    },
+    {
+      "id": "payroll-penalty-pay",
+      "title": "Penalty Pay",
+      "metric": 2,
+      "metric_unit": "shops",
+      "description": "42 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "status": "attention"
+    }
+  ]
+}
