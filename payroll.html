@@ -134,6 +134,7 @@
             <span class="tile-metric-unit">${escHtml(tile.metric_unit)}</span>
           </div>
           <p class="tile-description">${escHtml(tile.description)}</p>
+          <div class="tile-footer">${escHtml(data.meta.last_refreshed_display)}&nbsp;&nbsp;·&nbsp;&nbsp;${escHtml(data.meta.period_label)}</div>
         `;
         a.appendChild(div);
         grid.appendChild(a);
