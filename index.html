@@ -259,6 +259,14 @@
   .tile.recency-previous-week   { border-left-color: #15243d; }
   .tile.recency-future          { border-left-color: #8b5cf6; }
   .tile.recency-mock            { border-left-color: #cccccc; }
+
+  .pay-period-bar {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    color: #8ea1c4;
+    letter-spacing: 0.04em;
+  }
+  .pay-period-bar strong { color: #c8d6f0; }
 </style>
 </head>
 <body>
@@ -267,6 +275,7 @@
   <div class="brand">State &amp; Liberty</div>
   <h1 id="dashboard-title">Weekly Compliance Dashboard</h1>
   <div class="subtitle" id="dashboard-subtitle">Leadership view</div>
+  <div class="pay-period-bar" id="pay-period-bar"></div>
   <select id="shop-picker" class="shop-picker" onchange="if(this.value)window.location.href='shop-view.html?shop='+this.value"><option value="">Browse shops…</option></select>
   <a href="trends.html" class="trends-link">View Trends →</a>
 </header>
@@ -308,6 +317,46 @@
     `).join("");
   }
 
+
+  // --- Payroll period display -----------------------------------------------
+  const PAY_PERIODS = [
+    ["2025-12-27","2026-01-12","2026-01-15"],
+    ["2026-01-13","2026-01-26","2026-01-30"],
+    ["2026-01-28","2026-02-10","2026-02-13"],
+    ["2026-02-11","2026-02-24","2026-02-27"],
+    ["2026-02-25","2026-03-10","2026-03-13"],
+    ["2026-03-11","2026-03-26","2026-03-31"],
+    ["2026-03-27","2026-04-10","2026-04-15"],
+    ["2026-04-11","2026-04-27","2026-04-30"],
+    ["2026-04-28","2026-05-12","2026-05-15"],
+    ["2026-05-13","2026-05-26","2026-05-29"],
+    ["2026-05-27","2026-06-10","2026-06-15"],
+    ["2026-06-11","2026-06-25","2026-06-30"],
+    ["2026-06-26","2026-07-11","2026-07-15"],
+    ["2026-07-12","2026-07-28","2026-07-31"],
+    ["2026-07-29","2026-08-11","2026-08-14"],
+    ["2026-08-12","2026-08-26","2026-08-31"],
+    ["2026-08-27","2026-09-10","2026-09-15"],
+    ["2026-09-11","2026-09-25","2026-09-30"],
+    ["2026-09-26","2026-10-12","2026-10-15"],
+    ["2026-10-13","2026-10-27","2026-10-30"],
+    ["2026-10-28","2026-11-10","2026-11-13"],
+    ["2026-11-11","2026-11-24","2026-11-30"],
+    ["2026-11-25","2026-12-10","2026-12-15"],
+    ["2026-12-11","2026-12-28","2026-12-31"],
+  ];
+  function fmtDate(iso) {
+    const d = new Date(iso + "T12:00:00");
+    return d.toLocaleDateString("en-US", {month:"short", day:"numeric"});
+  }
+  (function() {
+    const today = new Date().toISOString().slice(0,10);
+    const pp = PAY_PERIODS.find(([s,e]) => today >= s && today <= e);
+    const bar = document.getElementById("pay-period-bar");
+    if (pp && bar) {
+      bar.innerHTML = `PAY PERIOD &nbsp;<strong>${fmtDate(pp[0])} – ${fmtDate(pp[1])}</strong>&nbsp;&nbsp;·&nbsp;&nbsp;CHECK DATE &nbsp;<strong>${fmtDate(pp[2])}</strong>`;
+    }
+  })();
 
   // --- Tile metadata: eyebrow label + recency category ---------------------
   const TILE_META = {
