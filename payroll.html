@@ -121,17 +121,22 @@
       grid.className = "tiles-grid";
 
       for (const tile of data.tiles) {
+        const a = document.createElement("a");
+        a.href = `payroll-detail.html?tile=${tile.id}`;
+        a.style.textDecoration = "none";
         const div = document.createElement("div");
         div.className = `tile status-${tile.status}`;
+        div.style.cursor = "pointer";
         div.innerHTML = `
-          <div class="tile-title">${escHtml(tile.title)}</div>
+          <div class="tile-title">${escHtml(tile.title)} <span style="float:right;font-size:0.85rem;color:#999;">→</span></div>
           <div class="tile-metric-row">
             <span class="tile-metric">${tile.metric}</span>
             <span class="tile-metric-unit">${escHtml(tile.metric_unit)}</span>
           </div>
           <p class="tile-description">${escHtml(tile.description)}</p>
         `;
-        grid.appendChild(div);
+        a.appendChild(div);
+        grid.appendChild(a);
       }
       container.appendChild(grid);
 

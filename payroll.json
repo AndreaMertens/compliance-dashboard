@@ -13,7 +13,25 @@
       "metric": 1,
       "metric_unit": "shift",
       "description": "Shifts over 10 hours across 1 shop(s). OT and spread premiums may apply.",
-      "status": "attention"
+      "status": "attention",
+      "columns": [
+        "Employee",
+        "Shop",
+        "Date",
+        "Start",
+        "End",
+        "Hours"
+      ],
+      "rows": [
+        [
+          "Jhaidyn Brown",
+          "122 Lexington",
+          "2026-04-29",
+          "10:00 AM",
+          "12:00 AM",
+          "14.00h"
+        ]
+      ]
     },
     {
       "id": "payroll-over-40",
@@ -21,7 +39,16 @@
       "metric": 0,
       "metric_unit": "employees",
       "description": "Hourly employees whose worked + leave exceeded 40 hrs in a week. 1 complete Mon\u2013Sun week(s) in this period.",
-      "status": "good"
+      "status": "good",
+      "columns": [
+        "Employee",
+        "Shop",
+        "Week",
+        "Worked",
+        "Leave",
+        "Total"
+      ],
+      "rows": []
     },
     {
       "id": "payroll-unapproved",
@@ -29,7 +56,261 @@
       "metric": 7,
       "metric_unit": "shops",
       "description": "41 timecards still unapproved across the full pay period.",
-      "status": "attention"
+      "status": "attention",
+      "columns": [
+        "Employee",
+        "Shop",
+        "Date",
+        "Hours"
+      ],
+      "rows": [
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-04-29",
+          "8.17h"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Chicago - 840 W Armitage",
+          "2026-04-29",
+          "6.15h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-04-30",
+          "8.08h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-05-01",
+          "6.92h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-05-01",
+          "0.00h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-05-01",
+          "8.08h"
+        ],
+        [
+          "Donald Crawford",
+          "Chicago - 840 W Armitage",
+          "2026-05-01",
+          "0.00h"
+        ],
+        [
+          "Donald Crawford",
+          "Chicago - 840 W Armitage",
+          "2026-05-01",
+          "0.00h"
+        ],
+        [
+          "Donald Crawford",
+          "Chicago - 840 W Armitage",
+          "2026-05-01",
+          "8.12h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-05-02",
+          "8.15h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-05-02",
+          "8.08h"
+        ],
+        [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-05-02",
+          "8.10h"
+        ],
+        [
+          "Donald Crawford",
+          "Chicago - 840 W Armitage",
+          "2026-05-02",
+          "7.03h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-05-03",
+          "8.12h"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Chicago - 840 W Armitage",
+          "2026-05-03",
+          "7.43h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-05-03",
+          "8.10h"
+        ],
+        [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-05-03",
+          "8.15h"
+        ],
+        [
+          "James Robinson",
+          "17250 Omaha",
+          "2026-04-30",
+          "7.80h"
+        ],
+        [
+          "Christian Van Dam",
+          "17250 Omaha",
+          "2026-04-30",
+          "8.87h"
+        ],
+        [
+          "Thomas Blackadar",
+          "17250 Omaha",
+          "2026-04-30",
+          "7.82h"
+        ],
+        [
+          "James Robinson",
+          "17250 Omaha",
+          "2026-05-01",
+          "7.68h"
+        ],
+        [
+          "Christian Van Dam",
+          "17250 Omaha",
+          "2026-05-01",
+          "9.12h"
+        ],
+        [
+          "Thomas Blackadar",
+          "17250 Omaha",
+          "2026-05-01",
+          "7.90h"
+        ],
+        [
+          "James Robinson",
+          "17250 Omaha",
+          "2026-05-02",
+          "7.62h"
+        ],
+        [
+          "Thomas Blackadar",
+          "17250 Omaha",
+          "2026-05-02",
+          "7.58h"
+        ],
+        [
+          "Christian Van Dam",
+          "17250 Omaha",
+          "2026-05-03",
+          "4.57h"
+        ],
+        [
+          "Thomas Blackadar",
+          "17250 Omaha",
+          "2026-05-03",
+          "4.60h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-05-02",
+          "6.35h"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
+          "2026-05-02",
+          "8.37h"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "DC - 3101 M St",
+          "2026-05-02",
+          "8.17h"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "DC - 3101 M St",
+          "2026-05-02",
+          "8.17h"
+        ],
+        [
+          "Noah Hoskinson",
+          "DC - 3101 M St",
+          "2026-05-02",
+          "8.40h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-05-03",
+          "7.70h"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "DC - 3101 M St",
+          "2026-05-03",
+          "8.37h"
+        ],
+        [
+          "Micah Wheeler",
+          "DC - 3101 M St",
+          "2026-05-03",
+          "8.30h"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "DC - 3101 M St",
+          "2026-05-03",
+          "8.37h"
+        ],
+        [
+          "Ashley Hayes",
+          "Nashville - 5th + Broadway",
+          "2026-05-02",
+          "7.87h"
+        ],
+        [
+          "Ashley Hayes",
+          "Nashville - 5th + Broadway",
+          "2026-05-03",
+          "8.03h"
+        ],
+        [
+          "Angelina Akdis",
+          "HQ - Operations",
+          "2026-04-28",
+          "6.03h"
+        ],
+        [
+          "Fred Hilaire",
+          "Birmingham - 141 W Maple",
+          "2026-05-01",
+          "8.00h"
+        ],
+        [
+          "Joshua Schilling",
+          "333 Milwaukee",
+          "2026-05-02",
+          "8.68h"
+        ]
+      ]
     },
     {
       "id": "payroll-pending-leave",
@@ -37,7 +318,63 @@
       "metric": 8,
       "metric_unit": "requests",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
-      "status": "attention"
+      "status": "attention",
+      "columns": [
+        "Employee",
+        "Date Start",
+        "Date End",
+        "Note"
+      ],
+      "rows": [
+        [
+          "farhan Khandaker",
+          "2026-05-09",
+          "2026-05-11",
+          "Wedding "
+        ],
+        [
+          "Sean Kelley",
+          "2026-05-10",
+          "2026-05-10",
+          "Out of town"
+        ],
+        [
+          "Sasha Jones",
+          "2026-05-09",
+          "2026-05-09",
+          ":)"
+        ],
+        [
+          "Marquis Majors",
+          "2026-05-07",
+          "2026-05-08",
+          "Vacation "
+        ],
+        [
+          "Sophia Behar",
+          "2026-05-08",
+          "2026-05-08",
+          "Request off \n"
+        ],
+        [
+          "Kellen Slattery",
+          "2026-05-03",
+          "2026-05-03",
+          "Personal"
+        ],
+        [
+          "Ivory Turner",
+          "2026-05-01",
+          "2026-05-01",
+          "Please approve "
+        ],
+        [
+          "Anna Ilina",
+          "2026-04-30",
+          "2026-04-30",
+          "Sick "
+        ]
+      ]
     },
     {
       "id": "payroll-penalty-pay",
@@ -45,7 +382,310 @@
       "metric": 2,
       "metric_unit": "shops",
       "description": "42 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
-      "status": "attention"
+      "status": "attention",
+      "columns": [
+        "Employee",
+        "Shop",
+        "Date",
+        "Type",
+        "Hours"
+      ],
+      "rows": [
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-29",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-04-30",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-04-30",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-04-30",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-30",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-30",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-04-30",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-01",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-01",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-01",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-01",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-03",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-03",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-03",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Andrew Bell",
+          "Philadelphia - 1702 Walnut",
+          "2026-04-30",
+          "SCHEDULE PREMIUM - 14 DAYS",
+          "0.00h"
+        ]
+      ]
     }
   ]
 }
