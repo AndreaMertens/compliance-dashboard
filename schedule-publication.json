@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: May 6 \u2192 May 27, 2026",
-    "summary_line": "6 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Wed May 6, 11:52 AM",
+    "summary_line": "1 action needed \u00b7 10 heads up",
+    "last_refreshed_display": "Data through Wed May 6, 9:22 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,45 +14,10 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Philadelphia - 1702 Walnut",
+          "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 39,
-          "gap_days": 10,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "Indianapolis - 8702 Keystone Crossing",
-          "manager": "",
-          "draft_count": 33,
-          "gap_days": 10,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Kansas City - 321 Nichols Rd",
-          "manager": "",
-          "draft_count": 14,
-          "gap_days": 10,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "2900 Minneapolis",
-          "manager": "",
-          "draft_count": 12,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "New York - 57 Spring",
-          "manager": "",
-          "draft_count": 6,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "122 Lexington",
-          "manager": "",
-          "draft_count": 0,
-          "gap_days": 0,
+          "draft_count": 3,
+          "gap_days": 1,
           "lookahead_days": 14
         }
       ]
@@ -63,6 +28,27 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
+          "shop": "Birmingham - 141 W Maple",
+          "manager": "",
+          "draft_count": 28,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "234 Bellevue Square",
+          "manager": "",
+          "draft_count": 12,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "122 Lexington",
+          "manager": "",
+          "draft_count": 6,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "1425 Basecamp",
           "manager": "",
           "draft_count": 5,
@@ -72,26 +58,33 @@
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 4,
           "gap_days": 0,
           "lookahead_days": 21
         },
         {
-          "shop": "Newport Beach - Fashion Island",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Dallas - 3699 McKinney",
+          "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
           "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "1000 Pittsburgh",
+          "shop": "2900 Minneapolis",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "4002 Columbus",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "696 Lynnfield",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
