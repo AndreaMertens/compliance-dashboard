@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "4 pending leave requests across 4 shops",
-    "last_refreshed_display": "Data through Wed May 6, 2026",
+    "summary_line": "5 pending leave requests across 5 shops",
+    "last_refreshed_display": "Data through Sun May 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -28,15 +28,28 @@
       ]
     },
     {
-      "shop": "333 Milwaukee",
+      "shop": "1151 Roseville",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Ivory Turner",
-          "2026-05-01",
-          "2026-05-01",
-          "Please approve "
+          "Sasha Jones",
+          "2026-05-09",
+          "2026-05-09",
+          ":)"
+        ]
+      ]
+    },
+    {
+      "shop": "1425 Basecamp",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Justin Wascher",
+          "2026-05-02",
+          "2026-05-02",
+          "Sick"
         ]
       ]
     },

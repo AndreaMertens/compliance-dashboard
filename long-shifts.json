@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Long Shift Penalties",
-    "subtitle": "Week of Apr 27 \u2013 May 3, 2026",
-    "summary_line": "4 flagged shifts across 4 shops \u2014 4 OT, 2 over 11 hrs",
-    "last_refreshed_display": "Data through Wed May 6, 2026",
+    "subtitle": "Week of May 4\u201310, 2026",
+    "summary_line": "6 flagged shifts across 4 shops \u2014 5 OT, 1 over 11 hrs",
+    "last_refreshed_display": "Data through Sun May 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -18,49 +18,35 @@
   ],
   "groups": [
     {
-      "shop": "122 Lexington",
-      "manager": "Craig Somma",
-      "count": 1,
+      "shop": "Boston - 201 Newbury Street",
+      "manager": "Brian Ward, Kyle Harwood, Katie Litchfield",
+      "count": 3,
       "rows": [
         [
-          "Jhaidyn Brown",
-          "Wed Apr 29",
-          "10:00 AM",
-          "12:00 AM",
-          "14.00",
-          "55.00 (OT)",
-          "OT \u00b7 Over 11"
-        ]
-      ]
-    },
-    {
-      "shop": "17250 Omaha",
-      "manager": "Christian Van Dam",
-      "count": 1,
-      "rows": [
+          "William Gardner",
+          "Sat May 9",
+          "9:30 AM",
+          "7:45 PM",
+          "10.25",
+          "42.90 (OT)",
+          "OT"
+        ],
         [
-          "Christian Van Dam",
-          "Mon Apr 27",
-          "11:02 AM",
-          "11:12 PM",
-          "12.17",
-          "46.46 (OT)",
-          "OT \u00b7 Over 11"
-        ]
-      ]
-    },
-    {
-      "shop": "696 Lynnfield",
-      "manager": "Mike LeGree",
-      "count": 1,
-      "rows": [
+          "Anne Malloy",
+          "Sat May 9",
+          "9:19 AM",
+          "7:28 PM",
+          "10.15",
+          "41.88 (OT)",
+          "OT"
+        ],
         [
-          "Chanthan Hing",
-          "Sat May 2",
-          "8:45 AM",
-          "7:13 PM",
-          "10.47",
-          "43.59 (OT)",
+          "Ryan King",
+          "Sat May 9",
+          "9:40 AM",
+          "7:47 PM",
+          "10.12",
+          "41.72 (OT)",
           "OT"
         ]
       ]
@@ -72,11 +58,43 @@
       "rows": [
         [
           "Dillon Stanas",
-          "Fri May 1",
-          "8:57 AM",
-          "7:14 PM",
-          "10.28",
-          "43.24 (OT)",
+          "Fri May 8",
+          "8:59 AM",
+          "7:17 PM",
+          "10.30",
+          "43.19 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "Matt Russell",
+      "count": 1,
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Wed May 6",
+          "12:06 PM",
+          "11:18 PM",
+          "11.20",
+          "39.39",
+          "Over 11"
+        ]
+      ]
+    },
+    {
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "Taylor Chase, Marquis Majors",
+      "count": 1,
+      "rows": [
+        [
+          "Bo Kenney",
+          "Fri May 8",
+          "12:59 PM",
+          "11:21 PM",
+          "10.37",
+          "43.68 (OT)",
           "OT"
         ]
       ]
