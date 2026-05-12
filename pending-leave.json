@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "5 pending leave requests across 5 shops",
+    "summary_line": "7 pending leave requests across 6 shops",
     "last_refreshed_display": "Data through Sun May 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -56,8 +56,14 @@
     {
       "shop": "Birmingham - 141 W Maple",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Anna Ilina",
+          "2026-05-09",
+          "2026-05-10",
+          "Sick"
+        ],
         [
           "Anna Ilina",
           "2026-04-30",
@@ -76,6 +82,19 @@
           "2026-04-25",
           "2026-04-25",
           "PTO Adjustment"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - 57 Spring",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "2026-05-10",
+          "2026-05-10",
+          "PTO"
         ]
       ]
     }

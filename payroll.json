@@ -1116,7 +1116,7 @@
     {
       "id": "payroll-pending-leave",
       "title": "Pending Leave",
-      "metric": 4,
+      "metric": 8,
       "metric_unit": "requests",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
       "status": "attention",
@@ -1127,6 +1127,30 @@
         "Note"
       ],
       "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "2026-05-12",
+          "2026-05-12",
+          "PTO"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "2026-05-11",
+          "2026-05-11",
+          "PTO"
+        ],
+        [
+          "Anna Ilina",
+          "2026-05-09",
+          "2026-05-10",
+          "Sick"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "2026-05-10",
+          "2026-05-10",
+          "PTO"
+        ],
         [
           "Sasha Jones",
           "2026-05-09",
