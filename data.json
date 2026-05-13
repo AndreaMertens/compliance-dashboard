@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of May 4\u201310, 2026",
-    "generated_at": "2026-05-13T12:28:20.979936",
-    "generated_at_display": "Generated May 13, 12:28 PM"
+    "generated_at": "2026-05-13T13:25:48.183158",
+    "generated_at_display": "Generated May 13, 1:25 PM"
   },
   "summary": [],
   "sections": [
@@ -43,7 +43,7 @@
           "metric_unit": " \u00b7 8 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed May 13, 12:28 PM",
+          "last_refreshed_display": "Data through Wed May 13, 1:25 PM",
           "covers_label": "Compliance window: next 21 days from 2026-05-13",
           "is_mock": false
         },
@@ -128,7 +128,7 @@
           "id": "pending-leave",
           "title": "Pending Leave Approvals",
           "review_day": "Monday",
-          "metric": 7,
+          "metric": 6,
           "metric_unit": "pending",
           "description": "Leave submitted for a past work week not yet approved or denied.",
           "status": "attention",

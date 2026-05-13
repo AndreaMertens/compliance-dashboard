@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "7 pending leave requests across 6 shops",
+    "summary_line": "6 pending leave requests across 5 shops",
     "last_refreshed_display": "Data through Sun May 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -15,6 +15,19 @@
   ],
   "groups": [
     {
+      "shop": "1000 Pittsburgh",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Denniel Weis",
+          "2026-05-03",
+          "2026-05-03",
+          "fill my hours on 5/3"
+        ]
+      ]
+    },
+    {
       "shop": "10250 Century City",
       "manager": "",
       "count": 1,
@@ -24,19 +37,6 @@
           "2026-05-03",
           "2026-05-03",
           "Personal"
-        ]
-      ]
-    },
-    {
-      "shop": "1151 Roseville",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Sasha Jones",
-          "2026-05-09",
-          "2026-05-09",
-          ":)"
         ]
       ]
     },
@@ -82,19 +82,6 @@
           "2026-04-25",
           "2026-04-25",
           "PTO Adjustment"
-        ]
-      ]
-    },
-    {
-      "shop": "New York - 57 Spring",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Lekwan Massey-Phillips",
-          "2026-05-10",
-          "2026-05-10",
-          "PTO"
         ]
       ]
     }
