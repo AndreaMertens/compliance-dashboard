@@ -4,15 +4,15 @@
     "check_label": "May 15, 2026",
     "period_start": "2026-04-28",
     "period_end": "2026-05-12",
-    "last_refreshed_display": "Generated Wed May 13, 2026"
+    "last_refreshed_display": "Generated Thu May 14, 2026"
   },
   "tiles": [
     {
       "id": "payroll-long-shifts",
       "title": "Long Shift Penalties",
-      "metric": 16,
+      "metric": 19,
       "metric_unit": "shifts",
-      "description": "Shifts over 10 hours across 8 shop(s). OT and spread premiums may apply.",
+      "description": "Shifts over 10 hours across 9 shop(s). OT and spread premiums may apply.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -46,6 +46,22 @@
           "12:06 PM",
           "11:18 PM",
           "11.20h"
+        ],
+        [
+          "Gloria Alexander",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-05-11",
+          "12:06 PM",
+          "11:06 PM",
+          "11.00h"
+        ],
+        [
+          "Ivan Rhodes",
+          "Tampa - 2223 N Westshore",
+          "2026-05-11",
+          "9:08 AM",
+          "7:44 PM",
+          "10.60h"
         ],
         [
           "Chanthan Hing",
@@ -126,6 +142,14 @@
           "9:52 AM",
           "8:04 PM",
           "10.20h"
+        ],
+        [
+          "Toronto Eschrich",
+          "629 Alexandria",
+          "2026-05-12",
+          "10:45 AM",
+          "8:56 PM",
+          "10.18h"
         ],
         [
           "Anne Malloy",
@@ -292,7 +316,7 @@
       "title": "Penalty Pay",
       "metric": 2,
       "metric_unit": "shops",
-      "description": "59 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "description": "109 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
       "status": "attention",
       "columns": [
         "Employee",
@@ -709,6 +733,356 @@
           "0.00h"
         ],
         [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-07",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-08",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Eric Schurhamer",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Eric Schurhamer",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Eric Schurhamer",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-09",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-10",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-10",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-10",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-11",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-05-12",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
           "Andrew Bell",
           "Philadelphia - 1702 Walnut",
           "2026-04-30",
@@ -720,9 +1094,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 45,
+      "metric": 22,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 5 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 3 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -741,6 +1115,12 @@
           "Mailon Williams",
           "10250 Century City",
           "2026-05-04",
+          "8.00h"
+        ],
+        [
+          "Mailon Williams",
+          "10250 Century City",
+          "2026-05-11",
           "8.00h"
         ],
         [
@@ -810,156 +1190,6 @@
           "5.95h"
         ],
         [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-04-29",
-          "8.27h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-04-30",
-          "8.48h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-01",
-          "8.15h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-02",
-          "8.15h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-03",
-          "6.12h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-04",
-          "2.18h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-07",
-          "8.20h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-08",
-          "8.68h"
-        ],
-        [
-          "Kelly Sears",
-          "7878 Cincinnati",
-          "2026-05-09",
-          "8.15h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-04-28",
-          "8.15h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-01",
-          "7.90h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-02",
-          "7.95h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-03",
-          "7.25h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-04",
-          "8.18h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-05",
-          "8.15h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-06",
-          "8.17h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-09",
-          "8.37h"
-        ],
-        [
-          "Christian Somma",
-          "Charleston",
-          "2026-05-10",
-          "6.22h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-04-28",
-          "8.03h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-04-29",
-          "7.73h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-05-04",
-          "8.23h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-05-05",
-          "8.17h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-05-06",
-          "8.22h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-05-09",
-          "8.37h"
-        ],
-        [
-          "Jarell Davis",
-          "Charleston",
-          "2026-05-10",
-          "7.53h"
-        ],
-        [
           "Mailon Williams",
           "Manhattan Beach - The Point",
           "2026-04-30",
@@ -999,6 +1229,12 @@
           "Mailon Williams",
           "Manhattan Beach - The Point",
           "2026-05-10",
+          "8.00h"
+        ],
+        [
+          "Mailon Williams",
+          "Manhattan Beach - The Point",
+          "2026-05-12",
           "8.00h"
         ]
       ]
