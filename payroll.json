@@ -4,15 +4,15 @@
     "check_label": "May 15, 2026",
     "period_start": "2026-04-28",
     "period_end": "2026-05-12",
-    "last_refreshed_display": "Generated Thu May 14, 2026"
+    "last_refreshed_display": "Generated Fri May 15, 2026"
   },
   "tiles": [
     {
       "id": "payroll-long-shifts",
       "title": "Long Shift Penalties",
-      "metric": 19,
+      "metric": 18,
       "metric_unit": "shifts",
-      "description": "Shifts over 10 hours across 9 shop(s). OT and spread premiums may apply.",
+      "description": "Shifts over 10 hours across 8 shop(s). OT and spread premiums may apply.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -23,14 +23,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Thomas Blackadar",
-          "17250 Omaha",
-          "2026-05-10",
-          "12:55 PM",
-          "11:55 AM",
-          "23.00h"
-        ],
         [
           "Jhaidyn Brown",
           "122 Lexington",
@@ -246,24 +238,17 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 1,
-      "metric_unit": "shop",
-      "description": "1 timecards still unapproved across the full pay period.",
-      "status": "attention",
+      "metric": 0,
+      "metric_unit": "shops",
+      "description": "0 timecards still unapproved across the full pay period.",
+      "status": "good",
       "columns": [
         "Employee",
         "Shop",
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Thomas Blackadar",
-          "17250 Omaha",
-          "2026-05-10",
-          "23.00h"
-        ]
-      ]
+      "rows": []
     },
     {
       "id": "payroll-pending-leave",
@@ -1094,7 +1079,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 22,
+      "metric": 23,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 3 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -1188,6 +1173,12 @@
           "17250 Omaha",
           "2026-05-10",
           "5.95h"
+        ],
+        [
+          "Thomas Blackadar",
+          "17250 Omaha",
+          "2026-05-10",
+          "5.57h"
         ],
         [
           "Mailon Williams",
