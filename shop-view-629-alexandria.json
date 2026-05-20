@@ -2,10 +2,10 @@
   "meta": {
     "title": "629 Alexandria",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -35,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Toronto Eschrich",
+          "Tue May 12",
+          "10:45 AM",
+          "8:56 PM",
+          "10.18",
+          "44.97 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "break-compliance",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "23 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 23
   },
   "tiles": [
     {
@@ -21,35 +21,21 @@
       ],
       "rows": [
         [
-          "2026-04-20",
-          "Yotwarit Kornwoodtikun",
-          "11:00 AM",
-          "11:24 AM",
-          "24"
-        ],
-        [
-          "2026-04-21",
-          "Noah Hoskinson",
-          "10:00 AM",
-          "10:13 AM",
-          "13"
-        ],
-        [
-          "2026-04-22",
-          "Noah Hoskinson",
-          "10:00 AM",
-          "10:20 AM",
-          "20"
-        ],
-        [
-          "2026-04-23",
+          "2026-05-13",
           "Noah Hoskinson",
           "10:00 AM",
           "10:15 AM",
           "15"
+        ],
+        [
+          "2026-05-17",
+          "Bryce Martin",
+          "11:00 AM",
+          "2:02 PM",
+          "182"
         ]
       ],
-      "count": 4
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -86,8 +72,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Bryce Martin",
+          "38.24",
+          "16.00",
+          "54.24",
+          "+14.24"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -98,8 +92,109 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Bryce Martin",
+          "Wed May 13",
+          "8.35"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Wed May 13",
+          "7.80"
+        ],
+        [
+          "Micah Wheeler",
+          "Wed May 13",
+          "8.35"
+        ],
+        [
+          "Noah Hoskinson",
+          "Wed May 13",
+          "8.30"
+        ],
+        [
+          "Bryce Martin",
+          "Thu May 14",
+          "8.28"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "Thu May 14",
+          "8.23"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "Thu May 14",
+          "8.23"
+        ],
+        [
+          "Noah Hoskinson",
+          "Thu May 14",
+          "7.97"
+        ],
+        [
+          "Bryce Martin",
+          "Fri May 15",
+          "8.53"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri May 15",
+          "8.28"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "Fri May 15",
+          "8.63"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri May 15",
+          "8.70"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "Fri May 15",
+          "8.63"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat May 16",
+          "8.55"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "Sat May 16",
+          "8.02"
+        ],
+        [
+          "Zafit Olea Padilla",
+          "Sat May 16",
+          "8.02"
+        ],
+        [
+          "Noah Hoskinson",
+          "Sat May 16",
+          "8.32"
+        ],
+        [
+          "Bryce Martin",
+          "Sun May 17",
+          "5.08"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun May 17",
+          "8.33"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun May 17",
+          "8.37"
+        ]
+      ],
+      "count": 20
     }
   ]
 }

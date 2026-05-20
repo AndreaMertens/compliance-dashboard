@@ -2,10 +2,10 @@
   "meta": {
     "title": "1151 Roseville",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -21,28 +21,14 @@
       ],
       "rows": [
         [
-          "2026-04-21",
-          "Sasha Jones",
-          "2:00 PM",
-          "2:06 PM",
-          "6"
-        ],
-        [
-          "2026-04-24",
-          "Daniel Lessard",
-          "3:45 PM",
-          "4:00 PM",
-          "15"
-        ],
-        [
-          "2026-04-25",
-          "Danielle Woody",
-          "2:00 PM",
-          "2:06 PM",
-          "6"
+          "2026-05-15",
+          "Inessa Samusenko",
+          "12:30 PM",
+          "12:38 PM",
+          "8"
         ]
       ],
-      "count": 3
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -91,8 +77,44 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Inessa Samusenko",
+          "Fri May 15",
+          "7.95"
+        ],
+        [
+          "Daniel Lessard",
+          "Fri May 15",
+          "8.02"
+        ],
+        [
+          "Sasha Jones",
+          "Sat May 16",
+          "8.05"
+        ],
+        [
+          "Daniel Lessard",
+          "Sat May 16",
+          "8.02"
+        ],
+        [
+          "Danielle Woody",
+          "Sun May 17",
+          "8.40"
+        ],
+        [
+          "Sasha Jones",
+          "Sun May 17",
+          "9.18"
+        ],
+        [
+          "Daniel Lessard",
+          "Sun May 17",
+          "8.57"
+        ]
+      ],
+      "count": 7
     }
   ]
 }

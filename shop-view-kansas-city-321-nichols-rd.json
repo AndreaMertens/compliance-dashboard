@@ -2,10 +2,10 @@
   "meta": {
     "title": "Kansas City - 321 Nichols Rd",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-04-23",
-          "Charles Wolff",
-          "10:00 AM",
-          "10:18 AM",
-          "18"
-        ],
-        [
-          "2026-04-24",
-          "Charles Wolff",
-          "10:00 AM",
-          "10:23 AM",
-          "23"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -50,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Kweshaan Thomas",
+          "Wed May 13",
+          "10:50 AM",
+          "9:53 PM",
+          "11.05",
+          "43.47 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "break-compliance",

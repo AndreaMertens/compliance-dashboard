@@ -2,10 +2,10 @@
   "meta": {
     "title": "1000 Pittsburgh",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-05-11",
+          "Johnathan Rhodes",
+          "12:00 PM",
+          "12:08 PM",
+          "8"
+        ],
+        [
+          "2026-05-15",
+          "Johnathan Rhodes",
+          "1:00 PM",
+          "1:09 PM",
+          "9"
+        ],
+        [
+          "2026-05-16",
+          "Johnathan Rhodes",
+          "1:00 PM",
+          "1:10 PM",
+          "10"
+        ],
+        [
+          "2026-05-17",
+          "Denniel Weis",
+          "11:00 AM",
+          "11:12 AM",
+          "12"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -57,16 +86,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Jabraun Johnson",
-          "39.84",
-          "7.50",
-          "47.34",
-          "+7.34"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

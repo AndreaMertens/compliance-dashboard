@@ -2,10 +2,10 @@
   "meta": {
     "title": "Miami - Brickell",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,42 +21,56 @@
       ],
       "rows": [
         [
-          "2026-04-20",
+          "2026-05-11",
           "Gabriel Gonzalez",
+          "10:30 AM",
+          "10:47 AM",
+          "17"
+        ],
+        [
+          "2026-05-12",
+          "Glen Noel",
+          "10:30 AM",
+          "10:36 AM",
+          "6"
+        ],
+        [
+          "2026-05-14",
+          "Gabriel Gonzalez",
+          "8:00 AM",
+          "8:34 AM",
+          "34"
+        ],
+        [
+          "2026-05-15",
+          "Gabriel Gonzalez",
+          "12:00 PM",
+          "12:22 PM",
+          "22"
+        ],
+        [
+          "2026-05-15",
+          "Gustavo Daza",
+          "1:00 PM",
+          "1:08 PM",
+          "8"
+        ],
+        [
+          "2026-05-16",
+          "Gabriel Gonzalez",
+          "10:30 AM",
+          "11:18 AM",
+          "48"
+        ],
+        [
+          "2026-05-17",
+          "Gustavo Daza",
           "11:00 AM",
           "11:08 AM",
           "8"
-        ],
-        [
-          "2026-04-22",
-          "Gabriel Gonzalez",
-          "10:30 AM",
-          "10:38 AM",
-          "8"
-        ],
-        [
-          "2026-04-23",
-          "Glen Noel",
-          "12:00 PM",
-          "12:28 PM",
-          "28"
-        ],
-        [
-          "2026-04-23",
-          "Gabriel Gonzalez",
-          "8:00 AM",
-          "8:14 AM",
-          "14"
-        ],
-        [
-          "2026-04-26",
-          "Gabriel Gonzalez",
-          "10:30 AM",
-          "10:38 AM",
-          "8"
         ]
       ],
-      "count": 5
+      "count": 7
     },
     {
       "id": "long-shifts",
@@ -93,16 +107,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Alejandro Rojas",
-          "40.45",
-          "8.00",
-          "48.45",
-          "+8.45"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

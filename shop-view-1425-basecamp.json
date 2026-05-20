@@ -2,10 +2,10 @@
   "meta": {
     "title": "1425 Basecamp",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-04-20",
+          "2026-05-11",
           "Connor Dominiec",
           "12:00 PM",
-          "12:47 PM",
-          "47"
+          "12:43 PM",
+          "43"
+        ],
+        [
+          "2026-05-13",
+          "Connor Dominiec",
+          "12:00 PM",
+          "12:36 PM",
+          "36"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -68,10 +75,10 @@
       "rows": [
         [
           "Connor Dominiec",
-          "34.21",
-          "7.50",
-          "41.71",
-          "+1.71"
+          "34.48",
+          "15.00",
+          "49.48",
+          "+9.48"
         ]
       ],
       "count": 1
@@ -85,8 +92,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Justin Wascher",
+          "Sun May 17",
+          "8.37"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

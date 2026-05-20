@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,35 +21,14 @@
       ],
       "rows": [
         [
-          "2026-04-22",
-          "Thomas Blackadar",
-          "11:00 AM",
-          "11:48 AM",
-          "48"
-        ],
-        [
-          "2026-04-22",
+          "2026-05-14",
           "Christian Van Dam",
-          "10:30 AM",
-          "11:04 AM",
-          "34"
-        ],
-        [
-          "2026-04-23",
-          "Christian Van Dam",
-          "10:30 AM",
-          "10:47 AM",
-          "17"
-        ],
-        [
-          "2026-04-23",
-          "Thomas Blackadar",
           "11:00 AM",
-          "11:14 AM",
-          "14"
+          "3:21 PM",
+          "261"
         ]
       ],
-      "count": 4
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -64,27 +43,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Christian Van Dam",
-          "Tue Apr 21",
-          "8:21 AM",
-          "7:00 PM",
-          "10.65",
-          "61.90 (OT)",
-          "OT"
-        ],
-        [
-          "Thomas Blackadar",
-          "Fri Apr 24",
-          "10:15 AM",
-          "8:39 PM",
-          "10.40",
-          "59.66 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "break-compliance",
@@ -105,16 +65,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Thomas Blackadar",
-          "59.66",
-          "8.00",
-          "67.66",
-          "+27.66"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -125,8 +77,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sun May 17",
+          "7.38"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-04-26",
-          "Trent Bansak",
-          "10:00 AM",
-          "10:42 AM",
-          "42"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
