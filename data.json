@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of May 11\u201317, 2026",
-    "generated_at": "2026-05-20T10:14:42.959421",
-    "generated_at_display": "Generated May 20, 10:14 AM"
+    "generated_at": "2026-05-22T07:02:09.231320",
+    "generated_at_display": "Generated May 22, 7:02 AM"
   },
   "summary": [],
   "sections": [
@@ -19,7 +19,7 @@
           "metric_unit": "managers flagged",
           "description": "26 managers flagged \u2014 23 short on days \u00b7 3 short on hours only.",
           "status": "alert",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         },
@@ -31,7 +31,7 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "ok",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         },
@@ -39,23 +39,23 @@
           "id": "schedule-publication",
           "title": "Schedule Publication",
           "review_day": "Monday",
-          "metric": 5,
-          "metric_unit": " \u00b7 8 heads up",
+          "metric": 2,
+          "metric_unit": " \u00b7 5 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed May 20, 10:14 AM",
-          "covers_label": "Compliance window: next 21 days from 2026-05-20",
+          "last_refreshed_display": "Data through Fri May 22, 7:02 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-05-22",
           "is_mock": false
         },
         {
           "id": "manual-punches",
           "title": "Manual Punches",
           "review_day": "Monday",
-          "metric": "24.0%",
+          "metric": "24.2%",
           "metric_unit": "last week",
           "description": "2026 avg: 20.6%. 25 managers above 20% YTD threshold.",
           "status": "attention",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "YTD through 2026-05-17",
           "is_mock": false
         }
@@ -72,7 +72,7 @@
           "metric_unit": "tardy clock-ins",
           "description": "Hourly employees clocked in >5 min after scheduled start. Spans 31 shop(s).",
           "status": "attention",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         },
@@ -80,11 +80,11 @@
           "id": "long-shifts",
           "title": "Long Shift Penalties",
           "review_day": "Wednesday",
-          "metric": 4,
+          "metric": 5,
           "metric_unit": "shifts flagged",
-          "description": "Across 4 shops last week \u2014 4 OT, 1 over 11 hrs.",
+          "description": "Across 5 shops last week \u2014 5 OT, 1 over 11 hrs.",
           "status": "watch",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         },
@@ -108,7 +108,7 @@
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         },
@@ -116,11 +116,11 @@
           "id": "unapproved-timecards",
           "title": "Unapproved Timecards",
           "review_day": "Wednesday",
-          "metric": 11,
+          "metric": 4,
           "metric_unit": "shops outstanding",
-          "description": "68 timecards still unapproved past the 3-day grace period.",
+          "description": "24 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         },
@@ -132,7 +132,7 @@
           "metric_unit": "pending",
           "description": "Leave submitted for a past work week not yet approved or denied.",
           "status": "attention",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Prior completed weeks",
           "is_mock": false
         },
@@ -142,9 +142,9 @@
           "review_day": "Wednesday",
           "metric": 2,
           "metric_unit": "shops with penalties",
-          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 24 penalty events.",
+          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 47 penalty events.",
           "status": "attention",
-          "last_refreshed_display": "Data through Mon May 18, 2026",
+          "last_refreshed_display": "Data through Fri May 22, 2026",
           "covers_label": "Covers May 11 \u2013 May 17",
           "is_mock": false
         }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: May 20 \u2192 Jun 10, 2026",
-    "summary_line": "5 action needed \u00b7 8 heads up",
-    "last_refreshed_display": "Data through Wed May 20, 10:14 AM",
+    "subtitle": "Window: May 22 \u2192 Jun 12, 2026",
+    "summary_line": "2 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Fri May 22, 7:02 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,38 +14,17 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Birmingham - 141 W Maple",
-          "manager": "",
-          "draft_count": 122,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "2900 Minneapolis",
-          "manager": "",
-          "draft_count": 19,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 14,
-          "gap_days": 3,
+          "draft_count": 23,
+          "gap_days": 5,
           "lookahead_days": 21
-        },
-        {
-          "shop": "Tampa - 2223 N Westshore",
-          "manager": "",
-          "draft_count": 13,
-          "gap_days": 3,
-          "lookahead_days": 14
         },
         {
           "shop": "New York - Flatiron",
           "manager": "",
-          "draft_count": 11,
-          "gap_days": 3,
+          "draft_count": 19,
+          "gap_days": 5,
           "lookahead_days": 14
         }
       ]
@@ -56,58 +35,37 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
+          "shop": "Birmingham - 141 W Maple",
+          "manager": "",
+          "draft_count": 53,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
-          "draft_count": 11,
+          "draft_count": 13,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "122 Lexington",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 7,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 3,
+          "draft_count": 5,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "Scottsdale - Scottsdale Quarte",
           "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "Charleston",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Kansas City - 321 Nichols Rd",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "New York - 57 Spring",
-          "manager": "",
-          "draft_count": 1,
+          "draft_count": 5,
           "gap_days": 0,
           "lookahead_days": 14
         }
