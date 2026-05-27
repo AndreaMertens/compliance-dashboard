@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of May 11\u201317, 2026",
-    "summary_line": "4 shops \u00b7 24 timecards outstanding",
-    "last_refreshed_display": "Data through Fri May 22, 2026",
+    "subtitle": "Week of May 18\u201324, 2026",
+    "summary_line": "3 shops \u00b7 6 timecards outstanding",
+    "last_refreshed_display": "Data through Sun May 31, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,150 +14,53 @@
   ],
   "groups": [
     {
-      "shop": "DC - 3101 M St",
-      "manager": "Danny Ismail",
-      "count": 20,
-      "rows": [
-        [
-          "Bryce Martin",
-          "Wed May 13",
-          "8.35"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Wed May 13",
-          "7.80"
-        ],
-        [
-          "Micah Wheeler",
-          "Wed May 13",
-          "8.35"
-        ],
-        [
-          "Noah Hoskinson",
-          "Wed May 13",
-          "8.30"
-        ],
-        [
-          "Bryce Martin",
-          "Thu May 14",
-          "8.28"
-        ],
-        [
-          "Zafit Olea Padilla",
-          "Thu May 14",
-          "8.23"
-        ],
-        [
-          "Zafit Olea Padilla",
-          "Thu May 14",
-          "8.23"
-        ],
-        [
-          "Noah Hoskinson",
-          "Thu May 14",
-          "7.97"
-        ],
-        [
-          "Bryce Martin",
-          "Fri May 15",
-          "8.53"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Fri May 15",
-          "8.28"
-        ],
-        [
-          "Zafit Olea Padilla",
-          "Fri May 15",
-          "8.63"
-        ],
-        [
-          "Micah Wheeler",
-          "Fri May 15",
-          "8.70"
-        ],
-        [
-          "Zafit Olea Padilla",
-          "Fri May 15",
-          "8.63"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Sat May 16",
-          "8.55"
-        ],
-        [
-          "Zafit Olea Padilla",
-          "Sat May 16",
-          "8.02"
-        ],
-        [
-          "Zafit Olea Padilla",
-          "Sat May 16",
-          "8.02"
-        ],
-        [
-          "Noah Hoskinson",
-          "Sat May 16",
-          "8.32"
-        ],
-        [
-          "Bryce Martin",
-          "Sun May 17",
-          "5.08"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Sun May 17",
-          "8.33"
-        ],
-        [
-          "Micah Wheeler",
-          "Sun May 17",
-          "8.37"
-        ]
-      ]
-    },
-    {
-      "shop": "Chicago - 840 W Armitage",
-      "manager": "Agnes Krol",
-      "count": 2,
-      "rows": [
-        [
-          "Holden Tamblyn",
-          "Sat May 16",
-          "0.00"
-        ],
-        [
-          "Holden Tamblyn",
-          "Sat May 16",
-          "8.07"
-        ]
-      ]
-    },
-    {
-      "shop": "HQ-Non-Kiosk",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Dominic Kowalski",
-          "Sun May 17",
-          "10.35"
-        ]
-      ]
-    },
-    {
       "shop": "HQ - Operations",
       "manager": "",
-      "count": 1,
+      "count": 4,
       "rows": [
         [
           "Jordan Gunter",
-          "Sun May 17",
-          "6.93"
+          "Mon May 18",
+          "12.25"
+        ],
+        [
+          "Jordan Gunter",
+          "Tue May 19",
+          "18.12"
+        ],
+        [
+          "Jordan Gunter",
+          "Wed May 20",
+          "20.62"
+        ],
+        [
+          "Jordan Gunter",
+          "Thu May 21",
+          "1.70"
+        ]
+      ]
+    },
+    {
+      "shop": "Philadelphia - 1702 Walnut",
+      "manager": "Trent Johnson",
+      "count": 1,
+      "rows": [
+        [
+          "Dante Barnes",
+          "Thu May 21",
+          "8.03"
+        ]
+      ]
+    },
+    {
+      "shop": "333 Milwaukee",
+      "manager": "Tia Reeves",
+      "count": 1,
+      "rows": [
+        [
+          "Amelia Wagner",
+          "Sun May 24",
+          "7.57"
         ]
       ]
     }
