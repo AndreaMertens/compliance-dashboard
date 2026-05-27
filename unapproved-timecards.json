@@ -2,7 +2,7 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of May 18\u201324, 2026",
-    "summary_line": "3 shops \u00b7 6 timecards outstanding",
+    "summary_line": "No outstanding timecards.",
     "last_refreshed_display": "Data through Sun May 31, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -12,57 +12,5 @@
     "Date",
     "Hours"
   ],
-  "groups": [
-    {
-      "shop": "HQ - Operations",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "Jordan Gunter",
-          "Mon May 18",
-          "12.25"
-        ],
-        [
-          "Jordan Gunter",
-          "Tue May 19",
-          "18.12"
-        ],
-        [
-          "Jordan Gunter",
-          "Wed May 20",
-          "20.62"
-        ],
-        [
-          "Jordan Gunter",
-          "Thu May 21",
-          "1.70"
-        ]
-      ]
-    },
-    {
-      "shop": "Philadelphia - 1702 Walnut",
-      "manager": "Trent Johnson",
-      "count": 1,
-      "rows": [
-        [
-          "Dante Barnes",
-          "Thu May 21",
-          "8.03"
-        ]
-      ]
-    },
-    {
-      "shop": "333 Milwaukee",
-      "manager": "Tia Reeves",
-      "count": 1,
-      "rows": [
-        [
-          "Amelia Wagner",
-          "Sun May 24",
-          "7.57"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

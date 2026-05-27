@@ -278,78 +278,17 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 5,
+      "metric": 0,
       "metric_unit": "shops",
-      "description": "10 timecards still unapproved across the full pay period.",
-      "status": "attention",
+      "description": "0 timecards still unapproved across the full pay period.",
+      "status": "good",
       "columns": [
         "Employee",
         "Shop",
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Jordan Gunter",
-          "HQ - Operations",
-          "2026-05-17",
-          "6.93h"
-        ],
-        [
-          "Jordan Gunter",
-          "HQ - Operations",
-          "2026-05-18",
-          "12.25h"
-        ],
-        [
-          "Jordan Gunter",
-          "HQ - Operations",
-          "2026-05-19",
-          "18.12h"
-        ],
-        [
-          "Jordan Gunter",
-          "HQ - Operations",
-          "2026-05-20",
-          "20.62h"
-        ],
-        [
-          "Jordan Gunter",
-          "HQ - Operations",
-          "2026-05-21",
-          "1.70h"
-        ],
-        [
-          "Christian Horn",
-          "2900 Minneapolis",
-          "2026-05-26",
-          "2.50h"
-        ],
-        [
-          "Olivia Hubbard",
-          "2900 Minneapolis",
-          "2026-05-26",
-          "8.73h"
-        ],
-        [
-          "Dante Barnes",
-          "Philadelphia - 1702 Walnut",
-          "2026-05-21",
-          "8.03h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-05-26",
-          "7.87h"
-        ],
-        [
-          "Amelia Wagner",
-          "333 Milwaukee",
-          "2026-05-24",
-          "7.57h"
-        ]
-      ]
+      "rows": []
     },
     {
       "id": "payroll-pending-leave",
@@ -900,16 +839,16 @@
           "8.32h"
         ],
         [
-          "Daylon Johnson",
-          "234 Bellevue Square",
+          "Christian Horn",
+          "2900 Minneapolis",
           "2026-05-26",
-          "8.37h"
+          "2.58h"
         ],
         [
-          "Leng Tshua",
-          "234 Bellevue Square",
+          "Olivia Hubbard",
+          "2900 Minneapolis",
           "2026-05-26",
-          "8.58h"
+          "8.73h"
         ],
         [
           "William Donovan",
