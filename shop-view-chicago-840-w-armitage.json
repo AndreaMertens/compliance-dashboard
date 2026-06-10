@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,28 +21,35 @@
       ],
       "rows": [
         [
-          "2026-05-11",
-          "Andrew Bell",
-          "12:00 PM",
-          "12:55 PM",
-          "55"
+          "2026-06-01",
+          "Christian Sikorski",
+          "11:30 AM",
+          "12:10 PM",
+          "40"
         ],
         [
-          "2026-05-16",
-          "Donald Crawford",
+          "2026-06-02",
+          "Holden Tamblyn",
+          "10:00 AM",
+          "11:54 AM",
+          "114"
+        ],
+        [
+          "2026-06-02",
+          "Christian Sikorski",
           "12:00 PM",
-          "12:12 PM",
+          "12:16 PM",
+          "16"
+        ],
+        [
+          "2026-06-05",
+          "Christian Sikorski",
+          "12:30 PM",
+          "12:42 PM",
           "12"
-        ],
-        [
-          "2026-05-17",
-          "Andrew Bell",
-          "11:00 AM",
-          "11:28 AM",
-          "28"
         ]
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -91,19 +98,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Holden Tamblyn",
-          "Sat May 16",
-          "0.00"
-        ],
-        [
-          "Holden Tamblyn",
-          "Sat May 16",
-          "8.07"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "1425 Basecamp",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,18 +21,18 @@
       ],
       "rows": [
         [
-          "2026-05-11",
-          "Connor Dominiec",
+          "2026-06-05",
+          "Justin Wascher",
           "12:00 PM",
-          "12:43 PM",
-          "43"
+          "12:32 PM",
+          "32"
         ],
         [
-          "2026-05-13",
-          "Connor Dominiec",
-          "12:00 PM",
-          "12:36 PM",
-          "36"
+          "2026-06-06",
+          "Justin Wascher",
+          "11:45 AM",
+          "12:03 PM",
+          "18"
         ]
       ],
       "count": 2
@@ -72,16 +72,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Connor Dominiec",
-          "34.48",
-          "15.00",
-          "49.48",
-          "+9.48"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -92,14 +84,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Justin Wascher",
-          "Sun May 17",
-          "8.37"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     }
   ]
 }

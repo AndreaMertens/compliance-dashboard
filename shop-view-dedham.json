@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,14 +21,42 @@
       ],
       "rows": [
         [
-          "2026-05-14",
-          "Cooper Betancourt",
+          "2026-06-01",
+          "Jabraun Johnson",
           "11:00 AM",
-          "12:06 PM",
-          "66"
+          "11:08 AM",
+          "8"
+        ],
+        [
+          "2026-06-02",
+          "Mike Spinelli",
+          "11:00 AM",
+          "11:08 AM",
+          "8"
+        ],
+        [
+          "2026-06-05",
+          "Dillon Stanas",
+          "9:00 AM",
+          "9:08 AM",
+          "8"
+        ],
+        [
+          "2026-06-06",
+          "Jabraun Johnson",
+          "9:45 AM",
+          "2:03 PM",
+          "258"
+        ],
+        [
+          "2026-06-06",
+          "Dillon Stanas",
+          "9:45 AM",
+          "9:52 AM",
+          "7"
         ]
       ],
-      "count": 1
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -43,18 +71,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Dillon Stanas",
-          "Fri May 15",
-          "9:00 AM",
-          "7:09 PM",
-          "10.15",
-          "42.25 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "break-compliance",

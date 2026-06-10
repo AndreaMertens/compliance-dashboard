@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: May 27 \u2192 Jun 17, 2026",
-    "summary_line": "6 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Wed May 27, 1:09 PM",
+    "subtitle": "Window: Jun 10 \u2192 Jul 1, 2026",
+    "summary_line": "2 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Wed Jun 10, 12:30 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,45 +14,17 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "New York - Flatiron",
-          "manager": "",
-          "draft_count": 36,
-          "gap_days": 10,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 32,
-          "gap_days": 7,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "Salt Lake City - 50 E Main St. N",
-          "manager": "",
-          "draft_count": 24,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Kansas City - 321 Nichols Rd",
-          "manager": "",
-          "draft_count": 7,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "La Jolla - 7857 Girard Ave",
-          "manager": "",
-          "draft_count": 6,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
           "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 0,
-          "gap_days": 0,
+          "draft_count": 6,
+          "gap_days": 6,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Miami - Brickell",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 3,
           "lookahead_days": 14
         }
       ]
@@ -63,32 +35,46 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Birmingham - 141 W Maple",
+          "shop": "Greenhills - 2126 Abbot Martin",
           "manager": "",
-          "draft_count": 70,
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "Scottsdale - Scottsdale Quarte",
+          "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 9,
+          "draft_count": 2,
           "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "122 Lexington",
-          "manager": "",
-          "draft_count": 7,
-          "gap_days": 0,
-          "lookahead_days": 14
+          "lookahead_days": 21
         },
         {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "DC - 3101 M St",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Salt Lake City - 50 E Main St. N",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 21
         }
       ]
     }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dallas - 3699 McKinney",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-05-12",
+          "2026-06-02",
           "Dawson Plott",
+          "12:00 PM",
+          "12:18 PM",
+          "18"
+        ],
+        [
+          "2026-06-06",
+          "Aaron Flores",
           "12:00 PM",
           "12:07 PM",
           "7"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -65,8 +72,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Danniella Arishaba",
+          "8.33",
+          "40.00",
+          "48.33",
+          "+8.33"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

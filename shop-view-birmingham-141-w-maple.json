@@ -2,10 +2,10 @@
   "meta": {
     "title": "Birmingham - 141 W Maple",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -21,49 +21,56 @@
       ],
       "rows": [
         [
-          "2026-05-12",
-          "Jordan Dixon",
+          "2026-06-02",
+          "Luke Srinivasan",
           "11:00 AM",
-          "11:10 AM",
-          "10"
+          "11:07 AM",
+          "7"
         ],
         [
-          "2026-05-13",
-          "Thomas Conway",
-          "10:00 AM",
-          "10:13 AM",
+          "2026-06-02",
+          "Jordan Dixon",
+          "11:00 AM",
+          "11:06 AM",
+          "6"
+        ],
+        [
+          "2026-06-02",
+          "Trevon Mills",
+          "11:00 AM",
+          "11:06 AM",
+          "6"
+        ],
+        [
+          "2026-06-03",
+          "Lance Minor",
+          "12:30 PM",
+          "12:43 PM",
           "13"
         ],
         [
-          "2026-05-14",
+          "2026-06-04",
           "Jordan Dixon",
           "11:00 AM",
-          "11:23 AM",
-          "23"
+          "4:44 PM",
+          "344"
         ],
         [
-          "2026-05-14",
-          "Thomas Conway",
-          "10:00 AM",
-          "10:11 AM",
-          "11"
-        ],
-        [
-          "2026-05-15",
-          "Trevon Mills",
-          "11:00 AM",
-          "11:16 AM",
-          "16"
-        ],
-        [
-          "2026-05-15",
+          "2026-06-05",
           "Jordan Dixon",
           "11:00 AM",
           "11:08 AM",
           "8"
+        ],
+        [
+          "2026-06-07",
+          "Lance Minor",
+          "11:00 AM",
+          "11:09 AM",
+          "9"
         ]
       ],
-      "count": 6
+      "count": 7
     },
     {
       "id": "long-shifts",
@@ -112,8 +119,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Lance Minor",
+          "Sun Jun 7",
+          "7.87"
+        ],
+        [
+          "Luke Srinivasan",
+          "Sun Jun 7",
+          "7.52"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

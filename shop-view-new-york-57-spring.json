@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - 57 Spring",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -21,21 +21,28 @@
       ],
       "rows": [
         [
-          "2026-05-12",
+          "2026-06-03",
           "Yoseph Woldu",
           "10:45 AM",
-          "11:07 AM",
-          "22"
+          "10:57 AM",
+          "12"
         ],
         [
-          "2026-05-16",
-          "Yoseph Woldu",
+          "2026-06-04",
+          "Daniel Loughney",
           "10:45 AM",
-          "10:53 AM",
-          "8"
+          "11:13 AM",
+          "28"
+        ],
+        [
+          "2026-06-07",
+          "Daniel Loughney",
+          "10:00 AM",
+          "10:57 AM",
+          "57"
         ]
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -84,8 +91,44 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Daniel Loughney",
+          "Sat Jun 6",
+          "8.40"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sat Jun 6",
+          "8.50"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sat Jun 6",
+          "8.50"
+        ],
+        [
+          "Daniel Loughney",
+          "Sun Jun 7",
+          "7.05"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jun 7",
+          "8.00"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jun 7",
+          "8.00"
+        ],
+        [
+          "Yoseph Woldu",
+          "Sun Jun 7",
+          "8.00"
+        ]
+      ],
+      "count": 7
     }
   ]
 }

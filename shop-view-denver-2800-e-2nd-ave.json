@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,28 +21,21 @@
       ],
       "rows": [
         [
-          "2026-05-15",
-          "John Le Bel",
-          "2:00 PM",
-          "4:02 PM",
-          "122"
+          "2026-06-03",
+          "Alex Cichy",
+          "10:30 AM",
+          "10:40 AM",
+          "10"
         ],
         [
-          "2026-05-16",
-          "John Le Bel",
+          "2026-06-04",
+          "Antonio Castaneda Gonzalez",
           "1:00 PM",
-          "1:13 PM",
-          "13"
-        ],
-        [
-          "2026-05-17",
-          "Brian Redington",
-          "1:00 PM",
-          "1:07 PM",
-          "7"
+          "1:18 PM",
+          "18"
         ]
       ],
-      "count": 3
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -60,12 +53,12 @@
       "rows": [
         [
           "Antonio Castaneda Gonzalez",
-          "Sun May 17",
-          "11:45 AM",
-          "9:58 PM",
-          "10.22",
-          "44.73 (OT)",
-          "OT"
+          "Tue Jun 2",
+          "12:45 PM",
+          "11:36 AM",
+          "22.85",
+          "56.42 (OT)",
+          "OT \u00b7 Over 11"
         ]
       ],
       "count": 1
@@ -101,8 +94,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brian Redington",
+          "Sun Jun 7",
+          "8.17"
+        ],
+        [
+          "Alex Cichy",
+          "Sun Jun 7",
+          "8.07"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "20 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 20
   },
   "tiles": [
     {
@@ -21,14 +21,56 @@
       ],
       "rows": [
         [
-          "2026-05-14",
+          "2026-06-02",
+          "Christian Van Dam",
+          "10:00 AM",
+          "11:00 AM",
+          "60"
+        ],
+        [
+          "2026-06-03",
+          "Christian Van Dam",
+          "11:30 AM",
+          "11:41 AM",
+          "11"
+        ],
+        [
+          "2026-06-04",
           "Christian Van Dam",
           "11:00 AM",
-          "3:21 PM",
-          "261"
+          "11:38 AM",
+          "38"
+        ],
+        [
+          "2026-06-05",
+          "Christian Van Dam",
+          "11:00 AM",
+          "11:10 AM",
+          "10"
+        ],
+        [
+          "2026-06-06",
+          "Christian Van Dam",
+          "11:00 AM",
+          "11:42 AM",
+          "42"
+        ],
+        [
+          "2026-06-07",
+          "Clark",
+          "1:00 PM",
+          "2:03 PM",
+          "63"
+        ],
+        [
+          "2026-06-07",
+          "Christian Van Dam",
+          "12:30 PM",
+          "1:04 PM",
+          "34"
         ]
       ],
-      "count": 1
+      "count": 7
     },
     {
       "id": "long-shifts",
@@ -65,8 +107,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Noah Strako",
+          "34.09",
+          "8.00",
+          "42.09",
+          "+2.09"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -80,11 +130,66 @@
       "rows": [
         [
           "Christian Van Dam",
-          "Sun May 17",
-          "7.38"
+          "Thu Jun 4",
+          "9.03"
+        ],
+        [
+          "Noah Strako",
+          "Thu Jun 4",
+          "8.17"
+        ],
+        [
+          "Christian Van Dam",
+          "Fri Jun 5",
+          "9.22"
+        ],
+        [
+          "Clark",
+          "Fri Jun 5",
+          "7.57"
+        ],
+        [
+          "Noah Strako",
+          "Fri Jun 5",
+          "8.52"
+        ],
+        [
+          "Cieron Hampson",
+          "Fri Jun 5",
+          "8.47"
+        ],
+        [
+          "Christian Van Dam",
+          "Sat Jun 6",
+          "8.43"
+        ],
+        [
+          "Clark",
+          "Sat Jun 6",
+          "8.33"
+        ],
+        [
+          "Cieron Hampson",
+          "Sat Jun 6",
+          "8.23"
+        ],
+        [
+          "Christian Van Dam",
+          "Sun Jun 7",
+          "5.18"
+        ],
+        [
+          "Clark",
+          "Sun Jun 7",
+          "4.02"
+        ],
+        [
+          "Cieron Hampson",
+          "Sun Jun 7",
+          "5.02"
         ]
       ],
-      "count": 1
+      "count": 12
     }
   ]
 }
