@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "17250 Omaha",
+    "title": "Test Location",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,58 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-02",
-          "Christian Van Dam",
-          "10:00 AM",
-          "11:00 AM",
-          "60"
-        ],
-        [
-          "2026-06-03",
-          "Christian Van Dam",
-          "11:30 AM",
-          "11:41 AM",
-          "11"
-        ],
-        [
-          "2026-06-04",
-          "Christian Van Dam",
-          "11:00 AM",
-          "11:38 AM",
-          "38"
-        ],
-        [
-          "2026-06-05",
-          "Christian Van Dam",
-          "11:00 AM",
-          "11:10 AM",
-          "10"
-        ],
-        [
-          "2026-06-06",
-          "Christian Van Dam",
-          "11:00 AM",
-          "11:42 AM",
-          "42"
-        ],
-        [
-          "2026-06-07",
-          "Clark",
-          "1:00 PM",
-          "2:03 PM",
-          "63"
-        ],
-        [
-          "2026-06-07",
-          "Christian Van Dam",
-          "12:30 PM",
-          "1:04 PM",
-          "34"
-        ]
-      ],
-      "count": 7
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -107,16 +57,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Noah Strako",
-          "34.09",
-          "8.00",
-          "42.09",
-          "+2.09"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
