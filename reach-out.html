@@ -164,22 +164,36 @@
   function normalize(tileTitle, detail) {
     const groups = [];
     if (detail.groups && detail.columns) {
+      const cols = detail.columns;
+      // Manual Punches carries per-manager percentages — give them their own
+      // CSV columns instead of burying them in the Details blob.
+      const isManualPunch = cols.includes("Last Week") && cols.includes("2026 Avg");
       for (const g of detail.groups) {
-        const rows = (g.rows || []).map(cells => ({
-          cells,
-          rec: {
+        const rows = (g.rows || []).map(cells => {
+          const rec = {
             tile: tileTitle,
             shop: g.shop || "",
             manager: g.manager || "",
-            employee: pick(detail.columns, cells, ["Employee", "Manager"]),
-            date: pick(detail.columns, cells, ["Date", "Date Start"]),
-            details: detailString(detail.columns, cells),
-          },
-        }));
-        groups.push({ shop: g.shop || "", manager: g.manager || "", columns: detail.columns, rows });
+            employee: pick(cols, cells, ["Employee", "Manager"]),
+            date: pick(cols, cells, ["Date", "Date Start"]),
+            lastWeek: "",
+            avg: "",
+            details: detailString(cols, cells),
+          };
+          if (isManualPunch) {
+            rec.manager  = pick(cols, cells, ["Manager"]) || g.manager || "";
+            rec.employee = "";
+            rec.lastWeek = pick(cols, cells, ["Last Week"]);
+            rec.avg      = pick(cols, cells, ["2026 Avg"]);
+            rec.details  = "";
+          }
+          return { cells, rec };
+        });
+        groups.push({ shop: g.shop || "", manager: g.manager || "", columns: cols, rows });
       }
     } else if (detail.sections) {
-      // Schedule Publication shape — rows are objects, grouped by tier
+      // Schedule Publication shape — rows are objects, grouped by tier.
+      // Screen shows the full detail; the CSV carries the shop only.
       const cols = ["Tier", "Shop", "Gap Days", "Draft Shifts", "Lookahead (days)"];
       for (const sec of detail.sections) {
         const rows = (sec.rows || []).map(r => {
@@ -188,8 +202,8 @@
             cells,
             rec: {
               tile: tileTitle, shop: r.shop || "", manager: r.manager || "",
-              employee: "", date: "",
-              details: detailString(cols, cells),
+              employee: "", date: "", lastWeek: "", avg: "",
+              details: "",
             },
           };
         });
@@ -316,10 +330,10 @@
   function downloadCSV() {
     const items = Object.values(selection);
     if (!items.length) return;
-    const header = ["Tile", "Shop", "Manager", "Employee", "Date", "Details"];
+    const header = ["Tile", "Shop", "Manager", "Employee", "Date", "Last Week %", "2026 Avg %", "Details"];
     const rows = [header];
     for (const it of items) {
-      rows.push([it.tile, it.shop, it.manager, it.employee, it.date, it.details]);
+      rows.push([it.tile, it.shop, it.manager, it.employee, it.date, it.lastWeek || "", it.avg || "", it.details || ""]);
     }
     const csv = "﻿" + rows.map(r =>
       r.map(c => '"' + String(c ?? "").replace(/"/g, '""') + '"').join(",")

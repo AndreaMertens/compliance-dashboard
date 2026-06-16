@@ -3,26 +3,14 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of June 8\u201314, 2026",
-    "generated_at": "2026-06-16T11:43:25.674754",
-    "generated_at_display": "Generated Jun 16, 11:43 AM"
+    "generated_at": "2026-06-16T12:10:14.023352",
+    "generated_at_display": "Generated Jun 16, 12:10 PM"
   },
   "summary": [],
   "sections": [
     {
       "heading": "Admin",
       "reports": [
-        {
-          "id": "manager-attendance",
-          "title": "Manager Attendance",
-          "review_day": "Monday",
-          "metric": 13,
-          "metric_unit": "managers flagged",
-          "description": "13 managers flagged \u2014 11 short on days \u00b7 2 short on hours only.",
-          "status": "alert",
-          "last_refreshed_display": "Data through Sun Jun 14, 2026",
-          "covers_label": "Covers Jun 8 \u2013 Jun 14",
-          "is_mock": false
-        },
         {
           "id": "no-coverage-days",
           "title": "No Coverage Days",
@@ -43,7 +31,7 @@
           "metric_unit": " \u00b7 6 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Tue Jun 16, 11:43 AM",
+          "last_refreshed_display": "Data through Tue Jun 16, 12:10 PM",
           "covers_label": "Compliance window: next 21 days from 2026-06-16",
           "is_mock": false
         },
