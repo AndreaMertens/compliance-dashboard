@@ -106,10 +106,10 @@
     "manual-punches":       { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
     "tardiness":            { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
     "long-shifts":          { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
+    "short-shifts":         { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
     "over-40-vacation":     { eyebrow: "PREVIOUS WEEK",   recency: "previous-week" },
     "unapproved-timecards": { eyebrow: "PREVIOUS 3 DAYS", recency: "previous-3-days" },
-    "penalty-pay":          { eyebrow: "PREVIOUS 3 DAYS", recency: "previous-3-days" },
-    "break-compliance":     { eyebrow: "COMING SOON",     recency: "mock" }
+    "penalty-pay":          { eyebrow: "PREVIOUS 3 DAYS", recency: "previous-3-days" }
   };
   function tileEyebrow(id) { return (TILE_META[id] && TILE_META[id].eyebrow) || ""; }
   function tileRecency(id) { return (TILE_META[id] && TILE_META[id].recency) || "unknown"; }

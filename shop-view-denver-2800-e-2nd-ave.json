@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -61,12 +61,26 @@
       "count": 0
     },
     {
-      "id": "break-compliance",
-      "title": "Break Compliance",
-      "is_mock": true,
-      "columns": [],
-      "rows": [],
-      "count": 0
+      "id": "short-shifts",
+      "title": "Short Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours"
+      ],
+      "rows": [
+        [
+          "Peter Kitt",
+          "Mon Jun 8",
+          "1:59 PM",
+          "2:03 PM",
+          "0.07"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",

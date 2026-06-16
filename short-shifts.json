@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Short Shifts",
+    "subtitle": "Week of June 8\u201314, 2026",
+    "summary_line": "2 approved shifts under 20 minutes across 2 shops",
+    "last_refreshed_display": "Data through Sun Jun 14, 2026",
+    "back_label": "Dashboard",
+    "back_url": "index.html"
+  },
+  "columns": [
+    "Employee",
+    "Date",
+    "Start",
+    "End",
+    "Hours"
+  ],
+  "groups": [
+    {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "Ian Draft",
+      "count": 1,
+      "rows": [
+        [
+          "Thomas Conway",
+          "Mon Jun 8",
+          "6:06 PM",
+          "6:07 PM",
+          "0.02"
+        ]
+      ]
+    },
+    {
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "Nathan Mylenek",
+      "count": 1,
+      "rows": [
+        [
+          "Peter Kitt",
+          "Mon Jun 8",
+          "1:59 PM",
+          "2:03 PM",
+          "0.07"
+        ]
+      ]
+    }
+  ]
+}

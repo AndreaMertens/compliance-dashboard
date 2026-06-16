@@ -82,10 +82,16 @@
       "count": 0
     },
     {
-      "id": "break-compliance",
-      "title": "Break Compliance",
-      "is_mock": true,
-      "columns": [],
+      "id": "short-shifts",
+      "title": "Short Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours"
+      ],
       "rows": [],
       "count": 0
     },

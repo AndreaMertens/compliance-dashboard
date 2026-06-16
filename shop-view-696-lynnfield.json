@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "12 flags this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 12
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -85,24 +85,20 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Evan",
-          "Sun Jun 14",
-          "5:56 PM",
-          "11:11 AM",
-          "17.25",
-          "50.68 (OT)",
-          "OT \u00b7 Over 11"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
-      "id": "break-compliance",
-      "title": "Break Compliance",
-      "is_mock": true,
-      "columns": [],
+      "id": "short-shifts",
+      "title": "Short Shifts",
+      "is_mock": false,
+      "columns": [
+        "Employee",
+        "Date",
+        "Start",
+        "End",
+        "Hours"
+      ],
       "rows": [],
       "count": 0
     },
