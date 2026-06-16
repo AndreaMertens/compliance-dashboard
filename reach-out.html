@@ -80,6 +80,9 @@
   tbody tr.sel:hover { background: #fdf3d0; }
   td.cb, th.cb { width: 38px; text-align: center; }
   input[type=checkbox] { width: 16px; height: 16px; cursor: pointer; }
+  .grp-head .grp-cb { margin-right: 0.2rem; }
+  .grp-head .grp-count { margin-left: auto; font-size: 0.74rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em; }
+  .grp.sel { outline: 2px solid #f0c44c; }
 
   .error-banner {
     margin: 1rem 0; padding: 1rem 1.25rem; background: #fdecea;
@@ -123,6 +126,9 @@
   // reload won't lose your work. "Clear list" wipes them for the next report.
   // -------------------------------------------------------------------------
   const STORE_KEY = "reachout_selection_v1";
+  // Tiles where you flag the whole location once, not each row (e.g. you
+  // reach out to a shop about its unapproved timecards, not card by card).
+  const GROUP_LEVEL_TILES = new Set(["unapproved-timecards"]);
 
   // selection: { key -> {tile, shop, manager, employee, date, details} }
   let selection = loadSelection();
@@ -220,11 +226,15 @@
   function renderTile(tileId, tileTitle, detail) {
     const groups = normalize(tileTitle, detail);
     const total = groups.reduce((n, g) => n + g.rows.length, 0);
+    const groupLevel = GROUP_LEVEL_TILES.has(tileId);
 
     const block = document.createElement("section");
     block.className = "tile-block";
     const h = document.createElement("h2");
-    h.innerHTML = `${esc(tileTitle)} <span class="muted">${total} instance${total === 1 ? "" : "s"}</span>`;
+    const unitLabel = groupLevel
+      ? `${groups.length} location${groups.length === 1 ? "" : "s"}`
+      : `${total} instance${total === 1 ? "" : "s"}`;
+    h.innerHTML = `${esc(tileTitle)} <span class="muted">${unitLabel}</span>`;
     block.appendChild(h);
 
     if (total === 0) {
@@ -238,9 +248,50 @@
     for (const g of groups) {
       const grp = document.createElement("div");
       grp.className = "grp";
-
       const head = document.createElement("div");
       head.className = "grp-head";
+
+      // ---- Location-level selection (one checkbox flags the whole shop) ----
+      if (groupLevel) {
+        const n = g.rows.length;
+        const key = `${tileId}||${g.shop}`;
+        const checked = !!selection[key];
+        if (checked) grp.classList.add("sel");
+        head.innerHTML =
+          `<input type="checkbox" class="grp-cb" ${checked ? "checked" : ""}>` +
+          `<span class="shop">${esc(g.shop)}</span>` +
+          (g.manager ? `<span class="mgr">${esc(g.manager)}</span>` : "") +
+          `<span class="grp-count">${n} timecard${n === 1 ? "" : "s"}</span>`;
+        const cb = head.querySelector("input");
+        cb.addEventListener("change", () => {
+          if (cb.checked) {
+            selection[key] = {
+              tile: tileTitle, shop: g.shop, manager: g.manager,
+              employee: "", date: "", lastWeek: "", avg: "",
+              details: `${n} unapproved timecard${n === 1 ? "" : "s"}`,
+            };
+            grp.classList.add("sel");
+          } else { delete selection[key]; grp.classList.remove("sel"); }
+          saveSelection(); updateCount();
+        });
+        grp.appendChild(head);
+
+        // Read-only context: which cards are open, no per-row checkboxes
+        const table = document.createElement("table");
+        table.innerHTML = `<thead><tr>${g.columns.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead>`;
+        const tbody = document.createElement("tbody");
+        for (const row of g.rows) {
+          const tr = document.createElement("tr");
+          tr.innerHTML = row.cells.map(c => `<td>${esc(c)}</td>`).join("");
+          tbody.appendChild(tr);
+        }
+        table.appendChild(tbody);
+        grp.appendChild(table);
+        block.appendChild(grp);
+        continue;
+      }
+
+      // ---- Row-level selection (default) ----
       head.innerHTML =
         `<span class="shop">${esc(g.shop)}</span>` +
         (g.manager ? `<span class="mgr">${esc(g.manager)}</span>` : "") +
