@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>State &amp; Liberty — Reach-Out Builder</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    margin: 0; padding: 0; background: #f4f4f6; color: #1a1a1a; line-height: 1.5;
+  }
+  header {
+    background: #14213d; color: #fff; padding: 1.75rem 3rem 1.5rem; position: relative;
+  }
+  header .brand {
+    font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em;
+    color: #8ea1c4; margin-bottom: 0.35rem;
+  }
+  header h1 { margin: 0; font-size: 1.6rem; font-weight: 600; letter-spacing: -0.015em; }
+  header .subtitle { margin-top: 0.25rem; color: #a8b4cc; font-size: 0.95rem; }
+  .back-link {
+    display: inline-block; margin: 1.25rem 0 0 3rem;
+    color: #14213d; text-decoration: none; font-size: 0.9rem; font-weight: 500;
+  }
+  .back-link:hover { text-decoration: underline; }
+
+  /* Sticky action bar */
+  .toolbar {
+    position: sticky; top: 0; z-index: 20;
+    background: #fff; border-bottom: 1px solid #e3e5eb;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    display: flex; align-items: center; gap: 1rem;
+    padding: 0.85rem 3rem;
+  }
+  .toolbar .count { font-size: 0.95rem; font-weight: 600; color: #14213d; }
+  .toolbar .count span { color: #b23a3a; }
+  .toolbar .spacer { flex: 1; }
+  .btn {
+    border: none; border-radius: 6px; padding: 0.55rem 1.1rem;
+    font-size: 0.85rem; font-weight: 700; letter-spacing: 0.04em;
+    cursor: pointer; font-family: inherit;
+  }
+  .btn-primary { background: #14213d; color: #fff; }
+  .btn-primary:hover { background: #1e3a6e; }
+  .btn-primary:disabled { background: #aab2c4; cursor: not-allowed; }
+  .btn-ghost { background: #f0f2f7; color: #14213d; }
+  .btn-ghost:hover { background: #e3e8f2; }
+
+  .wrapper { max-width: 1100px; margin: 0 auto; padding: 1.5rem 3rem 5rem; }
+
+  .tile-block { margin-bottom: 2.25rem; }
+  .tile-block > h2 {
+    font-size: 1.05rem; font-weight: 600; color: #14213d;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin: 0 0 0.85rem; padding-bottom: 0.5rem; border-bottom: 2px solid #14213d;
+  }
+  .tile-block > h2 .muted { color: #999; font-weight: 500; letter-spacing: 0.02em; text-transform: none; font-size: 0.85rem; }
+  .tile-empty { color: #888; font-size: 0.9rem; padding: 0.25rem 0 0.75rem; }
+
+  .grp { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 1rem; overflow: hidden; }
+  .grp-head {
+    display: flex; align-items: center; gap: 0.6rem;
+    background: #f0f2f7; padding: 0.7rem 1.1rem; border-bottom: 1px solid #e3e5eb;
+  }
+  .grp-head .shop { font-size: 0.95rem; font-weight: 600; color: #14213d; }
+  .grp-head .mgr { font-size: 0.78rem; color: #666; }
+  .grp-head label { margin-left: auto; font-size: 0.72rem; color: #555; text-transform: uppercase; letter-spacing: 0.06em; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  thead th {
+    text-align: left; padding: 0.55rem 1.1rem; font-weight: 600; font-size: 0.72rem;
+    text-transform: uppercase; letter-spacing: 0.07em; color: #777;
+    border-bottom: 1px solid #e3e5eb; background: #fafbfc;
+  }
+  tbody td { padding: 0.6rem 1.1rem; border-bottom: 1px solid #f0f1f4; color: #333; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.sel { background: #fff8e1; }
+  tbody tr:hover { background: #fafbfc; }
+  tbody tr.sel:hover { background: #fdf3d0; }
+  td.cb, th.cb { width: 38px; text-align: center; }
+  input[type=checkbox] { width: 16px; height: 16px; cursor: pointer; }
+
+  .error-banner {
+    margin: 1rem 0; padding: 1rem 1.25rem; background: #fdecea;
+    border-left: 4px solid #b23a3a; border-radius: 4px; font-size: 0.9rem; color: #5a1a1a; display: none;
+  }
+  .error-banner.visible { display: block; }
+  .loading { color: #777; padding: 1rem 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">State &amp; Liberty</div>
+  <h1>Reach-Out Builder</h1>
+  <div class="subtitle" id="subtitle">Select the instances you want to flag, then download them as one CSV.</div>
+</header>
+
+<a class="back-link" href="index.html">&larr; Dashboard</a>
+
+<div class="toolbar">
+  <div class="count"><span id="sel-count">0</span> selected</div>
+  <div class="spacer"></div>
+  <button class="btn btn-ghost" id="clear-btn">Clear list</button>
+  <button class="btn btn-primary" id="download-btn" disabled>↓ Download CSV</button>
+</div>
+
+<div class="wrapper">
+  <div id="error-banner" class="error-banner">
+    <strong>Couldn't load the tiles.</strong> Open this page via the live URL (GitHub Pages), not from disk.
+  </div>
+  <div id="loading" class="loading">Loading tiles…</div>
+  <div id="tiles-container"></div>
+</div>
+
+<script>
+  // -------------------------------------------------------------------------
+  // Reach-Out Builder
+  // Reads data.json for the tile list, then each <tile>.json detail file,
+  // renders every instance with a checkbox, and lets you export the picks as
+  // one CSV. Selections are remembered in this browser (localStorage) so a
+  // reload won't lose your work. "Clear list" wipes them for the next report.
+  // -------------------------------------------------------------------------
+  const STORE_KEY = "reachout_selection_v1";
+
+  // selection: { key -> {tile, shop, manager, employee, date, details} }
+  let selection = loadSelection();
+
+  function loadSelection() {
+    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function saveSelection() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(selection)); } catch (e) {}
+  }
+
+  function esc(s) {
+    if (s == null) return "";
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+
+  function updateCount() {
+    const n = Object.keys(selection).length;
+    document.getElementById("sel-count").textContent = n;
+    document.getElementById("download-btn").disabled = (n === 0);
+  }
+
+  // Pull a labelled value out of a standard row given column headers
+  function pick(columns, cells, names) {
+    for (const nm of names) {
+      const i = columns.findIndex(c => c.toLowerCase() === nm.toLowerCase());
+      if (i >= 0 && cells[i] != null && cells[i] !== "") return cells[i];
+    }
+    return "";
+  }
+  function detailString(columns, cells) {
+    return columns.map((c, i) => `${c}: ${cells[i] ?? ""}`).join(" | ");
+  }
+
+  // Normalize one tile's detail JSON into a list of render groups:
+  //   { shop, manager, columns:[...], rows:[ {cells:[...], rec:{...}} ] }
+  function normalize(tileTitle, detail) {
+    const groups = [];
+    if (detail.groups && detail.columns) {
+      for (const g of detail.groups) {
+        const rows = (g.rows || []).map(cells => ({
+          cells,
+          rec: {
+            tile: tileTitle,
+            shop: g.shop || "",
+            manager: g.manager || "",
+            employee: pick(detail.columns, cells, ["Employee", "Manager"]),
+            date: pick(detail.columns, cells, ["Date", "Date Start"]),
+            details: detailString(detail.columns, cells),
+          },
+        }));
+        groups.push({ shop: g.shop || "", manager: g.manager || "", columns: detail.columns, rows });
+      }
+    } else if (detail.sections) {
+      // Schedule Publication shape — rows are objects, grouped by tier
+      const cols = ["Tier", "Shop", "Gap Days", "Draft Shifts", "Lookahead (days)"];
+      for (const sec of detail.sections) {
+        const rows = (sec.rows || []).map(r => {
+          const cells = [sec.label, r.shop || "", r.gap_days ?? 0, r.draft_count ?? 0, r.lookahead_days ?? ""];
+          return {
+            cells,
+            rec: {
+              tile: tileTitle, shop: r.shop || "", manager: r.manager || "",
+              employee: "", date: "",
+              details: detailString(cols, cells),
+            },
+          };
+        });
+        if (rows.length) groups.push({ shop: sec.label, manager: "", columns: cols, rows });
+      }
+    }
+    return groups;
+  }
+
+  function rowKey(tileId, shop, cells) {
+    return `${tileId}||${shop}||${JSON.stringify(cells)}`;
+  }
+
+  function renderTile(tileId, tileTitle, detail) {
+    const groups = normalize(tileTitle, detail);
+    const total = groups.reduce((n, g) => n + g.rows.length, 0);
+
+    const block = document.createElement("section");
+    block.className = "tile-block";
+    const h = document.createElement("h2");
+    h.innerHTML = `${esc(tileTitle)} <span class="muted">${total} instance${total === 1 ? "" : "s"}</span>`;
+    block.appendChild(h);
+
+    if (total === 0) {
+      const e = document.createElement("div");
+      e.className = "tile-empty";
+      e.textContent = "Nothing flagged for this pay period — clean.";
+      block.appendChild(e);
+      return block;
+    }
+
+    for (const g of groups) {
+      const grp = document.createElement("div");
+      grp.className = "grp";
+
+      const head = document.createElement("div");
+      head.className = "grp-head";
+      head.innerHTML =
+        `<span class="shop">${esc(g.shop)}</span>` +
+        (g.manager ? `<span class="mgr">${esc(g.manager)}</span>` : "") +
+        `<label><input type="checkbox" class="select-all"> Select all</label>`;
+      grp.appendChild(head);
+
+      const table = document.createElement("table");
+      const thead = `<thead><tr><th class="cb"></th>${g.columns.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead>`;
+      const tbody = document.createElement("tbody");
+
+      for (const row of g.rows) {
+        const key = rowKey(tileId, g.shop, row.cells);
+        const tr = document.createElement("tr");
+        const checked = !!selection[key];
+        if (checked) tr.classList.add("sel");
+        tr.innerHTML =
+          `<td class="cb"><input type="checkbox" ${checked ? "checked" : ""}></td>` +
+          row.cells.map(c => `<td>${esc(c)}</td>`).join("");
+        const cb = tr.querySelector("input");
+        cb.addEventListener("change", () => {
+          if (cb.checked) { selection[key] = row.rec; tr.classList.add("sel"); }
+          else { delete selection[key]; tr.classList.remove("sel"); }
+          saveSelection(); updateCount(); syncSelectAll(head, tbody);
+        });
+        tbody.appendChild(tr);
+      }
+
+      table.innerHTML = thead;
+      table.appendChild(tbody);
+      grp.appendChild(table);
+      block.appendChild(grp);
+
+      // Group "select all"
+      const selAll = head.querySelector(".select-all");
+      selAll.addEventListener("change", () => {
+        tbody.querySelectorAll("input[type=checkbox]").forEach(cb => {
+          if (cb.checked !== selAll.checked) { cb.checked = selAll.checked; cb.dispatchEvent(new Event("change")); }
+        });
+      });
+      syncSelectAll(head, tbody);
+    }
+    return block;
+  }
+
+  function syncSelectAll(head, tbody) {
+    const boxes = [...tbody.querySelectorAll("input[type=checkbox]")];
+    const sa = head.querySelector(".select-all");
+    if (!sa) return;
+    sa.checked = boxes.length > 0 && boxes.every(b => b.checked);
+  }
+
+  async function fetchJSON(file) {
+    const r = await fetch(file, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status + " for " + file);
+    return r.json();
+  }
+
+  async function load() {
+    try {
+      const data = await fetchJSON("data.json");
+      document.getElementById("subtitle").textContent =
+        `Select the instances you want to flag for ${esc(data.meta.week_label || "this period")}, then download them as one CSV.`;
+      const reports = [];
+      for (const sec of (data.sections || [])) {
+        for (const r of (sec.reports || [])) {
+          if (!r.is_mock) reports.push({ id: r.id, title: r.title });
+        }
+      }
+      const container = document.getElementById("tiles-container");
+      document.getElementById("loading").style.display = "none";
+
+      for (const rep of reports) {
+        let detail;
+        try { detail = await fetchJSON(`${rep.id}.json`); }
+        catch (e) { console.warn("Skipping", rep.id, e); continue; }
+        container.appendChild(renderTile(rep.id, rep.title, detail));
+      }
+      updateCount();
+    } catch (err) {
+      console.error(err);
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("error-banner").classList.add("visible");
+    }
+  }
+
+  // -------- CSV export --------
+  function downloadCSV() {
+    const items = Object.values(selection);
+    if (!items.length) return;
+    const header = ["Tile", "Shop", "Manager", "Employee", "Date", "Details"];
+    const rows = [header];
+    for (const it of items) {
+      rows.push([it.tile, it.shop, it.manager, it.employee, it.date, it.details]);
+    }
+    const csv = "﻿" + rows.map(r =>
+      r.map(c => '"' + String(c ?? "").replace(/"/g, '""') + '"').join(",")
+    ).join("\r\n");
+    const stamp = new Date().toISOString().slice(0, 10);
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    a.download = `reach-out-list-${stamp}.csv`;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  }
+
+  document.getElementById("download-btn").addEventListener("click", downloadCSV);
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    if (!Object.keys(selection).length) return;
+    if (!confirm("Clear all selected items? This can't be undone.")) return;
+    selection = {};
+    saveSelection();
+    document.querySelectorAll('tbody input[type=checkbox]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('tbody tr.sel').forEach(tr => tr.classList.remove('sel'));
+    document.querySelectorAll('.select-all').forEach(cb => cb.checked = false);
+    updateCount();
+  });
+
+  load();
+</script>
+</body>
+</html>
