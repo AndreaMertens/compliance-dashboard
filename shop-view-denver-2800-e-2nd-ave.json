@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,21 +21,28 @@
       ],
       "rows": [
         [
-          "2026-06-03",
-          "Alex Cichy",
-          "10:30 AM",
-          "10:40 AM",
-          "10"
+          "2026-06-08",
+          "Peter Kitt",
+          "1:00 PM",
+          "1:59 PM",
+          "59"
         ],
         [
-          "2026-06-04",
-          "Antonio Castaneda Gonzalez",
-          "1:00 PM",
-          "1:18 PM",
-          "18"
+          "2026-06-08",
+          "Douglas Beard",
+          "11:30 AM",
+          "11:36 AM",
+          "6"
+        ],
+        [
+          "2026-06-10",
+          "Alex Cichy",
+          "10:30 AM",
+          "10:38 AM",
+          "8"
         ]
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -50,18 +57,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Antonio Castaneda Gonzalez",
-          "Tue Jun 2",
-          "12:45 PM",
-          "11:36 AM",
-          "22.85",
-          "56.42 (OT)",
-          "OT \u00b7 Over 11"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "break-compliance",
@@ -82,8 +79,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "26.02",
+          "15.00",
+          "41.02",
+          "+1.02"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -94,8 +99,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brian Redington",
+          "Sun Jun 14",
+          "8.30"
+        ],
+        [
+          "Alex Cichy",
+          "Sun Jun 14",
+          "8.00"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

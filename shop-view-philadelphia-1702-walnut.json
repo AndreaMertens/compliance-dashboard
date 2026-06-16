@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "16 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 16
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-06-04",
-          "Franco Bailey",
+          "2026-06-11",
+          "Stephen Williams II",
+          "11:00 AM",
+          "11:11 AM",
+          "11"
+        ],
+        [
+          "2026-06-13",
+          "Celina Bryant",
           "11:30 AM",
-          "5:35 PM",
-          "365"
+          "11:45 AM",
+          "15"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -65,8 +72,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Franco Bailey",
+          "40.42",
+          "7.50",
+          "47.92",
+          "+7.92"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -77,8 +92,74 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Franco Bailey",
+          "Thu Jun 11",
+          "8.12"
+        ],
+        [
+          "Dante Barnes",
+          "Thu Jun 11",
+          "7.85"
+        ],
+        [
+          "Stephen Williams II",
+          "Thu Jun 11",
+          "7.87"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Thu Jun 11",
+          "8.03"
+        ],
+        [
+          "Franco Bailey",
+          "Fri Jun 12",
+          "8.23"
+        ],
+        [
+          "Celina Bryant",
+          "Fri Jun 12",
+          "8.07"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Fri Jun 12",
+          "8.12"
+        ],
+        [
+          "Celina Bryant",
+          "Sat Jun 13",
+          "7.67"
+        ],
+        [
+          "Dante Barnes",
+          "Sat Jun 13",
+          "8.10"
+        ],
+        [
+          "Stephen Williams II",
+          "Sat Jun 13",
+          "8.17"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Sat Jun 13",
+          "8.10"
+        ],
+        [
+          "Celina Bryant",
+          "Sun Jun 14",
+          "7.68"
+        ],
+        [
+          "Dante Barnes",
+          "Sun Jun 14",
+          "7.70"
+        ]
+      ],
+      "count": 13
     }
   ]
 }

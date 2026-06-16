@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -21,42 +21,35 @@
       ],
       "rows": [
         [
-          "2026-06-01",
-          "Jabraun Johnson",
-          "11:00 AM",
-          "11:08 AM",
-          "8"
-        ],
-        [
-          "2026-06-02",
+          "2026-06-08",
           "Mike Spinelli",
           "11:00 AM",
-          "11:08 AM",
-          "8"
+          "11:57 AM",
+          "57"
         ],
         [
-          "2026-06-05",
+          "2026-06-13",
           "Dillon Stanas",
-          "9:00 AM",
-          "9:08 AM",
-          "8"
+          "9:30 AM",
+          "9:48 AM",
+          "18"
         ],
         [
-          "2026-06-06",
-          "Jabraun Johnson",
-          "9:45 AM",
-          "2:03 PM",
-          "258"
+          "2026-06-13",
+          "Ethan Jean",
+          "9:30 AM",
+          "9:39 AM",
+          "9"
         ],
         [
-          "2026-06-06",
-          "Dillon Stanas",
-          "9:45 AM",
-          "9:52 AM",
+          "2026-06-14",
+          "Nolan Cahill",
+          "10:30 AM",
+          "10:37 AM",
           "7"
         ]
       ],
-      "count": 5
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -71,8 +64,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Fri Jun 12",
+          "8:58 AM",
+          "7:17 PM",
+          "10.32",
+          "43.13 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "break-compliance",
@@ -105,8 +108,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nolan Cahill",
+          "Sun Jun 14",
+          "7.50"
+        ],
+        [
+          "Ethan Jean",
+          "Sun Jun 14",
+          "7.27"
+        ],
+        [
+          "Dillon Stanas",
+          "Sun Jun 14",
+          "7.17"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

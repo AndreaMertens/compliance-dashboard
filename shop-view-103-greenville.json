@@ -2,10 +2,10 @@
   "meta": {
     "title": "103 Greenville",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-02",
-          "Dylan",
-          "9:45 AM",
-          "9:54 AM",
-          "9"
-        ],
-        [
-          "2026-06-07",
-          "Leeanna Wright",
-          "11:45 AM",
-          "11:53 AM",
-          "8"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -84,8 +69,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Crystal Brooks",
+          "Fri Jun 12",
+          "8.32"
+        ],
+        [
+          "Dylan",
+          "Fri Jun 12",
+          "8.30"
+        ],
+        [
+          "Crystal Brooks",
+          "Sat Jun 13",
+          "8.02"
+        ],
+        [
+          "Dylan",
+          "Sat Jun 13",
+          "8.40"
+        ],
+        [
+          "Crystal Brooks",
+          "Sun Jun 14",
+          "6.47"
+        ],
+        [
+          "Dylan",
+          "Sun Jun 14",
+          "6.28"
+        ]
+      ],
+      "count": 6
     }
   ]
 }

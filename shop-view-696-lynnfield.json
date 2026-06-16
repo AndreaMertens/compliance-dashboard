@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "12 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 12
   },
   "tiles": [
     {
@@ -21,35 +21,56 @@
       ],
       "rows": [
         [
-          "2026-06-01",
-          "Alexa Albanese",
-          "11:45 AM",
-          "11:58 AM",
-          "13"
+          "2026-06-08",
+          "Chanthan Hing",
+          "2:00 PM",
+          "2:22 PM",
+          "22"
         ],
         [
-          "2026-06-02",
+          "2026-06-09",
+          "Evan",
+          "11:45 AM",
+          "11:56 AM",
+          "11"
+        ],
+        [
+          "2026-06-10",
+          "Evan",
+          "11:45 AM",
+          "11:57 AM",
+          "12"
+        ],
+        [
+          "2026-06-11",
+          "Evan",
+          "11:45 AM",
+          "12:05 PM",
+          "20"
+        ],
+        [
+          "2026-06-13",
+          "Chanthan Hing",
+          "9:00 AM",
+          "9:56 AM",
+          "56"
+        ],
+        [
+          "2026-06-13",
           "Evan",
           "10:45 AM",
-          "12:03 PM",
-          "78"
+          "11:05 AM",
+          "20"
         ],
         [
-          "2026-06-05",
+          "2026-06-14",
           "Evan",
-          "11:45 AM",
-          "11:54 AM",
-          "9"
-        ],
-        [
-          "2026-06-07",
-          "Chanthan Hing",
-          "9:30 AM",
-          "10:30 AM",
-          "60"
+          "10:45 AM",
+          "5:56 PM",
+          "431"
         ]
       ],
-      "count": 4
+      "count": 7
     },
     {
       "id": "long-shifts",
@@ -64,8 +85,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "Sun Jun 14",
+          "5:56 PM",
+          "11:11 AM",
+          "17.25",
+          "50.68 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "break-compliance",
@@ -98,8 +129,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "Thu Jun 11",
+          "7.98"
+        ],
+        [
+          "Chanthan Hing",
+          "Sat Jun 13",
+          "8.07"
+        ],
+        [
+          "Evan",
+          "Sat Jun 13",
+          "8.93"
+        ],
+        [
+          "Evan",
+          "Sun Jun 14",
+          "17.25"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

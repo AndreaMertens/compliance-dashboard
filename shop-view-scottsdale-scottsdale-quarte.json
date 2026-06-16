@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-06-02",
+          "2026-06-09",
+          "Hansi Ebert-Sexauer",
+          "3:00 PM",
+          "3:06 PM",
+          "6"
+        ],
+        [
+          "2026-06-11",
           "Gloria Alexander",
-          "12:00 PM",
-          "12:07 PM",
-          "7"
+          "10:00 AM",
+          "10:06 AM",
+          "6"
+        ],
+        [
+          "2026-06-14",
+          "Ryland",
+          "1:00 PM",
+          "1:58 PM",
+          "58"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -43,8 +57,45 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Mon Jun 8",
+          "12:03 PM",
+          "11:03 PM",
+          "11.00",
+          "40.73 (OT)",
+          "OT"
+        ],
+        [
+          "Ryland",
+          "Wed Jun 10",
+          "12:21 PM",
+          "11:00 PM",
+          "10.65",
+          "40.01 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Jun 9",
+          "11:53 AM",
+          "10:23 PM",
+          "10.50",
+          "40.73 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Jun 11",
+          "10:06 AM",
+          "8:32 PM",
+          "10.43",
+          "40.73 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "break-compliance",

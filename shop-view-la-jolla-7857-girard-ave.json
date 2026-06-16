@@ -2,10 +2,10 @@
   "meta": {
     "title": "La Jolla - 7857 Girard Ave",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-06-05",
+          "2026-06-11",
           "Maximilian Pinto",
           "2:00 PM",
-          "2:08 PM",
-          "8"
+          "3:40 PM",
+          "100"
         ]
       ],
       "count": 1
@@ -65,16 +65,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Maximilian Pinto",
-          "37.07",
-          "4.50",
-          "41.57",
-          "+1.57"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -85,8 +77,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Maximilian Pinto",
+          "Sun Jun 14",
+          "6.63"
+        ],
+        [
+          "Casey Sandoval",
+          "Sun Jun 14",
+          "6.80"
+        ],
+        [
+          "Ethan",
+          "Sun Jun 14",
+          "6.72"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

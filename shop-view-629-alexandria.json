@@ -2,10 +2,10 @@
   "meta": {
     "title": "629 Alexandria",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -19,8 +19,51 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-08",
+          "Nour-Eddine Seidnaly",
+          "11:00 AM",
+          "11:20 AM",
+          "20"
+        ],
+        [
+          "2026-06-08",
+          "Jack",
+          "10:30 AM",
+          "10:45 AM",
+          "15"
+        ],
+        [
+          "2026-06-08",
+          "Jack",
+          "10:30 AM",
+          "10:45 AM",
+          "15"
+        ],
+        [
+          "2026-06-11",
+          "Jackson Reid",
+          "11:00 AM",
+          "2:01 PM",
+          "181"
+        ],
+        [
+          "2026-06-12",
+          "Jack",
+          "11:00 AM",
+          "11:07 AM",
+          "7"
+        ],
+        [
+          "2026-06-12",
+          "Jack",
+          "11:00 AM",
+          "11:07 AM",
+          "7"
+        ]
+      ],
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -57,8 +100,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jackson Reid",
+          "37.96",
+          "7.50",
+          "45.46",
+          "+5.46"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

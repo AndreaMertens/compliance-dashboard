@@ -2,10 +2,10 @@
   "meta": {
     "title": "Salt Lake City - 50 E Main St. N",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -69,8 +69,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nicholas Compton",
+          "Fri Jun 12",
+          "8.23"
+        ],
+        [
+          "Val Simanca Delgado",
+          "Fri Jun 12",
+          "8.25"
+        ],
+        [
+          "Reece Horton",
+          "Fri Jun 12",
+          "8.13"
+        ],
+        [
+          "Reece Horton",
+          "Sat Jun 13",
+          "8.23"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

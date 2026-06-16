@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 11 \u2192 Jul 2, 2026",
-    "summary_line": "2 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Thu Jun 11, 10:45 AM",
+    "subtitle": "Window: Jun 15 \u2192 Jul 6, 2026",
+    "summary_line": "6 action needed \u00b7 7 heads up",
+    "last_refreshed_display": "Data through Mon Jun 15, 10:12 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,17 +14,45 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "17250 Omaha",
+          "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
           "draft_count": 6,
-          "gap_days": 6,
+          "gap_days": 1,
           "lookahead_days": 14
         },
         {
-          "shop": "Miami - Brickell",
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 4,
+          "gap_days": 1,
+          "lookahead_days": 21
+        },
+        {
+          "shop": "New York - Flatiron",
           "manager": "",
           "draft_count": 3,
-          "gap_days": 3,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "2900 Minneapolis",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "New York - 57 Spring",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 1,
           "lookahead_days": 14
         }
       ]
@@ -35,39 +63,53 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Greenhills - 2126 Abbot Martin",
+          "shop": "Salt Lake City - 50 E Main St. N",
+          "manager": "",
+          "draft_count": 6,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "DC - 3101 M St",
           "manager": "",
           "draft_count": 3,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "Salt Lake City - 50 E Main St. N",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 3,
           "gap_days": 0,
           "lookahead_days": 21
         },
         {
-          "shop": "DC - 3101 M St",
+          "shop": "1151 Roseville",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "122 Lexington",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "Philadelphia - 1702 Walnut",
+          "shop": "Indianapolis - 8702 Keystone Crossing",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
-          "lookahead_days": 21
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Miami - Brickell",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
         }
       ]
     }
