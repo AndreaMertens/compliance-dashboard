@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Long Shift Penalties",
-    "subtitle": "Week of June 8\u201314, 2026",
-    "summary_line": "5 flagged shifts across 2 shops \u2014 5 OT",
+    "subtitle": "Pay period Jun 11 \u2013 Jun 25, 2026",
+    "summary_line": "No long shifts triggered a penalty or review flag.",
     "last_refreshed_display": "Data through Sun Jun 14, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -16,65 +16,5 @@
     "Weekly",
     "Triggered"
   ],
-  "groups": [
-    {
-      "shop": "Dedham",
-      "manager": "Justin Komins",
-      "count": 1,
-      "rows": [
-        [
-          "Dillon Stanas",
-          "Fri Jun 12",
-          "8:58 AM",
-          "7:17 PM",
-          "10.32",
-          "43.13 (OT)",
-          "OT"
-        ]
-      ]
-    },
-    {
-      "shop": "Scottsdale - Scottsdale Quarte",
-      "manager": "Matt Russell",
-      "count": 4,
-      "rows": [
-        [
-          "Gloria Alexander",
-          "Mon Jun 8",
-          "12:03 PM",
-          "11:03 PM",
-          "11.00",
-          "40.73 (OT)",
-          "OT"
-        ],
-        [
-          "Ryland",
-          "Wed Jun 10",
-          "12:21 PM",
-          "11:00 PM",
-          "10.65",
-          "40.01 (OT)",
-          "OT"
-        ],
-        [
-          "Gloria Alexander",
-          "Tue Jun 9",
-          "11:53 AM",
-          "10:23 PM",
-          "10.50",
-          "40.73 (OT)",
-          "OT"
-        ],
-        [
-          "Gloria Alexander",
-          "Thu Jun 11",
-          "10:06 AM",
-          "8:32 PM",
-          "10.43",
-          "40.73 (OT)",
-          "OT"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

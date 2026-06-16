@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of June 8\u201314, 2026",
-    "generated_at": "2026-06-16T11:09:10.105259",
-    "generated_at_display": "Generated Jun 16, 11:09 AM"
+    "generated_at": "2026-06-16T11:43:25.674754",
+    "generated_at_display": "Generated Jun 16, 11:43 AM"
   },
   "summary": [],
   "sections": [
@@ -43,7 +43,7 @@
           "metric_unit": " \u00b7 6 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Tue Jun 16, 11:09 AM",
+          "last_refreshed_display": "Data through Tue Jun 16, 11:43 AM",
           "covers_label": "Compliance window: next 21 days from 2026-06-16",
           "is_mock": false
         },
@@ -80,24 +80,24 @@
           "id": "long-shifts",
           "title": "Long Shift Penalties",
           "review_day": "Wednesday",
-          "metric": 5,
+          "metric": 0,
           "metric_unit": "shifts flagged",
-          "description": "Across 2 shops last week \u2014 5 OT.",
-          "status": "watch",
+          "description": "No long shifts this pay period triggered OT, NY Spread, or the 11-hour review flag.",
+          "status": "good",
           "last_refreshed_display": "Data through Sun Jun 14, 2026",
-          "covers_label": "Covers Jun 8 \u2013 Jun 14",
+          "covers_label": "Covers Jun 11 \u2013 Jun 25",
           "is_mock": false
         },
         {
           "id": "short-shifts",
           "title": "Short Shifts",
           "review_day": "Wednesday",
-          "metric": 2,
+          "metric": 0,
           "metric_unit": "shifts flagged",
-          "description": "2 approved timecards under 20 minutes across 2 shops \u2014 likely accidental punches or mis-approvals.",
-          "status": "attention",
+          "description": "No approved timecards under 20 minutes this pay period.",
+          "status": "good",
           "last_refreshed_display": "Data through Sun Jun 14, 2026",
-          "covers_label": "Covers Jun 8 \u2013 Jun 14",
+          "covers_label": "Covers Jun 11 \u2013 Jun 25",
           "is_mock": false
         },
         {
@@ -128,7 +128,7 @@
           "id": "pending-leave",
           "title": "Pending Leave Approvals",
           "review_day": "Monday",
-          "metric": 4,
+          "metric": 1,
           "metric_unit": "pending",
           "description": "Leave submitted for a past work week not yet approved or denied.",
           "status": "attention",
