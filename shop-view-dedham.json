@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -64,8 +64,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Fri Jun 12",
+          "8:58 AM",
+          "7:17 PM",
+          "10.32",
+          "43.14 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -104,24 +114,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Nolan Cahill",
-          "Sun Jun 14",
-          "7.50"
-        ],
-        [
-          "Ethan Jean",
-          "Sun Jun 14",
-          "7.27"
-        ],
-        [
-          "Dillon Stanas",
-          "Sun Jun 14",
-          "7.17"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

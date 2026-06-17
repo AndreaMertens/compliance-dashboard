@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - 57 Spring",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -19,8 +19,65 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-11",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-11",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-12",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-12",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-13",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-13",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-14",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-14",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:00 AM",
+          "15"
+        ]
+      ],
+      "count": 8
     },
     {
       "id": "long-shifts",
@@ -75,19 +132,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Yoseph Woldu",
-          "Thu Jun 11",
-          "8.45"
-        ],
-        [
-          "Yoseph Woldu",
-          "Fri Jun 12",
-          "8.33"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }
