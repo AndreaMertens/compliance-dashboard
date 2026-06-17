@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 16 \u2192 Jul 7, 2026",
-    "summary_line": "6 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Tue Jun 16, 12:10 PM",
+    "subtitle": "Window: Jun 17 \u2192 Jul 8, 2026",
+    "summary_line": "3 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Wed Jun 17, 7:02 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,44 +16,23 @@
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 12,
-          "gap_days": 2,
+          "draft_count": 18,
+          "gap_days": 3,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "New York - Flatiron",
+          "manager": "",
+          "draft_count": 11,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
           "shop": "Philadelphia - 1702 Walnut",
           "manager": "",
-          "draft_count": 8,
-          "gap_days": 2,
+          "draft_count": 11,
+          "gap_days": 3,
           "lookahead_days": 21
-        },
-        {
-          "shop": "New York - Flatiron",
-          "manager": "",
-          "draft_count": 6,
-          "gap_days": 2,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "2900 Minneapolis",
-          "manager": "",
-          "draft_count": 5,
-          "gap_days": 2,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "New York - 57 Spring",
-          "manager": "",
-          "draft_count": 5,
-          "gap_days": 2,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1425 Basecamp",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 1,
-          "lookahead_days": 14
         }
       ]
     },
