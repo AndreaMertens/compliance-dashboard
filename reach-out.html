@@ -232,8 +232,13 @@
     if (detail.groups && detail.columns) {
       const cols = detail.columns;
       const isManualPunch = cols.includes("Last Week") && cols.includes("2026 Avg");
+      const lastWeekIdx = cols.indexOf("Last Week");
       for (const g of detail.groups) {
-        const rows = (g.rows || []).map(cells => {
+        // Reach-Out builder: only managers at 50%+ manual punches LAST WEEK are worth contacting.
+        const srcRows = isManualPunch
+          ? (g.rows || []).filter(cells => parseFloat(cells[lastWeekIdx]) >= 50)
+          : (g.rows || []);
+        const rows = srcRows.map(cells => {
           const rec = {
             tile: tileTitle, shop: g.shop || "", manager: g.manager || "",
             employee: pick(cols, cells, ["Employee","Manager"]),
