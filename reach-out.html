@@ -254,6 +254,8 @@
     } else if (detail.sections) {
       const cols = ["Tier","Shop","Gap Days","Draft Shifts","Lookahead (days)"];
       for (const sec of detail.sections) {
+        // Reach-Out builder is for items needing action; skip the soft "Heads Up" FYI tier.
+        if ((sec.label || "").toLowerCase().includes("heads up")) continue;
         const rows = (sec.rows||[]).map(r => {
           const cells = [sec.label, r.shop||"", r.gap_days??0, r.draft_count??0, r.lookahead_days??""];
           return { cells, rec: { tile: tileTitle, shop: r.shop||"", manager: r.manager||"", employee:"", date:"", lastWeek:"", avg:"", details:"" } };
