@@ -162,11 +162,11 @@
 
   const GROUP_LEVEL_TILES = new Set(["unapproved-timecards"]);
 
-  let selection = load(SEL_KEY);
-  let statuses  = load(STATUS_KEY);
+  let selection = loadStore(SEL_KEY);
+  let statuses  = loadStore(STATUS_KEY);
   let currentWeekLabel = null;  // set after data.json loads
 
-  function load(key) {
+  function loadStore(key) {
     try { return JSON.parse(localStorage.getItem(key)) || {}; } catch { return {}; }
   }
   function save(key, obj) {
