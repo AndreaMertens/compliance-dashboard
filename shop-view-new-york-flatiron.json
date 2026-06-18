@@ -63,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ian Adams",
+          "33.24",
+          "8.00",
+          "41.24",
+          "+1.24"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -75,14 +83,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Tyquan Jefferson",
-          "Sun Jun 14",
-          "8.78"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     }
   ]
 }
