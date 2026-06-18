@@ -254,7 +254,7 @@
           }
           return { cells, rec };
         });
-        groups.push({ shop: g.shop||"", manager: g.manager||"", columns: cols, rows });
+        groups.push({ shop: isManualPunch ? "50%+ last week" : (g.shop||""), manager: g.manager||"", columns: cols, rows });
       }
     } else if (detail.sections) {
       const cols = ["Tier","Shop","Gap Days","Draft Shifts","Lookahead (days)"];
