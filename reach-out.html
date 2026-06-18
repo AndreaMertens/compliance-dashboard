@@ -308,6 +308,9 @@
       if (groupLevel) {
         const n   = g.rows.length;
         const key = `${tileId}||${g.shop}`;
+        // Distinct dates of the unapproved timecards, for the outreach message.
+        const _dateIdx = g.columns.indexOf("Date");
+        const distinctDates = _dateIdx >= 0 ? [...new Set(g.rows.map(r => r.cells[_dateIdx]))] : [];
         const checked = !!selection[key];
         const status  = statuses[key];
         if (status === "reached") grp.classList.add("sel-reached");
@@ -326,7 +329,7 @@
         const cb = head.querySelector(".grp-cb");
         cb.addEventListener("change", () => {
           if (cb.checked) {
-            selection[key] = { tile: tileTitle, shop: g.shop, manager: g.manager, employee:"", date:"", lastWeek:"", avg:"", details:`${n} unapproved timecard${n===1?"":"s"}` };
+            selection[key] = { tile: tileTitle, shop: g.shop, manager: g.manager, employee:"", date: distinctDates.join(", "), lastWeek:"", avg:"", details:`${n} unapproved timecard${n===1?"":"s"}` };
             grp.classList.add("sel-reached");
           } else { delete selection[key]; grp.classList.remove("sel-reached","sel-skip"); }
           save(SEL_KEY, selection); updateCounts(); refreshStatusTabs();
