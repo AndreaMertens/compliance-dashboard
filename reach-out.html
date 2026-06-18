@@ -1,159 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>State &amp; Liberty — Reach-Out Builder</title>
-<style>
-  * { box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    margin: 0; padding: 0; background: #f4f4f6; color: #1a1a1a; line-height: 1.5;
-  }
-  header {
-    background: #14213d; color: #fff; padding: 1.75rem 3rem 1.5rem; position: relative;
-  }
-  header .brand {
-    font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em;
-    color: #8ea1c4; margin-bottom: 0.35rem;
-  }
-  header h1 { margin: 0; font-size: 1.6rem; font-weight: 600; letter-spacing: -0.015em; }
-  header .subtitle { margin-top: 0.25rem; color: #a8b4cc; font-size: 0.95rem; }
-  .back-link {
-    display: inline-block; margin: 1.25rem 0 0 3rem;
-    color: #14213d; text-decoration: none; font-size: 0.9rem; font-weight: 500;
-  }
-  .back-link:hover { text-decoration: underline; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>State &amp; Liberty — Reach-Out Builder</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; background: #f7f7f7; color: #111; }
 
-  /* Sticky action bar */
-  .toolbar {
-    position: sticky; top: 0; z-index: 20;
-    background: #fff; border-bottom: 1px solid #e3e5eb;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-    display: flex; align-items: center; gap: 1rem;
-    padding: 0.85rem 3rem;
-  }
-  .toolbar .count { font-size: 0.95rem; font-weight: 600; color: #14213d; }
-  .toolbar .count span { color: #b23a3a; }
-  .toolbar .spacer { flex: 1; }
-  .btn {
-    border: none; border-radius: 6px; padding: 0.55rem 1.1rem;
-    font-size: 0.85rem; font-weight: 700; letter-spacing: 0.04em;
-    cursor: pointer; font-family: inherit;
-  }
-  .btn-primary { background: #14213d; color: #fff; }
-  .btn-primary:hover { background: #1e3a6e; }
-  .btn-primary:disabled { background: #aab2c4; cursor: not-allowed; }
-  .btn-ghost { background: #f0f2f7; color: #14213d; }
-  .btn-ghost:hover { background: #e3e8f2; }
+    header { background: #111; color: #fff; padding: 14px 24px; display: flex; align-items: center; gap: 16px; }
+    header .brand { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    header h1 { font-size: 16px; font-weight: 500; }
+    header a { color: #aaa; font-size: 12px; text-decoration: none; margin-left: auto; }
+    header a:hover { color: #fff; }
 
-  .wrapper { max-width: 1100px; margin: 0 auto; padding: 1.5rem 3rem 5rem; }
+    .page-wrap { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
 
-  .tile-block { margin-bottom: 2.25rem; }
-  .tile-block > h2 {
-    font-size: 1.05rem; font-weight: 600; color: #14213d;
-    text-transform: uppercase; letter-spacing: 0.08em;
-    margin: 0 0 0.85rem; padding-bottom: 0.5rem; border-bottom: 2px solid #14213d;
-  }
-  .tile-block > h2 .muted { color: #999; font-weight: 500; letter-spacing: 0.02em; text-transform: none; font-size: 0.85rem; }
-  .tile-empty { color: #888; font-size: 0.9rem; padding: 0.25rem 0 0.75rem; }
+    #subtitle { color: #555; font-size: 13px; margin-bottom: 20px; }
 
-  .grp { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 1rem; overflow: hidden; }
-  .grp-head {
-    display: flex; align-items: center; gap: 0.6rem;
-    background: #f0f2f7; padding: 0.7rem 1.1rem; border-bottom: 1px solid #e3e5eb;
-  }
-  .grp-head .shop { font-size: 0.95rem; font-weight: 600; color: #14213d; }
-  .grp-head .mgr { font-size: 0.78rem; color: #666; }
-  .grp-head label { margin-left: auto; font-size: 0.72rem; color: #555; text-transform: uppercase; letter-spacing: 0.06em; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; }
+    /* ---- Tab bar ---- */
+    .tab-bar { display: flex; gap: 0; border-bottom: 2px solid #e0e0e0; margin-bottom: 24px; }
+    .tab-btn {
+      padding: 10px 22px 9px;
+      font-size: 13px; font-weight: 500;
+      border: none; background: none; cursor: pointer;
+      color: #777; border-bottom: 2px solid transparent; margin-bottom: -2px;
+      transition: color .15s;
+    }
+    .tab-btn:hover { color: #111; }
+    .tab-btn.active { color: #111; border-bottom-color: #111; }
+    .tab-btn .tab-count {
+      display: inline-block; margin-left: 7px;
+      font-size: 11px; font-weight: 600; color: #fff;
+      background: #999; border-radius: 10px; padding: 1px 7px; vertical-align: middle;
+    }
+    .tab-btn.active .tab-count { background: #111; }
+    .tab-btn[data-tab="reached"] .tab-count { background: #4a7c4a; }
+    .tab-btn[data-tab="reached"].active .tab-count { background: #2a5a2a; }
+    .tab-btn[data-tab="skip"] .tab-count { background: #998833; }
+    .tab-btn[data-tab="skip"].active .tab-count { background: #7a6a1a; }
 
-  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-  thead th {
-    text-align: left; padding: 0.55rem 1.1rem; font-weight: 600; font-size: 0.72rem;
-    text-transform: uppercase; letter-spacing: 0.07em; color: #777;
-    border-bottom: 1px solid #e3e5eb; background: #fafbfc;
-  }
-  tbody td { padding: 0.6rem 1.1rem; border-bottom: 1px solid #f0f1f4; color: #333; }
-  tbody tr:last-child td { border-bottom: none; }
-  tbody tr.sel { background: #fff8e1; }
-  tbody tr:hover { background: #fafbfc; }
-  tbody tr.sel:hover { background: #fdf3d0; }
-  td.cb, th.cb { width: 38px; text-align: center; }
-  input[type=checkbox] { width: 16px; height: 16px; cursor: pointer; }
-  .grp-head .grp-cb { margin-right: 0.2rem; }
-  .grp-head .grp-count { margin-left: auto; font-size: 0.74rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em; }
-  .grp.sel { outline: 2px solid #f0c44c; }
+    /* ---- Toolbar ---- */
+    .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    #sel-count-wrap { font-size: 13px; color: #555; }
+    #sel-count { font-weight: 600; color: #111; }
+    .toolbar-spacer { flex: 1; }
+    button.action-btn {
+      padding: 7px 16px; font-size: 13px; border-radius: 4px; border: 1px solid #ccc;
+      background: #fff; cursor: pointer; color: #333;
+    }
+    button.action-btn:hover { background: #f0f0f0; }
+    button.action-btn:disabled { opacity: .4; cursor: default; }
+    button.action-btn.primary { background: #111; color: #fff; border-color: #111; }
+    button.action-btn.primary:hover { background: #333; }
 
-  .error-banner {
-    margin: 1rem 0; padding: 1rem 1.25rem; background: #fdecea;
-    border-left: 4px solid #b23a3a; border-radius: 4px; font-size: 0.9rem; color: #5a1a1a; display: none;
-  }
-  .error-banner.visible { display: block; }
-  .loading { color: #777; padding: 1rem 0; }
-</style>
+    /* ---- Tab panels ---- */
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ---- Tiles ---- */
+    .tile-block { background: #fff; border: 1px solid #e8e8e8; border-radius: 6px; margin-bottom: 16px; overflow: hidden; }
+    .tile-block h2 { font-size: 13px; font-weight: 600; padding: 12px 16px; border-bottom: 1px solid #f0f0f0; background: #fafafa; }
+    .tile-block h2 .muted { font-weight: 400; color: #888; margin-left: 6px; font-size: 12px; }
+    .tile-empty { padding: 12px 16px; color: #999; font-size: 12px; }
+
+    .grp { border-bottom: 1px solid #f0f0f0; }
+    .grp:last-child { border-bottom: none; }
+    .grp-head {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 16px; background: #fafafa; font-size: 12px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .grp-head .shop { font-weight: 600; }
+    .grp-head .mgr { color: #777; }
+    .grp-head .grp-count { color: #999; margin-left: auto; }
+    .grp-head label { display: flex; align-items: center; gap: 5px; margin-left: auto; cursor: pointer; color: #555; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    thead th { text-align: left; padding: 7px 12px; color: #888; font-weight: 500; background: #fafafa; border-bottom: 1px solid #f0f0f0; white-space: nowrap; }
+    thead th.cb { width: 32px; }
+    tbody tr { border-bottom: 1px solid #f8f8f8; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody td { padding: 7px 12px; vertical-align: middle; }
+    tbody td.cb { width: 32px; }
+    tbody tr.sel-reached { background: #f2f8f2; }
+    tbody tr.sel-skip { background: #faf6e8; }
+
+    /* ---- Status buttons inside rows ---- */
+    .row-actions { display: flex; gap: 6px; white-space: nowrap; }
+    .status-btn {
+      padding: 3px 10px; font-size: 11px; border-radius: 3px; border: 1px solid #ddd;
+      background: #fff; cursor: pointer; color: #555; transition: background .12s;
+    }
+    .status-btn:hover { background: #f0f0f0; }
+    .status-btn.active-reached { background: #e4f0e4; border-color: #9ac89a; color: #2a5a2a; font-weight: 600; }
+    .status-btn.active-skip { background: #f5f0e0; border-color: #d0bc70; color: #6a5a10; font-weight: 600; }
+
+    /* ---- Reached/Skip tab — read-only rows ---- */
+    .readonly-tile .grp-head { background: #f8f8f8; }
+    .status-label { font-size: 11px; padding: 2px 9px; border-radius: 10px; }
+    .status-label.reached { background: #e4f0e4; color: #2a5a2a; }
+    .status-label.skip { background: #f5f0e0; color: #6a5a10; }
+
+    .empty-tab { text-align: center; padding: 48px 24px; color: #aaa; font-size: 13px; }
+
+    #error-banner { display: none; background: #fee; border: 1px solid #fcc; color: #900; padding: 12px 16px; border-radius: 4px; margin-bottom: 16px; font-size: 13px; }
+    #error-banner.visible { display: block; }
+    #loading { color: #999; font-size: 13px; padding: 24px 0; }
+  </style>
 </head>
 <body>
-
 <header>
-  <div class="brand">State &amp; Liberty</div>
+  <span class="brand">State &amp; Liberty</span>
   <h1>Reach-Out Builder</h1>
-  <div class="subtitle" id="subtitle">Select the instances you want to flag, then download them as one CSV.</div>
+  <a href="index.html">← Dashboard</a>
 </header>
 
-<a class="back-link" href="index.html">&larr; Dashboard</a>
+<div class="page-wrap">
+  <p id="subtitle">Select the instances you want to flag, then download them as one CSV.</p>
+  <div id="error-banner">Couldn't load the tiles. Open this page via the live URL (GitHub Pages), not from disk.</div>
 
-<div class="toolbar">
-  <div class="count"><span id="sel-count">0</span> selected</div>
-  <div class="spacer"></div>
-  <button class="btn btn-ghost" id="clear-btn">Clear list</button>
-  <button class="btn btn-primary" id="download-btn" disabled>↓ Download CSV</button>
-</div>
-
-<div class="wrapper">
-  <div id="error-banner" class="error-banner">
-    <strong>Couldn't load the tiles.</strong> Open this page via the live URL (GitHub Pages), not from disk.
+  <!-- Tab bar -->
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="needs">Needs Outreach <span class="tab-count" id="count-needs">0</span></button>
+    <button class="tab-btn" data-tab="reached">Reached Out <span class="tab-count" id="count-reached">0</span></button>
+    <button class="tab-btn" data-tab="skip">Not Reaching Out <span class="tab-count" id="count-skip">0</span></button>
   </div>
-  <div id="loading" class="loading">Loading tiles…</div>
-  <div id="tiles-container"></div>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <span id="sel-count-wrap"><span id="sel-count">0</span> selected</span>
+    <div class="toolbar-spacer"></div>
+    <button class="action-btn" id="clear-btn">Clear selections</button>
+    <button class="action-btn primary" id="download-btn" disabled>↓ Download CSV</button>
+  </div>
+
+  <!-- Needs Outreach tab -->
+  <div class="tab-panel active" id="panel-needs">
+    <div id="loading">Loading tiles…</div>
+    <div id="tiles-container"></div>
+  </div>
+
+  <!-- Reached Out tab -->
+  <div class="tab-panel" id="panel-reached">
+    <div id="tiles-reached"></div>
+  </div>
+
+  <!-- Not Reaching Out tab -->
+  <div class="tab-panel" id="panel-skip">
+    <div id="tiles-skip"></div>
+  </div>
 </div>
 
 <script>
   // -------------------------------------------------------------------------
-  // Reach-Out Builder
-  // Reads data.json for the tile list, then each <tile>.json detail file,
-  // renders every instance with a checkbox, and lets you export the picks as
-  // one CSV. Selections are remembered in this browser (localStorage) so a
-  // reload won't lose your work. "Clear list" wipes them for the next report.
+  // Keys & storage
   // -------------------------------------------------------------------------
-  const STORE_KEY = "reachout_selection_v1";
-  // Tiles where you flag the whole location once, not each row (e.g. you
-  // reach out to a shop about its unapproved timecards, not card by card).
+  const SEL_KEY      = "reachout_selection_v1";
+  const STATUS_KEY   = "reachout_status_v1";      // key -> "reached" | "skip"
+  const WEEK_KEY     = "reachout_week_label_v1";  // last seen week_label
+
   const GROUP_LEVEL_TILES = new Set(["unapproved-timecards"]);
 
-  // selection: { key -> {tile, shop, manager, employee, date, details} }
-  let selection = loadSelection();
+  let selection = load(SEL_KEY);
+  let statuses  = load(STATUS_KEY);
+  let currentWeekLabel = null;  // set after data.json loads
 
-  function loadSelection() {
-    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
-    catch (e) { return {}; }
+  function load(key) {
+    try { return JSON.parse(localStorage.getItem(key)) || {}; } catch { return {}; }
   }
-  function saveSelection() {
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(selection)); } catch (e) {}
+  function save(key, obj) {
+    try { localStorage.setItem(key, JSON.stringify(obj)); } catch {}
   }
 
+  // If the week label has changed, wipe reached/skip buckets (but not selections).
+  function maybeExpireStatuses(weekLabel) {
+    const stored = localStorage.getItem(WEEK_KEY);
+    if (stored !== weekLabel) {
+      statuses = {};
+      save(STATUS_KEY, statuses);
+      localStorage.setItem(WEEK_KEY, weekLabel);
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // Helpers
+  // -------------------------------------------------------------------------
   function esc(s) {
     if (s == null) return "";
     return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")
       .replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
   }
 
-  function updateCount() {
-    const n = Object.keys(selection).length;
-    document.getElementById("sel-count").textContent = n;
-    document.getElementById("download-btn").disabled = (n === 0);
-  }
-
-  // Pull a labelled value out of a standard row given column headers
   function pick(columns, cells, names) {
     for (const nm of names) {
       const i = columns.findIndex(c => c.toLowerCase() === nm.toLowerCase());
@@ -165,26 +203,42 @@
     return columns.map((c, i) => `${c}: ${cells[i] ?? ""}`).join(" | ");
   }
 
-  // Normalize one tile's detail JSON into a list of render groups:
-  //   { shop, manager, columns:[...], rows:[ {cells:[...], rec:{...}} ] }
+  function rowKey(tileId, shop, cells) {
+    return `${tileId}||${shop}||${JSON.stringify(cells)}`;
+  }
+
+  // -------------------------------------------------------------------------
+  // Counts & tab badges
+  // -------------------------------------------------------------------------
+  function updateCounts() {
+    const selKeys   = Object.keys(selection);
+    const reached   = Object.values(statuses).filter(v => v === "reached").length;
+    const skip      = Object.values(statuses).filter(v => v === "skip").length;
+    // "needs outreach" = selected but not yet actioned
+    const pending   = selKeys.filter(k => !statuses[k]).length;
+
+    document.getElementById("sel-count").textContent    = selKeys.length;
+    document.getElementById("count-needs").textContent  = pending;
+    document.getElementById("count-reached").textContent = reached;
+    document.getElementById("count-skip").textContent   = skip;
+    document.getElementById("download-btn").disabled    = (selKeys.length === 0);
+  }
+
+  // -------------------------------------------------------------------------
+  // Normalize tile detail JSON into render groups
+  // -------------------------------------------------------------------------
   function normalize(tileTitle, detail) {
     const groups = [];
     if (detail.groups && detail.columns) {
       const cols = detail.columns;
-      // Manual Punches carries per-manager percentages — give them their own
-      // CSV columns instead of burying them in the Details blob.
       const isManualPunch = cols.includes("Last Week") && cols.includes("2026 Avg");
       for (const g of detail.groups) {
         const rows = (g.rows || []).map(cells => {
           const rec = {
-            tile: tileTitle,
-            shop: g.shop || "",
-            manager: g.manager || "",
-            employee: pick(cols, cells, ["Employee", "Manager"]),
-            date: pick(cols, cells, ["Date", "Date Start"]),
-            lastWeek: "",
-            avg: "",
-            details: detailString(cols, cells),
+            tile: tileTitle, shop: g.shop || "", manager: g.manager || "",
+            employee: pick(cols, cells, ["Employee","Manager"]),
+            date: pick(cols, cells, ["Date","Date Start"]),
+            lastWeek: "", avg: "", details: detailString(cols, cells),
           };
           if (isManualPunch) {
             rec.manager  = pick(cols, cells, ["Manager"]) || g.manager || "";
@@ -195,45 +249,37 @@
           }
           return { cells, rec };
         });
-        groups.push({ shop: g.shop || "", manager: g.manager || "", columns: cols, rows });
+        groups.push({ shop: g.shop||"", manager: g.manager||"", columns: cols, rows });
       }
     } else if (detail.sections) {
-      // Schedule Publication shape — rows are objects, grouped by tier.
-      // Screen shows the full detail; the CSV carries the shop only.
-      const cols = ["Tier", "Shop", "Gap Days", "Draft Shifts", "Lookahead (days)"];
+      const cols = ["Tier","Shop","Gap Days","Draft Shifts","Lookahead (days)"];
       for (const sec of detail.sections) {
-        const rows = (sec.rows || []).map(r => {
-          const cells = [sec.label, r.shop || "", r.gap_days ?? 0, r.draft_count ?? 0, r.lookahead_days ?? ""];
-          return {
-            cells,
-            rec: {
-              tile: tileTitle, shop: r.shop || "", manager: r.manager || "",
-              employee: "", date: "", lastWeek: "", avg: "",
-              details: "",
-            },
-          };
+        const rows = (sec.rows||[]).map(r => {
+          const cells = [sec.label, r.shop||"", r.gap_days??0, r.draft_count??0, r.lookahead_days??""];
+          return { cells, rec: { tile: tileTitle, shop: r.shop||"", manager: r.manager||"", employee:"", date:"", lastWeek:"", avg:"", details:"" } };
         });
-        if (rows.length) groups.push({ shop: sec.label, manager: "", columns: cols, rows });
+        if (rows.length) groups.push({ shop: sec.label, manager:"", columns: cols, rows });
       }
     }
     return groups;
   }
 
-  function rowKey(tileId, shop, cells) {
-    return `${tileId}||${shop}||${JSON.stringify(cells)}`;
-  }
-
+  // -------------------------------------------------------------------------
+  // Render tile for the "Needs Outreach" tab
+  // -------------------------------------------------------------------------
   function renderTile(tileId, tileTitle, detail) {
     const groups = normalize(tileTitle, detail);
-    const total = groups.reduce((n, g) => n + g.rows.length, 0);
+    const total  = groups.reduce((n, g) => n + g.rows.length, 0);
     const groupLevel = GROUP_LEVEL_TILES.has(tileId);
 
     const block = document.createElement("section");
     block.className = "tile-block";
+    block.dataset.tileId = tileId;
+
     const h = document.createElement("h2");
     const unitLabel = groupLevel
-      ? `${groups.length} location${groups.length === 1 ? "" : "s"}`
-      : `${total} instance${total === 1 ? "" : "s"}`;
+      ? `${groups.length} location${groups.length===1?"":"s"}`
+      : `${total} instance${total===1?"":"s"}`;
     h.innerHTML = `${esc(tileTitle)} <span class="muted">${unitLabel}</span>`;
     block.appendChild(h);
 
@@ -251,38 +297,45 @@
       const head = document.createElement("div");
       head.className = "grp-head";
 
-      // ---- Location-level selection (one checkbox flags the whole shop) ----
+      // ---- Group-level (e.g. unapproved timecards) ----
       if (groupLevel) {
-        const n = g.rows.length;
+        const n   = g.rows.length;
         const key = `${tileId}||${g.shop}`;
         const checked = !!selection[key];
-        if (checked) grp.classList.add("sel");
+        const status  = statuses[key];
+        if (status === "reached") grp.classList.add("sel-reached");
+        if (status === "skip")    grp.classList.add("sel-skip");
+
         head.innerHTML =
-          `<input type="checkbox" class="grp-cb" ${checked ? "checked" : ""}>` +
-          `<span class="shop">${esc(g.shop)}</span>` +
-          (g.manager ? `<span class="mgr">${esc(g.manager)}</span>` : "") +
-          `<span class="grp-count">${n} timecard${n === 1 ? "" : "s"}</span>`;
-        const cb = head.querySelector("input");
+          `<input type="checkbox" class="grp-cb" ${checked?"checked":""}>`+
+          `<span class="shop">${esc(g.shop)}</span>`+
+          (g.manager?`<span class="mgr">${esc(g.manager)}</span>`:"")+ 
+          `<span class="grp-count">${n} timecard${n===1?"":"s"}</span>`+
+          `<div class="row-actions">`+
+            `<button class="status-btn${status==="reached"?" active-reached":""}" data-action="reached" data-key="${esc(key)}">Reached Out</button>`+
+            `<button class="status-btn${status==="skip"?" active-skip":""}" data-action="skip" data-key="${esc(key)}">Not Reaching Out</button>`+
+          `</div>`;
+
+        const cb = head.querySelector(".grp-cb");
         cb.addEventListener("change", () => {
           if (cb.checked) {
-            selection[key] = {
-              tile: tileTitle, shop: g.shop, manager: g.manager,
-              employee: "", date: "", lastWeek: "", avg: "",
-              details: `${n} unapproved timecard${n === 1 ? "" : "s"}`,
-            };
-            grp.classList.add("sel");
-          } else { delete selection[key]; grp.classList.remove("sel"); }
-          saveSelection(); updateCount();
+            selection[key] = { tile: tileTitle, shop: g.shop, manager: g.manager, employee:"", date:"", lastWeek:"", avg:"", details:`${n} unapproved timecard${n===1?"":"s"}` };
+            grp.classList.add("sel-reached");
+          } else { delete selection[key]; grp.classList.remove("sel-reached","sel-skip"); }
+          save(SEL_KEY, selection); updateCounts(); refreshStatusTabs();
         });
-        grp.appendChild(head);
 
-        // Read-only context: which cards are open, no per-row checkboxes
+        head.querySelectorAll(".status-btn").forEach(btn => {
+          btn.addEventListener("click", () => handleStatus(key, btn.dataset.action, grp, head));
+        });
+
+        grp.appendChild(head);
         const table = document.createElement("table");
-        table.innerHTML = `<thead><tr>${g.columns.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead>`;
+        table.innerHTML = `<thead><tr>${g.columns.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead>`;
         const tbody = document.createElement("tbody");
         for (const row of g.rows) {
           const tr = document.createElement("tr");
-          tr.innerHTML = row.cells.map(c => `<td>${esc(c)}</td>`).join("");
+          tr.innerHTML = row.cells.map(c=>`<td>${esc(c)}</td>`).join("");
           tbody.appendChild(tr);
         }
         table.appendChild(tbody);
@@ -291,31 +344,44 @@
         continue;
       }
 
-      // ---- Row-level selection (default) ----
+      // ---- Row-level ----
       head.innerHTML =
-        `<span class="shop">${esc(g.shop)}</span>` +
-        (g.manager ? `<span class="mgr">${esc(g.manager)}</span>` : "") +
+        `<span class="shop">${esc(g.shop)}</span>`+
+        (g.manager?`<span class="mgr">${esc(g.manager)}</span>`:"")+
         `<label><input type="checkbox" class="select-all"> Select all</label>`;
       grp.appendChild(head);
 
-      const table = document.createElement("table");
-      const thead = `<thead><tr><th class="cb"></th>${g.columns.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead>`;
-      const tbody = document.createElement("tbody");
+      const table  = document.createElement("table");
+      const thead  = `<thead><tr><th class="cb"></th>${g.columns.map(c=>`<th>${esc(c)}</th>`).join("")}<th></th></tr></thead>`;
+      const tbody  = document.createElement("tbody");
 
       for (const row of g.rows) {
-        const key = rowKey(tileId, g.shop, row.cells);
-        const tr = document.createElement("tr");
+        const key     = rowKey(tileId, g.shop, row.cells);
         const checked = !!selection[key];
-        if (checked) tr.classList.add("sel");
+        const status  = statuses[key];
+        const tr      = document.createElement("tr");
+        if (status === "reached") tr.classList.add("sel-reached");
+        if (status === "skip")    tr.classList.add("sel-skip");
+
         tr.innerHTML =
-          `<td class="cb"><input type="checkbox" ${checked ? "checked" : ""}></td>` +
-          row.cells.map(c => `<td>${esc(c)}</td>`).join("");
-        const cb = tr.querySelector("input");
+          `<td class="cb"><input type="checkbox" ${checked?"checked":""}></td>`+
+          row.cells.map(c=>`<td>${esc(c)}</td>`).join("")+
+          `<td><div class="row-actions">`+
+            `<button class="status-btn${status==="reached"?" active-reached":""}" data-action="reached">Reached Out</button>`+
+            `<button class="status-btn${status==="skip"?" active-skip":""}" data-action="skip">Not Reaching Out</button>`+
+          `</div></td>`;
+
+        const cb = tr.querySelector("input[type=checkbox]");
         cb.addEventListener("change", () => {
-          if (cb.checked) { selection[key] = row.rec; tr.classList.add("sel"); }
-          else { delete selection[key]; tr.classList.remove("sel"); }
-          saveSelection(); updateCount(); syncSelectAll(head, tbody);
+          if (cb.checked) { selection[key] = row.rec; }
+          else { delete selection[key]; }
+          save(SEL_KEY, selection); updateCounts(); syncSelectAll(head, tbody); refreshStatusTabs();
         });
+
+        tr.querySelectorAll(".status-btn").forEach(btn => {
+          btn.addEventListener("click", () => handleStatus(key, btn.dataset.action, tr, tr));
+        });
+
         tbody.appendChild(tr);
       }
 
@@ -324,7 +390,6 @@
       grp.appendChild(table);
       block.appendChild(grp);
 
-      // Group "select all"
       const selAll = head.querySelector(".select-all");
       selAll.addEventListener("change", () => {
         tbody.querySelectorAll("input[type=checkbox]").forEach(cb => {
@@ -343,6 +408,132 @@
     sa.checked = boxes.length > 0 && boxes.every(b => b.checked);
   }
 
+  // -------------------------------------------------------------------------
+  // Status handling
+  // -------------------------------------------------------------------------
+  function handleStatus(key, action, rowEl, headEl) {
+    statuses[key] = action;
+    save(STATUS_KEY, statuses);
+
+    // Update button styles in the main list row
+    headEl.querySelectorAll(".status-btn").forEach(btn => {
+      btn.classList.remove("active-reached","active-skip");
+      if (btn.dataset.action === action) {
+        btn.classList.add(action === "reached" ? "active-reached" : "active-skip");
+      }
+    });
+    rowEl.classList.remove("sel-reached","sel-skip");
+    rowEl.classList.add(action === "reached" ? "sel-reached" : "sel-skip");
+
+    updateCounts();
+    refreshStatusTabs();
+  }
+
+  // -------------------------------------------------------------------------
+  // Rebuild the Reached Out and Not Reaching Out tabs
+  // -------------------------------------------------------------------------
+  let allTileData = []; // { tileId, tileTitle, detail }
+
+  function refreshStatusTabs() {
+    renderStatusTab("reached", "Reached Out", "#panel-reached", "tiles-reached");
+    renderStatusTab("skip",    "Not Reaching Out", "#panel-skip", "tiles-skip");
+  }
+
+  function renderStatusTab(statusVal, label, panelSel, containerId) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = "";
+
+    // Collect matching items grouped by tile
+    const byTile = {};
+    for (const [key, status] of Object.entries(statuses)) {
+      if (status !== statusVal) continue;
+      const rec = selection[key];
+      if (!rec) continue;
+      const tile = rec.tile || "Unknown";
+      if (!byTile[tile]) byTile[tile] = [];
+      byTile[tile].push({ key, rec });
+    }
+
+    const tiles = Object.keys(byTile);
+    if (tiles.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "empty-tab";
+      empty.textContent = statusVal === "reached"
+        ? "Nothing marked as reached out yet."
+        : "Nothing marked as skipping yet.";
+      container.appendChild(empty);
+      return;
+    }
+
+    for (const tileTitle of tiles) {
+      const items = byTile[tileTitle];
+      const block = document.createElement("section");
+      block.className = "tile-block readonly-tile";
+
+      const h = document.createElement("h2");
+      h.innerHTML = `${esc(tileTitle)} <span class="muted">${items.length} item${items.length===1?"":"s"}</span>`;
+      block.appendChild(h);
+
+      const table = document.createElement("table");
+      table.innerHTML = `<thead><tr><th>Shop</th><th>Manager</th><th>Employee</th><th>Date</th><th>Details</th></tr></thead>`;
+      const tbody = document.createElement("tbody");
+
+      for (const { rec } of items) {
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          `<td>${esc(rec.shop)}</td>`+
+          `<td>${esc(rec.manager)}</td>`+
+          `<td>${esc(rec.employee)}</td>`+
+          `<td>${esc(rec.date)}</td>`+
+          `<td>${esc(rec.details)}</td>`;
+        tbody.appendChild(tr);
+      }
+
+      table.appendChild(tbody);
+      block.appendChild(table);
+      container.appendChild(block);
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // Tab switching
+  // -------------------------------------------------------------------------
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById(`panel-${btn.dataset.tab}`).classList.add("active");
+    });
+  });
+
+  // -------------------------------------------------------------------------
+  // CSV export — all selected items with status column
+  // -------------------------------------------------------------------------
+  function downloadCSV() {
+    const items = Object.entries(selection);
+    if (!items.length) return;
+    const header = ["Status","Tile","Shop","Manager","Employee","Date","Last Week %","2026 Avg %","Details"];
+    const rows   = [header];
+    for (const [key, it] of items) {
+      const status = statuses[key] === "reached" ? "Reached Out"
+                   : statuses[key] === "skip"    ? "Not Reaching Out"
+                   : "Needs Outreach";
+      rows.push([status, it.tile, it.shop, it.manager, it.employee, it.date, it.lastWeek||"", it.avg||"", it.details||""]);
+    }
+    const csv = "\uFEFF" + rows.map(r =>
+      r.map(c => '"' + String(c??'').replace(/"/g,'""') + '"').join(",")
+    ).join("\r\n");
+    const stamp = new Date().toISOString().slice(0,10);
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    a.download = `reach-out-list-${stamp}.csv`;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  }
+
+  // -------------------------------------------------------------------------
+  // Fetch helpers & load
+  // -------------------------------------------------------------------------
   async function fetchJSON(file) {
     const r = await fetch(file, { cache: "no-store" });
     if (!r.ok) throw new Error("HTTP " + r.status + " for " + file);
@@ -352,14 +543,20 @@
   async function load() {
     try {
       const data = await fetchJSON("data.json");
+      const weekLabel = data.meta?.week_label || "";
+      currentWeekLabel = weekLabel;
+      maybeExpireStatuses(weekLabel);
+
       document.getElementById("subtitle").textContent =
-        `Select the instances you want to flag for ${esc(data.meta.week_label || "this period")}, then download them as one CSV.`;
+        `Select the instances you want to flag for ${weekLabel || "this period"}, then download them as one CSV.`;
+
       const reports = [];
-      for (const sec of (data.sections || [])) {
-        for (const r of (sec.reports || [])) {
+      for (const sec of (data.sections||[])) {
+        for (const r of (sec.reports||[])) {
           if (!r.is_mock) reports.push({ id: r.id, title: r.title });
         }
       }
+
       const container = document.getElementById("tiles-container");
       document.getElementById("loading").style.display = "none";
 
@@ -367,9 +564,12 @@
         let detail;
         try { detail = await fetchJSON(`${rep.id}.json`); }
         catch (e) { console.warn("Skipping", rep.id, e); continue; }
+        allTileData.push({ tileId: rep.id, tileTitle: rep.title, detail });
         container.appendChild(renderTile(rep.id, rep.title, detail));
       }
-      updateCount();
+
+      updateCounts();
+      refreshStatusTabs();
     } catch (err) {
       console.error(err);
       document.getElementById("loading").style.display = "none";
@@ -377,35 +577,22 @@
     }
   }
 
-  // -------- CSV export --------
-  function downloadCSV() {
-    const items = Object.values(selection);
-    if (!items.length) return;
-    const header = ["Tile", "Shop", "Manager", "Employee", "Date", "Last Week %", "2026 Avg %", "Details"];
-    const rows = [header];
-    for (const it of items) {
-      rows.push([it.tile, it.shop, it.manager, it.employee, it.date, it.lastWeek || "", it.avg || "", it.details || ""]);
-    }
-    const csv = "﻿" + rows.map(r =>
-      r.map(c => '"' + String(c ?? "").replace(/"/g, '""') + '"').join(",")
-    ).join("\r\n");
-    const stamp = new Date().toISOString().slice(0, 10);
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
-    a.download = `reach-out-list-${stamp}.csv`;
-    document.body.appendChild(a); a.click(); document.body.removeChild(a);
-  }
-
+  // -------------------------------------------------------------------------
+  // Toolbar buttons
+  // -------------------------------------------------------------------------
   document.getElementById("download-btn").addEventListener("click", downloadCSV);
+
   document.getElementById("clear-btn").addEventListener("click", () => {
     if (!Object.keys(selection).length) return;
-    if (!confirm("Clear all selected items? This can't be undone.")) return;
+    if (!confirm("Clear all selections? This won't affect Reached Out or Not Reaching Out statuses.")) return;
     selection = {};
-    saveSelection();
+    save(SEL_KEY, selection);
     document.querySelectorAll('tbody input[type=checkbox]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('tbody tr.sel').forEach(tr => tr.classList.remove('sel'));
+    document.querySelectorAll('tbody tr.sel-reached, tbody tr.sel-skip').forEach(tr => {
+      tr.classList.remove("sel-reached","sel-skip");
+    });
     document.querySelectorAll('.select-all').forEach(cb => cb.checked = false);
-    updateCount();
+    updateCounts();
   });
 
   load();
