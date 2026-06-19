@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: Jun 19 \u2192 Jul 10, 2026",
-    "summary_line": "11 heads up",
-    "last_refreshed_display": "Data through Fri Jun 19, 11:38 AM",
+    "summary_line": "9 heads up",
+    "last_refreshed_display": "Data through Fri Jun 19, 12:27 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -19,6 +19,13 @@
       "label": "Heads Up",
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 12,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
         {
           "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
@@ -62,28 +69,7 @@
           "lookahead_days": 14
         },
         {
-          "shop": "1425 Basecamp",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "DC - 3101 M St",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Dedham",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Scottsdale - Scottsdale Quarte",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
