@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 18 \u2192 Jul 9, 2026",
-    "summary_line": "3 action needed \u00b7 7 heads up",
-    "last_refreshed_display": "Data through Thu Jun 18, 10:04 AM",
+    "subtitle": "Window: Jun 19 \u2192 Jul 10, 2026",
+    "summary_line": "11 heads up",
+    "last_refreshed_display": "Data through Fri Jun 19, 11:38 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,29 +12,7 @@
       "tier": "action",
       "label": "Action Needed",
       "description": "At least one day with no published shifts in the next 3 weeks.",
-      "rows": [
-        {
-          "shop": "Fort Lauderdale - 1016 E",
-          "manager": "",
-          "draft_count": 25,
-          "gap_days": 4,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 15,
-          "gap_days": 4,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "New York - Flatiron",
-          "manager": "",
-          "draft_count": 6,
-          "gap_days": 2,
-          "lookahead_days": 14
-        }
-      ]
+      "rows": []
     },
     {
       "tier": "heads_up",
@@ -44,14 +22,7 @@
         {
           "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
-          "draft_count": 7,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "DC - 3101 M St",
-          "manager": "",
-          "draft_count": 4,
+          "draft_count": 8,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -77,6 +48,13 @@
           "lookahead_days": 14
         },
         {
+          "shop": "Miami - Brickell",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "122 Lexington",
           "manager": "",
           "draft_count": 1,
@@ -84,7 +62,35 @@
           "lookahead_days": 14
         },
         {
-          "shop": "17250 Omaha",
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "DC - 3101 M St",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Dedham",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Scottsdale - Scottsdale Quarte",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Tampa - 2223 N Westshore",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
