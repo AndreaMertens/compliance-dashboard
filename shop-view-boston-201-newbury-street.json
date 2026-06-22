@@ -2,10 +2,10 @@
   "meta": {
     "title": "Boston - 201 Newbury Street",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,63 +21,21 @@
       ],
       "rows": [
         [
-          "2026-06-08",
+          "2026-06-15",
           "Anne Malloy",
-          "10:30 AM",
-          "10:43 AM",
-          "13"
+          "8:30 AM",
+          "8:37 AM",
+          "7"
         ],
         [
-          "2026-06-08",
-          "Eric Garcia",
-          "10:30 AM",
-          "10:38 AM",
-          "8"
-        ],
-        [
-          "2026-06-10",
+          "2026-06-17",
           "William Gardner",
-          "10:30 AM",
-          "10:43 AM",
-          "13"
-        ],
-        [
-          "2026-06-11",
-          "William Gardner",
-          "10:30 AM",
-          "10:39 AM",
-          "9"
-        ],
-        [
-          "2026-06-12",
-          "Anne Malloy",
-          "10:30 AM",
-          "10:42 AM",
+          "8:30 AM",
+          "8:42 AM",
           "12"
-        ],
-        [
-          "2026-06-13",
-          "Anne Malloy",
-          "9:30 AM",
-          "9:38 AM",
-          "8"
-        ],
-        [
-          "2026-06-14",
-          "William Hatton",
-          "9:30 AM",
-          "12:35 PM",
-          "185"
-        ],
-        [
-          "2026-06-14",
-          "William Gardner",
-          "9:30 AM",
-          "9:41 AM",
-          "11"
         ]
       ],
-      "count": 8
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -132,8 +90,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Julie Dang",
+          "Wed Jun 17",
+          "6.82"
+        ],
+        [
+          "William Gardner",
+          "Wed Jun 17",
+          "8.38"
+        ],
+        [
+          "Charles Banquier",
+          "Wed Jun 17",
+          "7.27"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

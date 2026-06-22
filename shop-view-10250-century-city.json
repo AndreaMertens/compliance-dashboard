@@ -2,10 +2,10 @@
   "meta": {
     "title": "10250 Century City",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-10",
-          "Ross Graham",
-          "3:45 PM",
-          "3:59 PM",
-          "14"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -83,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Mailon Williams",
+          "Mon Jun 15",
+          "8.57"
+        ],
+        [
+          "Marcus Karlsson",
+          "Mon Jun 15",
+          "8.00"
+        ],
+        [
+          "Marcus Karlsson",
+          "Wed Jun 17",
+          "7.98"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

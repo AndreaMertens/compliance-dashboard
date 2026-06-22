@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "1 pending leave request across 1 shop",
+    "summary_line": "2 pending leave requests across 2 shops",
     "last_refreshed_display": "Data through Wed Jun 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -14,6 +14,19 @@
     "Note"
   ],
   "groups": [
+    {
+      "shop": "Manhattan Beach - The Point",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Sean Kelley",
+          "2026-06-21",
+          "2026-06-21",
+          "Out of town"
+        ]
+      ]
+    },
     {
       "shop": "New York - Flatiron",
       "manager": "",

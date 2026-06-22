@@ -2,10 +2,10 @@
   "meta": {
     "title": "La Jolla - 7857 Girard Ave",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-06-11",
-          "Maximilian Pinto",
-          "2:00 PM",
-          "3:40 PM",
-          "100"
+          "2026-06-15",
+          "Ethan",
+          "12:00 PM",
+          "12:10 PM",
+          "10"
+        ],
+        [
+          "2026-06-16",
+          "Casey Sandoval",
+          "11:00 AM",
+          "11:11 AM",
+          "11"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -85,22 +92,37 @@
       ],
       "rows": [
         [
+          "Ethan",
+          "Mon Jun 15",
+          "7.62"
+        ],
+        [
           "Maximilian Pinto",
-          "Sun Jun 14",
-          "6.63"
+          "Tue Jun 16",
+          "7.72"
         ],
         [
           "Casey Sandoval",
-          "Sun Jun 14",
-          "6.80"
+          "Tue Jun 16",
+          "7.37"
         ],
         [
-          "Ethan",
-          "Sun Jun 14",
-          "6.72"
+          "Maximilian Pinto",
+          "Wed Jun 17",
+          "7.57"
+        ],
+        [
+          "Casey Sandoval",
+          "Wed Jun 17",
+          "7.82"
+        ],
+        [
+          "Kayla Hackney",
+          "Wed Jun 17",
+          "7.70"
         ]
       ],
-      "count": 3
+      "count": 6
     }
   ]
 }

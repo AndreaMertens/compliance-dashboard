@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - Flatiron",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -63,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Ian Adams",
-          "33.24",
-          "8.00",
-          "41.24",
-          "+1.24"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -83,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Fred Hilaire",
+          "Wed Jun 17",
+          "9.13"
+        ],
+        [
+          "Tyquan Jefferson",
+          "Wed Jun 17",
+          "8.83"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

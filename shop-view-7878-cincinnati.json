@@ -2,10 +2,10 @@
   "meta": {
     "title": "7878 Cincinnati",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,18 +21,18 @@
       ],
       "rows": [
         [
-          "2026-06-11",
-          "Todd Wasserman",
-          "12:00 PM",
-          "1:05 PM",
-          "65"
+          "2026-06-17",
+          "Kelly Sears",
+          "10:00 AM",
+          "10:15 AM",
+          "15"
         ],
         [
-          "2026-06-11",
+          "2026-06-17",
           "Nicole Scott",
-          "9:45 AM",
-          "9:55 AM",
-          "10"
+          "10:00 AM",
+          "10:14 AM",
+          "14"
         ]
       ],
       "count": 2
@@ -78,23 +78,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Matt Van Valkenburgh",
-          "24.37",
-          "22.50",
-          "46.87",
-          "+6.87"
-        ],
-        [
-          "Todd Wasserman",
-          "24.47",
-          "22.50",
-          "46.97",
-          "+6.97"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -105,8 +90,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nicole Scott",
+          "Wed Jun 17",
+          "7.87"
+        ],
+        [
+          "Kelly Sears",
+          "Wed Jun 17",
+          "7.85"
+        ],
+        [
+          "Matt Van Valkenburgh",
+          "Wed Jun 17",
+          "7.15"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

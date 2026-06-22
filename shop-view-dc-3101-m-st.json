@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-06-13",
-          "Noah Hoskinson",
-          "11:00 AM",
-          "11:08 AM",
-          "8"
+          "2026-06-15",
+          "Micah Wheeler",
+          "9:00 AM",
+          "9:06 AM",
+          "6"
         ]
       ],
       "count": 1
@@ -83,8 +83,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yotwarit Kornwoodtikun",
+          "Wed Jun 17",
+          "8.35"
+        ],
+        [
+          "Micah Wheeler",
+          "Wed Jun 17",
+          "8.68"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

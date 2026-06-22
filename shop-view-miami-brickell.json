@@ -2,10 +2,10 @@
   "meta": {
     "title": "Miami - Brickell",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-14",
-          "Gustavo Daza",
-          "10:30 AM",
-          "10:45 AM",
-          "15"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -83,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "William Rosales",
+          "Wed Jun 17",
+          "8.05"
+        ],
+        [
+          "Glen Noel",
+          "Wed Jun 17",
+          "8.17"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

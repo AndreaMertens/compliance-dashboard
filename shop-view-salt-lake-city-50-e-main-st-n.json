@@ -2,10 +2,10 @@
   "meta": {
     "title": "Salt Lake City - 50 E Main St. N",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-15",
+          "Val Simanca Delgado",
+          "4:00 PM",
+          "6:24 PM",
+          "144"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -75,8 +83,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nicholas Compton",
+          "Wed Jun 17",
+          "6.53"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

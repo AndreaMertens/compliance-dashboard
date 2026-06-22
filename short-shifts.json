@@ -2,7 +2,7 @@
   "meta": {
     "title": "Short Shifts",
     "subtitle": "Pay period Jun 11 \u2013 Jun 25, 2026",
-    "summary_line": "No approved shifts under 20 minutes this pay period.",
+    "summary_line": "1 approved shift under 20 minutes across 1 shop",
     "last_refreshed_display": "Data through Wed Jun 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -14,5 +14,20 @@
     "End",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "333 Milwaukee",
+      "manager": "Tia Reeves",
+      "count": 1,
+      "rows": [
+        [
+          "Ivory Turner",
+          "Mon Jun 22",
+          "10:30 AM",
+          "11:00 AM",
+          "0.00"
+        ]
+      ]
+    }
+  ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Ann Arbor - 212 S Main",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-08",
-          "James Newton",
-          "11:00 AM",
-          "11:07 AM",
-          "7"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -83,19 +75,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Gavin McCool",
-          "Sat Jun 13",
-          "7.77"
-        ],
-        [
-          "Jackson Keefer",
-          "Sat Jun 13",
-          "7.02"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

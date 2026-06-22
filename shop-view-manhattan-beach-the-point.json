@@ -2,10 +2,10 @@
   "meta": {
     "title": "Manhattan Beach - The Point",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -75,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Mailon Williams",
+          "Tue Jun 16",
+          "8.52"
+        ],
+        [
+          "Christina Byrd",
+          "Tue Jun 16",
+          "8.53"
+        ],
+        [
+          "Mailon Williams",
+          "Wed Jun 17",
+          "8.87"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

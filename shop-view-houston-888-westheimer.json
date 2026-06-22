@@ -2,10 +2,10 @@
   "meta": {
     "title": "Houston - 888 Westheimer",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -19,37 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-09",
-          "Auna Tastad",
-          "10:00 AM",
-          "10:14 AM",
-          "14"
-        ],
-        [
-          "2026-06-11",
-          "Auna Tastad",
-          "12:00 PM",
-          "12:07 PM",
-          "7"
-        ],
-        [
-          "2026-06-13",
-          "Auna Tastad",
-          "11:00 AM",
-          "11:10 AM",
-          "10"
-        ],
-        [
-          "2026-06-14",
-          "Auna Tastad",
-          "10:00 AM",
-          "10:29 AM",
-          "29"
-        ]
-      ],
-      "count": 4
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -104,8 +75,34 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Auna Tastad",
+          "Tue Jun 16",
+          "7.62"
+        ],
+        [
+          "Andrew Reed",
+          "Tue Jun 16",
+          "10.30"
+        ],
+        [
+          "Clayton Brown",
+          "Wed Jun 17",
+          "8.22"
+        ],
+        [
+          "Auna Tastad",
+          "Wed Jun 17",
+          "8.07"
+        ],
+        [
+          "Andrew Reed",
+          "Wed Jun 17",
+          "8.00"
+        ]
+      ],
+      "count": 5
     }
   ]
 }

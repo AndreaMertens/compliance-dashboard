@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jun 11 \u2013 Jun 25, 2026",
-    "summary_line": "1 flagged shifts across 1 shops \u2014 1 OT",
+    "summary_line": "3 flagged shifts across 2 shops \u2014 3 OT",
     "last_refreshed_display": "Data through Wed Jun 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -25,10 +25,35 @@
         [
           "Dillon Stanas",
           "Fri Jun 12",
-          "8:58 AM",
-          "7:17 PM",
+          "6:58 AM",
+          "5:17 PM",
           "10.32",
-          "43.14 (OT)",
+          "53.14 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "Matt Russell",
+      "count": 2,
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Thu Jun 11",
+          "8:06 AM",
+          "6:32 PM",
+          "10.43",
+          "48.54 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Jun 16",
+          "10:04 AM",
+          "8:09 PM",
+          "10.08",
+          "48.54 (OT)",
           "OT"
         ]
       ]

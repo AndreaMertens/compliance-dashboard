@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -21,42 +21,28 @@
       ],
       "rows": [
         [
-          "2026-06-08",
+          "2026-06-15",
           "Christian Van Dam",
-          "11:00 AM",
-          "11:55 AM",
-          "55"
+          "9:00 AM",
+          "9:48 AM",
+          "48"
         ],
         [
-          "2026-06-11",
-          "Christian Van Dam",
-          "11:00 AM",
-          "11:56 AM",
-          "56"
+          "2026-06-16",
+          "Clark",
+          "10:00 AM",
+          "12:21 PM",
+          "141"
         ],
         [
-          "2026-06-12",
+          "2026-06-17",
           "Christian Van Dam",
-          "11:00 AM",
-          "11:54 AM",
-          "54"
-        ],
-        [
-          "2026-06-13",
-          "Christian Van Dam",
-          "11:00 AM",
-          "11:50 AM",
-          "50"
-        ],
-        [
-          "2026-06-14",
-          "Christian Van Dam",
-          "12:30 PM",
-          "12:39 PM",
-          "9"
+          "9:00 AM",
+          "9:17 AM",
+          "17"
         ]
       ],
-      "count": 5
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -111,8 +97,49 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Mon Jun 15",
+          "8.32"
+        ],
+        [
+          "Cieron Hampson",
+          "Mon Jun 15",
+          "8.23"
+        ],
+        [
+          "Clark",
+          "Tue Jun 16",
+          "5.77"
+        ],
+        [
+          "Noah Strako",
+          "Tue Jun 16",
+          "8.20"
+        ],
+        [
+          "Cieron Hampson",
+          "Tue Jun 16",
+          "8.23"
+        ],
+        [
+          "Christian Van Dam",
+          "Wed Jun 17",
+          "8.72"
+        ],
+        [
+          "Clark",
+          "Wed Jun 17",
+          "7.97"
+        ],
+        [
+          "Noah Strako",
+          "Wed Jun 17",
+          "8.20"
+        ]
+      ],
+      "count": 8
     }
   ]
 }

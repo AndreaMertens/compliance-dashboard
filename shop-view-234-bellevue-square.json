@@ -2,10 +2,10 @@
   "meta": {
     "title": "234 Bellevue Square",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -75,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Leng Tshua",
+          "Wed Jun 17",
+          "8.37"
+        ],
+        [
+          "Daylon Johnson",
+          "Wed Jun 17",
+          "8.92"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

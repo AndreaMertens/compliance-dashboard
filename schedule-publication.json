@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 19 \u2192 Jul 10, 2026",
-    "summary_line": "9 heads up",
-    "last_refreshed_display": "Data through Fri Jun 19, 12:27 PM",
+    "subtitle": "Window: Jun 22 \u2192 Jul 13, 2026",
+    "summary_line": "4 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Mon Jun 22, 2:36 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,20 +12,42 @@
       "tier": "action",
       "label": "Action Needed",
       "description": "At least one day with no published shifts in the next 3 weeks.",
-      "rows": []
+      "rows": [
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 19,
+          "gap_days": 3,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "17250 Omaha",
+          "manager": "",
+          "draft_count": 5,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 1,
+          "lookahead_days": 21
+        },
+        {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 1,
+          "lookahead_days": 14
+        }
+      ]
     },
     {
       "tier": "heads_up",
       "label": "Heads Up",
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
-        {
-          "shop": "1425 Basecamp",
-          "manager": "",
-          "draft_count": 12,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
         {
           "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
@@ -41,35 +63,14 @@
           "lookahead_days": 21
         },
         {
-          "shop": "Boston - 201 Newbury Street",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1151 Roseville",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Miami - Brickell",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "122 Lexington",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "DC - 3101 M St",
+          "shop": "Nashville - 5th + Broadway",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,

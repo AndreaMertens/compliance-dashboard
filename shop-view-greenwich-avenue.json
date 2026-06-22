@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-06-13",
+          "2026-06-17",
           "Trent Bansak",
-          "10:00 AM",
-          "10:11 AM",
-          "11"
+          "8:00 AM",
+          "8:48 AM",
+          "48"
         ]
       ],
       "count": 1
@@ -83,8 +83,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Trent Bansak",
+          "Wed Jun 17",
+          "7.23"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

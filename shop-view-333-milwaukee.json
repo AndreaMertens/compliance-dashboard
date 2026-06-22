@@ -2,10 +2,10 @@
   "meta": {
     "title": "333 Milwaukee",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -49,8 +49,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ivory Turner",
+          "Mon Jun 22",
+          "10:30 AM",
+          "11:00 AM",
+          "0.00"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",

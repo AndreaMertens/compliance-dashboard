@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tampa - 2223 N Westshore",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,44 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-09",
-          "Ivan Rhodes",
-          "11:00 AM",
-          "2:25 PM",
-          "205"
-        ],
-        [
-          "2026-06-10",
-          "Yasmeen Khan",
-          "9:00 AM",
-          "9:06 AM",
-          "6"
-        ],
-        [
-          "2026-06-14",
-          "Antowane Oliver",
-          "10:00 AM",
-          "10:59 AM",
-          "59"
-        ],
-        [
-          "2026-06-14",
-          "Bo Kenney",
-          "10:00 AM",
-          "10:54 AM",
-          "54"
-        ],
-        [
-          "2026-06-14",
-          "Yasmeen Khan",
-          "10:00 AM",
-          "10:52 AM",
-          "52"
-        ]
-      ],
-      "count": 5
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -111,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jhaidyn Brown",
+          "Wed Jun 17",
+          "8.27"
+        ],
+        [
+          "Ivan Rhodes",
+          "Wed Jun 17",
+          "8.15"
+        ],
+        [
+          "Bo Kenney",
+          "Wed Jun 17",
+          "7.95"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

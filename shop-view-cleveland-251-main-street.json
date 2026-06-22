@@ -2,10 +2,10 @@
   "meta": {
     "title": "Cleveland - 251 Main Street",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -75,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Michael",
+          "Wed Jun 17",
+          "8.28"
+        ],
+        [
+          "Brenna Roberts",
+          "Wed Jun 17",
+          "8.27"
+        ],
+        [
+          "Michael",
+          "Wed Jun 17",
+          "8.28"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

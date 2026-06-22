@@ -2,10 +2,10 @@
   "meta": {
     "title": "Charleston",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-06-09",
+          "2026-06-16",
           "Jarell Davis",
-          "11:00 AM",
-          "11:09 AM",
-          "9"
-        ],
-        [
-          "2026-06-14",
-          "Ella Valentine",
-          "7:00 AM",
-          "9:30 AM",
-          "150"
+          "9:00 AM",
+          "9:26 AM",
+          "26"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -90,8 +83,59 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "George Busnach",
+          "Tue Jun 16",
+          "8.03"
+        ],
+        [
+          "Madison Tadlock",
+          "Tue Jun 16",
+          "8.10"
+        ],
+        [
+          "Ella Valentine",
+          "Tue Jun 16",
+          "8.00"
+        ],
+        [
+          "Jarell Davis",
+          "Tue Jun 16",
+          "7.65"
+        ],
+        [
+          "Christian Somma",
+          "Tue Jun 16",
+          "8.17"
+        ],
+        [
+          "Eric",
+          "Wed Jun 17",
+          "8.40"
+        ],
+        [
+          "Madison Tadlock",
+          "Wed Jun 17",
+          "8.18"
+        ],
+        [
+          "Ella Valentine",
+          "Wed Jun 17",
+          "8.08"
+        ],
+        [
+          "Jarell Davis",
+          "Wed Jun 17",
+          "8.37"
+        ],
+        [
+          "Eric",
+          "Wed Jun 17",
+          "8.40"
+        ]
+      ],
+      "count": 10
     }
   ]
 }
