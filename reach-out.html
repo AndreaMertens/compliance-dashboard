@@ -525,6 +525,13 @@
   // -------------------------------------------------------------------------
   function downloadCSV() {
     const items = Object.entries(selection);
+    const tileOrder = {};
+    allTileData.forEach((t, i) => { tileOrder[t.tileTitle] = i; });
+    items.sort(([, A], [, B]) => {
+      const ta = (tileOrder[A.tile] ?? 999), tb = (tileOrder[B.tile] ?? 999);
+      if (ta !== tb) return ta - tb;
+      return String(A.shop || "").localeCompare(String(B.shop || ""));
+    });
     if (!items.length) return;
     const header = ["Status","Tile","Shop","Manager","Employee","Date","Last Week %","2026 Avg %","Details"];
     const rows   = [header];
