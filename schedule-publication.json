@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 22 \u2192 Jul 13, 2026",
-    "summary_line": "4 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Mon Jun 22, 6:47 PM",
+    "subtitle": "Window: Jun 23 \u2192 Jul 14, 2026",
+    "summary_line": "5 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Tue Jun 23, 7:02 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,17 +14,31 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
+          "shop": "Birmingham - 141 W Maple",
+          "manager": "",
+          "draft_count": 56,
+          "gap_days": 7,
+          "lookahead_days": 14
+        },
+        {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 19,
-          "gap_days": 3,
+          "draft_count": 22,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 5,
-          "gap_days": 1,
+          "draft_count": 6,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 2,
           "lookahead_days": 14
         },
         {
@@ -33,13 +47,6 @@
           "draft_count": 2,
           "gap_days": 1,
           "lookahead_days": 21
-        },
-        {
-          "shop": "Fort Lauderdale - 1016 E",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 1,
-          "lookahead_days": 14
         }
       ]
     },
