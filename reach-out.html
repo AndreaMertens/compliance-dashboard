@@ -164,6 +164,7 @@
 
   let selection = loadStore(SEL_KEY);
   let statuses  = loadStore(STATUS_KEY);
+  let currentKeys = new Set();
   let currentWeekLabel = null;  // set after data.json loads
 
   function loadStore(key) {
@@ -308,6 +309,7 @@
       if (groupLevel) {
         const n   = g.rows.length;
         const key = `${tileId}||${g.shop}`;
+        currentKeys.add(key);
         // Distinct dates of the unapproved timecards, for the outreach message.
         const _dateIdx = g.columns.indexOf("Date");
         const distinctDates = _dateIdx >= 0 ? [...new Set(g.rows.map(r => r.cells[_dateIdx]))] : [];
@@ -367,6 +369,7 @@
 
       for (const row of g.rows) {
         const key     = rowKey(tileId, g.shop, row.cells);
+        currentKeys.add(key);
         const checked = !!selection[key];
         const status  = statuses[key];
         const tr      = document.createElement("tr");
@@ -578,6 +581,10 @@
         container.appendChild(renderTile(rep.id, rep.title, detail));
       }
 
+      for (const k of Object.keys(selection)) if (!currentKeys.has(k)) delete selection[k];
+      for (const k of Object.keys(statuses))  if (!currentKeys.has(k)) delete statuses[k];
+      save(SEL_KEY, selection);
+      save(STATUS_KEY, statuses);
       updateCounts();
       refreshStatusTabs();
     } catch (err) {
