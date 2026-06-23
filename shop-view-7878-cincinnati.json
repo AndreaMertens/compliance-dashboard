@@ -2,10 +2,10 @@
   "meta": {
     "title": "7878 Cincinnati",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -33,9 +33,23 @@
           "10:00 AM",
           "10:14 AM",
           "14"
+        ],
+        [
+          "2026-06-18",
+          "Nicole Scott",
+          "7:45 AM",
+          "7:51 AM",
+          "6"
+        ],
+        [
+          "2026-06-21",
+          "Nicole Scott",
+          "9:45 AM",
+          "9:55 AM",
+          "10"
         ]
       ],
-      "count": 2
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -90,24 +104,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Nicole Scott",
-          "Wed Jun 17",
-          "7.87"
-        ],
-        [
-          "Kelly Sears",
-          "Wed Jun 17",
-          "7.85"
-        ],
-        [
-          "Matt Van Valkenburgh",
-          "Wed Jun 17",
-          "7.15"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "13 flags this week",
+    "summary_line": "15 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 13
+    "total_flags": 15
   },
   "tiles": [
     {
@@ -26,9 +26,16 @@
           "9:30 AM",
           "9:38 AM",
           "8"
+        ],
+        [
+          "2026-06-18",
+          "Franco Bailey",
+          "9:30 AM",
+          "9:36 AM",
+          "6"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -71,8 +78,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Franco Bailey",
+          "36.44",
+          "7.50",
+          "43.94",
+          "+3.94"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -85,59 +100,59 @@
       ],
       "rows": [
         [
-          "Dante Barnes",
-          "Mon Jun 15",
-          "7.95"
-        ],
-        [
-          "Mate Okros",
-          "Mon Jun 15",
-          "8.18"
-        ],
-        [
-          "Fabio Santos Panisson",
-          "Mon Jun 15",
-          "8.13"
-        ],
-        [
           "Franco Bailey",
-          "Tue Jun 16",
-          "8.43"
-        ],
-        [
-          "Stephen Williams II",
-          "Tue Jun 16",
-          "7.28"
-        ],
-        [
-          "Mate Okros",
-          "Tue Jun 16",
-          "8.02"
-        ],
-        [
-          "Fabio Santos Panisson",
-          "Tue Jun 16",
-          "8.27"
-        ],
-        [
-          "Franco Bailey",
-          "Wed Jun 17",
-          "7.98"
+          "Thu Jun 18",
+          "8.00"
         ],
         [
           "Dante Barnes",
-          "Wed Jun 17",
-          "8.37"
+          "Thu Jun 18",
+          "7.00"
         ],
         [
-          "Stephen Williams II",
-          "Wed Jun 17",
-          "9.13"
+          "Mate Okros",
+          "Thu Jun 18",
+          "8.03"
         ],
         [
           "Fabio Santos Panisson",
-          "Wed Jun 17",
-          "7.88"
+          "Thu Jun 18",
+          "7.92"
+        ],
+        [
+          "Franco Bailey",
+          "Sat Jun 20",
+          "8.08"
+        ],
+        [
+          "Celina Bryant",
+          "Sat Jun 20",
+          "7.82"
+        ],
+        [
+          "Dante Barnes",
+          "Sat Jun 20",
+          "8.05"
+        ],
+        [
+          "Mate Okros",
+          "Sat Jun 20",
+          "8.08"
+        ],
+        [
+          "Celina Bryant",
+          "Sun Jun 21",
+          "7.30"
+        ],
+        [
+          "Dante Barnes",
+          "Sun Jun 21",
+          "7.60"
+        ],
+        [
+          "Stephen Williams II",
+          "Sun Jun 21",
+          "7.55"
         ],
         [
           "Mate Okros",

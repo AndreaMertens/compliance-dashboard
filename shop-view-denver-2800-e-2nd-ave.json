@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -26,9 +26,23 @@
           "10:00 AM",
           "10:06 AM",
           "6"
+        ],
+        [
+          "2026-06-20",
+          "Brian Redington",
+          "11:00 AM",
+          "11:51 AM",
+          "51"
+        ],
+        [
+          "2026-06-21",
+          "Alex Cichy",
+          "11:00 AM",
+          "11:06 AM",
+          "6"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -83,8 +97,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brian Redington",
+          "Sun Jun 21",
+          "8.18"
+        ],
+        [
+          "Antonio Castaneda Gonzalez",
+          "Sun Jun 21",
+          "8.48"
+        ],
+        [
+          "Alex Cichy",
+          "Sun Jun 21",
+          "7.95"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

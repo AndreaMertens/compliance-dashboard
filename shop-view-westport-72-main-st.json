@@ -2,10 +2,10 @@
   "meta": {
     "title": "Westport - 72 Main St",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -26,9 +26,16 @@
           "8:00 AM",
           "8:13 AM",
           "13"
+        ],
+        [
+          "2026-06-20",
+          "Trey",
+          "8:00 AM",
+          "8:24 AM",
+          "24"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -85,19 +92,19 @@
       ],
       "rows": [
         [
-          "Jake Friedland",
-          "Wed Jun 17",
-          "8.52"
+          "Trey",
+          "Sun Jun 21",
+          "8.23"
         ],
         [
-          "Matthew Reilly",
-          "Wed Jun 17",
-          "7.80"
+          "Ethan Platt",
+          "Sun Jun 21",
+          "8.10"
         ],
         [
           "Tyler",
-          "Wed Jun 17",
-          "8.37"
+          "Sun Jun 21",
+          "8.22"
         ]
       ],
       "count": 3

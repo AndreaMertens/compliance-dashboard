@@ -2,10 +2,10 @@
   "meta": {
     "title": "Boston - 201 Newbury Street",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -33,9 +33,65 @@
           "8:30 AM",
           "8:42 AM",
           "12"
+        ],
+        [
+          "2026-06-18",
+          "Kevin Gailius",
+          "8:30 AM",
+          "9:06 AM",
+          "36"
+        ],
+        [
+          "2026-06-18",
+          "William Gardner",
+          "8:30 AM",
+          "8:45 AM",
+          "15"
+        ],
+        [
+          "2026-06-18",
+          "William Hatton",
+          "8:30 AM",
+          "8:38 AM",
+          "8"
+        ],
+        [
+          "2026-06-19",
+          "Charles Banquier",
+          "9:45 AM",
+          "9:56 AM",
+          "11"
+        ],
+        [
+          "2026-06-20",
+          "Kevin Gailius",
+          "7:30 AM",
+          "7:38 AM",
+          "8"
+        ],
+        [
+          "2026-06-21",
+          "William Hatton",
+          "10:00 AM",
+          "10:51 AM",
+          "51"
+        ],
+        [
+          "2026-06-21",
+          "Kevin Gailius",
+          "7:30 AM",
+          "7:41 AM",
+          "11"
+        ],
+        [
+          "2026-06-21",
+          "Jared Radovsky",
+          "7:30 AM",
+          "7:36 AM",
+          "6"
         ]
       ],
-      "count": 2
+      "count": 10
     },
     {
       "id": "long-shifts",
@@ -90,24 +146,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Julie Dang",
-          "Wed Jun 17",
-          "6.82"
-        ],
-        [
-          "William Gardner",
-          "Wed Jun 17",
-          "8.38"
-        ],
-        [
-          "Charles Banquier",
-          "Wed Jun 17",
-          "7.27"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

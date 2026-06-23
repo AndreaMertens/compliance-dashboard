@@ -2,10 +2,10 @@
   "meta": {
     "title": "Salt Lake City - 50 E Main St. N",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -26,9 +26,23 @@
           "4:00 PM",
           "6:24 PM",
           "144"
+        ],
+        [
+          "2026-06-19",
+          "Nicholas Compton",
+          "1:00 PM",
+          "3:48 PM",
+          "168"
+        ],
+        [
+          "2026-06-19",
+          "Reece Horton",
+          "12:00 PM",
+          "12:15 PM",
+          "15"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -83,14 +97,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Nicholas Compton",
-          "Wed Jun 17",
-          "6.53"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     }
   ]
 }

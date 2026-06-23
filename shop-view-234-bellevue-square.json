@@ -2,10 +2,10 @@
   "meta": {
     "title": "234 Bellevue Square",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-18",
+          "Kaylee",
+          "2:00 PM",
+          "2:17 PM",
+          "17"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -75,19 +83,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Leng Tshua",
-          "Wed Jun 17",
-          "8.37"
-        ],
-        [
-          "Daylon Johnson",
-          "Wed Jun 17",
-          "8.92"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

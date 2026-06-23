@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -26,9 +26,16 @@
           "10:00 AM",
           "11:21 AM",
           "81"
+        ],
+        [
+          "2026-06-19",
+          "Hansi Ebert-Sexauer",
+          "12:00 PM",
+          "12:11 PM",
+          "11"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -50,7 +57,25 @@
           "8:06 AM",
           "6:32 PM",
           "10.43",
-          "48.54 (OT)",
+          "68.92 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Jun 20",
+          "9:54 AM",
+          "8:09 PM",
+          "10.25",
+          "68.92 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Jun 18",
+          "9:53 AM",
+          "8:01 PM",
+          "10.13",
+          "68.92 (OT)",
           "OT"
         ],
         [
@@ -59,11 +84,11 @@
           "10:04 AM",
           "8:09 PM",
           "10.08",
-          "48.54 (OT)",
+          "68.92 (OT)",
           "OT"
         ]
       ],
-      "count": 2
+      "count": 4
     },
     {
       "id": "short-shifts",

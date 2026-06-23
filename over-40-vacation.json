@@ -2,8 +2,8 @@
   "meta": {
     "title": "Over 40 + Vacation",
     "subtitle": "Covers Jun 15 \u2013 Jun 21",
-    "summary_line": "0 employees flagged across 0 shops",
-    "last_refreshed_display": "Data through Wed Jun 24, 2026",
+    "summary_line": "6 employees flagged across 4 shops",
+    "last_refreshed_display": "Data through Mon Jun 22, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,5 +14,76 @@
     "Total",
     "Overage"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "629 Alexandria",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Nour-Eddine Seidnaly",
+          "40.21",
+          "7.50",
+          "47.71",
+          "+7.71"
+        ]
+      ]
+    },
+    {
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Adam Lansdown",
+          "24.38",
+          "22.50",
+          "46.88",
+          "+6.88"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - Flatiron",
+      "manager": "",
+      "count": 3,
+      "rows": [
+        [
+          "Fred Hilaire",
+          "24.85",
+          "23.50",
+          "48.35",
+          "+8.35"
+        ],
+        [
+          "Ian Adams",
+          "33.11",
+          "8.00",
+          "41.11",
+          "+1.11"
+        ],
+        [
+          "Tyquan Jefferson",
+          "34.09",
+          "8.00",
+          "42.09",
+          "+2.09"
+        ]
+      ]
+    },
+    {
+      "shop": "Philadelphia - 1702 Walnut",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Franco Bailey",
+          "36.44",
+          "7.50",
+          "43.94",
+          "+3.94"
+        ]
+      ]
+    }
+  ]
 }

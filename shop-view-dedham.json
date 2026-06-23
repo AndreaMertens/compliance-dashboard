@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,8 +19,30 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-20",
+          "Ethan Jean",
+          "7:45 AM",
+          "7:55 AM",
+          "10"
+        ],
+        [
+          "2026-06-21",
+          "Dillon Stanas",
+          "7:30 AM",
+          "7:40 AM",
+          "10"
+        ],
+        [
+          "2026-06-21",
+          "Jabraun Johnson",
+          "7:30 AM",
+          "7:39 AM",
+          "9"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -42,11 +64,29 @@
           "6:58 AM",
           "5:17 PM",
           "10.32",
-          "53.14 (OT)",
+          "89.22 (OT)",
+          "OT"
+        ],
+        [
+          "Dillon Stanas",
+          "Fri Jun 19",
+          "6:50 AM",
+          "5:03 PM",
+          "10.22",
+          "89.22 (OT)",
+          "OT"
+        ],
+        [
+          "Jared Radovsky",
+          "Tue Jun 16",
+          "6:50 AM",
+          "5:00 PM",
+          "10.17",
+          "77.77 (OT)",
           "OT"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "short-shifts",
@@ -85,29 +125,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Cooper Betancourt",
-          "Wed Jun 17",
-          "8.22"
-        ],
-        [
-          "Mike Spinelli",
-          "Wed Jun 17",
-          "8.15"
-        ],
-        [
-          "Jabraun Johnson",
-          "Wed Jun 17",
-          "8.17"
-        ],
-        [
-          "Jared Radovsky",
-          "Wed Jun 17",
-          "8.23"
-        ]
-      ],
-      "count": 4
+      "rows": [],
+      "count": 0
     }
   ]
 }

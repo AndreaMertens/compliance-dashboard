@@ -2,10 +2,10 @@
   "meta": {
     "title": "629 Alexandria",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -63,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nour-Eddine Seidnaly",
+          "40.21",
+          "7.50",
+          "47.71",
+          "+7.71"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

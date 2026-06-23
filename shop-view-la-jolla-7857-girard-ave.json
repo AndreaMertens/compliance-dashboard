@@ -2,10 +2,10 @@
   "meta": {
     "title": "La Jolla - 7857 Girard Ave",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -33,9 +33,16 @@
           "11:00 AM",
           "11:11 AM",
           "11"
+        ],
+        [
+          "2026-06-18",
+          "Casey Sandoval",
+          "10:00 AM",
+          "10:06 AM",
+          "6"
         ]
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -64,8 +71,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ethan",
+          "Wed Jun 17",
+          "11:30 AM",
+          "12:00 PM",
+          "0.00"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",
@@ -90,39 +105,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Ethan",
-          "Mon Jun 15",
-          "7.62"
-        ],
-        [
-          "Maximilian Pinto",
-          "Tue Jun 16",
-          "7.72"
-        ],
-        [
-          "Casey Sandoval",
-          "Tue Jun 16",
-          "7.37"
-        ],
-        [
-          "Maximilian Pinto",
-          "Wed Jun 17",
-          "7.57"
-        ],
-        [
-          "Casey Sandoval",
-          "Wed Jun 17",
-          "7.82"
-        ],
-        [
-          "Kayla Hackney",
-          "Wed Jun 17",
-          "7.70"
-        ]
-      ],
-      "count": 6
+      "rows": [],
+      "count": 0
     }
   ]
 }

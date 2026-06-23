@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jun 11 \u2013 Jun 25, 2026",
-    "summary_line": "3 flagged shifts across 2 shops \u2014 3 OT",
-    "last_refreshed_display": "Data through Wed Jun 24, 2026",
+    "summary_line": "10 flagged shifts across 4 shops \u2014 10 OT",
+    "last_refreshed_display": "Data through Mon Jun 22, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -18,9 +18,34 @@
   ],
   "groups": [
     {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 2,
+      "rows": [
+        [
+          "Evan",
+          "Thu Jun 18",
+          "7:42 AM",
+          "6:03 PM",
+          "10.35",
+          "59.66 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Sat Jun 20",
+          "7:52 AM",
+          "6:01 PM",
+          "10.15",
+          "59.66 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
       "shop": "Dedham",
       "manager": "Justin Komins",
-      "count": 1,
+      "count": 3,
       "rows": [
         [
           "Dillon Stanas",
@@ -28,7 +53,41 @@
           "6:58 AM",
           "5:17 PM",
           "10.32",
-          "53.14 (OT)",
+          "89.22 (OT)",
+          "OT"
+        ],
+        [
+          "Dillon Stanas",
+          "Fri Jun 19",
+          "6:50 AM",
+          "5:03 PM",
+          "10.22",
+          "89.22 (OT)",
+          "OT"
+        ],
+        [
+          "Jared Radovsky",
+          "Tue Jun 16",
+          "6:50 AM",
+          "5:00 PM",
+          "10.17",
+          "77.77 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Houston - 888 Westheimer",
+      "manager": "Kristian Kingdom-Saksek, Noah Nance",
+      "count": 1,
+      "rows": [
+        [
+          "Andrew Reed",
+          "Tue Jun 16",
+          "7:50 AM",
+          "6:08 PM",
+          "10.30",
+          "67.12 (OT)",
           "OT"
         ]
       ]
@@ -36,7 +95,7 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 2,
+      "count": 4,
       "rows": [
         [
           "Gloria Alexander",
@@ -44,7 +103,25 @@
           "8:06 AM",
           "6:32 PM",
           "10.43",
-          "48.54 (OT)",
+          "68.92 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Jun 20",
+          "9:54 AM",
+          "8:09 PM",
+          "10.25",
+          "68.92 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Jun 18",
+          "9:53 AM",
+          "8:01 PM",
+          "10.13",
+          "68.92 (OT)",
           "OT"
         ],
         [
@@ -53,7 +130,7 @@
           "10:04 AM",
           "8:09 PM",
           "10.08",
-          "48.54 (OT)",
+          "68.92 (OT)",
           "OT"
         ]
       ]

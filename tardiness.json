@@ -2,8 +2,8 @@
   "meta": {
     "title": "Tardiness",
     "subtitle": "Covers Jun 15 \u2013 Jun 21",
-    "summary_line": "40 tardy clock-ins across 21 shops",
-    "last_refreshed_display": "Data through Wed Jun 24, 2026",
+    "summary_line": "85 tardy clock-ins across 28 shops",
+    "last_refreshed_display": "Data through Mon Jun 22, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -15,6 +15,20 @@
     "Min Late"
   ],
   "groups": [
+    {
+      "shop": "1000 Pittsburgh",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-06-19",
+          "Johnathan Rhodes",
+          "11:00 AM",
+          "11:13 AM",
+          "13"
+        ]
+      ]
+    },
     {
       "shop": "1151 Roseville",
       "manager": "",
@@ -32,7 +46,7 @@
     {
       "shop": "17250 Omaha",
       "manager": "",
-      "count": 3,
+      "count": 6,
       "rows": [
         [
           "2026-06-15",
@@ -49,18 +63,67 @@
           "141"
         ],
         [
+          "2026-06-16",
+          "Christian Van Dam",
+          "8:00 AM",
+          "9:00 AM",
+          "60"
+        ],
+        [
           "2026-06-17",
           "Christian Van Dam",
           "9:00 AM",
           "9:17 AM",
           "17"
+        ],
+        [
+          "2026-06-18",
+          "Christian Van Dam",
+          "9:00 AM",
+          "9:58 AM",
+          "58"
+        ],
+        [
+          "2026-06-21",
+          "Christian Van Dam",
+          "10:30 AM",
+          "10:46 AM",
+          "16"
+        ]
+      ]
+    },
+    {
+      "shop": "234 Bellevue Square",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-06-18",
+          "Kaylee",
+          "2:00 PM",
+          "2:17 PM",
+          "17"
+        ]
+      ]
+    },
+    {
+      "shop": "4002 Columbus",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-06-21",
+          "Celeste Apolinar",
+          "10:00 AM",
+          "10:09 AM",
+          "9"
         ]
       ]
     },
     {
       "shop": "696 Lynnfield",
       "manager": "",
-      "count": 2,
+      "count": 5,
       "rows": [
         [
           "2026-06-15",
@@ -75,13 +138,34 @@
           "9:45 AM",
           "10:00 AM",
           "15"
+        ],
+        [
+          "2026-06-19",
+          "Alexa Albanese",
+          "9:45 AM",
+          "10:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-20",
+          "Evan",
+          "7:45 AM",
+          "7:52 AM",
+          "7"
+        ],
+        [
+          "2026-06-21",
+          "Evan",
+          "8:45 AM",
+          "8:59 AM",
+          "14"
         ]
       ]
     },
     {
       "shop": "7878 Cincinnati",
       "manager": "",
-      "count": 2,
+      "count": 4,
       "rows": [
         [
           "2026-06-17",
@@ -96,13 +180,27 @@
           "10:00 AM",
           "10:14 AM",
           "14"
+        ],
+        [
+          "2026-06-18",
+          "Nicole Scott",
+          "7:45 AM",
+          "7:51 AM",
+          "6"
+        ],
+        [
+          "2026-06-21",
+          "Nicole Scott",
+          "9:45 AM",
+          "9:55 AM",
+          "10"
         ]
       ]
     },
     {
       "shop": "Birmingham - 141 W Maple",
       "manager": "",
-      "count": 6,
+      "count": 11,
       "rows": [
         [
           "2026-06-15",
@@ -145,13 +243,48 @@
           "9:00 AM",
           "9:27 AM",
           "27"
+        ],
+        [
+          "2026-06-18",
+          "Jordan Dixon",
+          "9:00 AM",
+          "9:26 AM",
+          "26"
+        ],
+        [
+          "2026-06-19",
+          "Lance Minor",
+          "9:00 AM",
+          "10:02 AM",
+          "62"
+        ],
+        [
+          "2026-06-19",
+          "Luke Srinivasan",
+          "9:00 AM",
+          "9:11 AM",
+          "11"
+        ],
+        [
+          "2026-06-20",
+          "Thomas Conway",
+          "8:00 AM",
+          "9:29 AM",
+          "89"
+        ],
+        [
+          "2026-06-21",
+          "Alexander Conklin",
+          "9:00 AM",
+          "9:10 AM",
+          "10"
         ]
       ]
     },
     {
       "shop": "Boston - 201 Newbury Street",
       "manager": "",
-      "count": 2,
+      "count": 10,
       "rows": [
         [
           "2026-06-15",
@@ -166,6 +299,62 @@
           "8:30 AM",
           "8:42 AM",
           "12"
+        ],
+        [
+          "2026-06-18",
+          "Kevin Gailius",
+          "8:30 AM",
+          "9:06 AM",
+          "36"
+        ],
+        [
+          "2026-06-18",
+          "William Gardner",
+          "8:30 AM",
+          "8:45 AM",
+          "15"
+        ],
+        [
+          "2026-06-18",
+          "William Hatton",
+          "8:30 AM",
+          "8:38 AM",
+          "8"
+        ],
+        [
+          "2026-06-19",
+          "Charles Banquier",
+          "9:45 AM",
+          "9:56 AM",
+          "11"
+        ],
+        [
+          "2026-06-20",
+          "Kevin Gailius",
+          "7:30 AM",
+          "7:38 AM",
+          "8"
+        ],
+        [
+          "2026-06-21",
+          "William Hatton",
+          "10:00 AM",
+          "10:51 AM",
+          "51"
+        ],
+        [
+          "2026-06-21",
+          "Kevin Gailius",
+          "7:30 AM",
+          "7:41 AM",
+          "11"
+        ],
+        [
+          "2026-06-21",
+          "Jared Radovsky",
+          "7:30 AM",
+          "7:36 AM",
+          "6"
         ]
       ]
     },
@@ -207,7 +396,7 @@
     {
       "shop": "DC - 3101 M St",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-06-15",
@@ -215,6 +404,13 @@
           "9:00 AM",
           "9:06 AM",
           "6"
+        ],
+        [
+          "2026-06-21",
+          "Molly Wilgus",
+          "9:00 AM",
+          "2:45 PM",
+          "345"
         ]
       ]
     },
@@ -224,18 +420,46 @@
       "count": 1,
       "rows": [
         [
-          "2026-06-17",
-          "James Robinson",
-          "10:00 AM",
-          "10:18 AM",
-          "18"
+          "2026-06-18",
+          "Dawson Plott",
+          "9:00 AM",
+          "9:41 AM",
+          "41"
+        ]
+      ]
+    },
+    {
+      "shop": "Dedham",
+      "manager": "",
+      "count": 3,
+      "rows": [
+        [
+          "2026-06-20",
+          "Ethan Jean",
+          "7:45 AM",
+          "7:55 AM",
+          "10"
+        ],
+        [
+          "2026-06-21",
+          "Dillon Stanas",
+          "7:30 AM",
+          "7:40 AM",
+          "10"
+        ],
+        [
+          "2026-06-21",
+          "Jabraun Johnson",
+          "7:30 AM",
+          "7:39 AM",
+          "9"
         ]
       ]
     },
     {
       "shop": "Denver - 2800 E 2nd Ave",
       "manager": "",
-      "count": 1,
+      "count": 3,
       "rows": [
         [
           "2026-06-15",
@@ -243,13 +467,27 @@
           "10:00 AM",
           "10:06 AM",
           "6"
+        ],
+        [
+          "2026-06-20",
+          "Brian Redington",
+          "11:00 AM",
+          "11:51 AM",
+          "51"
+        ],
+        [
+          "2026-06-21",
+          "Alex Cichy",
+          "11:00 AM",
+          "11:06 AM",
+          "6"
         ]
       ]
     },
     {
       "shop": "Fort Lauderdale - 1016 E",
       "manager": "",
-      "count": 5,
+      "count": 7,
       "rows": [
         [
           "2026-06-15",
@@ -285,6 +523,34 @@
           "9:00 AM",
           "9:10 AM",
           "10"
+        ],
+        [
+          "2026-06-19",
+          "Thomas Blackadar",
+          "11:30 AM",
+          "3:24 PM",
+          "234"
+        ],
+        [
+          "2026-06-21",
+          "Thomas Blackadar",
+          "10:00 AM",
+          "10:19 AM",
+          "19"
+        ]
+      ]
+    },
+    {
+      "shop": "Greenhills - 2126 Abbot Martin",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-06-19",
+          "Allen Bass",
+          "11:00 AM",
+          "11:07 AM",
+          "7"
         ]
       ]
     },
@@ -303,9 +569,30 @@
       ]
     },
     {
-      "shop": "La Jolla - 7857 Girard Ave",
+      "shop": "Houston - 888 Westheimer",
       "manager": "",
       "count": 2,
+      "rows": [
+        [
+          "2026-06-18",
+          "Auna Tastad",
+          "8:00 AM",
+          "8:28 AM",
+          "28"
+        ],
+        [
+          "2026-06-21",
+          "Auna Tastad",
+          "8:00 AM",
+          "8:11 AM",
+          "11"
+        ]
+      ]
+    },
+    {
+      "shop": "La Jolla - 7857 Girard Ave",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "2026-06-15",
@@ -320,13 +607,20 @@
           "11:00 AM",
           "11:11 AM",
           "11"
+        ],
+        [
+          "2026-06-18",
+          "Casey Sandoval",
+          "10:00 AM",
+          "10:06 AM",
+          "6"
         ]
       ]
     },
     {
       "shop": "New York - 57 Spring",
       "manager": "",
-      "count": 3,
+      "count": 5,
       "rows": [
         [
           "2026-06-15",
@@ -337,6 +631,20 @@
         ],
         [
           "2026-06-15",
+          "Lekwan Massey-Phillips",
+          "8:45 AM",
+          "9:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-16",
+          "Lekwan Massey-Phillips",
+          "8:45 AM",
+          "9:00 AM",
+          "15"
+        ],
+        [
+          "2026-06-16",
           "Lekwan Massey-Phillips",
           "8:45 AM",
           "9:00 AM",
@@ -354,7 +662,7 @@
     {
       "shop": "Newport Beach - Fashion Island",
       "manager": "",
-      "count": 2,
+      "count": 3,
       "rows": [
         [
           "2026-06-15",
@@ -369,13 +677,20 @@
           "10:30 AM",
           "10:36 AM",
           "6"
+        ],
+        [
+          "2026-06-19",
+          "Nathaniel Faraone",
+          "12:00 PM",
+          "12:12 PM",
+          "12"
         ]
       ]
     },
     {
       "shop": "Philadelphia - 1702 Walnut",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-06-16",
@@ -383,13 +698,20 @@
           "9:30 AM",
           "9:38 AM",
           "8"
+        ],
+        [
+          "2026-06-18",
+          "Franco Bailey",
+          "9:30 AM",
+          "9:36 AM",
+          "6"
         ]
       ]
     },
     {
       "shop": "Salt Lake City - 50 E Main St. N",
       "manager": "",
-      "count": 1,
+      "count": 3,
       "rows": [
         [
           "2026-06-15",
@@ -397,13 +719,27 @@
           "4:00 PM",
           "6:24 PM",
           "144"
+        ],
+        [
+          "2026-06-19",
+          "Nicholas Compton",
+          "1:00 PM",
+          "3:48 PM",
+          "168"
+        ],
+        [
+          "2026-06-19",
+          "Reece Horton",
+          "12:00 PM",
+          "12:15 PM",
+          "15"
         ]
       ]
     },
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-06-15",
@@ -411,6 +747,27 @@
           "10:00 AM",
           "11:21 AM",
           "81"
+        ],
+        [
+          "2026-06-19",
+          "Hansi Ebert-Sexauer",
+          "12:00 PM",
+          "12:11 PM",
+          "11"
+        ]
+      ]
+    },
+    {
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-06-18",
+          "Antowane Oliver",
+          "11:00 AM",
+          "11:14 AM",
+          "14"
         ]
       ]
     },
@@ -431,7 +788,7 @@
     {
       "shop": "Westport - 72 Main St",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-06-17",
@@ -439,6 +796,13 @@
           "8:00 AM",
           "8:13 AM",
           "13"
+        ],
+        [
+          "2026-06-20",
+          "Trey",
+          "8:00 AM",
+          "8:24 AM",
+          "24"
         ]
       ]
     }
