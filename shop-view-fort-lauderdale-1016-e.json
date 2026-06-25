@@ -2,10 +2,10 @@
   "meta": {
     "title": "Fort Lauderdale - 1016 E",
     "subtitle": "Manager view",
-    "summary_line": "12 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 12
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -54,23 +54,9 @@
           "9:00 AM",
           "9:10 AM",
           "10"
-        ],
-        [
-          "2026-06-19",
-          "Thomas Blackadar",
-          "11:30 AM",
-          "3:24 PM",
-          "234"
-        ],
-        [
-          "2026-06-21",
-          "Thomas Blackadar",
-          "10:00 AM",
-          "10:19 AM",
-          "19"
         ]
       ],
-      "count": 7
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -85,8 +71,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Phillip Santiago",
+          "Fri Jun 19",
+          "4:32 AM",
+          "6:29 PM",
+          "13.95",
+          "85.96 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -125,34 +121,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Bryan Appleby",
-          "Sun Jun 21",
-          "8.37"
-        ],
-        [
-          "Thomas Blackadar",
-          "Sun Jun 21",
-          "7.80"
-        ],
-        [
-          "Ceara McKegney",
-          "Sun Jun 21",
-          "8.05"
-        ],
-        [
-          "Cody Crites",
-          "Sun Jun 21",
-          "8.05"
-        ],
-        [
-          "Sophia Behar",
-          "Sun Jun 21",
-          "8.00"
-        ]
-      ],
-      "count": 5
+      "rows": [],
+      "count": 0
     }
   ]
 }

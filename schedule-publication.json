@@ -3,7 +3,7 @@
     "title": "Schedule Publication",
     "subtitle": "Window: Jun 25 \u2192 Jul 16, 2026",
     "summary_line": "4 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Thu Jun 25, 7:02 AM",
+    "last_refreshed_display": "Data through Thu Jun 25, 7:49 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,6 +13,13 @@
       "label": "Action Needed",
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 16,
+          "gap_days": 4,
+          "lookahead_days": 21
+        },
         {
           "shop": "17250 Omaha",
           "manager": "",
@@ -26,13 +33,6 @@
           "draft_count": 4,
           "gap_days": 4,
           "lookahead_days": 14
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 4,
-          "gap_days": 3,
-          "lookahead_days": 21
         },
         {
           "shop": "Employee Experience - Leave Approval",

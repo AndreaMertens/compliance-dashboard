@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "17 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 17
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -56,6 +56,13 @@
           "58"
         ],
         [
+          "2026-06-20",
+          "Christian Van Dam",
+          "9:00 AM",
+          "9:58 AM",
+          "58"
+        ],
+        [
           "2026-06-21",
           "Christian Van Dam",
           "10:30 AM",
@@ -63,7 +70,7 @@
           "16"
         ]
       ],
-      "count": 6
+      "count": 7
     },
     {
       "id": "long-shifts",
@@ -118,64 +125,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Christian Van Dam",
-          "Thu Jun 18",
-          "8.10"
-        ],
-        [
-          "Noah Strako",
-          "Thu Jun 18",
-          "8.07"
-        ],
-        [
-          "Cieron Hampson",
-          "Thu Jun 18",
-          "8.10"
-        ],
-        [
-          "Clark",
-          "Fri Jun 19",
-          "8.02"
-        ],
-        [
-          "Noah Strako",
-          "Fri Jun 19",
-          "8.00"
-        ],
-        [
-          "Clark",
-          "Sat Jun 20",
-          "8.13"
-        ],
-        [
-          "Noah Strako",
-          "Sat Jun 20",
-          "8.33"
-        ],
-        [
-          "Cieron Hampson",
-          "Sat Jun 20",
-          "8.12"
-        ],
-        [
-          "Christian Van Dam",
-          "Sun Jun 21",
-          "5.23"
-        ],
-        [
-          "Clark",
-          "Sun Jun 21",
-          "5.32"
-        ],
-        [
-          "Cieron Hampson",
-          "Sun Jun 21",
-          "5.35"
-        ]
-      ],
-      "count": 11
+      "rows": [],
+      "count": 0
     }
   ]
 }
