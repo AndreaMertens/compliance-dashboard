@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 24 \u2192 Jul 15, 2026",
-    "summary_line": "4 action needed \u00b7 3 heads up",
-    "last_refreshed_display": "Data through Wed Jun 24, 7:02 AM",
+    "subtitle": "Window: Jun 25 \u2192 Jul 16, 2026",
+    "summary_line": "4 action needed \u00b7 4 heads up",
+    "last_refreshed_display": "Data through Thu Jun 25, 7:02 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,32 +14,32 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Birmingham - 141 W Maple",
-          "manager": "",
-          "draft_count": 56,
-          "gap_days": 7,
-          "lookahead_days": 14
-        },
-        {
           "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 8,
-          "gap_days": 3,
+          "draft_count": 11,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 3,
-          "gap_days": 3,
+          "draft_count": 4,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "Philadelphia - 1702 Walnut",
           "manager": "",
-          "draft_count": 3,
-          "gap_days": 2,
+          "draft_count": 4,
+          "gap_days": 3,
           "lookahead_days": 21
+        },
+        {
+          "shop": "Employee Experience - Leave Approval",
+          "manager": "",
+          "draft_count": 0,
+          "gap_days": 0,
+          "lookahead_days": 14
         }
       ]
     },
@@ -49,16 +49,23 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
+          "shop": "Birmingham - 141 W Maple",
+          "manager": "",
+          "draft_count": 19,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
-          "draft_count": 8,
+          "draft_count": 9,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 4,
+          "draft_count": 5,
           "gap_days": 0,
           "lookahead_days": 21
         },
