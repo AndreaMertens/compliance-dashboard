@@ -2,10 +2,10 @@
   "meta": {
     "title": "Birmingham - 141 W Maple",
     "subtitle": "Manager view",
-    "summary_line": "11 flags this week",
+    "summary_line": "12 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 11
+    "total_flags": 12
   },
   "tiles": [
     {
@@ -113,8 +113,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Thomas Conway",
+          "Wed Jun 24",
+          "4:35 PM",
+          "8:09 AM",
+          "15.57",
+          "70.48 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",

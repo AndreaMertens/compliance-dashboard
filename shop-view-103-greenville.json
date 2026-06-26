@@ -2,10 +2,10 @@
   "meta": {
     "title": "103 Greenville",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -49,8 +49,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dylan",
+          "Wed Jun 24",
+          "8:30 AM",
+          "8:40 AM",
+          "0.17"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",
