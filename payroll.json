@@ -240,9 +240,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 4,
+      "metric": 3,
       "metric_unit": "shops",
-      "description": "20 timecards still unapproved across the full pay period.",
+      "description": "18 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -340,18 +340,6 @@
           "Chicago - 840 W Armitage",
           "2026-06-25",
           "8.15h"
-        ],
-        [
-          "Ethan Platt",
-          "Westport - 72 Main St",
-          "2026-06-25",
-          "8.03h"
-        ],
-        [
-          "Tyler",
-          "Westport - 72 Main St",
-          "2026-06-25",
-          "8.08h"
         ],
         [
           "Nicholas Compton",
@@ -1246,9 +1234,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 42,
+      "metric": 44,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 11 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 12 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1508,6 +1496,18 @@
           "Manhattan Beach - The Point",
           "2026-06-25",
           "8.00h"
+        ],
+        [
+          "Ethan Platt",
+          "Westport - 72 Main St",
+          "2026-06-25",
+          "8.03h"
+        ],
+        [
+          "Tyler",
+          "Westport - 72 Main St",
+          "2026-06-25",
+          "8.08h"
         ]
       ]
     }
