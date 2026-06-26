@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of June 15\u201321, 2026",
-    "generated_at": "2026-06-26T08:19:05.660032",
-    "generated_at_display": "Generated Jun 26, 8:19 AM"
+    "generated_at": "2026-06-26T10:25:03.429149",
+    "generated_at_display": "Generated Jun 26, 10:25 AM"
   },
   "summary": [],
   "sections": [
@@ -31,7 +31,7 @@
           "metric_unit": " \u00b7 6 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Fri Jun 26, 8:19 AM",
+          "last_refreshed_display": "Data through Fri Jun 26, 10:25 AM",
           "covers_label": "Compliance window: next 21 days from 2026-06-26",
           "is_mock": false
         },
@@ -104,10 +104,10 @@
           "id": "unapproved-timecards",
           "title": "Unapproved Timecards",
           "review_day": "Wednesday",
-          "metric": 1,
+          "metric": 0,
           "metric_unit": "shops outstanding",
-          "description": "5 timecards still unapproved past the 3-day grace period.",
-          "status": "alert",
+          "description": "All timecards approved on time.",
+          "status": "good",
           "last_refreshed_display": "Data through Fri Jun 26, 2026",
           "covers_label": "Covers Jun 15 \u2013 Jun 21",
           "is_mock": false

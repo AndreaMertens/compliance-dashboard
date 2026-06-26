@@ -2,7 +2,7 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of June 15\u201321, 2026",
-    "summary_line": "1 shops \u00b7 5 timecards outstanding",
+    "summary_line": "No outstanding timecards.",
     "last_refreshed_display": "Data through Fri Jun 26, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -12,38 +12,5 @@
     "Date",
     "Hours"
   ],
-  "groups": [
-    {
-      "shop": "Chicago - 840 W Armitage",
-      "manager": "Agnes Krol",
-      "count": 5,
-      "rows": [
-        [
-          "Holden Tamblyn",
-          "Fri Jun 19",
-          "8.55"
-        ],
-        [
-          "Christian Sikorski",
-          "Sat Jun 20",
-          "8.08"
-        ],
-        [
-          "Holden Tamblyn",
-          "Sat Jun 20",
-          "8.12"
-        ],
-        [
-          "Christian Sikorski",
-          "Sun Jun 21",
-          "8.20"
-        ],
-        [
-          "Holden Tamblyn",
-          "Sun Jun 21",
-          "4.33"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

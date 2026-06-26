@@ -240,108 +240,17 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 1,
-      "metric_unit": "shop",
-      "description": "15 timecards still unapproved across the full pay period.",
-      "status": "attention",
+      "metric": 0,
+      "metric_unit": "shops",
+      "description": "0 timecards still unapproved across the full pay period.",
+      "status": "good",
       "columns": [
         "Employee",
         "Shop",
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-06-19",
-          "8.55h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-06-20",
-          "8.08h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-06-20",
-          "8.12h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-06-21",
-          "8.20h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-06-21",
-          "4.33h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-06-22",
-          "8.30h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-06-23",
-          "8.08h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-06-23",
-          "7.98h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-06-24",
-          "8.13h"
-        ],
-        [
-          "Viktoriia Fedorchak",
-          "Chicago - 840 W Armitage",
-          "2026-06-24",
-          "8.18h"
-        ],
-        [
-          "Andrew Bell",
-          "Chicago - 840 W Armitage",
-          "2026-06-24",
-          "8.13h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-06-24",
-          "8.02h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-06-25",
-          "8.08h"
-        ],
-        [
-          "Viktoriia Fedorchak",
-          "Chicago - 840 W Armitage",
-          "2026-06-25",
-          "8.12h"
-        ],
-        [
-          "Andrew Bell",
-          "Chicago - 840 W Armitage",
-          "2026-06-25",
-          "8.15h"
-        ]
-      ]
+      "rows": []
     },
     {
       "id": "payroll-pending-leave",
@@ -1216,9 +1125,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 16,
+      "metric": 6,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 10 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 4 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1227,18 +1136,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Logan Hopper",
-          "122 Lexington",
-          "2026-06-25",
-          "6.37h"
-        ],
-        [
-          "Maxwell Webster",
-          "122 Lexington",
-          "2026-06-25",
-          "7.72h"
-        ],
         [
           "Ivory Turner",
           "333 Milwaukee",
@@ -1264,24 +1161,6 @@
           "8.43h"
         ],
         [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-06-22",
-          "8.28h"
-        ],
-        [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-06-23",
-          "8.35h"
-        ],
-        [
-          "Natalie Brown",
-          "HQ-Non-Kiosk",
-          "2026-06-25",
-          "7.57h"
-        ],
-        [
           "Christian Bussman",
           "Indianapolis - 8702 Keystone Crossing",
           "2026-06-11",
@@ -1292,36 +1171,6 @@
           "La Jolla - 7857 Girard Ave",
           "2026-06-17",
           "0.00h"
-        ],
-        [
-          "Nicholas Compton",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-06-25",
-          "8.28h"
-        ],
-        [
-          "Val Simanca Delgado",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-06-25",
-          "4.22h"
-        ],
-        [
-          "Abraham Boyd",
-          "Walnut Creek - 147 Broadway",
-          "2026-06-25",
-          "7.70h"
-        ],
-        [
-          "Ethan Platt",
-          "Westport - 72 Main St",
-          "2026-06-25",
-          "8.03h"
-        ],
-        [
-          "Tyler",
-          "Westport - 72 Main St",
-          "2026-06-25",
-          "8.08h"
         ]
       ]
     }
