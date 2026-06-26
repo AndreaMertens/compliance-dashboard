@@ -240,9 +240,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 3,
+      "metric": 2,
       "metric_unit": "shops",
-      "description": "18 timecards still unapproved across the full pay period.",
+      "description": "16 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -340,18 +340,6 @@
           "Chicago - 840 W Armitage",
           "2026-06-25",
           "8.15h"
-        ],
-        [
-          "Nicholas Compton",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-06-25",
-          "8.28h"
-        ],
-        [
-          "Val Simanca Delgado",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-06-25",
-          "4.22h"
         ],
         [
           "Abraham Boyd",
@@ -1234,9 +1222,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 44,
+      "metric": 46,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 12 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 13 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1496,6 +1484,18 @@
           "Manhattan Beach - The Point",
           "2026-06-25",
           "8.00h"
+        ],
+        [
+          "Nicholas Compton",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-06-25",
+          "8.28h"
+        ],
+        [
+          "Val Simanca Delgado",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-06-25",
+          "4.22h"
         ],
         [
           "Ethan Platt",
