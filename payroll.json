@@ -240,9 +240,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 2,
-      "metric_unit": "shops",
-      "description": "16 timecards still unapproved across the full pay period.",
+      "metric": 1,
+      "metric_unit": "shop",
+      "description": "15 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -340,12 +340,6 @@
           "Chicago - 840 W Armitage",
           "2026-06-25",
           "8.15h"
-        ],
-        [
-          "Abraham Boyd",
-          "Walnut Creek - 147 Broadway",
-          "2026-06-25",
-          "7.70h"
         ]
       ]
     },
@@ -1222,9 +1216,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 46,
+      "metric": 16,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 13 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 10 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1233,12 +1227,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Mailon Williams",
-          "10250 Century City",
-          "2026-06-15",
-          "8.00h"
-        ],
         [
           "Logan Hopper",
           "122 Lexington",
@@ -1258,66 +1246,6 @@
           "0.00h"
         ],
         [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-11",
-          "5.50h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-12",
-          "9.00h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-13",
-          "8.25h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-14",
-          "7.00h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-15",
-          "7.77h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-16",
-          "8.25h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-17",
-          "8.30h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-21",
-          "8.55h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-22",
-          "9.35h"
-        ],
-        [
-          "Chanthan Hing",
-          "696 Lynnfield",
-          "2026-06-24",
-          "8.87h"
-        ],
-        [
           "Jackson Keefer",
           "Ann Arbor - 212 S Main",
           "2026-06-23",
@@ -1334,66 +1262,6 @@
           "Ann Arbor - 212 S Main",
           "2026-06-25",
           "8.43h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-11",
-          "7.30h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-12",
-          "8.75h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-13",
-          "9.48h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-15",
-          "8.45h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-18",
-          "8.55h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-19",
-          "8.87h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-20",
-          "9.57h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-21",
-          "8.60h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-22",
-          "8.75h"
-        ],
-        [
-          "Anne Malloy",
-          "Boston - 201 Newbury Street",
-          "2026-06-25",
-          "8.57h"
         ],
         [
           "Bryce Martin",
@@ -1426,66 +1294,6 @@
           "0.00h"
         ],
         [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-13",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-14",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-16",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-17",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-18",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-21",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-22",
-          "5.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-23",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-24",
-          "8.00h"
-        ],
-        [
-          "Mailon Williams",
-          "Manhattan Beach - The Point",
-          "2026-06-25",
-          "8.00h"
-        ],
-        [
           "Nicholas Compton",
           "Salt Lake City - 50 E Main St. N",
           "2026-06-25",
@@ -1496,6 +1304,12 @@
           "Salt Lake City - 50 E Main St. N",
           "2026-06-25",
           "4.22h"
+        ],
+        [
+          "Abraham Boyd",
+          "Walnut Creek - 147 Broadway",
+          "2026-06-25",
+          "7.70h"
         ],
         [
           "Ethan Platt",
