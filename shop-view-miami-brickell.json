@@ -2,10 +2,10 @@
   "meta": {
     "title": "Miami - Brickell",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-23",
+          "Glen Noel",
+          "10:00 AM",
+          "10:09 AM",
+          "9"
+        ],
+        [
+          "2026-06-25",
+          "Glen Noel",
+          "6:00 AM",
+          "6:15 AM",
+          "15"
+        ],
+        [
+          "2026-06-26",
+          "Glen Noel",
+          "8:30 AM",
+          "8:36 AM",
+          "6"
+        ],
+        [
+          "2026-06-27",
+          "Gabriel Gonzalez",
+          "10:00 AM",
+          "10:12 AM",
+          "12"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",

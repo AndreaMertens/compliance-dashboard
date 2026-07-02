@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jun 26 \u2192 Jul 17, 2026",
-    "summary_line": "2 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Fri Jun 26, 10:25 AM",
+    "subtitle": "Window: Jul 2 \u2192 Jul 23, 2026",
+    "summary_line": "3 action needed \u00b7 4 heads up",
+    "last_refreshed_display": "Data through Thu Jul 2, 7:57 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,10 +14,17 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Fort Lauderdale - 1016 E",
+          "shop": "Birmingham - 141 W Maple",
           "manager": "",
-          "draft_count": 5,
-          "gap_days": 5,
+          "draft_count": 59,
+          "gap_days": 4,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "17250 Omaha",
+          "manager": "",
+          "draft_count": 10,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
@@ -35,42 +42,28 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Birmingham - 141 W Maple",
-          "manager": "",
-          "draft_count": 19,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Salt Lake City - 50 E Main St. N",
-          "manager": "",
-          "draft_count": 10,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 3,
           "gap_days": 0,
           "lookahead_days": 21
         },
         {
-          "shop": "17250 Omaha",
+          "shop": "Denver - 2800 E 2nd Ave",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Manhattan Beach - The Point",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "Miami - Brickell",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Boston - 201 Newbury Street",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,

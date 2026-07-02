@@ -2,10 +2,10 @@
   "meta": {
     "title": "629 Alexandria",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -19,8 +19,30 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-24",
+          "Jack",
+          "8:00 AM",
+          "8:15 AM",
+          "15"
+        ],
+        [
+          "2026-06-24",
+          "Jack",
+          "8:00 AM",
+          "8:15 AM",
+          "15"
+        ],
+        [
+          "2026-06-28",
+          "Jackson Reid",
+          "9:00 AM",
+          "9:15 AM",
+          "15"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -65,11 +87,11 @@
       ],
       "rows": [
         [
-          "Nour-Eddine Seidnaly",
-          "40.21",
-          "7.50",
-          "47.71",
-          "+7.71"
+          "Darius Barnes",
+          "42.30",
+          "8.00",
+          "50.30",
+          "+10.30"
         ]
       ],
       "count": 1

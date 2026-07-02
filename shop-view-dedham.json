@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "14 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 14
   },
   "tiles": [
     {
@@ -21,28 +21,49 @@
       ],
       "rows": [
         [
-          "2026-06-20",
+          "2026-06-22",
+          "Mike Spinelli",
+          "9:00 AM",
+          "9:08 AM",
+          "8"
+        ],
+        [
+          "2026-06-27",
           "Ethan Jean",
-          "7:45 AM",
-          "7:55 AM",
-          "10"
-        ],
-        [
-          "2026-06-21",
-          "Dillon Stanas",
           "7:30 AM",
-          "7:40 AM",
-          "10"
+          "7:49 AM",
+          "19"
         ],
         [
-          "2026-06-21",
+          "2026-06-27",
           "Jabraun Johnson",
           "7:30 AM",
-          "7:39 AM",
-          "9"
+          "7:46 AM",
+          "16"
+        ],
+        [
+          "2026-06-27",
+          "JJ Grainda",
+          "7:30 AM",
+          "7:43 AM",
+          "13"
+        ],
+        [
+          "2026-06-27",
+          "Dillon Stanas",
+          "7:30 AM",
+          "7:42 AM",
+          "12"
+        ],
+        [
+          "2026-06-27",
+          "Jared Radovsky",
+          "7:30 AM",
+          "7:41 AM",
+          "11"
         ]
       ],
-      "count": 3
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -57,36 +78,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Dillon Stanas",
-          "Fri Jun 12",
-          "6:58 AM",
-          "5:17 PM",
-          "10.32",
-          "96.10 (OT)",
-          "OT"
-        ],
-        [
-          "Dillon Stanas",
-          "Fri Jun 19",
-          "6:50 AM",
-          "5:03 PM",
-          "10.22",
-          "96.10 (OT)",
-          "OT"
-        ],
-        [
-          "Jared Radovsky",
-          "Tue Jun 16",
-          "6:50 AM",
-          "5:00 PM",
-          "10.17",
-          "94.87 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -125,8 +118,49 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jabraun Johnson",
+          "Sat Jun 27",
+          "9.30"
+        ],
+        [
+          "Ethan Jean",
+          "Sat Jun 27",
+          "9.22"
+        ],
+        [
+          "JJ Grainda",
+          "Sat Jun 27",
+          "9.33"
+        ],
+        [
+          "Dillon Stanas",
+          "Sat Jun 27",
+          "9.38"
+        ],
+        [
+          "Jabraun Johnson",
+          "Sun Jun 28",
+          "7.30"
+        ],
+        [
+          "Ethan Jean",
+          "Sun Jun 28",
+          "7.03"
+        ],
+        [
+          "JJ Grainda",
+          "Sun Jun 28",
+          "7.25"
+        ],
+        [
+          "Dillon Stanas",
+          "Sun Jun 28",
+          "7.28"
+        ]
+      ],
+      "count": 8
     }
   ]
 }

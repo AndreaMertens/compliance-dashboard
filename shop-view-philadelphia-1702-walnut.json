@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,21 +21,49 @@
       ],
       "rows": [
         [
-          "2026-06-16",
+          "2026-06-23",
           "Franco Bailey",
           "9:30 AM",
-          "9:38 AM",
-          "8"
+          "9:37 AM",
+          "7"
         ],
         [
-          "2026-06-18",
+          "2026-06-24",
+          "Stephen Williams II",
+          "9:30 AM",
+          "4:44 PM",
+          "434"
+        ],
+        [
+          "2026-06-24",
+          "Dante Barnes",
+          "9:15 AM",
+          "11:49 AM",
+          "154"
+        ],
+        [
+          "2026-06-26",
           "Franco Bailey",
+          "9:00 AM",
+          "9:35 AM",
+          "35"
+        ],
+        [
+          "2026-06-27",
+          "Franco Bailey",
+          "9:30 AM",
+          "9:47 AM",
+          "17"
+        ],
+        [
+          "2026-06-27",
+          "Celina Bryant",
           "9:30 AM",
           "9:36 AM",
           "6"
         ]
       ],
-      "count": 2
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -64,16 +92,8 @@
         "End",
         "Hours"
       ],
-      "rows": [
-        [
-          "Mate Okros",
-          "Sun Jun 21",
-          "10:00 PM",
-          "10:00 PM",
-          "0.00"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "over-40-vacation",
@@ -86,16 +106,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Franco Bailey",
-          "36.44",
-          "7.50",
-          "43.94",
-          "+3.94"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

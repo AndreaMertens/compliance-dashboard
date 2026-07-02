@@ -2,10 +2,10 @@
   "meta": {
     "title": "1151 Roseville",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-06-17",
-          "Daniel Lessard",
-          "1:30 PM",
-          "1:36 PM",
-          "6"
+          "2026-06-22",
+          "Sasha Jones",
+          "12:00 PM",
+          "12:08 PM",
+          "8"
+        ],
+        [
+          "2026-06-28",
+          "Inessa Samusenko",
+          "11:45 AM",
+          "12:02 PM",
+          "17"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -71,8 +78,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Danielle Woody",
+          "41.10",
+          "7.50",
+          "48.60",
+          "+8.60"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,56 +21,35 @@
       ],
       "rows": [
         [
-          "2026-06-15",
-          "Christian Van Dam",
-          "9:00 AM",
-          "9:48 AM",
-          "48"
-        ],
-        [
-          "2026-06-16",
+          "2026-06-23",
           "Clark",
-          "10:00 AM",
-          "12:21 PM",
-          "141"
-        ],
-        [
-          "2026-06-16",
-          "Christian Van Dam",
-          "8:00 AM",
           "9:00 AM",
-          "60"
+          "9:57 AM",
+          "57"
         ],
         [
-          "2026-06-17",
+          "2026-06-25",
           "Christian Van Dam",
           "9:00 AM",
-          "9:17 AM",
-          "17"
+          "12:12 PM",
+          "192"
         ],
         [
-          "2026-06-18",
+          "2026-06-26",
           "Christian Van Dam",
           "9:00 AM",
-          "9:58 AM",
-          "58"
+          "9:49 AM",
+          "49"
         ],
         [
-          "2026-06-20",
+          "2026-06-27",
           "Christian Van Dam",
           "9:00 AM",
-          "9:58 AM",
-          "58"
-        ],
-        [
-          "2026-06-21",
-          "Christian Van Dam",
-          "10:30 AM",
-          "10:46 AM",
-          "16"
+          "9:57 AM",
+          "57"
         ]
       ],
-      "count": 7
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -125,8 +104,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sun Jun 28",
+          "5.42"
+        ],
+        [
+          "Clark",
+          "Sun Jun 28",
+          "4.98"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

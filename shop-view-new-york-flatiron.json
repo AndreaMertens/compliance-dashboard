@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-06-22",
+          "Ian Adams",
+          "9:00 AM",
+          "9:33 AM",
+          "33"
+        ],
+        [
+          "2026-06-28",
+          "Ian Adams",
+          "9:00 AM",
+          "9:11 AM",
+          "11"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -63,23 +78,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Ian Adams",
-          "33.11",
-          "8.00",
-          "41.11",
-          "+1.11"
-        ],
-        [
-          "Tyquan Jefferson",
-          "34.09",
-          "8.00",
-          "42.09",
-          "+2.09"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

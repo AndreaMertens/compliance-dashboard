@@ -19,30 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-15",
-          "Val Simanca Delgado",
-          "4:00 PM",
-          "6:24 PM",
-          "144"
-        ],
-        [
-          "2026-06-19",
-          "Nicholas Compton",
-          "1:00 PM",
-          "3:48 PM",
-          "168"
-        ],
-        [
-          "2026-06-19",
-          "Reece Horton",
-          "12:00 PM",
-          "12:15 PM",
-          "15"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -97,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Val Simanca Delgado",
+          "Fri Jun 26",
+          "8.28"
+        ],
+        [
+          "Nicholas Compton",
+          "Sat Jun 27",
+          "8.58"
+        ],
+        [
+          "Val Simanca Delgado",
+          "Sat Jun 27",
+          "8.07"
+        ]
+      ],
+      "count": 3
     }
   ]
 }
