@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: Jul 2 \u2192 Jul 23, 2026",
-    "summary_line": "3 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Thu Jul 2, 7:57 AM",
+    "summary_line": "1 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Thu Jul 2, 10:58 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,24 +14,10 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Birmingham - 141 W Maple",
-          "manager": "",
-          "draft_count": 59,
-          "gap_days": 4,
-          "lookahead_days": 14
-        },
-        {
           "shop": "17250 Omaha",
           "manager": "",
           "draft_count": 10,
           "gap_days": 4,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Employee Experience - Leave Approval",
-          "manager": "",
-          "draft_count": 0,
-          "gap_days": 0,
           "lookahead_days": 14
         }
       ]
@@ -41,6 +27,13 @@
       "label": "Heads Up",
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
+        {
+          "shop": "Birmingham - 141 W Maple",
+          "manager": "",
+          "draft_count": 9,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
