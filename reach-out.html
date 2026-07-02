@@ -270,6 +270,22 @@
         });
         groups.push({ shop: isManualPunch ? "50%+ last week" : (g.shop||""), manager: g.manager||"", columns: cols, rows });
       }
+      // Manual Punches: individual occurrences below the rate summary.
+      if (detail.occurrences && (detail.occurrences.rows || []).length) {
+        const ocols = detail.occurrences.columns;
+        const orows = detail.occurrences.rows
+          .filter(cells => !TEST_SHOP_RE.test(String(pick(ocols, cells, ["Shop"]))))
+          .map(cells => ({ cells, rec: {
+            tile: tileTitle,
+            shop: pick(ocols, cells, ["Shop"]),
+            manager: pick(ocols, cells, ["Manager"]),
+            employee: "",
+            date: pick(ocols, cells, ["Date"]),
+            lastWeek: "", avg: "",
+            details: detailString(ocols, cells),
+          }}));
+        if (orows.length) groups.push({ shop: "Individual punches (last week)", manager: "", columns: ocols, rows: orows });
+      }
     } else if (detail.sections) {
       const cols = ["Tier","Shop","Gap Days","Draft Shifts","Lookahead (days)"];
       for (const sec of detail.sections) {
@@ -420,9 +436,11 @@
 
       const selAll = head.querySelector(".select-all");
       selAll.addEventListener("change", () => {
+        const want = selAll.checked;   // snapshot: row handlers re-sync selAll mid-loop
         tbody.querySelectorAll("input[type=checkbox]").forEach(cb => {
-          if (cb.checked !== selAll.checked) { cb.checked = selAll.checked; cb.dispatchEvent(new Event("change")); }
+          if (cb.checked !== want) { cb.checked = want; cb.dispatchEvent(new Event("change")); }
         });
+        selAll.checked = want;
         syncTileCb(block);
       });
       syncSelectAll(head, tbody);
