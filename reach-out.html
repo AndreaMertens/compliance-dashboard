@@ -60,7 +60,8 @@
 
     /* ---- Tiles ---- */
     .tile-block { background: #fff; border: 1px solid #e8e8e8; border-radius: 6px; margin-bottom: 16px; overflow: hidden; }
-    .tile-block h2 { font-size: 13px; font-weight: 600; padding: 12px 16px; border-bottom: 1px solid #f0f0f0; background: #fafafa; }
+    .tile-block h2 { font-size: 13px; font-weight: 600; padding: 12px 16px; border-bottom: 1px solid #f0f0f0; background: #fafafa; display: flex; align-items: center; gap: 9px; }
+    .tile-block h2 .tile-cb { cursor: pointer; margin: 0; }
     .tile-block h2 .muted { font-weight: 400; color: #888; margin-left: 6px; font-size: 12px; }
     .tile-empty { padding: 12px 16px; color: #999; font-size: 12px; }
 
@@ -208,6 +209,17 @@
     return `${tileId}||${shop}||${JSON.stringify(cells)}`;
   }
 
+  // Test locations that should never appear in reach-out lists.
+  const TEST_SHOP_RE = /employee experience|test location/i;
+
+  // Keep the category-level checkbox in sync with its rows.
+  function syncTileCb(block) {
+    const tileCb = block.querySelector(".tile-cb");
+    if (!tileCb) return;
+    const boxes = [...block.querySelectorAll("tbody input[type=checkbox], .grp-cb")];
+    tileCb.checked = boxes.length > 0 && boxes.every(b => b.checked);
+  }
+
   // -------------------------------------------------------------------------
   // Counts & tab badges
   // -------------------------------------------------------------------------
@@ -235,6 +247,7 @@
       const isManualPunch = cols.includes("Last Week") && cols.includes("2026 Avg");
       const lastWeekIdx = cols.indexOf("Last Week");
       for (const g of detail.groups) {
+        if (TEST_SHOP_RE.test(g.shop || "")) continue;
         // Reach-Out builder: only managers at 50%+ manual punches LAST WEEK are worth contacting.
         const srcRows = isManualPunch
           ? (g.rows || []).filter(cells => parseFloat(cells[lastWeekIdx]) >= 50)
@@ -262,7 +275,7 @@
       for (const sec of detail.sections) {
         // Reach-Out builder is for items needing action; skip the soft "Heads Up" FYI tier.
         if ((sec.label || "").toLowerCase().includes("heads up")) continue;
-        const rows = (sec.rows||[]).map(r => {
+        const rows = (sec.rows||[]).filter(r => !TEST_SHOP_RE.test(r.shop||"")).map(r => {
           const cells = [sec.label, r.shop||"", r.gap_days??0, r.draft_count??0, r.lookahead_days??""];
           return { cells, rec: { tile: tileTitle, shop: r.shop||"", manager: r.manager||"", employee:"", date:"", lastWeek:"", avg:"", details:"" } };
         });
@@ -288,7 +301,9 @@
     const unitLabel = groupLevel
       ? `${groups.length} location${groups.length===1?"":"s"}`
       : `${total} instance${total===1?"":"s"}`;
-    h.innerHTML = `${esc(tileTitle)} <span class="muted">${unitLabel}</span>`;
+    h.innerHTML =
+      (total > 0 ? `<input type="checkbox" class="tile-cb" title="Select everything in ${esc(tileTitle)}">` : "") +
+      `<span>${esc(tileTitle)} <span class="muted">${unitLabel}</span></span>`;
     block.appendChild(h);
 
     if (total === 0) {
@@ -334,7 +349,7 @@
             selection[key] = { tile: tileTitle, shop: g.shop, manager: g.manager, employee:"", date: distinctDates.join(", "), lastWeek:"", avg:"", details:`${n} unapproved timecard${n===1?"":"s"}` };
             grp.classList.add("sel-reached");
           } else { delete selection[key]; grp.classList.remove("sel-reached","sel-skip"); }
-          save(SEL_KEY, selection); updateCounts(); refreshStatusTabs();
+          save(SEL_KEY, selection); updateCounts(); syncTileCb(block); refreshStatusTabs();
         });
 
         head.querySelectorAll(".status-btn").forEach(btn => {
@@ -388,7 +403,7 @@
         cb.addEventListener("change", () => {
           if (cb.checked) { selection[key] = row.rec; }
           else { delete selection[key]; }
-          save(SEL_KEY, selection); updateCounts(); syncSelectAll(head, tbody); refreshStatusTabs();
+          save(SEL_KEY, selection); updateCounts(); syncSelectAll(head, tbody); syncTileCb(block); refreshStatusTabs();
         });
 
         tr.querySelectorAll(".status-btn").forEach(btn => {
@@ -408,8 +423,23 @@
         tbody.querySelectorAll("input[type=checkbox]").forEach(cb => {
           if (cb.checked !== selAll.checked) { cb.checked = selAll.checked; cb.dispatchEvent(new Event("change")); }
         });
+        syncTileCb(block);
       });
       syncSelectAll(head, tbody);
+    }
+
+    // Category-level select-all: toggles every occurrence in this tile.
+    const tileCb = h.querySelector(".tile-cb");
+    if (tileCb) {
+      tileCb.addEventListener("change", () => {
+        const want = tileCb.checked;   // snapshot: row handlers re-sync tileCb mid-loop
+        block.querySelectorAll("tbody input[type=checkbox], .grp-cb").forEach(cb => {
+          if (cb.checked !== want) { cb.checked = want; cb.dispatchEvent(new Event("change")); }
+        });
+        block.querySelectorAll(".select-all").forEach(sa => { sa.checked = want; });
+        tileCb.checked = want;
+      });
+      syncTileCb(block);
     }
     return block;
   }
@@ -615,7 +645,7 @@
     document.querySelectorAll('tbody tr.sel-reached, tbody tr.sel-skip').forEach(tr => {
       tr.classList.remove("sel-reached","sel-skip");
     });
-    document.querySelectorAll('.select-all').forEach(cb => cb.checked = false);
+    document.querySelectorAll('.select-all, .tile-cb, .grp-cb').forEach(cb => cb.checked = false);
     updateCounts();
   });
 
