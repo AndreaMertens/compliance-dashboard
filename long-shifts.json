@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jun 26 \u2013 Jul 11, 2026",
-    "summary_line": "1 flagged shifts across 1 shops \u2014 1 OT",
-    "last_refreshed_display": "Data through Thu Jul 2, 2026",
+    "summary_line": "11 flagged shifts across 5 shops \u2014 11 OT, 2 NY Spread, 4 over 11 hrs",
+    "last_refreshed_display": "Data through Thu Jul 9, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -18,17 +18,135 @@
   ],
   "groups": [
     {
-      "shop": "Scottsdale - Scottsdale Quarte",
-      "manager": "Matt Russell",
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
       "count": 1,
       "rows": [
+        [
+          "Noah Strako",
+          "Tue Jul 7",
+          "7:58 AM",
+          "6:03 PM",
+          "10.08",
+          "74.68 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 2,
+      "rows": [
+        [
+          "Evan",
+          "Tue Jul 7",
+          "7:50 AM",
+          "6:02 PM",
+          "10.20",
+          "60.78 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Sat Jun 27",
+          "8:00 AM",
+          "6:01 PM",
+          "10.02",
+          "60.78 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Houston - 888 Westheimer",
+      "manager": "Kristian Kingdom-Saksek, Noah Nance",
+      "count": 1,
+      "rows": [
+        [
+          "Clayton Brown",
+          "Fri Jul 3",
+          "6:00 PM",
+          "8:45 AM",
+          "14.75",
+          "73.76 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - 57 Spring",
+      "manager": "Erin McGowan",
+      "count": 2,
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "Sat Jul 4",
+          "8:15 AM",
+          "3:30 AM",
+          "19.25",
+          "173.64 (OT)",
+          "OT \u00b7 NY Spread \u00b7 Over 11"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sat Jul 4",
+          "8:15 AM",
+          "3:30 AM",
+          "19.25",
+          "173.64 (OT)",
+          "OT \u00b7 NY Spread \u00b7 Over 11"
+        ]
+      ]
+    },
+    {
+      "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "Matt Russell",
+      "count": 5,
+      "rows": [
+        [
+          "William Green",
+          "Fri Jul 3",
+          "9:55 AM",
+          "9:07 PM",
+          "11.20",
+          "71.69 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Gloria Alexander",
+          "Mon Jul 6",
+          "10:06 AM",
+          "8:25 PM",
+          "10.32",
+          "66.05 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Jul 7",
+          "10:05 AM",
+          "8:19 PM",
+          "10.23",
+          "66.05 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Jun 27",
+          "9:57 AM",
+          "8:07 PM",
+          "10.17",
+          "66.05 (OT)",
+          "OT"
+        ],
         [
           "William Green",
           "Sat Jun 27",
           "10:55 AM",
           "9:02 PM",
           "10.12",
-          "51.38 (OT)",
+          "71.69 (OT)",
           "OT"
         ]
       ]

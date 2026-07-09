@@ -2,10 +2,10 @@
   "meta": {
     "title": "Manhattan Beach - The Point",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-28",
-          "Christina Byrd",
-          "11:30 AM",
-          "11:42 AM",
-          "12"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -83,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Sean Kelley",
+          "Sun Jul 5",
+          "7.47"
+        ],
+        [
+          "Christina Byrd",
+          "Sun Jul 5",
+          "8.42"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

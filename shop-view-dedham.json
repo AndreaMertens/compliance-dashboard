@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,51 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-22",
-          "Mike Spinelli",
-          "9:00 AM",
-          "9:08 AM",
-          "8"
-        ],
-        [
-          "2026-06-27",
-          "Ethan Jean",
-          "7:30 AM",
-          "7:49 AM",
-          "19"
-        ],
-        [
-          "2026-06-27",
-          "Jabraun Johnson",
-          "7:30 AM",
-          "7:46 AM",
-          "16"
-        ],
-        [
-          "2026-06-27",
-          "JJ Grainda",
-          "7:30 AM",
-          "7:43 AM",
-          "13"
-        ],
-        [
-          "2026-06-27",
-          "Dillon Stanas",
-          "7:30 AM",
-          "7:42 AM",
-          "12"
-        ],
-        [
-          "2026-06-27",
-          "Jared Radovsky",
-          "7:30 AM",
-          "7:41 AM",
-          "11"
-        ]
-      ],
-      "count": 6
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -106,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Cooper Betancourt",
+          "16.52",
+          "40.00",
+          "56.52",
+          "+16.52"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

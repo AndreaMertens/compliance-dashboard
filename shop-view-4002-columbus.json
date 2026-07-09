@@ -2,10 +2,10 @@
   "meta": {
     "title": "4002 Columbus",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -75,8 +75,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Megan Piper",
+          "Thu Jul 2",
+          "6.57"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

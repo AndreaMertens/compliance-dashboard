@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jul 2 \u2192 Jul 23, 2026",
-    "summary_line": "1 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Thu Jul 2, 10:58 AM",
+    "subtitle": "Window: Jul 9 \u2192 Jul 30, 2026",
+    "summary_line": "1 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Thu Jul 9, 7:51 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,9 +14,9 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "17250 Omaha",
+          "shop": "Birmingham - 141 W Maple",
           "manager": "",
-          "draft_count": 10,
+          "draft_count": 22,
           "gap_days": 4,
           "lookahead_days": 14
         }
@@ -28,30 +28,30 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Birmingham - 141 W Maple",
+          "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 9,
+          "draft_count": 6,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "Chicago - 840 W Armitage",
+          "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "Denver - 2800 E 2nd Ave",
-          "manager": "",
-          "draft_count": 1,
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "Manhattan Beach - The Point",
+          "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 1,
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Boston - 201 Newbury Street",
+          "manager": "",
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -61,6 +61,13 @@
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Chicago - 840 W Armitage",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 21
         }
       ]
     }

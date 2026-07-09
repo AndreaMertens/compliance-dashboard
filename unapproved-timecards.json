@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of June 22\u201328, 2026",
-    "summary_line": "3 shops \u00b7 9 timecards outstanding",
-    "last_refreshed_display": "Data through Thu Jul 2, 2026",
+    "subtitle": "Week of Jun 29 \u2013 Jul 5, 2026",
+    "summary_line": "8 shops \u00b7 49 timecards outstanding",
+    "last_refreshed_display": "Data through Thu Jul 9, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,68 +14,303 @@
   ],
   "groups": [
     {
-      "shop": "DC - 3101 M St",
-      "manager": "Danny Ismail",
-      "count": 6,
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "Agnes Krol",
+      "count": 19,
       "rows": [
         [
-          "Darius Barnes",
-          "Fri Jun 26",
+          "Christian Sikorski",
+          "Tue Jun 30",
+          "8.10"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Tue Jun 30",
+          "8.10"
+        ],
+        [
+          "Christian Sikorski",
+          "Wed Jul 1",
+          "4.15"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Wed Jul 1",
+          "7.98"
+        ],
+        [
+          "Christian Sikorski",
+          "Thu Jul 2",
+          "8.17"
+        ],
+        [
+          "Holden Tamblyn",
+          "Thu Jul 2",
+          "8.00"
+        ],
+        [
+          "Holden Tamblyn",
+          "Fri Jul 3",
+          "0.00"
+        ],
+        [
+          "Holden Tamblyn",
+          "Fri Jul 3",
+          "8.47"
+        ],
+        [
+          "Donald Crawford",
+          "Fri Jul 3",
+          "0.00"
+        ],
+        [
+          "Christian Sikorski",
+          "Sat Jul 4",
+          "5.22"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Sat Jul 4",
+          "7.05"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sat Jul 4",
+          "7.05"
+        ],
+        [
+          "Andrew Bell",
+          "Sat Jul 4",
+          "6.97"
+        ],
+        [
+          "Holden Tamblyn",
+          "Sat Jul 4",
+          "7.15"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Sun Jul 5",
+          "8.07"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sun Jul 5",
+          "8.10"
+        ],
+        [
+          "Andrew Bell",
+          "Sun Jul 5",
+          "8.10"
+        ],
+        [
+          "Holden Tamblyn",
+          "Sun Jul 5",
+          "3.97"
+        ],
+        [
+          "Donald Crawford",
+          "Sun Jul 5",
+          "8.15"
+        ]
+      ]
+    },
+    {
+      "shop": "Westport - 72 Main St",
+      "manager": "Charlie Tauck",
+      "count": 15,
+      "rows": [
+        [
+          "Jake Friedland",
+          "Wed Jul 1",
+          "8.12"
+        ],
+        [
+          "Matthew Reilly",
+          "Wed Jul 1",
+          "4.25"
+        ],
+        [
+          "Tyler",
+          "Wed Jul 1",
+          "8.17"
+        ],
+        [
+          "Ethan Platt",
+          "Thu Jul 2",
+          "8.18"
+        ],
+        [
+          "Matthew Reilly",
+          "Thu Jul 2",
+          "8.27"
+        ],
+        [
+          "Tyler",
+          "Thu Jul 2",
+          "7.87"
+        ],
+        [
+          "Ethan Platt",
+          "Fri Jul 3",
+          "8.65"
+        ],
+        [
+          "Jake Friedland",
+          "Fri Jul 3",
+          "8.20"
+        ],
+        [
+          "Matthew Reilly",
+          "Fri Jul 3",
+          "8.28"
+        ],
+        [
+          "Ethan Platt",
+          "Sat Jul 4",
+          "5.58"
+        ],
+        [
+          "Matthew Reilly",
+          "Sat Jul 4",
+          "5.52"
+        ],
+        [
+          "Trey",
+          "Sun Jul 5",
+          "8.12"
+        ],
+        [
+          "Ethan Platt",
+          "Sun Jul 5",
           "8.15"
         ],
         [
-          "Micah Wheeler",
-          "Fri Jun 26",
-          "8.32"
+          "Jake Friedland",
+          "Sun Jul 5",
+          "8.07"
         ],
         [
-          "Nour-Eddine Seidnaly",
-          "Sat Jun 27",
-          "8.62"
+          "Matthew Reilly",
+          "Sun Jul 5",
+          "7.78"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 6,
+      "rows": [
+        [
+          "Evan",
+          "Tue Jun 30",
+          "10.20"
         ],
         [
-          "Micah Wheeler",
-          "Sat Jun 27",
-          "9.45"
+          "Evan",
+          "Thu Jul 2",
+          "10.12"
         ],
         [
-          "Darius Barnes",
-          "Sun Jun 28",
-          "8.08"
+          "Alexa Albanese",
+          "Fri Jul 3",
+          "8.00"
         ],
         [
-          "Micah Wheeler",
-          "Sun Jun 28",
+          "Evan",
+          "Sat Jul 4",
+          "6.28"
+        ],
+        [
+          "Alexa Albanese",
+          "Sun Jul 5",
+          "7.23"
+        ],
+        [
+          "Evan",
+          "Sun Jul 5",
+          "6.83"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - 57 Spring",
+      "manager": "Erin McGowan",
+      "count": 3,
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jul 5",
+          "7.33"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jul 5",
+          "7.33"
+        ],
+        [
+          "Yoseph Woldu",
+          "Sun Jul 5",
+          "7.32"
+        ]
+      ]
+    },
+    {
+      "shop": "Manhattan Beach - The Point",
+      "manager": "Gabriel Lujan, Kellen Slattery",
+      "count": 2,
+      "rows": [
+        [
+          "Sean Kelley",
+          "Sun Jul 5",
+          "7.47"
+        ],
+        [
+          "Christina Byrd",
+          "Sun Jul 5",
+          "8.42"
+        ]
+      ]
+    },
+    {
+      "shop": "10250 Century City",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Marcus Karlsson",
+          "Sat Jul 4",
+          "8.47"
+        ],
+        [
+          "Marcus Karlsson",
+          "Sun Jul 5",
           "8.02"
         ]
       ]
     },
     {
-      "shop": "17250 Omaha",
-      "manager": "Christian Van Dam",
-      "count": 2,
+      "shop": "DC - 3101 M St",
+      "manager": "Danny Ismail",
+      "count": 1,
       "rows": [
         [
-          "Christian Van Dam",
-          "Sun Jun 28",
-          "5.42"
-        ],
-        [
-          "Clark",
-          "Sun Jun 28",
-          "4.98"
+          "Bryce Martin",
+          "Sun Jul 5",
+          "7.37"
         ]
       ]
     },
     {
-      "shop": "333 Milwaukee",
-      "manager": "Tia Reeves",
+      "shop": "4002 Columbus",
+      "manager": "Paul Fregeau",
       "count": 1,
       "rows": [
         [
-          "Ivory Turner",
-          "Sun Jun 28",
-          "7.50"
+          "Megan Piper",
+          "Thu Jul 2",
+          "6.57"
         ]
       ]
     }

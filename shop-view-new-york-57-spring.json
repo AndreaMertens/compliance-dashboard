@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - 57 Spring",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -35,8 +35,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "Sat Jul 4",
+          "8:15 AM",
+          "3:30 AM",
+          "19.25",
+          "173.64 (OT)",
+          "OT \u00b7 NY Spread \u00b7 Over 11"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sat Jul 4",
+          "8:15 AM",
+          "3:30 AM",
+          "19.25",
+          "173.64 (OT)",
+          "OT \u00b7 NY Spread \u00b7 Over 11"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -75,8 +94,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jul 5",
+          "7.33"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jul 5",
+          "7.33"
+        ],
+        [
+          "Yoseph Woldu",
+          "Sun Jul 5",
+          "7.32"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

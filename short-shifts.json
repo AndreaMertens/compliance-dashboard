@@ -2,8 +2,8 @@
   "meta": {
     "title": "Short Shifts",
     "subtitle": "Pay period Jun 26 \u2013 Jul 11, 2026",
-    "summary_line": "No approved shifts under 20 minutes this pay period.",
-    "last_refreshed_display": "Data through Thu Jul 2, 2026",
+    "summary_line": "1 approved shift under 20 minutes across 1 shop",
+    "last_refreshed_display": "Data through Thu Jul 9, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,5 +14,20 @@
     "End",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Philadelphia - 1702 Walnut",
+      "manager": "Trent Johnson",
+      "count": 1,
+      "rows": [
+        [
+          "Franco Bailey",
+          "Thu Jul 2",
+          "5:49 PM",
+          "6:03 PM",
+          "0.23"
+        ]
+      ]
+    }
+  ]
 }

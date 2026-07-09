@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "14 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 14
   },
   "tiles": [
     {
@@ -21,56 +21,49 @@
       ],
       "rows": [
         [
-          "2026-06-22",
+          "2026-06-29",
+          "Alexa Albanese",
+          "9:45 AM",
+          "9:54 AM",
+          "9"
+        ],
+        [
+          "2026-07-01",
+          "Alexa Albanese",
+          "9:45 AM",
+          "9:53 AM",
+          "8"
+        ],
+        [
+          "2026-07-02",
+          "Evan",
+          "7:45 AM",
+          "7:57 AM",
+          "12"
+        ],
+        [
+          "2026-07-03",
           "Alexa Albanese",
           "9:45 AM",
           "10:00 AM",
           "15"
         ],
         [
-          "2026-06-23",
+          "2026-07-04",
           "Evan",
           "7:45 AM",
           "7:51 AM",
           "6"
         ],
         [
-          "2026-06-24",
-          "Alexa Albanese",
-          "9:45 AM",
-          "10:03 AM",
-          "18"
-        ],
-        [
-          "2026-06-25",
-          "Alexa Albanese",
-          "7:45 AM",
-          "7:56 AM",
-          "11"
-        ],
-        [
-          "2026-06-27",
-          "Alexa Albanese",
-          "8:45 AM",
-          "9:12 AM",
-          "27"
-        ],
-        [
-          "2026-06-27",
-          "Evan",
-          "7:45 AM",
-          "8:00 AM",
-          "15"
-        ],
-        [
-          "2026-06-28",
+          "2026-07-05",
           "Evan",
           "8:45 AM",
           "8:54 AM",
           "9"
         ]
       ],
-      "count": 7
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -85,8 +78,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "Tue Jul 7",
+          "7:50 AM",
+          "6:02 PM",
+          "10.20",
+          "60.78 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Sat Jun 27",
+          "8:00 AM",
+          "6:01 PM",
+          "10.02",
+          "60.78 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -125,8 +137,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "Tue Jun 30",
+          "10.20"
+        ],
+        [
+          "Evan",
+          "Thu Jul 2",
+          "10.12"
+        ],
+        [
+          "Alexa Albanese",
+          "Fri Jul 3",
+          "8.00"
+        ],
+        [
+          "Evan",
+          "Sat Jul 4",
+          "6.28"
+        ],
+        [
+          "Alexa Albanese",
+          "Sun Jul 5",
+          "7.23"
+        ],
+        [
+          "Evan",
+          "Sun Jul 5",
+          "6.83"
+        ]
+      ],
+      "count": 6
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,35 +21,49 @@
       ],
       "rows": [
         [
-          "2026-06-23",
+          "2026-06-29",
+          "Christian Van Dam",
+          "9:00 AM",
+          "9:28 AM",
+          "28"
+        ],
+        [
+          "2026-06-30",
           "Clark",
-          "9:00 AM",
-          "9:57 AM",
-          "57"
+          "10:00 AM",
+          "10:06 AM",
+          "6"
         ],
         [
-          "2026-06-25",
+          "2026-07-01",
           "Christian Van Dam",
           "9:00 AM",
-          "12:12 PM",
-          "192"
+          "10:00 AM",
+          "60"
         ],
         [
-          "2026-06-26",
+          "2026-07-02",
           "Christian Van Dam",
-          "9:00 AM",
-          "9:49 AM",
-          "49"
+          "8:00 AM",
+          "9:02 AM",
+          "62"
         ],
         [
-          "2026-06-27",
+          "2026-07-03",
+          "Christian Van Dam",
+          "8:00 AM",
+          "9:08 AM",
+          "68"
+        ],
+        [
+          "2026-07-04",
           "Christian Van Dam",
           "9:00 AM",
-          "9:57 AM",
-          "57"
+          "9:56 AM",
+          "56"
         ]
       ],
-      "count": 4
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -64,8 +78,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Noah Strako",
+          "Tue Jul 7",
+          "7:58 AM",
+          "6:03 PM",
+          "10.08",
+          "74.68 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -104,19 +128,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Christian Van Dam",
-          "Sun Jun 28",
-          "5.42"
-        ],
-        [
-          "Clark",
-          "Sun Jun 28",
-          "4.98"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

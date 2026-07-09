@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 2 shops",
-    "last_refreshed_display": "Data through Thu Jul 2, 2026",
+    "summary_line": "8 pending leave requests across 6 shops",
+    "last_refreshed_display": "Data through Thu Jul 9, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,6 +14,51 @@
     "Note"
   ],
   "groups": [
+    {
+      "shop": "1000 Pittsburgh",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Denniel Weis",
+          "2026-07-05",
+          "2026-07-05",
+          "trip to DC"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Mike LeGree",
+          "2026-07-04",
+          "2026-07-05",
+          "Family vacation "
+        ],
+        [
+          "Alexa Albanese",
+          "2026-07-04",
+          "2026-07-04",
+          "4th of july "
+        ]
+      ]
+    },
+    {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Thomas Conway",
+          "2026-07-03",
+          "2026-07-04",
+          "Days off"
+        ]
+      ]
+    },
     {
       "shop": "Manhattan Beach - The Point",
       "manager": "",
@@ -43,6 +88,19 @@
           "2026-06-14",
           "2026-06-14",
           ""
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "George Rodriguez",
+          "2026-07-03",
+          "2026-07-05",
+          "Leave"
         ]
       ]
     }

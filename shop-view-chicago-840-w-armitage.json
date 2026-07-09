@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "20 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 20
   },
   "tiles": [
     {
@@ -21,28 +21,14 @@
       ],
       "rows": [
         [
-          "2026-06-26",
-          "Andrea Calderon",
-          "10:00 AM",
-          "10:14 AM",
-          "14"
-        ],
-        [
-          "2026-06-28",
-          "Andrew Bell",
-          "9:00 AM",
-          "9:34 AM",
-          "34"
-        ],
-        [
-          "2026-06-28",
-          "Donald Crawford",
-          "9:00 AM",
-          "9:28 AM",
-          "28"
+          "2026-07-01",
+          "Christian Sikorski",
+          "10:30 AM",
+          "1:52 PM",
+          "202"
         ]
       ],
-      "count": 3
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -97,8 +83,104 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Sikorski",
+          "Tue Jun 30",
+          "8.10"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Tue Jun 30",
+          "8.10"
+        ],
+        [
+          "Christian Sikorski",
+          "Wed Jul 1",
+          "4.15"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Wed Jul 1",
+          "7.98"
+        ],
+        [
+          "Christian Sikorski",
+          "Thu Jul 2",
+          "8.17"
+        ],
+        [
+          "Holden Tamblyn",
+          "Thu Jul 2",
+          "8.00"
+        ],
+        [
+          "Holden Tamblyn",
+          "Fri Jul 3",
+          "0.00"
+        ],
+        [
+          "Holden Tamblyn",
+          "Fri Jul 3",
+          "8.47"
+        ],
+        [
+          "Donald Crawford",
+          "Fri Jul 3",
+          "0.00"
+        ],
+        [
+          "Christian Sikorski",
+          "Sat Jul 4",
+          "5.22"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Sat Jul 4",
+          "7.05"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sat Jul 4",
+          "7.05"
+        ],
+        [
+          "Andrew Bell",
+          "Sat Jul 4",
+          "6.97"
+        ],
+        [
+          "Holden Tamblyn",
+          "Sat Jul 4",
+          "7.15"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Sun Jul 5",
+          "8.07"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sun Jul 5",
+          "8.10"
+        ],
+        [
+          "Andrew Bell",
+          "Sun Jul 5",
+          "8.10"
+        ],
+        [
+          "Holden Tamblyn",
+          "Sun Jul 5",
+          "3.97"
+        ],
+        [
+          "Donald Crawford",
+          "Sun Jul 5",
+          "8.15"
+        ]
+      ],
+      "count": 19
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "2900 Minneapolis",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,21 +21,28 @@
       ],
       "rows": [
         [
-          "2026-06-27",
+          "2026-06-29",
           "Grant Fuller",
           "11:00 AM",
-          "4:13 PM",
-          "313"
+          "11:27 AM",
+          "27"
         ],
         [
-          "2026-06-27",
+          "2026-06-29",
           "Grant Fuller",
           "11:00 AM",
-          "4:13 PM",
-          "313"
+          "11:27 AM",
+          "27"
+        ],
+        [
+          "2026-07-05",
+          "Christian Horn",
+          "10:00 AM",
+          "11:38 AM",
+          "98"
         ]
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -78,8 +85,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Grant Fuller",
+          "55.30",
+          "30.00",
+          "85.30",
+          "+45.30"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
