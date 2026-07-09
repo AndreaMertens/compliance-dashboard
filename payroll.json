@@ -208,9 +208,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 32,
+      "metric": 33,
       "metric_unit": "shops",
-      "description": "188 timecards still unapproved across the full pay period.",
+      "description": "189 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1314,6 +1314,12 @@
         [
           "Glen Noel",
           "Miami - Brickell",
+          "2026-07-09",
+          "8.00h"
+        ],
+        [
+          "Jose Cruz",
+          "Greenwich Avenue",
           "2026-07-09",
           "8.00h"
         ],
