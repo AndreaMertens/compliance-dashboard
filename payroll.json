@@ -248,9 +248,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 24,
+      "metric": 44,
       "metric_unit": "shops",
-      "description": "128 timecards still unapproved across the full pay period.",
+      "description": "199 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -428,10 +428,16 @@
           "8.00h"
         ],
         [
-          "Lisa Johnson",
-          "HQ - Warehouse",
+          "Matthew Reilly",
+          "Westport - 72 Main St",
           "2026-07-10",
           "8.00h"
+        ],
+        [
+          "Tyler",
+          "Westport - 72 Main St",
+          "2026-07-10",
+          "3.83h"
         ],
         [
           "Heather Sexton",
@@ -443,97 +449,91 @@
           "Ivan Steinhoff-Arnot",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.98h"
+          "9.10h"
         ],
         [
           "Jeremy McMullen",
           "HQ - Warehouse",
           "2026-07-10",
-          "9.50h"
+          "7.30h"
         ],
         [
           "Sean Parvin",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.45h"
         ],
         [
           "Caleb Sebring",
           "HQ - Warehouse",
           "2026-07-10",
-          "7.95h"
+          "8.02h"
         ],
         [
           "Lisa Stahl",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.62h"
         ],
         [
           "Robert Addie",
           "HQ - Warehouse",
           "2026-07-10",
-          "9.50h"
+          "9.40h"
         ],
         [
           "Holley Berky",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "7.95h"
         ],
         [
           "Dylan Rodriguez",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.02h"
         ],
         [
           "Nikki",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.30h"
         ],
         [
           "Molly Meisner",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "7.85h"
         ],
         [
           "Darien Kenny",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
-        ],
-        [
-          "Noor Rammuny",
-          "HQ - Warehouse",
-          "2026-07-10",
-          "4.00h"
+          "8.20h"
         ],
         [
           "Skylar Logsdon",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.03h"
         ],
         [
           "Demetrius Sanders",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.32h"
         ],
         [
           "Devin Goodwin",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.03h"
         ],
         [
           "Emanuel Williams",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "7.13h"
         ],
         [
           "Brennan Lakatos",
@@ -545,149 +545,95 @@
           "Billy Bates",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.02h"
         ],
         [
           "Dustin Nguyen",
           "HQ - Warehouse",
           "2026-07-10",
-          "7.98h"
+          "8.00h"
         ],
         [
           "April",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "8.07h"
         ],
         [
           "Jonathan Hamm",
           "HQ - Warehouse",
           "2026-07-10",
-          "7.95h"
+          "7.42h"
         ],
         [
           "Andrea Baldridge",
           "HQ - Warehouse",
           "2026-07-10",
-          "8.00h"
+          "7.92h"
         ],
         [
           "Jaydon Keefer",
           "HQ - Warehouse",
           "2026-07-10",
+          "8.22h"
+        ],
+        [
+          "Eric",
+          "Charleston",
+          "2026-07-09",
+          "8.03h"
+        ],
+        [
+          "Madison Tadlock",
+          "Charleston",
+          "2026-07-09",
+          "8.05h"
+        ],
+        [
+          "Ella Valentine",
+          "Charleston",
+          "2026-07-09",
+          "8.07h"
+        ],
+        [
+          "Jack Silva",
+          "Charleston",
+          "2026-07-09",
+          "8.28h"
+        ],
+        [
+          "Eric",
+          "Charleston",
+          "2026-07-09",
+          "8.03h"
+        ],
+        [
+          "Eric",
+          "Charleston",
+          "2026-07-10",
           "8.00h"
         ],
         [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-07-05",
-          "7.37h"
-        ],
-        [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-07-06",
-          "8.28h"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "DC - 3101 M St",
-          "2026-07-06",
-          "8.28h"
-        ],
-        [
-          "Micah Wheeler",
-          "DC - 3101 M St",
-          "2026-07-06",
-          "8.32h"
-        ],
-        [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-07-07",
-          "8.42h"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "DC - 3101 M St",
-          "2026-07-07",
-          "8.38h"
-        ],
-        [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-07-08",
-          "8.27h"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "DC - 3101 M St",
-          "2026-07-08",
-          "8.37h"
-        ],
-        [
-          "Micah Wheeler",
-          "DC - 3101 M St",
-          "2026-07-08",
-          "8.28h"
-        ],
-        [
-          "Bryce Martin",
-          "DC - 3101 M St",
-          "2026-07-09",
-          "8.55h"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "DC - 3101 M St",
-          "2026-07-09",
-          "8.25h"
-        ],
-        [
-          "Micah Wheeler",
-          "DC - 3101 M St",
-          "2026-07-09",
-          "8.28h"
-        ],
-        [
-          "farhan Khandaker",
-          "Fort Lauderdale - 1016 E",
-          "2026-07-07",
-          "7.62h"
-        ],
-        [
-          "Thomas Blackadar",
-          "Fort Lauderdale - 1016 E",
-          "2026-07-07",
-          "7.65h"
-        ],
-        [
-          "Liss Llerena",
-          "Fort Lauderdale - 1016 E",
-          "2026-07-09",
-          "7.80h"
-        ],
-        [
-          "Bryan Appleby",
-          "Fort Lauderdale - 1016 E",
-          "2026-07-09",
-          "7.92h"
-        ],
-        [
-          "Phillip Santiago",
-          "Fort Lauderdale - 1016 E",
-          "2026-07-09",
-          "8.08h"
-        ],
-        [
-          "Cody Crites",
-          "Fort Lauderdale - 1016 E",
-          "2026-07-09",
+          "Madison Tadlock",
+          "Charleston",
+          "2026-07-10",
           "8.00h"
         ],
         [
-          "Roxana Artiles",
-          "Fort Lauderdale - 1016 E",
+          "Ella Valentine",
+          "Charleston",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jack Silva",
+          "Charleston",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Eric",
+          "Charleston",
           "2026-07-10",
           "8.00h"
         ],
@@ -728,10 +674,28 @@
           "8.52h"
         ],
         [
+          "Franco Bailey",
+          "Philadelphia - 1702 Walnut",
+          "2026-07-10",
+          "7.75h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Philadelphia - 1702 Walnut",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
           "Cooper Betancourt",
           "Dedham",
           "2026-07-09",
-          "8.00h"
+          "15.30h"
         ],
         [
           "Nolan Cahill",
@@ -758,142 +722,64 @@
           "8.77h"
         ],
         [
-          "Eric",
-          "Charleston",
-          "2026-07-09",
-          "8.03h"
+          "Cooper Betancourt",
+          "Dedham",
+          "2026-07-10",
+          "8.00h"
         ],
         [
-          "Madison Tadlock",
-          "Charleston",
-          "2026-07-09",
-          "8.05h"
+          "JJ Grainda",
+          "Dedham",
+          "2026-07-10",
+          "8.00h"
         ],
         [
-          "Ella Valentine",
-          "Charleston",
-          "2026-07-09",
-          "8.07h"
+          "Dillon Stanas",
+          "Dedham",
+          "2026-07-10",
+          "8.00h"
         ],
         [
-          "Jack Silva",
-          "Charleston",
-          "2026-07-09",
-          "8.28h"
-        ],
-        [
-          "Eric",
-          "Charleston",
-          "2026-07-09",
-          "8.03h"
-        ],
-        [
-          "Christian Van Dam",
-          "17250 Omaha",
-          "2026-07-08",
-          "9.13h"
-        ],
-        [
-          "Clark",
-          "17250 Omaha",
-          "2026-07-08",
-          "8.32h"
-        ],
-        [
-          "Noah Strako",
-          "17250 Omaha",
-          "2026-07-08",
-          "8.28h"
-        ],
-        [
-          "Christian Van Dam",
-          "17250 Omaha",
-          "2026-07-09",
-          "9.25h"
-        ],
-        [
-          "Noah Strako",
-          "17250 Omaha",
-          "2026-07-09",
-          "8.25h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
+          "farhan Khandaker",
+          "Fort Lauderdale - 1016 E",
           "2026-07-07",
-          "8.15h"
+          "7.62h"
         ],
         [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-07-08",
-          "15.90h"
+          "Thomas Blackadar",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-07",
+          "7.65h"
         ],
         [
-          "Shelly Postyeni",
-          "HQ-Non-Kiosk",
+          "Liss Llerena",
+          "Fort Lauderdale - 1016 E",
           "2026-07-10",
-          "1.00h"
+          "8.00h"
         ],
         [
-          "Natalie Brown",
-          "HQ-Non-Kiosk",
+          "Roxana Artiles",
+          "Fort Lauderdale - 1016 E",
           "2026-07-10",
-          "1.00h"
+          "6.78h"
         ],
         [
-          "William Green",
-          "Scottsdale - Scottsdale Quarte",
-          "2026-07-09",
-          "8.47h"
+          "Bryan Appleby",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-10",
+          "7.97h"
         ],
         [
-          "Ryland",
-          "Scottsdale - Scottsdale Quarte",
-          "2026-07-09",
-          "7.98h"
+          "Phillip Santiago",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-10",
+          "7.92h"
         ],
         [
-          "Marco Galindo",
-          "Scottsdale - Scottsdale Quarte",
-          "2026-07-09",
-          "8.10h"
-        ],
-        [
-          "Charles Wolff",
-          "Kansas City - 321 Nichols Rd",
-          "2026-07-09",
-          "8.48h"
-        ],
-        [
-          "Adam Lansdown",
-          "Kansas City - 321 Nichols Rd",
-          "2026-07-09",
-          "5.35h"
-        ],
-        [
-          "Aiden Troup",
-          "Kansas City - 321 Nichols Rd",
-          "2026-07-09",
-          "8.48h"
-        ],
-        [
-          "Brian Redington",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-08",
-          "8.45h"
-        ],
-        [
-          "Peter Kitt",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-08",
-          "8.08h"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-09",
-          "8.28h"
+          "Ceara McKegney",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-10",
+          "5.08h"
         ],
         [
           "James Newton",
@@ -914,6 +800,24 @@
           "8.45h"
         ],
         [
+          "James Newton",
+          "Ann Arbor - 212 S Main",
+          "2026-07-10",
+          "7.87h"
+        ],
+        [
+          "Gavin McCool",
+          "Ann Arbor - 212 S Main",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jackson Keefer",
+          "Ann Arbor - 212 S Main",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
           "Nicole Scott",
           "7878 Cincinnati",
           "2026-07-09",
@@ -932,16 +836,22 @@
           "8.05h"
         ],
         [
-          "Nicholas Compton",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-07-09",
-          "4.52h"
+          "Todd Wasserman",
+          "7878 Cincinnati",
+          "2026-07-10",
+          "7.83h"
         ],
         [
-          "Reece Horton",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-07-09",
-          "6.00h"
+          "Kelly Sears",
+          "7878 Cincinnati",
+          "2026-07-10",
+          "8.12h"
+        ],
+        [
+          "Matt Van Valkenburgh",
+          "7878 Cincinnati",
+          "2026-07-10",
+          "8.00h"
         ],
         [
           "Kayla Hackney",
@@ -956,6 +866,54 @@
           "7.70h"
         ],
         [
+          "Casey Sandoval",
+          "La Jolla - 7857 Girard Ave",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Kayla Hackney",
+          "La Jolla - 7857 Girard Ave",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Ethan",
+          "La Jolla - 7857 Girard Ave",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Charles Wolff",
+          "Kansas City - 321 Nichols Rd",
+          "2026-07-09",
+          "8.48h"
+        ],
+        [
+          "Adam Lansdown",
+          "Kansas City - 321 Nichols Rd",
+          "2026-07-09",
+          "5.35h"
+        ],
+        [
+          "Aiden Troup",
+          "Kansas City - 321 Nichols Rd",
+          "2026-07-09",
+          "8.48h"
+        ],
+        [
+          "Charles Wolff",
+          "Kansas City - 321 Nichols Rd",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Adam Lansdown",
+          "Kansas City - 321 Nichols Rd",
+          "2026-07-10",
+          "6.00h"
+        ],
+        [
           "Christian Bussman",
           "Indianapolis - 8702 Keystone Crossing",
           "2026-07-09",
@@ -968,28 +926,340 @@
           "8.17h"
         ],
         [
+          "Parker Dean",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jakob Poore",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "William Donovan",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Michael",
+          "Cleveland - 251 Main Street",
+          "2026-07-09",
+          "8.32h"
+        ],
+        [
+          "Michael",
+          "Cleveland - 251 Main Street",
+          "2026-07-09",
+          "8.32h"
+        ],
+        [
+          "Michael",
+          "Cleveland - 251 Main Street",
+          "2026-07-10",
+          "7.75h"
+        ],
+        [
+          "Brenna Roberts",
+          "Cleveland - 251 Main Street",
+          "2026-07-10",
+          "7.75h"
+        ],
+        [
+          "Michael",
+          "Cleveland - 251 Main Street",
+          "2026-07-10",
+          "7.75h"
+        ],
+        [
+          "Lance Minor",
+          "Birmingham - 141 W Maple",
+          "2026-07-10",
+          "6.43h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jordan Dixon",
+          "Birmingham - 141 W Maple",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Luke Srinivasan",
+          "Birmingham - 141 W Maple",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "William Green",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Hansi Ebert-Sexauer",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Marco Galindo",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-10",
+          "7.00h"
+        ],
+        [
+          "Jules",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-10",
+          "7.00h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-07-09",
+          "7.50h"
+        ],
+        [
+          "Elias Salgado",
+          "Newport Beach - Fashion Island",
+          "2026-07-10",
+          "8.27h"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Newport Beach - Fashion Island",
+          "2026-07-10",
+          "8.47h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-07-10",
+          "8.42h"
+        ],
+        [
+          "Brian Redington",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-08",
+          "8.45h"
+        ],
+        [
+          "Peter Kitt",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-08",
+          "8.08h"
+        ],
+        [
+          "Antonio Castaneda Gonzalez",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-09",
+          "8.28h"
+        ],
+        [
+          "Douglas Beard",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Dawson Plott",
+          "Dallas - 3699 McKinney",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Cole Graham",
+          "Dallas - 3699 McKinney",
+          "2026-07-10",
+          "7.00h"
+        ],
+        [
+          "Danniella Arishaba",
+          "Dallas - 3699 McKinney",
+          "2026-07-10",
+          "5.65h"
+        ],
+        [
+          "Kweshaan Thomas",
+          "Dallas - 3699 McKinney",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Kevin Gailius",
+          "Boston - 201 Newbury Street",
+          "2026-07-10",
+          "7.00h"
+        ],
+        [
+          "Julie Dang",
+          "Boston - 201 Newbury Street",
+          "2026-07-10",
+          "6.98h"
+        ],
+        [
+          "William Gardner",
+          "Boston - 201 Newbury Street",
+          "2026-07-10",
+          "7.00h"
+        ],
+        [
+          "Charles Banquier",
+          "Boston - 201 Newbury Street",
+          "2026-07-10",
+          "7.00h"
+        ],
+        [
+          "Darius Barnes",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jack",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Nour-Eddine Seidnaly",
+          "629 Alexandria",
+          "2026-07-10",
+          "7.63h"
+        ],
+        [
+          "Jack",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Christian Van Dam",
+          "17250 Omaha",
+          "2026-07-10",
+          "8.72h"
+        ],
+        [
+          "Clark",
+          "17250 Omaha",
+          "2026-07-10",
+          "7.97h"
+        ],
+        [
+          "Noah Strako",
+          "17250 Omaha",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Cieron Hampson",
+          "17250 Omaha",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Yasmeen Khan",
+          "Tampa - 2223 N Westshore",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jhaidyn Brown",
+          "Tampa - 2223 N Westshore",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Bo Kenney",
+          "Tampa - 2223 N Westshore",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Nicholas Compton",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Val Simanca Delgado",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Reece Horton",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "New York - 57 Spring",
+          "2026-07-10",
+          "8.23h"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "New York - 57 Spring",
+          "2026-07-10",
+          "8.23h"
+        ],
+        [
+          "Yoseph Woldu",
+          "New York - 57 Spring",
+          "2026-07-10",
+          "8.25h"
+        ],
+        [
           "Clayton Brown",
           "Houston - 888 Westheimer",
-          "2026-07-09",
-          "8.27h"
+          "2026-07-10",
+          "8.00h"
         ],
         [
           "Auna Tastad",
           "Houston - 888 Westheimer",
-          "2026-07-09",
-          "7.88h"
+          "2026-07-10",
+          "8.00h"
         ],
         [
-          "Michael",
-          "Cleveland - 251 Main Street",
-          "2026-07-09",
-          "8.32h"
+          "Andrew Reed",
+          "Houston - 888 Westheimer",
+          "2026-07-10",
+          "8.00h"
         ],
         [
-          "Michael",
-          "Cleveland - 251 Main Street",
-          "2026-07-09",
-          "8.32h"
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Andrea Calderon",
+          "Chicago - 840 W Armitage",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-07-10",
+          "8.00h"
         ],
         [
           "Alexa Albanese",
@@ -1004,28 +1274,184 @@
           "10.15h"
         ],
         [
-          "Nathaniel Faraone",
-          "Newport Beach - Fashion Island",
-          "2026-07-09",
-          "7.50h"
-        ],
-        [
-          "Yoseph Woldu",
-          "New York - 57 Spring",
-          "2026-07-09",
-          "8.33h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
+          "Alexa Albanese",
+          "696 Lynnfield",
           "2026-07-10",
-          "0.00h"
+          "8.00h"
         ],
         [
-          "Megan Piper",
-          "4002 Columbus",
-          "2026-07-02",
-          "6.57h"
+          "Leeanna Wright",
+          "103 Greenville",
+          "2026-07-10",
+          "8.23h"
+        ],
+        [
+          "Matthew Lumsden",
+          "103 Greenville",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Dylan",
+          "103 Greenville",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Abraham Boyd",
+          "Walnut Creek - 147 Broadway",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jeremy Raymer",
+          "Walnut Creek - 147 Broadway",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Gustavo Daza",
+          "Miami - Brickell",
+          "2026-07-10",
+          "7.98h"
+        ],
+        [
+          "Gabriel Gonzalez",
+          "Miami - Brickell",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-07-07",
+          "8.15h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-07-08",
+          "15.90h"
+        ],
+        [
+          "Tyler Sibley",
+          "Greenhills - 2126 Abbot Martin",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jacob Raderer",
+          "Greenhills - 2126 Abbot Martin",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Ivory Turner",
+          "333 Milwaukee",
+          "2026-07-10",
+          "8.50h"
+        ],
+        [
+          "Amelia Wagner",
+          "333 Milwaukee",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Leng Tshua",
+          "234 Bellevue Square",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Kaylee",
+          "234 Bellevue Square",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Ross Graham",
+          "10250 Century City",
+          "2026-07-10",
+          "8.50h"
+        ],
+        [
+          "Marcus Karlsson",
+          "10250 Century City",
+          "2026-07-10",
+          "8.50h"
+        ],
+        [
+          "Fred Hilaire",
+          "New York - Flatiron",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Blake Jarrett",
+          "Nashville - 5th + Broadway",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Sean Kelley",
+          "Manhattan Beach - The Point",
+          "2026-07-10",
+          "4.50h"
+        ],
+        [
+          "Trent Bansak",
+          "Greenwich Avenue",
+          "2026-07-10",
+          "7.68h"
+        ],
+        [
+          "Justin Wascher",
+          "1425 Basecamp",
+          "2026-07-10",
+          "6.98h"
+        ],
+        [
+          "Maxwell Webster",
+          "122 Lexington",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Inessa Samusenko",
+          "1151 Roseville",
+          "2026-07-10",
+          "8.40h"
+        ],
+        [
+          "Cody Crites",
+          "1000 Pittsburgh",
+          "2026-07-10",
+          "8.00h"
         ]
       ]
     },
@@ -1786,7 +2212,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 1741,
+      "metric": 1776,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 45 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -2794,6 +3220,12 @@
           "8.17h"
         ],
         [
+          "Clark",
+          "17250 Omaha",
+          "2026-07-08",
+          "8.32h"
+        ],
+        [
           "Noah Strako",
           "17250 Omaha",
           "2026-06-26",
@@ -2840,6 +3272,18 @@
           "17250 Omaha",
           "2026-07-07",
           "10.08h"
+        ],
+        [
+          "Noah Strako",
+          "17250 Omaha",
+          "2026-07-08",
+          "8.28h"
+        ],
+        [
+          "Noah Strako",
+          "17250 Omaha",
+          "2026-07-09",
+          "8.25h"
         ],
         [
           "Daylon Johnson",
@@ -3438,6 +3882,12 @@
         [
           "Megan Piper",
           "4002 Columbus",
+          "2026-07-02",
+          "6.57h"
+        ],
+        [
+          "Megan Piper",
+          "4002 Columbus",
           "2026-07-03",
           "8.35h"
         ],
@@ -3451,7 +3901,7 @@
           "Megan Piper",
           "4002 Columbus",
           "2026-07-05",
-          "6.30h"
+          "6.63h"
         ],
         [
           "Megan Piper",
@@ -3476,6 +3926,12 @@
           "4002 Columbus",
           "2026-07-09",
           "8.30h"
+        ],
+        [
+          "Megan Piper",
+          "4002 Columbus",
+          "2026-07-10",
+          "7.05h"
         ],
         [
           "Darius Barnes",
@@ -5392,6 +5848,12 @@
           "8.55h"
         ],
         [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-07-10",
+          "3.73h"
+        ],
+        [
           "Jonathan Gunderlach",
           "Chicago - 840 W Armitage",
           "2026-06-27",
@@ -5596,6 +6058,36 @@
           "7.15h"
         ],
         [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-07-05",
+          "7.37h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-07-06",
+          "8.28h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-07-07",
+          "8.42h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-07-08",
+          "8.27h"
+        ],
+        [
+          "Bryce Martin",
+          "DC - 3101 M St",
+          "2026-07-09",
+          "8.55h"
+        ],
+        [
           "Darius Barnes",
           "DC - 3101 M St",
           "2026-06-26",
@@ -5662,6 +6154,24 @@
           "7.30h"
         ],
         [
+          "Micah Wheeler",
+          "DC - 3101 M St",
+          "2026-07-06",
+          "8.32h"
+        ],
+        [
+          "Micah Wheeler",
+          "DC - 3101 M St",
+          "2026-07-08",
+          "8.28h"
+        ],
+        [
+          "Micah Wheeler",
+          "DC - 3101 M St",
+          "2026-07-09",
+          "8.28h"
+        ],
+        [
           "Nour-Eddine Seidnaly",
           "DC - 3101 M St",
           "2026-06-27",
@@ -5702,6 +6212,30 @@
           "DC - 3101 M St",
           "2026-07-04",
           "8.23h"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
+          "2026-07-06",
+          "8.28h"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
+          "2026-07-07",
+          "8.38h"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
+          "2026-07-08",
+          "8.37h"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
+          "2026-07-09",
+          "8.25h"
         ],
         [
           "Aaron Flores",
@@ -6604,6 +7138,12 @@
           "8.10h"
         ],
         [
+          "Bryan Appleby",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-09",
+          "7.92h"
+        ],
+        [
           "Ceara McKegney",
           "Fort Lauderdale - 1016 E",
           "2026-07-01",
@@ -6670,6 +7210,12 @@
           "8.07h"
         ],
         [
+          "Cody Crites",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-09",
+          "8.00h"
+        ],
+        [
           "Liss Llerena",
           "Fort Lauderdale - 1016 E",
           "2026-06-26",
@@ -6716,6 +7262,12 @@
           "Fort Lauderdale - 1016 E",
           "2026-07-08",
           "8.15h"
+        ],
+        [
+          "Liss Llerena",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-09",
+          "7.80h"
         ],
         [
           "Phillip Santiago",
@@ -6776,6 +7328,12 @@
           "Fort Lauderdale - 1016 E",
           "2026-07-08",
           "1.00h"
+        ],
+        [
+          "Phillip Santiago",
+          "Fort Lauderdale - 1016 E",
+          "2026-07-09",
+          "8.08h"
         ],
         [
           "Roxana Artiles",
@@ -8662,6 +9220,12 @@
           "8.08h"
         ],
         [
+          "Lisa Johnson",
+          "HQ - Warehouse",
+          "2026-07-10",
+          "5.00h"
+        ],
+        [
           "Lisa Stahl",
           "HQ - Warehouse",
           "2026-06-26",
@@ -9106,6 +9670,12 @@
           "7.95h"
         ],
         [
+          "Noor Rammuny",
+          "HQ - Warehouse",
+          "2026-07-10",
+          "4.65h"
+        ],
+        [
           "Robert Addie",
           "HQ - Warehouse",
           "2026-06-26",
@@ -9364,6 +9934,12 @@
           "7.55h"
         ],
         [
+          "Natalie Brown",
+          "HQ-Non-Kiosk",
+          "2026-07-10",
+          "7.88h"
+        ],
+        [
           "Shelly Postyeni",
           "HQ-Non-Kiosk",
           "2026-06-26",
@@ -9422,6 +9998,12 @@
           "HQ-Non-Kiosk",
           "2026-07-09",
           "7.83h"
+        ],
+        [
+          "Shelly Postyeni",
+          "HQ-Non-Kiosk",
+          "2026-07-10",
+          "5.12h"
         ],
         [
           "Andrew Reed",
@@ -9536,6 +10118,12 @@
           "Houston - 888 Westheimer",
           "2026-07-08",
           "10.23h"
+        ],
+        [
+          "Clayton Brown",
+          "Houston - 888 Westheimer",
+          "2026-07-09",
+          "8.27h"
         ],
         [
           "Christian Bussman",
@@ -10798,6 +11386,12 @@
           "8.40h"
         ],
         [
+          "Yoseph Woldu",
+          "New York - 57 Spring",
+          "2026-07-09",
+          "8.33h"
+        ],
+        [
           "Davids Rozitis",
           "New York - Flatiron",
           "2026-06-27",
@@ -10837,6 +11431,18 @@
           "Davids Rozitis",
           "New York - Flatiron",
           "2026-07-07",
+          "10.00h"
+        ],
+        [
+          "Davids Rozitis",
+          "New York - Flatiron",
+          "2026-07-08",
+          "10.00h"
+        ],
+        [
+          "Davids Rozitis",
+          "New York - Flatiron",
+          "2026-07-09",
           "10.00h"
         ],
         [
@@ -11446,6 +12052,12 @@
           "3.88h"
         ],
         [
+          "Nicholas Compton",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-07-09",
+          "4.52h"
+        ],
+        [
           "Reece Horton",
           "Salt Lake City - 50 E Main St. N",
           "2026-07-06",
@@ -11456,6 +12068,12 @@
           "Salt Lake City - 50 E Main St. N",
           "2026-07-08",
           "7.05h"
+        ],
+        [
+          "Reece Horton",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-07-09",
+          "6.00h"
         ],
         [
           "Val Simanca Delgado",
@@ -11692,6 +12310,12 @@
           "8.25h"
         ],
         [
+          "Marco Galindo",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-09",
+          "8.10h"
+        ],
+        [
           "Ryland",
           "Scottsdale - Scottsdale Quarte",
           "2026-06-28",
@@ -11746,6 +12370,12 @@
           "8.42h"
         ],
         [
+          "Ryland",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-09",
+          "7.98h"
+        ],
+        [
           "William Green",
           "Scottsdale - Scottsdale Quarte",
           "2026-06-26",
@@ -11792,6 +12422,12 @@
           "Scottsdale - Scottsdale Quarte",
           "2026-07-06",
           "6.48h"
+        ],
+        [
+          "William Green",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-07-09",
+          "8.47h"
         ],
         [
           "Antowane Oliver",
