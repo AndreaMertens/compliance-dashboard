@@ -2,8 +2,8 @@
   "meta": {
     "title": "Short Shifts",
     "subtitle": "Pay period Jun 26 \u2013 Jul 11, 2026",
-    "summary_line": "1 approved shift under 20 minutes across 1 shop",
-    "last_refreshed_display": "Data through Thu Jul 9, 2026",
+    "summary_line": "2 approved shifts under 20 minutes across 2 shops",
+    "last_refreshed_display": "Data through Fri Jul 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -15,6 +15,20 @@
     "Hours"
   ],
   "groups": [
+    {
+      "shop": "4002 Columbus",
+      "manager": "Paul Fregeau",
+      "count": 1,
+      "rows": [
+        [
+          "Larry Whitaker",
+          "Wed Jul 8",
+          "3:46 PM",
+          "4:00 PM",
+          "0.23"
+        ]
+      ]
+    },
     {
       "shop": "Philadelphia - 1702 Walnut",
       "manager": "Trent Johnson",

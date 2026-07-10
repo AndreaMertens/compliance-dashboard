@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jun 26 \u2013 Jul 11, 2026",
-    "summary_line": "12 flagged shifts across 6 shops \u2014 12 OT, 2 NY Spread, 4 over 11 hrs",
-    "last_refreshed_display": "Data through Thu Jul 9, 2026",
+    "summary_line": "15 flagged shifts across 6 shops \u2014 15 OT, 2 NY Spread, 4 over 11 hrs",
+    "last_refreshed_display": "Data through Fri Jul 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -28,7 +28,7 @@
           "7:58 AM",
           "6:03 PM",
           "10.08",
-          "82.68 (OT)",
+          "82.93 (OT)",
           "OT"
         ]
       ]
@@ -36,15 +36,33 @@
     {
       "shop": "696 Lynnfield",
       "manager": "Mike LeGree",
-      "count": 2,
+      "count": 4,
       "rows": [
+        [
+          "Evan",
+          "Tue Jun 30",
+          "7:49 AM",
+          "6:01 PM",
+          "10.20",
+          "70.93 (OT)",
+          "OT"
+        ],
         [
           "Evan",
           "Tue Jul 7",
           "7:50 AM",
           "6:02 PM",
           "10.20",
-          "70.90 (OT)",
+          "70.93 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Thu Jul 2",
+          "7:57 AM",
+          "6:04 PM",
+          "10.12",
+          "70.93 (OT)",
           "OT"
         ],
         [
@@ -53,7 +71,7 @@
           "8:00 AM",
           "6:01 PM",
           "10.02",
-          "70.90 (OT)",
+          "70.93 (OT)",
           "OT"
         ]
       ]
@@ -61,7 +79,7 @@
     {
       "shop": "Houston - 888 Westheimer",
       "manager": "Kristian Kingdom-Saksek, Noah Nance",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Clayton Brown",
@@ -69,8 +87,17 @@
           "6:00 PM",
           "8:45 AM",
           "14.75",
-          "81.76 (OT)",
+          "82.03 (OT)",
           "OT \u00b7 Over 11"
+        ],
+        [
+          "Clayton Brown",
+          "Wed Jul 8",
+          "7:50 AM",
+          "6:04 PM",
+          "10.23",
+          "82.03 (OT)",
+          "OT"
         ]
       ]
     },
@@ -110,7 +137,7 @@
           "9:55 AM",
           "9:07 PM",
           "11.20",
-          "71.69 (OT)",
+          "80.16 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -146,7 +173,7 @@
           "10:55 AM",
           "9:02 PM",
           "10.12",
-          "71.69 (OT)",
+          "80.16 (OT)",
           "OT"
         ]
       ]
