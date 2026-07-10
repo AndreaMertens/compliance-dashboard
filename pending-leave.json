@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "8 pending leave requests across 6 shops",
+    "summary_line": "10 pending leave requests across 7 shops",
     "last_refreshed_display": "Data through Fri Jul 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -15,66 +15,85 @@
   ],
   "groups": [
     {
-      "shop": "1000 Pittsburgh",
+      "shop": "7878 Cincinnati",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Denniel Weis",
-          "2026-07-05",
-          "2026-07-05",
-          "trip to DC"
-        ]
-      ]
-    },
-    {
-      "shop": "696 Lynnfield",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "Mike LeGree",
-          "2026-07-04",
-          "2026-07-05",
-          "Family vacation "
-        ],
-        [
-          "Alexa Albanese",
+          "Kelly Sears",
           "2026-07-04",
           "2026-07-04",
-          "4th of july "
+          "PTO"
         ]
       ]
     },
     {
       "shop": "Birmingham - 141 W Maple",
       "manager": "",
-      "count": 1,
+      "count": 3,
       "rows": [
         [
-          "Thomas Conway",
+          "Jordan Dixon",
           "2026-07-03",
-          "2026-07-04",
-          "Days off"
+          "2026-07-03",
+          "Car overheated "
+        ],
+        [
+          "Jordan Dixon",
+          "2026-07-02",
+          "2026-07-02",
+          "Went home early since it was slow "
+        ],
+        [
+          "Jordan Dixon",
+          "2026-06-30",
+          "2026-06-30",
+          "Went home early since it was slow "
         ]
       ]
     },
     {
-      "shop": "Manhattan Beach - The Point",
+      "shop": "Chicago - 840 W Armitage",
       "manager": "",
       "count": 2,
       "rows": [
         [
-          "Mailon Williams",
-          "2026-06-22",
-          "2026-06-22",
-          "Back appt "
+          "Christian Sikorski",
+          "2026-06-28",
+          "2026-06-28",
+          "Ag approved "
         ],
         [
-          "Sean Kelley",
-          "2026-06-21",
-          "2026-06-21",
-          "Out of town"
+          "Christian Sikorski",
+          "2026-06-17",
+          "2026-06-17",
+          "Ag approved "
+        ]
+      ]
+    },
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Noah Hoskinson",
+          "2026-06-27",
+          "2026-06-27",
+          "pls"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - 57 Spring",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "2026-06-30",
+          "2026-06-30",
+          "PTO"
         ]
       ]
     },
@@ -92,15 +111,15 @@
       ]
     },
     {
-      "shop": "Newport Beach - Fashion Island",
+      "shop": "Westport - 72 Main St",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "George Rodriguez",
-          "2026-07-03",
-          "2026-07-05",
-          "Leave"
+          "Trey",
+          "2026-07-04",
+          "2026-07-04",
+          "1.1"
         ]
       ]
     }

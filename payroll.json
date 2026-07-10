@@ -250,7 +250,7 @@
       "title": "Unapproved Timecards",
       "metric": 44,
       "metric_unit": "shops",
-      "description": "199 timecards still unapproved across the full pay period.",
+      "description": "197 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -425,7 +425,7 @@
           "Ethan Platt",
           "Westport - 72 Main St",
           "2026-07-10",
-          "8.00h"
+          "8.18h"
         ],
         [
           "Matthew Reilly",
@@ -1004,6 +1004,36 @@
           "8.00h"
         ],
         [
+          "Darius Barnes",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jack",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Nour-Eddine Seidnaly",
+          "629 Alexandria",
+          "2026-07-10",
+          "7.63h"
+        ],
+        [
+          "Jackson Reid",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Jack",
+          "629 Alexandria",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
           "William Green",
           "Scottsdale - Scottsdale Quarte",
           "2026-07-10",
@@ -1052,30 +1082,6 @@
           "8.42h"
         ],
         [
-          "Brian Redington",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-08",
-          "8.45h"
-        ],
-        [
-          "Peter Kitt",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-08",
-          "8.08h"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-09",
-          "8.28h"
-        ],
-        [
-          "Douglas Beard",
-          "Denver - 2800 E 2nd Ave",
-          "2026-07-10",
-          "8.00h"
-        ],
-        [
           "Dawson Plott",
           "Dallas - 3699 McKinney",
           "2026-07-10",
@@ -1122,30 +1128,6 @@
           "Boston - 201 Newbury Street",
           "2026-07-10",
           "7.00h"
-        ],
-        [
-          "Darius Barnes",
-          "629 Alexandria",
-          "2026-07-10",
-          "8.00h"
-        ],
-        [
-          "Jack",
-          "629 Alexandria",
-          "2026-07-10",
-          "8.00h"
-        ],
-        [
-          "Nour-Eddine Seidnaly",
-          "629 Alexandria",
-          "2026-07-10",
-          "7.63h"
-        ],
-        [
-          "Jack",
-          "629 Alexandria",
-          "2026-07-10",
-          "8.00h"
         ],
         [
           "Christian Van Dam",
@@ -1430,6 +1412,12 @@
           "7.68h"
         ],
         [
+          "Douglas Beard",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
           "Justin Wascher",
           "1425 Basecamp",
           "2026-07-10",
@@ -1458,7 +1446,7 @@
     {
       "id": "payroll-pending-leave",
       "title": "Pending Leave",
-      "metric": 7,
+      "metric": 10,
       "metric_unit": "requests",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
       "status": "attention",
@@ -1470,46 +1458,64 @@
       ],
       "rows": [
         [
-          "Alex Cichy",
-          "2026-07-08",
-          "2026-07-13",
-          "Planned trip- these are total days off needed, would like to use minimal pto where possible"
+          "Devin Goodwin",
+          "2026-07-09",
+          "2026-07-09",
+          "Looking to use PTO for afternoon I missed on 7/9 \nLooking to use 4 hours "
         ],
         [
-          "Alexis Bass",
-          "2026-07-06",
-          "2026-07-07",
-          "Birthday"
+          "Jordan Dixon",
+          "2026-07-09",
+          "2026-07-09",
+          "Stomach illness "
         ],
         [
-          "Denniel Weis",
-          "2026-07-05",
-          "2026-07-05",
-          "trip to DC"
+          "Kelly Sears",
+          "2026-07-04",
+          "2026-07-04",
+          "PTO"
         ],
         [
-          "George Rodriguez",
+          "Trey",
+          "2026-07-04",
+          "2026-07-04",
+          "1.1"
+        ],
+        [
+          "Jordan Dixon",
           "2026-07-03",
-          "2026-07-05",
-          "Leave"
-        ],
-        [
-          "Mike LeGree",
-          "2026-07-04",
-          "2026-07-05",
-          "Family vacation "
-        ],
-        [
-          "Alexa Albanese",
-          "2026-07-04",
-          "2026-07-04",
-          "4th of july "
-        ],
-        [
-          "Thomas Conway",
           "2026-07-03",
-          "2026-07-04",
-          "Days off"
+          "Car overheated "
+        ],
+        [
+          "Jordan Dixon",
+          "2026-07-02",
+          "2026-07-02",
+          "Went home early since it was slow "
+        ],
+        [
+          "Jordan Dixon",
+          "2026-06-30",
+          "2026-06-30",
+          "Went home early since it was slow "
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "2026-06-30",
+          "2026-06-30",
+          "PTO"
+        ],
+        [
+          "Christian Sikorski",
+          "2026-06-28",
+          "2026-06-28",
+          "Ag approved "
+        ],
+        [
+          "Noah Hoskinson",
+          "2026-06-27",
+          "2026-06-27",
+          "pls"
         ]
       ]
     },
@@ -2212,7 +2218,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 1776,
+      "metric": 1779,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 45 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -6976,6 +6982,12 @@
           "8.42h"
         ],
         [
+          "Antonio Castaneda Gonzalez",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-09",
+          "8.28h"
+        ],
+        [
           "Brian Redington",
           "Denver - 2800 E 2nd Ave",
           "2026-06-27",
@@ -7028,6 +7040,12 @@
           "Denver - 2800 E 2nd Ave",
           "2026-07-07",
           "8.23h"
+        ],
+        [
+          "Brian Redington",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-08",
+          "8.45h"
         ],
         [
           "Douglas Beard",
@@ -7100,6 +7118,12 @@
           "Denver - 2800 E 2nd Ave",
           "2026-07-07",
           "8.17h"
+        ],
+        [
+          "Peter Kitt",
+          "Denver - 2800 E 2nd Ave",
+          "2026-07-08",
+          "8.08h"
         ],
         [
           "Bryan Appleby",
