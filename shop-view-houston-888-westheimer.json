@@ -2,10 +2,10 @@
   "meta": {
     "title": "Houston - 888 Westheimer",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -22,20 +22,13 @@
       "rows": [
         [
           "2026-07-03",
-          "Clayton Brown",
-          "10:00 AM",
-          "6:00 PM",
-          "480"
-        ],
-        [
-          "2026-07-03",
           "Auna Tastad",
           "8:00 AM",
           "9:04 AM",
           "64"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -53,24 +46,15 @@
       "rows": [
         [
           "Clayton Brown",
-          "Fri Jul 3",
-          "6:00 PM",
-          "8:45 AM",
-          "14.75",
-          "90.03 (OT)",
-          "OT \u00b7 Over 11"
-        ],
-        [
-          "Clayton Brown",
           "Wed Jul 8",
           "7:50 AM",
           "6:04 PM",
           "10.23",
-          "90.03 (OT)",
+          "83.67 (OT)",
           "OT"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -83,8 +67,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Clayton Brown",
+          "Fri Jul 3",
+          "9:45 AM",
+          "10:00 AM",
+          "0.25"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",
@@ -97,16 +89,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Clayton Brown",
-          "39.75",
-          "8.00",
-          "47.75",
-          "+7.75"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
