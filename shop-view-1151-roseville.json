@@ -2,10 +2,10 @@
   "meta": {
     "title": "1151 Roseville",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -75,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Inessa Samusenko",
+          "Sun Jul 12",
+          "7.73"
+        ],
+        [
+          "Sasha Jones",
+          "Sun Jul 12",
+          "7.72"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

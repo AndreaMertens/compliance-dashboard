@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tampa - 2223 N Westshore",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -73,16 +73,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Jhaidyn Brown",
-          "33.06",
-          "8.00",
-          "41.06",
-          "+1.06"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -93,8 +85,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "Sun Jul 12",
+          "7.40"
+        ],
+        [
+          "Ivan Rhodes",
+          "Sun Jul 12",
+          "7.43"
+        ],
+        [
+          "Bo Kenney",
+          "Sun Jul 12",
+          "7.28"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

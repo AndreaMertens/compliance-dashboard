@@ -2,10 +2,10 @@
   "meta": {
     "title": "103 Greenville",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -75,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Leeanna Wright",
+          "Sun Jul 12",
+          "1.37"
+        ],
+        [
+          "Matthew Lumsden",
+          "Sun Jul 12",
+          "7.53"
+        ],
+        [
+          "Dylan",
+          "Sun Jul 12",
+          "7.60"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

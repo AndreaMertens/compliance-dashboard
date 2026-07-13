@@ -2,10 +2,10 @@
   "meta": {
     "title": "Newport Beach - Fashion Island",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -21,35 +21,42 @@
       ],
       "rows": [
         [
-          "2026-07-02",
+          "2026-07-06",
+          "Jacob McLaughlin",
+          "10:30 AM",
+          "10:42 AM",
+          "12"
+        ],
+        [
+          "2026-07-07",
+          "Jacob McLaughlin",
+          "10:30 AM",
+          "10:49 AM",
+          "19"
+        ],
+        [
+          "2026-07-07",
           "Nathaniel Faraone",
-          "12:00 PM",
-          "12:13 PM",
+          "1:00 PM",
+          "1:13 PM",
           "13"
         ],
         [
-          "2026-07-04",
-          "Elias Salgado",
+          "2026-07-08",
+          "Nathaniel Faraone",
           "10:30 AM",
-          "12:56 PM",
-          "146"
+          "12:06 PM",
+          "96"
         ],
         [
-          "2026-07-05",
-          "Elias Salgado",
-          "11:30 AM",
-          "12:58 PM",
-          "88"
-        ],
-        [
-          "2026-07-05",
+          "2026-07-11",
           "Jacob McLaughlin",
-          "11:30 AM",
-          "11:48 AM",
-          "18"
+          "10:30 AM",
+          "11:05 AM",
+          "35"
         ]
       ],
-      "count": 4
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -104,8 +111,34 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Elias Salgado",
+          "Sat Jul 11",
+          "8.23"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sat Jul 11",
+          "7.42"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sat Jul 11",
+          "8.18"
+        ],
+        [
+          "Elias Salgado",
+          "Sun Jul 12",
+          "7.77"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Jul 12",
+          "3.87"
+        ]
+      ],
+      "count": 5
     }
   ]
 }

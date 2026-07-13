@@ -4,7 +4,7 @@
     "check_label": "Jul 15, 2026",
     "period_start": "2026-06-26",
     "period_end": "2026-07-11",
-    "last_refreshed_display": "Generated Sun Jul 12, 2026"
+    "last_refreshed_display": "Generated Mon Jul 13, 2026"
   },
   "tiles": [
     {
@@ -264,9 +264,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 8,
+      "metric": 2,
       "metric_unit": "shops",
-      "description": "39 timecards still unapproved across the full pay period.",
+      "description": "4 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -275,108 +275,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Cooper Betancourt",
-          "Dedham",
-          "2026-07-09",
-          "15.30h"
-        ],
-        [
-          "Nolan Cahill",
-          "Dedham",
-          "2026-07-09",
-          "8.70h"
-        ],
-        [
-          "Mike Spinelli",
-          "Dedham",
-          "2026-07-09",
-          "8.72h"
-        ],
-        [
-          "JJ Grainda",
-          "Dedham",
-          "2026-07-09",
-          "8.62h"
-        ],
-        [
-          "Dillon Stanas",
-          "Dedham",
-          "2026-07-09",
-          "8.77h"
-        ],
-        [
-          "Cooper Betancourt",
-          "Dedham",
-          "2026-07-10",
-          "8.43h"
-        ],
-        [
-          "JJ Grainda",
-          "Dedham",
-          "2026-07-10",
-          "8.45h"
-        ],
-        [
-          "Dillon Stanas",
-          "Dedham",
-          "2026-07-10",
-          "8.52h"
-        ],
-        [
-          "Jabraun Johnson",
-          "Dedham",
-          "2026-07-11",
-          "1.10h"
-        ],
-        [
-          "Ethan Jean",
-          "Dedham",
-          "2026-07-11",
-          "1.12h"
-        ],
-        [
-          "Jared Radovsky",
-          "Dedham",
-          "2026-07-11",
-          "1.12h"
-        ],
-        [
-          "JJ Grainda",
-          "Dedham",
-          "2026-07-11",
-          "1.12h"
-        ],
-        [
-          "Dillon Stanas",
-          "Dedham",
-          "2026-07-11",
-          "1.13h"
-        ],
-        [
-          "Nathaniel Faraone",
-          "Newport Beach - Fashion Island",
-          "2026-07-09",
-          "7.50h"
-        ],
-        [
-          "Elias Salgado",
-          "Newport Beach - Fashion Island",
-          "2026-07-10",
-          "7.77h"
-        ],
-        [
-          "Jacob McLaughlin",
-          "Newport Beach - Fashion Island",
-          "2026-07-10",
-          "7.92h"
-        ],
-        [
-          "Nathaniel Faraone",
-          "Newport Beach - Fashion Island",
-          "2026-07-10",
-          "7.98h"
-        ],
         [
           "Elias Salgado",
           "Newport Beach - Fashion Island",
@@ -396,118 +294,10 @@
           "8.18h"
         ],
         [
-          "Trey",
-          "Westport - 72 Main St",
-          "2026-07-11",
-          "8.15h"
-        ],
-        [
-          "Ethan Platt",
-          "Westport - 72 Main St",
-          "2026-07-11",
-          "8.27h"
-        ],
-        [
-          "Jake Friedland",
-          "Westport - 72 Main St",
-          "2026-07-11",
-          "8.20h"
-        ],
-        [
-          "Matthew Reilly",
-          "Westport - 72 Main St",
-          "2026-07-11",
-          "8.03h"
-        ],
-        [
-          "Tyler",
-          "Westport - 72 Main St",
-          "2026-07-11",
-          "8.15h"
-        ],
-        [
-          "Ross Graham",
-          "10250 Century City",
-          "2026-07-10",
-          "8.53h"
-        ],
-        [
-          "Marcus Karlsson",
-          "10250 Century City",
-          "2026-07-10",
-          "8.00h"
-        ],
-        [
-          "Ross Graham",
-          "10250 Century City",
-          "2026-07-11",
-          "8.50h"
-        ],
-        [
-          "Marcus Karlsson",
-          "10250 Century City",
-          "2026-07-11",
-          "7.98h"
-        ],
-        [
-          "Gustavo Daza",
-          "Miami - Brickell",
-          "2026-07-11",
-          "8.05h"
-        ],
-        [
-          "Gabriel Gonzalez",
-          "Miami - Brickell",
-          "2026-07-11",
-          "8.08h"
-        ],
-        [
-          "William Rosales",
-          "Miami - Brickell",
-          "2026-07-11",
-          "8.10h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-07-07",
-          "8.15h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-07-08",
-          "15.90h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-07-11",
-          "13.47h"
-        ],
-        [
           "Eric Schurhamer",
           "2900 Minneapolis",
           "2026-07-11",
           "7.20h"
-        ],
-        [
-          "Ethan Silverman",
-          "2900 Minneapolis",
-          "2026-07-11",
-          "8.25h"
-        ],
-        [
-          "Logan Hopper",
-          "122 Lexington",
-          "2026-07-11",
-          "8.17h"
-        ],
-        [
-          "Maxwell Webster",
-          "122 Lexington",
-          "2026-07-11",
-          "8.00h"
         ]
       ]
     },
@@ -1238,7 +1028,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 373,
+      "metric": 408,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 45 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -1292,6 +1082,18 @@
           "8.00h"
         ],
         [
+          "Marcus Karlsson",
+          "10250 Century City",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Marcus Karlsson",
+          "10250 Century City",
+          "2026-07-11",
+          "8.00h"
+        ],
+        [
           "Ross Graham",
           "10250 Century City",
           "2026-06-26",
@@ -1301,6 +1103,18 @@
           "Ross Graham",
           "10250 Century City",
           "2026-06-27",
+          "8.00h"
+        ],
+        [
+          "Ross Graham",
+          "10250 Century City",
+          "2026-07-10",
+          "8.00h"
+        ],
+        [
+          "Ross Graham",
+          "10250 Century City",
+          "2026-07-11",
           "8.00h"
         ],
         [
@@ -1436,10 +1250,22 @@
           "5.83h"
         ],
         [
+          "Logan Hopper",
+          "122 Lexington",
+          "2026-07-11",
+          "8.17h"
+        ],
+        [
           "Maxwell Webster",
           "122 Lexington",
           "2026-06-26",
           "4.47h"
+        ],
+        [
+          "Maxwell Webster",
+          "122 Lexington",
+          "2026-07-11",
+          "8.60h"
         ],
         [
           "Connor Dominiec",
@@ -1554,6 +1380,12 @@
           "2900 Minneapolis",
           "2026-06-28",
           "7.33h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-11",
+          "8.25h"
         ],
         [
           "Grant Fuller",
@@ -2228,6 +2060,18 @@
           "7.48h"
         ],
         [
+          "Cooper Betancourt",
+          "Dedham",
+          "2026-07-09",
+          "8.83h"
+        ],
+        [
+          "Cooper Betancourt",
+          "Dedham",
+          "2026-07-10",
+          "8.43h"
+        ],
+        [
           "Dillon Stanas",
           "Dedham",
           "2026-06-26",
@@ -2246,6 +2090,24 @@
           "7.28h"
         ],
         [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-07-09",
+          "8.77h"
+        ],
+        [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-07-10",
+          "8.52h"
+        ],
+        [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-07-11",
+          "1.13h"
+        ],
+        [
           "Ethan Jean",
           "Dedham",
           "2026-06-27",
@@ -2256,6 +2118,12 @@
           "Dedham",
           "2026-06-28",
           "7.03h"
+        ],
+        [
+          "Ethan Jean",
+          "Dedham",
+          "2026-07-11",
+          "1.12h"
         ],
         [
           "JJ Grainda",
@@ -2276,6 +2144,24 @@
           "7.25h"
         ],
         [
+          "JJ Grainda",
+          "Dedham",
+          "2026-07-09",
+          "8.62h"
+        ],
+        [
+          "JJ Grainda",
+          "Dedham",
+          "2026-07-10",
+          "8.45h"
+        ],
+        [
+          "JJ Grainda",
+          "Dedham",
+          "2026-07-11",
+          "1.12h"
+        ],
+        [
           "Jabraun Johnson",
           "Dedham",
           "2026-06-27",
@@ -2288,10 +2174,28 @@
           "7.30h"
         ],
         [
+          "Jabraun Johnson",
+          "Dedham",
+          "2026-07-11",
+          "1.10h"
+        ],
+        [
           "Jared Radovsky",
           "Dedham",
           "2026-06-27",
           "9.37h"
+        ],
+        [
+          "Jared Radovsky",
+          "Dedham",
+          "2026-07-11",
+          "1.12h"
+        ],
+        [
+          "Nolan Cahill",
+          "Dedham",
+          "2026-07-09",
+          "8.70h"
         ],
         [
           "Alex Cichy",
@@ -2810,6 +2714,24 @@
           "4.07h"
         ],
         [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-07-07",
+          "8.15h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-07-08",
+          "15.90h"
+        ],
+        [
+          "Guy Williams ii",
+          "HQ-Non-Kiosk",
+          "2026-07-11",
+          "13.47h"
+        ],
+        [
           "Natalie Brown",
           "HQ-Non-Kiosk",
           "2026-06-26",
@@ -3050,6 +2972,12 @@
           "8.17h"
         ],
         [
+          "Gabriel Gonzalez",
+          "Miami - Brickell",
+          "2026-07-11",
+          "8.08h"
+        ],
+        [
           "Glen Noel",
           "Miami - Brickell",
           "2026-06-26",
@@ -3060,6 +2988,12 @@
           "Miami - Brickell",
           "2026-06-27",
           "8.22h"
+        ],
+        [
+          "Gustavo Daza",
+          "Miami - Brickell",
+          "2026-07-11",
+          "8.05h"
         ],
         [
           "William Rosales",
@@ -3078,6 +3012,12 @@
           "Miami - Brickell",
           "2026-06-28",
           "8.68h"
+        ],
+        [
+          "William Rosales",
+          "Miami - Brickell",
+          "2026-07-11",
+          "8.10h"
         ],
         [
           "Ashley Hayes",
@@ -3152,6 +3092,12 @@
           "10.00h"
         ],
         [
+          "Davids Rozitis",
+          "New York - Flatiron",
+          "2026-07-11",
+          "4.75h"
+        ],
+        [
           "Fred Hilaire",
           "New York - Flatiron",
           "2026-06-27",
@@ -3200,6 +3146,12 @@
           "7.53h"
         ],
         [
+          "Elias Salgado",
+          "Newport Beach - Fashion Island",
+          "2026-07-10",
+          "8.10h"
+        ],
+        [
           "Jacob McLaughlin",
           "Newport Beach - Fashion Island",
           "2026-06-26",
@@ -3218,6 +3170,12 @@
           "3.53h"
         ],
         [
+          "Jacob McLaughlin",
+          "Newport Beach - Fashion Island",
+          "2026-07-10",
+          "7.92h"
+        ],
+        [
           "Nathaniel Faraone",
           "Newport Beach - Fashion Island",
           "2026-06-26",
@@ -3234,6 +3192,18 @@
           "Newport Beach - Fashion Island",
           "2026-06-28",
           "7.13h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-07-09",
+          "7.50h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-07-10",
+          "7.98h"
         ],
         [
           "Celina Bryant",
@@ -3458,10 +3428,28 @@
           "8.12h"
         ],
         [
+          "Ethan Platt",
+          "Westport - 72 Main St",
+          "2026-07-11",
+          "8.27h"
+        ],
+        [
           "Jake Friedland",
           "Westport - 72 Main St",
           "2026-06-28",
           "8.22h"
+        ],
+        [
+          "Jake Friedland",
+          "Westport - 72 Main St",
+          "2026-07-11",
+          "8.20h"
+        ],
+        [
+          "Matthew Reilly",
+          "Westport - 72 Main St",
+          "2026-07-11",
+          "8.03h"
         ],
         [
           "Trey",
@@ -3476,6 +3464,12 @@
           "7.98h"
         ],
         [
+          "Trey",
+          "Westport - 72 Main St",
+          "2026-07-11",
+          "8.15h"
+        ],
+        [
           "Tyler",
           "Westport - 72 Main St",
           "2026-06-26",
@@ -3486,6 +3480,12 @@
           "Westport - 72 Main St",
           "2026-06-27",
           "5.60h"
+        ],
+        [
+          "Tyler",
+          "Westport - 72 Main St",
+          "2026-07-11",
+          "8.15h"
         ]
       ]
     }

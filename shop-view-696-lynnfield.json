@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -21,21 +21,35 @@
       ],
       "rows": [
         [
-          "2026-07-02",
-          "Evan",
-          "7:45 AM",
-          "7:57 AM",
-          "12"
+          "2026-07-06",
+          "Alexa Albanese",
+          "9:45 AM",
+          "9:58 AM",
+          "13"
         ],
         [
-          "2026-07-03",
+          "2026-07-09",
+          "Alexa Albanese",
+          "8:45 AM",
+          "9:00 AM",
+          "15"
+        ],
+        [
+          "2026-07-10",
           "Alexa Albanese",
           "9:45 AM",
           "10:00 AM",
           "15"
+        ],
+        [
+          "2026-07-12",
+          "Evan",
+          "8:45 AM",
+          "10:00 AM",
+          "75"
         ]
       ],
-      "count": 2
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -145,8 +159,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "Sun Jul 12",
+          "2.82"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "2900 Minneapolis",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,30 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-06-29",
-          "Grant Fuller",
-          "11:00 AM",
-          "11:27 AM",
-          "27"
-        ],
-        [
-          "2026-06-29",
-          "Grant Fuller",
-          "11:00 AM",
-          "11:27 AM",
-          "27"
-        ],
-        [
-          "2026-07-05",
-          "Christian Horn",
-          "10:00 AM",
-          "11:38 AM",
-          "98"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -85,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Grant Fuller",
-          "55.30",
-          "30.00",
-          "85.30",
-          "+45.30"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -105,8 +75,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Eric Schurhamer",
+          "Sat Jul 11",
+          "7.20"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

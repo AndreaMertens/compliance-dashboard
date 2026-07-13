@@ -2,10 +2,10 @@
   "meta": {
     "title": "629 Alexandria",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-07-05",
-          "Toronto Eschrich",
-          "8:00 AM",
-          "8:45 AM",
-          "45"
+          "2026-07-08",
+          "Nour-Eddine Seidnaly",
+          "9:00 AM",
+          "10:31 AM",
+          "91"
+        ],
+        [
+          "2026-07-09",
+          "Nour-Eddine Seidnaly",
+          "7:00 AM",
+          "7:15 AM",
+          "15"
+        ],
+        [
+          "2026-07-10",
+          "Nour-Eddine Seidnaly",
+          "7:00 AM",
+          "7:22 AM",
+          "22"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -73,21 +87,14 @@
       ],
       "rows": [
         [
-          "Jackson Reid",
-          "32.63",
-          "15.50",
-          "48.13",
-          "+8.13"
-        ],
-        [
           "Nour-Eddine Seidnaly",
-          "32.67",
-          "23.00",
-          "55.67",
-          "+15.67"
+          "40.71",
+          "15.00",
+          "55.71",
+          "+15.71"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -98,8 +105,34 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Darius Barnes",
+          "Sun Jul 12",
+          "8.03"
+        ],
+        [
+          "Jack",
+          "Sun Jul 12",
+          "8.23"
+        ],
+        [
+          "Toronto Eschrich",
+          "Sun Jul 12",
+          "8.35"
+        ],
+        [
+          "Jackson Reid",
+          "Sun Jul 12",
+          "7.40"
+        ],
+        [
+          "Jack",
+          "Sun Jul 12",
+          "8.23"
+        ]
+      ],
+      "count": 5
     }
   ]
 }

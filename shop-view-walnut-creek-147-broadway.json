@@ -2,10 +2,10 @@
   "meta": {
     "title": "Walnut Creek - 147 Broadway",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-06-29",
+          "2026-07-07",
           "Keith Newell",
-          "1:00 PM",
-          "1:16 PM",
-          "16"
-        ],
-        [
-          "2026-06-30",
-          "Keith Newell",
-          "12:00 PM",
-          "1:08 PM",
-          "68"
+          "2:00 PM",
+          "2:18 PM",
+          "18"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -90,8 +83,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Abraham Boyd",
+          "Sun Jul 12",
+          "6.77"
+        ],
+        [
+          "Jeremy Raymer",
+          "Sun Jul 12",
+          "6.58"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

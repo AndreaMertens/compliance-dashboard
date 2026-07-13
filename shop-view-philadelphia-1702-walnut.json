@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -21,21 +21,49 @@
       ],
       "rows": [
         [
-          "2026-07-02",
-          "Celina Bryant",
-          "8:30 AM",
-          "8:50 AM",
-          "20"
+          "2026-07-06",
+          "Dante Barnes",
+          "7:15 AM",
+          "7:32 AM",
+          "17"
         ],
         [
-          "2026-07-03",
+          "2026-07-08",
+          "Fabio Santos Panisson",
+          "9:00 AM",
+          "9:31 AM",
+          "31"
+        ],
+        [
+          "2026-07-09",
+          "Dante Barnes",
+          "7:15 AM",
+          "8:20 AM",
+          "65"
+        ],
+        [
+          "2026-07-09",
+          "Franco Bailey",
+          "9:30 AM",
+          "9:41 AM",
+          "11"
+        ],
+        [
+          "2026-07-10",
+          "Franco Bailey",
+          "9:30 AM",
+          "9:45 AM",
+          "15"
+        ],
+        [
+          "2026-07-11",
           "Celina Bryant",
           "9:30 AM",
           "9:44 AM",
           "14"
         ]
       ],
-      "count": 2
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -98,8 +126,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Celina Bryant",
+          "Sun Jul 12",
+          "7.60"
+        ],
+        [
+          "Stephen Williams II",
+          "Sun Jul 12",
+          "7.53"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Sun Jul 12",
+          "7.68"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

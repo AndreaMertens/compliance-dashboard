@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-06",
+          "Viktoriia Fedorchak",
+          "8:00 AM",
+          "9:54 AM",
+          "114"
+        ],
+        [
+          "2026-07-12",
+          "Viktoriia Fedorchak",
+          "8:00 AM",
+          "8:55 AM",
+          "55"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -75,8 +90,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Sikorski",
+          "Sun Jul 12",
+          "8.05"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Sun Jul 12",
+          "8.07"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sun Jul 12",
+          "8.08"
+        ],
+        [
+          "Andrew Bell",
+          "Sun Jul 12",
+          "8.08"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

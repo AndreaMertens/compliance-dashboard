@@ -2,10 +2,10 @@
   "meta": {
     "title": "Houston - 888 Westheimer",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-07-03",
+          "2026-07-12",
           "Auna Tastad",
-          "8:00 AM",
-          "9:04 AM",
-          "64"
+          "10:00 AM",
+          "10:13 AM",
+          "13"
         ]
       ],
       "count": 1
@@ -101,8 +101,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Auna Tastad",
+          "Sun Jul 12",
+          "6.85"
+        ],
+        [
+          "Andrew Reed",
+          "Sun Jul 12",
+          "7.20"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

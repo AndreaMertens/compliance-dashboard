@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-10",
+          "Trent Bansak",
+          "8:00 AM",
+          "8:19 AM",
+          "19"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -75,8 +83,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Trent Bansak",
+          "Sun Jul 12",
+          "7.82"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

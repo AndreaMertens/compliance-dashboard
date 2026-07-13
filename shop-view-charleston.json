@@ -2,10 +2,10 @@
   "meta": {
     "title": "Charleston",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -19,8 +19,30 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-11",
+          "Jarell Davis",
+          "9:00 AM",
+          "9:17 AM",
+          "17"
+        ],
+        [
+          "2026-07-12",
+          "Ella Valentine",
+          "8:45 AM",
+          "9:01 AM",
+          "16"
+        ],
+        [
+          "2026-07-12",
+          "Christian Somma",
+          "8:45 AM",
+          "8:59 AM",
+          "14"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -75,8 +97,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ella Valentine",
+          "Sun Jul 12",
+          "7.12"
+        ],
+        [
+          "Jack Silva",
+          "Sun Jul 12",
+          "7.55"
+        ],
+        [
+          "Jarell Davis",
+          "Sun Jul 12",
+          "7.75"
+        ],
+        [
+          "Christian Somma",
+          "Sun Jul 12",
+          "7.15"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

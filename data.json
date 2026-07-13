@@ -2,9 +2,9 @@
   "meta": {
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
-    "week_label": "Week of Jun 29 \u2013 Jul 5, 2026",
-    "generated_at": "2026-07-12T06:14:10.287266",
-    "generated_at_display": "Generated Jul 12, 6:14 AM"
+    "week_label": "Week of July 6\u201312, 2026",
+    "generated_at": "2026-07-13T06:28:06.701260",
+    "generated_at_display": "Generated Jul 13, 6:28 AM"
   },
   "summary": [],
   "sections": [
@@ -19,32 +19,32 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "ok",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
-          "covers_label": "Covers Jun 29 \u2013 Jul 5",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
+          "covers_label": "Covers Jul 6 \u2013 Jul 12",
           "is_mock": false
         },
         {
           "id": "schedule-publication",
           "title": "Schedule Publication",
           "review_day": "Monday",
-          "metric": 1,
-          "metric_unit": " \u00b7 8 heads up",
+          "metric": 3,
+          "metric_unit": " \u00b7 7 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 6:14 AM",
-          "covers_label": "Compliance window: next 21 days from 2026-07-12",
+          "last_refreshed_display": "Data through Mon Jul 13, 6:28 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-07-13",
           "is_mock": false
         },
         {
           "id": "manual-punches",
           "title": "Manual Punches",
           "review_day": "Monday",
-          "metric": "17.1%",
+          "metric": "14.4%",
           "metric_unit": "last week",
-          "description": "2026 avg: 19.6%. 24 managers above 20% YTD threshold.",
+          "description": "2026 avg: 19.4%. 22 managers above 20% YTD threshold.",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
-          "covers_label": "YTD through 2026-07-05",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
+          "covers_label": "YTD through 2026-07-12",
           "is_mock": false
         }
       ]
@@ -56,12 +56,12 @@
           "id": "tardiness",
           "title": "Tardiness",
           "review_day": "Wednesday",
-          "metric": 43,
+          "metric": 57,
           "metric_unit": "tardy clock-ins",
-          "description": "Hourly employees clocked in >5 min after scheduled start. Spans 17 shop(s).",
+          "description": "Hourly employees clocked in >5 min after scheduled start. Spans 22 shop(s).",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
-          "covers_label": "Covers Jun 29 \u2013 Jul 5",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
+          "covers_label": "Covers Jul 6 \u2013 Jul 12",
           "is_mock": false
         },
         {
@@ -72,7 +72,7 @@
           "metric_unit": "shifts flagged",
           "description": "Across 6 shops this pay period \u2014 17 OT, 2 NY Spread, 3 over 11 hrs.",
           "status": "watch",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
           "covers_label": "Covers Jun 26 \u2013 Jul 11",
           "is_mock": false
         },
@@ -84,7 +84,7 @@
           "metric_unit": "shifts flagged",
           "description": "3 approved timecards under 20 minutes across 3 shops \u2014 likely accidental punches or mis-approvals.",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
           "covers_label": "Covers Jun 26 \u2013 Jul 11",
           "is_mock": false
         },
@@ -92,24 +92,24 @@
           "id": "over-40-vacation",
           "title": "Over 40 + Vacation",
           "review_day": "Monday",
-          "metric": 5,
+          "metric": 4,
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
-          "covers_label": "Covers Jun 29 \u2013 Jul 5",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
+          "covers_label": "Covers Jul 6 \u2013 Jul 12",
           "is_mock": false
         },
         {
           "id": "unapproved-timecards",
           "title": "Unapproved Timecards",
           "review_day": "Wednesday",
-          "metric": 0,
+          "metric": 29,
           "metric_unit": "shops outstanding",
-          "description": "All timecards approved on time.",
-          "status": "good",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
-          "covers_label": "Covers Jun 29 \u2013 Jul 5",
+          "description": "75 timecards still unapproved past the 3-day grace period.",
+          "status": "alert",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
+          "covers_label": "Covers Jul 6 \u2013 Jul 12",
           "is_mock": false
         },
         {
@@ -120,7 +120,7 @@
           "metric_unit": "pending",
           "description": "Leave submitted for a past work week not yet approved or denied.",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
           "covers_label": "Prior completed weeks",
           "is_mock": false
         },
@@ -128,12 +128,12 @@
           "id": "penalty-pay",
           "title": "Penalty Pay",
           "review_day": "Wednesday",
-          "metric": 3,
+          "metric": 2,
           "metric_unit": "shops with penalties",
-          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 43 penalty events.",
+          "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 38 penalty events.",
           "status": "attention",
-          "last_refreshed_display": "Data through Sun Jul 12, 2026",
-          "covers_label": "Covers Jun 29 \u2013 Jul 5",
+          "last_refreshed_display": "Data through Mon Jul 13, 2026",
+          "covers_label": "Covers Jul 6 \u2013 Jul 12",
           "is_mock": false
         }
       ]

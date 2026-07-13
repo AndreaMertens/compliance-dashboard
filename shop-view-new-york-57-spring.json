@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - 57 Spring",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -82,16 +82,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Lekwan Massey-Phillips",
-          "88.40",
-          "16.00",
-          "104.40",
-          "+64.40"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -102,8 +94,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jul 12",
+          "7.87"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "Sun Jul 12",
+          "7.87"
+        ],
+        [
+          "Yoseph Woldu",
+          "Sun Jul 12",
+          "7.72"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -75,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Molly Wilgus",
+          "Sun Jul 12",
+          "8.22"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun Jul 12",
+          "8.55"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

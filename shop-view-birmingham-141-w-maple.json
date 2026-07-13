@@ -2,10 +2,10 @@
   "meta": {
     "title": "Birmingham - 141 W Maple",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,35 +21,28 @@
       ],
       "rows": [
         [
-          "2026-06-29",
+          "2026-07-09",
           "Lance Minor",
           "9:00 AM",
-          "9:55 AM",
-          "55"
+          "9:32 AM",
+          "32"
         ],
         [
-          "2026-06-30",
+          "2026-07-10",
+          "Lance Minor",
+          "9:00 AM",
+          "10:34 AM",
+          "94"
+        ],
+        [
+          "2026-07-12",
           "Luke Srinivasan",
           "9:00 AM",
-          "9:12 AM",
-          "12"
-        ],
-        [
-          "2026-07-03",
-          "Jordan Dixon",
-          "9:00 AM",
-          "11:58 AM",
-          "178"
-        ],
-        [
-          "2026-07-03",
-          "Lance Minor",
-          "9:00 AM",
-          "9:45 AM",
-          "45"
+          "9:41 AM",
+          "41"
         ]
       ],
-      "count": 4
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -104,8 +97,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Lance Minor",
+          "Sun Jul 12",
+          "5.98"
+        ],
+        [
+          "Brett",
+          "Sun Jul 12",
+          "8.10"
+        ],
+        [
+          "Luke Srinivasan",
+          "Sun Jul 12",
+          "7.32"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

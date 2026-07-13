@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jul 12 \u2192 Aug 2, 2026",
-    "summary_line": "1 action needed \u00b7 8 heads up",
-    "last_refreshed_display": "Data through Sun Jul 12, 6:14 AM",
+    "subtitle": "Window: Jul 13 \u2192 Aug 3, 2026",
+    "summary_line": "3 action needed \u00b7 7 heads up",
+    "last_refreshed_display": "Data through Mon Jul 13, 6:28 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,8 +16,22 @@
         {
           "shop": "Birmingham - 141 W Maple",
           "manager": "",
-          "draft_count": 35,
-          "gap_days": 7,
+          "draft_count": 43,
+          "gap_days": 8,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Indianapolis - 8702 Keystone Crossing",
+          "manager": "",
+          "draft_count": 4,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Westport - 72 Main St",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 1,
           "lookahead_days": 14
         }
       ]
@@ -30,7 +44,7 @@
         {
           "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 6,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -38,13 +52,6 @@
           "shop": "17250 Omaha",
           "manager": "",
           "draft_count": 5,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Boston - 201 Newbury Street",
-          "manager": "",
-          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },

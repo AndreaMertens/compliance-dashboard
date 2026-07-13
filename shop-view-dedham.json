@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -19,8 +19,44 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-11",
+          "Jabraun Johnson",
+          "9:00 AM",
+          "4:02 PM",
+          "422"
+        ],
+        [
+          "2026-07-11",
+          "Jared Radovsky",
+          "9:00 AM",
+          "4:02 PM",
+          "422"
+        ],
+        [
+          "2026-07-11",
+          "Dillon Stanas",
+          "9:00 AM",
+          "4:01 PM",
+          "421"
+        ],
+        [
+          "2026-07-11",
+          "Ethan Jean",
+          "9:00 AM",
+          "4:01 PM",
+          "421"
+        ],
+        [
+          "2026-07-11",
+          "JJ Grainda",
+          "9:00 AM",
+          "4:01 PM",
+          "421"
+        ]
+      ],
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -75,8 +111,34 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jabraun Johnson",
+          "Sun Jul 12",
+          "7.18"
+        ],
+        [
+          "Ethan Jean",
+          "Sun Jul 12",
+          "7.17"
+        ],
+        [
+          "Jared Radovsky",
+          "Sun Jul 12",
+          "7.30"
+        ],
+        [
+          "JJ Grainda",
+          "Sun Jul 12",
+          "7.27"
+        ],
+        [
+          "Dillon Stanas",
+          "Sun Jul 12",
+          "7.28"
+        ]
+      ],
+      "count": 5
     }
   ]
 }
