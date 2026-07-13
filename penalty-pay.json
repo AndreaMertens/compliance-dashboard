@@ -2,7 +2,7 @@
   "meta": {
     "title": "Penalty Pay",
     "subtitle": "Covers Jul 6 \u2013 Jul 12",
-    "summary_line": "38 penalty events across 2 shops",
+    "summary_line": "51 penalty events across 3 shops",
     "last_refreshed_display": "Data through Mon Jul 13, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -15,9 +15,28 @@
   ],
   "groups": [
     {
+      "shop": "1151 Roseville",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "2026-07-11",
+          "Inessa Samusenko",
+          "MBP",
+          "1.00h"
+        ],
+        [
+          "2026-07-11",
+          "Inessa Samusenko",
+          "RBP",
+          "1.00h"
+        ]
+      ]
+    },
+    {
       "shop": "2900 Minneapolis",
       "manager": "",
-      "count": 37,
+      "count": 48,
       "rows": [
         [
           "2026-07-06",
@@ -237,6 +256,72 @@
         ],
         [
           "2026-07-09",
+          "Olivia Hubbard",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-10",
+          "Ethan Silverman",
+          "Missed Meal Break Allowance",
+          "1.00h"
+        ],
+        [
+          "2026-07-10",
+          "Ethan Silverman",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-10",
+          "Ethan Silverman",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-10",
+          "Olivia Hubbard",
+          "Missed Meal Break Allowance",
+          "1.00h"
+        ],
+        [
+          "2026-07-10",
+          "Olivia Hubbard",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-10",
+          "Olivia Hubbard",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-11",
+          "Ethan Silverman",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-11",
+          "Ethan Silverman",
+          "Missed Rest Break Allowance",
+          "0.50h"
+        ],
+        [
+          "2026-07-11",
+          "Ethan Silverman",
+          "Missed Meal Break Allowance",
+          "1.00h"
+        ],
+        [
+          "2026-07-12",
+          "Olivia Hubbard",
+          "Missed Meal Break Allowance",
+          "1.00h"
+        ],
+        [
+          "2026-07-12",
           "Olivia Hubbard",
           "Missed Rest Break Allowance",
           "0.50h"
