@@ -2,8 +2,8 @@
   "meta": {
     "title": "No Coverage Days",
     "subtitle": "Covers Jul 6 \u2013 Jul 12",
-    "summary_line": "All retail shops covered every day this week.",
-    "last_refreshed_display": "Data through Mon Jul 13, 2026",
+    "summary_line": "7 shop-days across 1 shops",
+    "last_refreshed_display": "Data through Tue Jul 14, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -11,5 +11,41 @@
     "Date",
     "Day of Week"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "4000 New Orleans",
+      "manager": "",
+      "count": 7,
+      "rows": [
+        [
+          "2026-07-06",
+          "Monday"
+        ],
+        [
+          "2026-07-07",
+          "Tuesday"
+        ],
+        [
+          "2026-07-08",
+          "Wednesday"
+        ],
+        [
+          "2026-07-09",
+          "Thursday"
+        ],
+        [
+          "2026-07-10",
+          "Friday"
+        ],
+        [
+          "2026-07-11",
+          "Saturday"
+        ],
+        [
+          "2026-07-12",
+          "Sunday"
+        ]
+      ]
+    }
+  ]
 }

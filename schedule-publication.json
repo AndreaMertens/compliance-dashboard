@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jul 14 \u2192 Aug 4, 2026",
-    "summary_line": "1 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Tue Jul 14, 7:02 AM",
+    "subtitle": "Window: Jul 15 \u2192 Aug 5, 2026",
+    "summary_line": "1 action needed \u00b7 7 heads up",
+    "last_refreshed_display": "Data through Wed Jul 15, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,8 +16,8 @@
         {
           "shop": "Westport - 72 Main St",
           "manager": "",
-          "draft_count": 7,
-          "gap_days": 2,
+          "draft_count": 10,
+          "gap_days": 3,
           "lookahead_days": 14
         }
       ]
@@ -37,7 +37,14 @@
         {
           "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 4,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 4,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -45,6 +52,13 @@
           "shop": "Miami - Brickell",
           "manager": "",
           "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Boston - 201 Newbury Street",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
