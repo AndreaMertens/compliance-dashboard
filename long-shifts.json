@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jul 12 \u2013 Jul 28, 2026",
-    "summary_line": "No long shifts triggered a penalty or review flag.",
+    "summary_line": "1 flagged shifts across 1 shops \u2014 1 OT",
     "last_refreshed_display": "Data through Fri Jul 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -16,5 +16,22 @@
     "Weekly",
     "Triggered"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "122 Lexington",
+      "manager": "Craig Somma",
+      "count": 1,
+      "rows": [
+        [
+          "Logan Hopper",
+          "Tue Jul 14",
+          "7:48 AM",
+          "5:56 PM",
+          "10.13",
+          "41.92 (OT)",
+          "OT"
+        ]
+      ]
+    }
+  ]
 }

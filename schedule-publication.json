@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jul 16 \u2192 Aug 6, 2026",
-    "summary_line": "1 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Thu Jul 16, 7:02 AM",
+    "subtitle": "Window: Jul 17 \u2192 Aug 7, 2026",
+    "summary_line": "2 action needed \u00b7 4 heads up",
+    "last_refreshed_display": "Data through Fri Jul 17, 7:02 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,8 +16,15 @@
         {
           "shop": "Westport - 72 Main St",
           "manager": "",
-          "draft_count": 13,
-          "gap_days": 4,
+          "draft_count": 16,
+          "gap_days": 5,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "4000 New Orleans",
+          "manager": "",
+          "draft_count": 0,
+          "gap_days": 0,
           "lookahead_days": 14
         }
       ]
@@ -30,14 +37,14 @@
         {
           "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 7,
+          "draft_count": 8,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 4,
+          "draft_count": 3,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -54,13 +61,6 @@
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
-        },
-        {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 21
         }
       ]
     }
