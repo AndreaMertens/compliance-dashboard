@@ -2,10 +2,10 @@
   "meta": {
     "title": "Fort Lauderdale - 1016 E",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,28 +21,21 @@
       ],
       "rows": [
         [
-          "2026-07-08",
-          "farhan Khandaker",
-          "8:00 AM",
-          "8:30 AM",
-          "30"
+          "2026-07-14",
+          "Bryan Appleby",
+          "10:30 AM",
+          "10:45 AM",
+          "15"
         ],
         [
-          "2026-07-11",
-          "Ceara McKegney",
-          "8:00 AM",
-          "8:30 AM",
-          "30"
-        ],
-        [
-          "2026-07-11",
+          "2026-07-17",
           "Liss Llerena",
           "11:30 AM",
-          "11:42 AM",
-          "12"
+          "11:41 AM",
+          "11"
         ]
       ],
-      "count": 3
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -97,8 +90,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Liss Llerena",
+          "Sun Jul 19",
+          "8.15"
+        ],
+        [
+          "farhan Khandaker",
+          "Sun Jul 19",
+          "4.18"
+        ],
+        [
+          "Bryan Appleby",
+          "Sun Jul 19",
+          "7.93"
+        ],
+        [
+          "Sophia Behar",
+          "Sun Jul 19",
+          "8.00"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

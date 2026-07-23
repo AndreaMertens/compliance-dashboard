@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dallas - 3699 McKinney",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-07-06",
-          "James Robinson",
-          "10:00 AM",
-          "10:22 AM",
-          "22"
-        ],
-        [
-          "2026-07-10",
-          "Danniella Arishaba",
-          "10:00 AM",
-          "12:21 PM",
-          "141"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -78,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Kweshaan Thomas",
+          "40.88",
+          "8.00",
+          "48.88",
+          "+8.88"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -90,24 +83,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Aaron Flores",
-          "Sun Jul 12",
-          "7.42"
-        ],
-        [
-          "James Robinson",
-          "Sun Jul 12",
-          "8.53"
-        ],
-        [
-          "Danniella Arishaba",
-          "Sun Jul 12",
-          "8.48"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

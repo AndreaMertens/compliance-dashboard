@@ -2,10 +2,10 @@
   "meta": {
     "title": "Cleveland - 251 Main Street",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -63,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Michael",
+          "85.56",
+          "16.00",
+          "101.56",
+          "+61.56"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -75,24 +83,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Michael",
-          "Sun Jul 12",
-          "7.28"
-        ],
-        [
-          "Brenna Roberts",
-          "Sun Jul 12",
-          "7.10"
-        ],
-        [
-          "Michael",
-          "Sun Jul 12",
-          "7.28"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

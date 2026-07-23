@@ -2,10 +2,10 @@
   "meta": {
     "title": "Houston - 888 Westheimer",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-07-12",
+          "2026-07-18",
           "Auna Tastad",
           "10:00 AM",
-          "10:13 AM",
-          "13"
+          "10:12 AM",
+          "12"
         ]
       ],
       "count": 1
@@ -43,18 +43,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Clayton Brown",
-          "Wed Jul 8",
-          "7:50 AM",
-          "6:04 PM",
-          "10.23",
-          "83.67 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -67,16 +57,8 @@
         "End",
         "Hours"
       ],
-      "rows": [
-        [
-          "Clayton Brown",
-          "Fri Jul 3",
-          "9:45 AM",
-          "10:00 AM",
-          "0.25"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "over-40-vacation",
@@ -101,19 +83,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Auna Tastad",
-          "Sun Jul 12",
-          "6.85"
-        ],
-        [
-          "Andrew Reed",
-          "Sun Jul 12",
-          "7.20"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

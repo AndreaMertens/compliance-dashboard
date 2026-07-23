@@ -2,10 +2,10 @@
   "meta": {
     "title": "122 Lexington",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-17",
+          "Logan Hopper",
+          "10:00 AM",
+          "10:24 AM",
+          "24"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -35,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Logan Hopper",
+          "Tue Jul 14",
+          "7:48 AM",
+          "5:56 PM",
+          "10.13",
+          "73.40 (OT)",
+          "OT"
+        ],
+        [
+          "Gabrielle",
+          "Wed Jul 15",
+          "6:57 AM",
+          "5:00 PM",
+          "10.05",
+          "65.96 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -75,19 +102,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Logan Hopper",
-          "Sun Jul 12",
-          "6.25"
-        ],
-        [
-          "Maxwell Webster",
-          "Sun Jul 12",
-          "5.60"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

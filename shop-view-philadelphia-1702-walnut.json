@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "10 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 10
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,49 +21,14 @@
       ],
       "rows": [
         [
-          "2026-07-06",
+          "2026-07-13",
           "Dante Barnes",
           "7:15 AM",
-          "7:32 AM",
-          "17"
-        ],
-        [
-          "2026-07-08",
-          "Fabio Santos Panisson",
-          "9:00 AM",
-          "9:31 AM",
-          "31"
-        ],
-        [
-          "2026-07-09",
-          "Dante Barnes",
-          "7:15 AM",
-          "8:20 AM",
-          "65"
-        ],
-        [
-          "2026-07-09",
-          "Franco Bailey",
-          "9:30 AM",
-          "9:41 AM",
-          "11"
-        ],
-        [
-          "2026-07-10",
-          "Franco Bailey",
-          "9:30 AM",
-          "9:45 AM",
-          "15"
-        ],
-        [
-          "2026-07-11",
-          "Celina Bryant",
-          "9:30 AM",
-          "9:44 AM",
-          "14"
+          "7:35 AM",
+          "20"
         ]
       ],
-      "count": 6
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -78,8 +43,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dante Barnes",
+          "Thu Jul 16",
+          "6:30 AM",
+          "4:57 PM",
+          "10.45",
+          "74.90 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -92,16 +67,8 @@
         "End",
         "Hours"
       ],
-      "rows": [
-        [
-          "Franco Bailey",
-          "Thu Jul 2",
-          "5:49 PM",
-          "6:03 PM",
-          "0.23"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "over-40-vacation",
@@ -126,24 +93,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Celina Bryant",
-          "Sun Jul 12",
-          "7.60"
-        ],
-        [
-          "Stephen Williams II",
-          "Sun Jul 12",
-          "7.53"
-        ],
-        [
-          "Fabio Santos Panisson",
-          "Sun Jul 12",
-          "7.68"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

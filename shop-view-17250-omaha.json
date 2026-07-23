@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,35 +21,21 @@
       ],
       "rows": [
         [
-          "2026-07-06",
+          "2026-07-14",
           "Christian Van Dam",
-          "9:00 AM",
-          "9:50 AM",
-          "50"
+          "8:00 AM",
+          "9:03 AM",
+          "63"
         ],
         [
-          "2026-07-10",
+          "2026-07-18",
           "Christian Van Dam",
           "9:00 AM",
-          "9:17 AM",
-          "17"
-        ],
-        [
-          "2026-07-11",
-          "Christian Van Dam",
-          "9:00 AM",
-          "9:46 AM",
-          "46"
-        ],
-        [
-          "2026-07-11",
-          "Clark",
-          "10:00 AM",
-          "10:14 AM",
-          "14"
+          "9:16 AM",
+          "16"
         ]
       ],
-      "count": 4
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -64,18 +50,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Noah Strako",
-          "Tue Jul 7",
-          "7:58 AM",
-          "6:03 PM",
-          "10.08",
-          "91.21 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -114,24 +90,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Clark",
-          "Sun Jul 12",
-          "5.23"
-        ],
-        [
-          "Noah Strako",
-          "Sun Jul 12",
-          "6.18"
-        ],
-        [
-          "Cieron Hampson",
-          "Sun Jul 12",
-          "5.03"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

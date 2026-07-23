@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "10 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 10
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,44 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-07-11",
-          "Jabraun Johnson",
-          "9:00 AM",
-          "4:02 PM",
-          "422"
-        ],
-        [
-          "2026-07-11",
-          "Jared Radovsky",
-          "9:00 AM",
-          "4:02 PM",
-          "422"
-        ],
-        [
-          "2026-07-11",
-          "Dillon Stanas",
-          "9:00 AM",
-          "4:01 PM",
-          "421"
-        ],
-        [
-          "2026-07-11",
-          "Ethan Jean",
-          "9:00 AM",
-          "4:01 PM",
-          "421"
-        ],
-        [
-          "2026-07-11",
-          "JJ Grainda",
-          "9:00 AM",
-          "4:01 PM",
-          "421"
-        ]
-      ],
-      "count": 5
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -71,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Mon Jul 13",
+          "6:43 AM",
+          "5:05 PM",
+          "10.37",
+          "74.43 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -111,34 +85,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Jabraun Johnson",
-          "Sun Jul 12",
-          "7.18"
-        ],
-        [
-          "Ethan Jean",
-          "Sun Jul 12",
-          "7.17"
-        ],
-        [
-          "Jared Radovsky",
-          "Sun Jul 12",
-          "7.30"
-        ],
-        [
-          "JJ Grainda",
-          "Sun Jul 12",
-          "7.27"
-        ],
-        [
-          "Dillon Stanas",
-          "Sun Jul 12",
-          "7.28"
-        ]
-      ],
-      "count": 5
+      "rows": [],
+      "count": 0
     }
   ]
 }

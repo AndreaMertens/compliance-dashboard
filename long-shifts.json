@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jul 12 \u2013 Jul 28, 2026",
-    "summary_line": "1 flagged shifts across 1 shops \u2014 1 OT",
+    "summary_line": "11 flagged shifts across 6 shops \u2014 11 OT",
     "last_refreshed_display": "Data through Fri Jul 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -20,7 +20,7 @@
     {
       "shop": "122 Lexington",
       "manager": "Craig Somma",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Logan Hopper",
@@ -28,7 +28,132 @@
           "7:48 AM",
           "5:56 PM",
           "10.13",
-          "41.92 (OT)",
+          "73.40 (OT)",
+          "OT"
+        ],
+        [
+          "Gabrielle",
+          "Wed Jul 15",
+          "6:57 AM",
+          "5:00 PM",
+          "10.05",
+          "65.96 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 2,
+      "rows": [
+        [
+          "Evan",
+          "Sat Jul 18",
+          "7:48 AM",
+          "6:01 PM",
+          "10.22",
+          "66.10 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Tue Jul 14",
+          "7:55 AM",
+          "6:01 PM",
+          "10.10",
+          "66.10 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Dedham",
+      "manager": "Justin Komins",
+      "count": 1,
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Mon Jul 13",
+          "6:43 AM",
+          "5:05 PM",
+          "10.37",
+          "74.43 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Miami - Brickell",
+      "manager": "Amber Long",
+      "count": 1,
+      "rows": [
+        [
+          "Glen Noel",
+          "Thu Jul 16",
+          "6:04 AM",
+          "4:09 PM",
+          "10.08",
+          "68.23 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Philadelphia - 1702 Walnut",
+      "manager": "Trent Johnson",
+      "count": 1,
+      "rows": [
+        [
+          "Dante Barnes",
+          "Thu Jul 16",
+          "6:30 AM",
+          "4:57 PM",
+          "10.45",
+          "74.90 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "Matt Russell",
+      "count": 4,
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Tue Jul 21",
+          "10:04 AM",
+          "9:04 PM",
+          "11.00",
+          "61.81 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Jul 18",
+          "10:13 AM",
+          "9:02 PM",
+          "10.82",
+          "61.81 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Mon Jul 13",
+          "9:59 AM",
+          "8:05 PM",
+          "10.10",
+          "61.81 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Mon Jul 20",
+          "10:06 AM",
+          "8:07 PM",
+          "10.02",
+          "61.81 (OT)",
           "OT"
         ]
       ]

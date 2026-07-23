@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - 57 Spring",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-15",
+          "Yoseph Woldu",
+          "8:45 AM",
+          "9:00 AM",
+          "15"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -35,27 +43,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Lekwan Massey-Phillips",
-          "Sat Jul 4",
-          "8:15 AM",
-          "3:30 AM",
-          "19.25",
-          "209.50 (OT)",
-          "OT \u00b7 NY Spread \u00b7 Over 11"
-        ],
-        [
-          "Lekwan Massey-Phillips",
-          "Sat Jul 4",
-          "8:15 AM",
-          "3:30 AM",
-          "19.25",
-          "209.50 (OT)",
-          "OT \u00b7 NY Spread \u00b7 Over 11"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -94,24 +83,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Lekwan Massey-Phillips",
-          "Sun Jul 12",
-          "7.87"
-        ],
-        [
-          "Lekwan Massey-Phillips",
-          "Sun Jul 12",
-          "7.87"
-        ],
-        [
-          "Yoseph Woldu",
-          "Sun Jul 12",
-          "7.72"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

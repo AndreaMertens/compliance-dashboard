@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Jul 17 \u2192 Aug 7, 2026",
-    "summary_line": "2 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Fri Jul 17, 7:02 AM",
+    "subtitle": "Window: Jul 23 \u2192 Aug 13, 2026",
+    "summary_line": "3 heads up",
+    "last_refreshed_display": "Data through Thu Jul 23, 10:08 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,22 +12,7 @@
       "tier": "action",
       "label": "Action Needed",
       "description": "At least one day with no published shifts in the next 3 weeks.",
-      "rows": [
-        {
-          "shop": "Westport - 72 Main St",
-          "manager": "",
-          "draft_count": 16,
-          "gap_days": 5,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "4000 New Orleans",
-          "manager": "",
-          "draft_count": 0,
-          "gap_days": 0,
-          "lookahead_days": 14
-        }
-      ]
+      "rows": []
     },
     {
       "tier": "heads_up",
@@ -35,9 +20,9 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "1000 Pittsburgh",
+          "shop": "Boston - 201 Newbury Street",
           "manager": "",
-          "draft_count": 8,
+          "draft_count": 3,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -50,13 +35,6 @@
         },
         {
           "shop": "Miami - Brickell",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Charleston",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
