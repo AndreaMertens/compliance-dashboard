@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -21,35 +21,56 @@
       ],
       "rows": [
         [
-          "2026-07-15",
+          "2026-07-20",
+          "Alexa Albanese",
+          "8:45 AM",
+          "8:59 AM",
+          "14"
+        ],
+        [
+          "2026-07-21",
+          "Evan",
+          "7:45 AM",
+          "8:48 AM",
+          "63"
+        ],
+        [
+          "2026-07-22",
+          "Evan",
+          "9:45 AM",
+          "10:45 AM",
+          "60"
+        ],
+        [
+          "2026-07-22",
+          "Alexa Albanese",
+          "8:45 AM",
+          "9:08 AM",
+          "23"
+        ],
+        [
+          "2026-07-23",
           "Alexa Albanese",
           "9:45 AM",
-          "9:58 AM",
-          "13"
-        ],
-        [
-          "2026-07-16",
-          "Evan",
-          "8:45 AM",
-          "9:03 AM",
-          "18"
-        ],
-        [
-          "2026-07-17",
-          "Alexa Albanese",
-          "8:45 AM",
-          "8:56 AM",
+          "9:56 AM",
           "11"
         ],
         [
-          "2026-07-18",
+          "2026-07-24",
           "Alexa Albanese",
           "8:45 AM",
-          "8:57 AM",
-          "12"
+          "9:04 AM",
+          "19"
+        ],
+        [
+          "2026-07-25",
+          "Alexa Albanese",
+          "8:45 AM",
+          "8:59 AM",
+          "14"
         ]
       ],
-      "count": 4
+      "count": 7
     },
     {
       "id": "long-shifts",
@@ -76,6 +97,15 @@
         ],
         [
           "Evan",
+          "Mon Jul 20",
+          "7:54 AM",
+          "6:02 PM",
+          "10.13",
+          "66.10 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
           "Tue Jul 14",
           "7:55 AM",
           "6:01 PM",
@@ -84,7 +114,7 @@
           "OT"
         ]
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "short-shifts",
@@ -111,8 +141,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "26.63",
+          "15.00",
+          "41.63",
+          "+1.63"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

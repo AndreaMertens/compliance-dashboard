@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-07-17",
-          "Reece Horton",
-          "1:00 PM",
-          "3:47 PM",
-          "167"
-        ],
-        [
-          "2026-07-18",
-          "Val Simanca Delgado",
-          "10:00 AM",
-          "12:59 PM",
-          "179"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -90,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nicholas Compton",
+          "Sat Jul 25",
+          "8.07"
+        ],
+        [
+          "Reece Horton",
+          "Sat Jul 25",
+          "8.13"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

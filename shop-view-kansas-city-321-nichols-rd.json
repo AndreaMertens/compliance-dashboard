@@ -2,10 +2,10 @@
   "meta": {
     "title": "Kansas City - 321 Nichols Rd",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -63,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Aiden Troup",
-          "34.60",
-          "7.50",
-          "42.10",
-          "+2.10"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -83,8 +75,64 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Aiden Troup",
+          "Wed Jul 22",
+          "8.38"
+        ],
+        [
+          "Charles Wolff",
+          "Thu Jul 23",
+          "8.28"
+        ],
+        [
+          "Adam Lansdown",
+          "Thu Jul 23",
+          "5.05"
+        ],
+        [
+          "Aiden Troup",
+          "Thu Jul 23",
+          "9.05"
+        ],
+        [
+          "Charles Wolff",
+          "Fri Jul 24",
+          "8.20"
+        ],
+        [
+          "Adam Lansdown",
+          "Fri Jul 24",
+          "5.18"
+        ],
+        [
+          "Aiden Troup",
+          "Fri Jul 24",
+          "8.25"
+        ],
+        [
+          "Adam Lansdown",
+          "Sat Jul 25",
+          "5.08"
+        ],
+        [
+          "Aiden Troup",
+          "Sat Jul 25",
+          "7.92"
+        ],
+        [
+          "Charles Wolff",
+          "Sun Jul 26",
+          "8.07"
+        ],
+        [
+          "Adam Lansdown",
+          "Sun Jul 26",
+          "7.10"
+        ]
+      ],
+      "count": 11
     }
   ]
 }

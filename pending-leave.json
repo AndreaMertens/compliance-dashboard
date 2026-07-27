@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "9 pending leave requests across 5 shops",
+    "summary_line": "5 pending leave requests across 3 shops",
     "last_refreshed_display": "Data through Tue Jul 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -15,91 +15,53 @@
   ],
   "groups": [
     {
-      "shop": "629 Alexandria",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Darius Barnes",
-          "2026-07-17",
-          "2026-07-18",
-          " "
-        ]
-      ]
-    },
-    {
       "shop": "Birmingham - 141 W Maple",
       "manager": "",
-      "count": 1,
+      "count": 3,
       "rows": [
         [
           "Jordan Dixon",
-          "2026-07-23",
-          "2026-07-23",
-          "Wardrobe styling for a film "
-        ]
-      ]
-    },
-    {
-      "shop": "Chicago - 840 W Armitage",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "Christian Sikorski",
-          "2026-07-23",
-          "2026-07-23",
-          "AG Approved "
+          "2026-07-21",
+          "2026-07-21",
+          "Had doctors appt"
         ],
         [
-          "Christian Sikorski",
-          "2026-07-19",
-          "2026-07-19",
-          "AG Approved "
+          "Jordan Dixon",
+          "2026-07-16",
+          "2026-07-16",
+          "Air quality "
+        ],
+        [
+          "Jordan Dixon",
+          "2026-07-15",
+          "2026-07-15",
+          "Wardrobe styling day "
         ]
       ]
     },
     {
       "shop": "DC - 3101 M St",
       "manager": "",
-      "count": 2,
+      "count": 1,
       "rows": [
         [
           "Bryce Martin",
           "2026-07-23",
           "2026-07-24",
           "To get me to 40 hrs. "
-        ],
-        [
-          "Noah Hoskinson",
-          "2026-06-27",
-          "2026-06-27",
-          "pls"
         ]
       ]
     },
     {
-      "shop": "Denver - 2800 E 2nd Ave",
+      "shop": "Tampa - 2223 N Westshore",
       "manager": "",
-      "count": 3,
+      "count": 1,
       "rows": [
         [
-          "Brian Redington",
-          "2026-07-26",
-          "2026-07-26",
-          "Going to See family"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "2026-07-23",
-          "2026-07-23",
-          "Birthday"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "2026-07-22",
-          "2026-07-22",
-          "Birthday"
+          "Marquis Majors",
+          "2026-07-25",
+          "2026-07-25",
+          "Wedding"
         ]
       ]
     }

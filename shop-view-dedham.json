@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-07-21",
+          "JJ Grainda",
+          "9:00 AM",
+          "9:41 AM",
+          "41"
+        ],
+        [
+          "2026-07-22",
+          "JJ Grainda",
+          "9:00 AM",
+          "9:58 AM",
+          "58"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -42,7 +57,7 @@
           "6:43 AM",
           "5:05 PM",
           "10.37",
-          "74.43 (OT)",
+          "99.56 (OT)",
           "OT"
         ]
       ],

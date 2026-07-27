@@ -2,10 +2,10 @@
   "meta": {
     "title": "7878 Cincinnati",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-07-14",
-          "Kelly Sears",
+          "2026-07-22",
+          "Nicole Scott",
           "10:00 AM",
-          "10:16 AM",
-          "16"
+          "10:12 AM",
+          "12"
         ]
       ],
       "count": 1
@@ -71,8 +71,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Kelly Sears",
+          "22.68",
+          "22.50",
+          "45.18",
+          "+5.18"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

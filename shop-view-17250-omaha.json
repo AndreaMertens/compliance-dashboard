@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "12 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 12
   },
   "tiles": [
     {
@@ -21,21 +21,49 @@
       ],
       "rows": [
         [
-          "2026-07-14",
-          "Christian Van Dam",
-          "8:00 AM",
-          "9:03 AM",
-          "63"
-        ],
-        [
-          "2026-07-18",
+          "2026-07-20",
           "Christian Van Dam",
           "9:00 AM",
-          "9:16 AM",
-          "16"
+          "9:34 AM",
+          "34"
+        ],
+        [
+          "2026-07-21",
+          "Christian Van Dam",
+          "8:00 AM",
+          "8:18 AM",
+          "18"
+        ],
+        [
+          "2026-07-22",
+          "Christian Van Dam",
+          "8:00 AM",
+          "9:41 AM",
+          "101"
+        ],
+        [
+          "2026-07-24",
+          "Christian Van Dam",
+          "8:30 AM",
+          "9:08 AM",
+          "38"
+        ],
+        [
+          "2026-07-25",
+          "Christian Van Dam",
+          "8:30 AM",
+          "6:01 PM",
+          "571"
+        ],
+        [
+          "2026-07-26",
+          "Clark",
+          "11:00 AM",
+          "11:42 AM",
+          "42"
         ]
       ],
-      "count": 2
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -90,8 +118,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sat Jul 25",
+          "0.02"
+        ],
+        [
+          "Clark",
+          "Sat Jul 25",
+          "8.25"
+        ],
+        [
+          "Cieron Hampson",
+          "Sat Jul 25",
+          "5.98"
+        ],
+        [
+          "Clark",
+          "Sun Jul 26",
+          "4.32"
+        ],
+        [
+          "Noah Strako",
+          "Sun Jul 26",
+          "6.17"
+        ],
+        [
+          "Cieron Hampson",
+          "Sun Jul 26",
+          "5.12"
+        ]
+      ],
+      "count": 6
     }
   ]
 }

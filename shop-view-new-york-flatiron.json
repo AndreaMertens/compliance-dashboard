@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - Flatiron",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-07-15",
+          "2026-07-23",
           "Ian Adams",
           "9:00 AM",
-          "8:20 AM",
-          "1400"
+          "10:47 AM",
+          "107"
+        ],
+        [
+          "2026-07-24",
+          "Ian Adams",
+          "9:00 AM",
+          "9:14 AM",
+          "14"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -83,8 +90,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Tyquan Jefferson",
+          "Sun Jul 26",
+          "6.45"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: Jul 27 \u2192 Aug 17, 2026",
-    "summary_line": "4 action needed \u00b7 3 heads up",
-    "last_refreshed_display": "Data through Mon Jul 27, 7:02 AM",
+    "summary_line": "3 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Mon Jul 27, 1:02 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,16 +14,9 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Indianapolis - 8702 Keystone Crossing",
-          "manager": "",
-          "draft_count": 4,
-          "gap_days": 1,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Philadelphia - 1702 Walnut",
           "manager": "",
-          "draft_count": 3,
+          "draft_count": 4,
           "gap_days": 1,
           "lookahead_days": 21
         },
@@ -49,6 +42,13 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 7,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "Boston - 201 Newbury Street",
           "manager": "",
           "draft_count": 4,
@@ -63,9 +63,16 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Fort Lauderdale - 1016 E",
+          "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         }

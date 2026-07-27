@@ -2,10 +2,10 @@
   "meta": {
     "title": "Charleston",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-07-18",
-          "Jarell Davis",
-          "9:00 AM",
-          "9:22 AM",
-          "22"
+          "2026-07-22",
+          "Christian Somma",
+          "8:00 AM",
+          "8:11 AM",
+          "11"
+        ],
+        [
+          "2026-07-26",
+          "Eric",
+          "6:45 AM",
+          "7:40 AM",
+          "55"
+        ],
+        [
+          "2026-07-26",
+          "Eric",
+          "6:45 AM",
+          "7:40 AM",
+          "55"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -71,8 +85,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Madison Tadlock",
+          "23.11",
+          "18.00",
+          "41.11",
+          "+1.11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -83,8 +105,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Eric",
+          "Sun Jul 26",
+          "8.62"
+        ],
+        [
+          "Madison Tadlock",
+          "Sun Jul 26",
+          "9.65"
+        ],
+        [
+          "Ella Valentine",
+          "Sun Jul 26",
+          "9.47"
+        ],
+        [
+          "Jack Silva",
+          "Sun Jul 26",
+          "9.67"
+        ],
+        [
+          "Jarell Davis",
+          "Sun Jul 26",
+          "9.45"
+        ],
+        [
+          "Eric",
+          "Sun Jul 26",
+          "8.62"
+        ]
+      ],
+      "count": 6
     }
   ]
 }
