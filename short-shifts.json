@@ -2,8 +2,8 @@
   "meta": {
     "title": "Short Shifts",
     "subtitle": "Pay period Jul 12 \u2013 Jul 28, 2026",
-    "summary_line": "No approved shifts under 20 minutes this pay period.",
-    "last_refreshed_display": "Data through Fri Jul 24, 2026",
+    "summary_line": "1 approved shift under 20 minutes across 1 shop",
+    "last_refreshed_display": "Data through Tue Jul 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,5 +14,20 @@
     "End",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "Agnes Krol",
+      "count": 1,
+      "rows": [
+        [
+          "Andrea Calderon",
+          "Sun Jul 26",
+          "9:12 AM",
+          "9:13 AM",
+          "0.02"
+        ]
+      ]
+    }
+  ]
 }

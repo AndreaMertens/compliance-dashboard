@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 2 shops",
-    "last_refreshed_display": "Data through Fri Jul 24, 2026",
+    "summary_line": "9 pending leave requests across 5 shops",
+    "last_refreshed_display": "Data through Tue Jul 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -15,10 +15,42 @@
   ],
   "groups": [
     {
-      "shop": "Chicago - 840 W Armitage",
+      "shop": "629 Alexandria",
       "manager": "",
       "count": 1,
       "rows": [
+        [
+          "Darius Barnes",
+          "2026-07-17",
+          "2026-07-18",
+          " "
+        ]
+      ]
+    },
+    {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Jordan Dixon",
+          "2026-07-23",
+          "2026-07-23",
+          "Wardrobe styling for a film "
+        ]
+      ]
+    },
+    {
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Christian Sikorski",
+          "2026-07-23",
+          "2026-07-23",
+          "AG Approved "
+        ],
         [
           "Christian Sikorski",
           "2026-07-19",
@@ -33,16 +65,41 @@
       "count": 2,
       "rows": [
         [
-          "Darius Barnes",
-          "2026-07-17",
-          "2026-07-18",
-          " "
+          "Bryce Martin",
+          "2026-07-23",
+          "2026-07-24",
+          "To get me to 40 hrs. "
         ],
         [
           "Noah Hoskinson",
           "2026-06-27",
           "2026-06-27",
           "pls"
+        ]
+      ]
+    },
+    {
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "",
+      "count": 3,
+      "rows": [
+        [
+          "Brian Redington",
+          "2026-07-26",
+          "2026-07-26",
+          "Going to See family"
+        ],
+        [
+          "Antonio Castaneda Gonzalez",
+          "2026-07-23",
+          "2026-07-23",
+          "Birthday"
+        ],
+        [
+          "Antonio Castaneda Gonzalez",
+          "2026-07-22",
+          "2026-07-22",
+          "Birthday"
         ]
       ]
     }

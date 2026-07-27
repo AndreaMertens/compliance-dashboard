@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of July 13\u201319, 2026",
-    "summary_line": "8 shops \u00b7 38 timecards outstanding",
-    "last_refreshed_display": "Data through Fri Jul 24, 2026",
+    "subtitle": "Week of July 20\u201326, 2026",
+    "summary_line": "27 shops \u00b7 115 timecards outstanding",
+    "last_refreshed_display": "Data through Tue Jul 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,185 +14,587 @@
   ],
   "groups": [
     {
-      "shop": "Chicago - 840 W Armitage",
-      "manager": "Agnes Krol",
-      "count": 13,
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "Haylee Moore",
+      "count": 11,
       "rows": [
         [
-          "Andrea Calderon",
-          "Tue Jul 14",
+          "Aiden Troup",
+          "Wed Jul 22",
+          "8.38"
+        ],
+        [
+          "Charles Wolff",
+          "Thu Jul 23",
+          "8.28"
+        ],
+        [
+          "Adam Lansdown",
+          "Thu Jul 23",
+          "5.05"
+        ],
+        [
+          "Aiden Troup",
+          "Thu Jul 23",
+          "9.05"
+        ],
+        [
+          "Charles Wolff",
+          "Fri Jul 24",
           "8.20"
         ],
         [
-          "Christian Sikorski",
-          "Sat Jul 18",
-          "0.00"
+          "Adam Lansdown",
+          "Fri Jul 24",
+          "5.18"
         ],
         [
-          "Christian Sikorski",
-          "Sat Jul 18",
-          "8.08"
+          "Aiden Troup",
+          "Fri Jul 24",
+          "8.25"
         ],
         [
-          "Viktoriia Fedorchak",
-          "Sat Jul 18",
-          "8.08"
+          "Adam Lansdown",
+          "Sat Jul 25",
+          "5.08"
         ],
         [
-          "Andrew Bell",
-          "Sat Jul 18",
-          "8.23"
+          "Aiden Troup",
+          "Sat Jul 25",
+          "7.92"
         ],
         [
-          "Holden Tamblyn",
-          "Sat Jul 18",
-          "0.00"
-        ],
-        [
-          "Holden Tamblyn",
-          "Sat Jul 18",
-          "6.45"
-        ],
-        [
-          "Donald Crawford",
-          "Sat Jul 18",
-          "7.67"
-        ],
-        [
-          "Jonathan Gunderlach",
-          "Sun Jul 19",
+          "Charles Wolff",
+          "Sun Jul 26",
           "8.07"
         ],
         [
+          "Adam Lansdown",
+          "Sun Jul 26",
+          "7.10"
+        ]
+      ]
+    },
+    {
+      "shop": "Philadelphia - 1702 Walnut",
+      "manager": "Trent Johnson",
+      "count": 9,
+      "rows": [
+        [
+          "Franco Bailey",
+          "Sat Jul 25",
+          "0.00"
+        ],
+        [
+          "Celina Bryant",
+          "Sat Jul 25",
+          "7.93"
+        ],
+        [
+          "Dante Barnes",
+          "Sat Jul 25",
+          "8.17"
+        ],
+        [
+          "Stephen Williams II",
+          "Sat Jul 25",
+          "7.68"
+        ],
+        [
+          "Mate Okros",
+          "Sat Jul 25",
+          "8.72"
+        ],
+        [
+          "Franco Bailey",
+          "Sun Jul 26",
+          "0.00"
+        ],
+        [
+          "Dante Barnes",
+          "Sun Jul 26",
+          "7.73"
+        ],
+        [
+          "Stephen Williams II",
+          "Sun Jul 26",
+          "7.73"
+        ],
+        [
+          "Mate Okros",
+          "Sun Jul 26",
+          "7.62"
+        ]
+      ]
+    },
+    {
+      "shop": "HQ-Non-Kiosk",
+      "manager": "",
+      "count": 9,
+      "rows": [
+        [
+          "Dominic Kowalski",
+          "Mon Jul 20",
+          "5.28"
+        ],
+        [
+          "Natalie Brown",
+          "Tue Jul 21",
+          "7.57"
+        ],
+        [
+          "Dominic Kowalski",
+          "Tue Jul 21",
+          "13.77"
+        ],
+        [
+          "Natalie Brown",
+          "Wed Jul 22",
+          "7.85"
+        ],
+        [
+          "Dominic Kowalski",
+          "Wed Jul 22",
+          "18.90"
+        ],
+        [
+          "Natalie Brown",
+          "Thu Jul 23",
+          "7.53"
+        ],
+        [
+          "Dominic Kowalski",
+          "Thu Jul 23",
+          "8.05"
+        ],
+        [
+          "Natalie Brown",
+          "Fri Jul 24",
+          "7.87"
+        ],
+        [
+          "Dominic Kowalski",
+          "Fri Jul 24",
+          "20.52"
+        ]
+      ]
+    },
+    {
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "Agnes Krol",
+      "count": 9,
+      "rows": [
+        [
+          "Holden Tamblyn",
+          "Mon Jul 20",
+          "0.00"
+        ],
+        [
+          "Holden Tamblyn",
+          "Mon Jul 20",
+          "8.07"
+        ],
+        [
+          "Holden Tamblyn",
+          "Tue Jul 21",
+          "8.08"
+        ],
+        [
+          "Andrea Calderon",
+          "Sat Jul 25",
+          "8.07"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sat Jul 25",
+          "7.92"
+        ],
+        [
           "Andrew Bell",
-          "Sun Jul 19",
+          "Sat Jul 25",
+          "6.10"
+        ],
+        [
+          "Christian Sikorski",
+          "Sun Jul 26",
           "0.00"
         ],
         [
           "Andrew Bell",
-          "Sun Jul 19",
-          "7.97"
+          "Sun Jul 26",
+          "0.00"
         ],
         [
-          "Holden Tamblyn",
-          "Sun Jul 19",
-          "8.10"
+          "Andrew Bell",
+          "Sun Jul 26",
+          "8.08"
+        ]
+      ]
+    },
+    {
+      "shop": "Scottsdale - Scottsdale Quarte",
+      "manager": "Matt Russell",
+      "count": 7,
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Sat Jul 25",
+          "10.05"
         ],
         [
-          "Donald Crawford",
-          "Sun Jul 19",
-          "7.70"
+          "William Green",
+          "Sat Jul 25",
+          "10.12"
+        ],
+        [
+          "Marco Galindo",
+          "Sat Jul 25",
+          "8.18"
+        ],
+        [
+          "William Green",
+          "Sun Jul 26",
+          "8.65"
+        ],
+        [
+          "Ryland",
+          "Sun Jul 26",
+          "8.15"
+        ],
+        [
+          "Hansi Ebert-Sexauer",
+          "Sun Jul 26",
+          "8.60"
+        ],
+        [
+          "Jules",
+          "Sun Jul 26",
+          "8.07"
+        ]
+      ]
+    },
+    {
+      "shop": "Dallas - 3699 McKinney",
+      "manager": "Miguel Trevino-Martinez",
+      "count": 7,
+      "rows": [
+        [
+          "Dawson Plott",
+          "Sat Jul 25",
+          "8.35"
+        ],
+        [
+          "Cole Graham",
+          "Sat Jul 25",
+          "8.03"
+        ],
+        [
+          "Aaron Flores",
+          "Sat Jul 25",
+          "7.93"
+        ],
+        [
+          "Kweshaan Thomas",
+          "Sat Jul 25",
+          "8.33"
+        ],
+        [
+          "Cole Graham",
+          "Sun Jul 26",
+          "8.17"
+        ],
+        [
+          "Aaron Flores",
+          "Sun Jul 26",
+          "8.05"
+        ],
+        [
+          "Kweshaan Thomas",
+          "Sun Jul 26",
+          "8.30"
         ]
       ]
     },
     {
       "shop": "DC - 3101 M St",
       "manager": "Danny Ismail",
-      "count": 8,
+      "count": 7,
       "rows": [
         [
-          "Bryce Martin",
-          "Fri Jul 17",
-          "4.75"
+          "Yotwarit Kornwoodtikun",
+          "Thu Jul 23",
+          "7.78"
+        ],
+        [
+          "Micah Wheeler",
+          "Thu Jul 23",
+          "8.32"
         ],
         [
           "Yotwarit Kornwoodtikun",
-          "Fri Jul 17",
-          "8.35"
+          "Fri Jul 24",
+          "7.88"
         ],
         [
-          "Bryce Martin",
-          "Sat Jul 18",
-          "8.93"
-        ],
-        [
-          "Molly Wilgus",
-          "Sat Jul 18",
-          "4.33"
+          "Yotwarit Kornwoodtikun",
+          "Sat Jul 25",
+          "8.47"
         ],
         [
           "Micah Wheeler",
-          "Sat Jul 18",
-          "8.53"
-        ],
-        [
-          "Bryce Martin",
-          "Sun Jul 19",
-          "8.33"
+          "Sat Jul 25",
+          "8.57"
         ],
         [
           "Molly Wilgus",
-          "Sun Jul 19",
-          "7.13"
+          "Sun Jul 26",
+          "8.10"
         ],
         [
           "Micah Wheeler",
-          "Sun Jul 19",
-          "9.52"
+          "Sun Jul 26",
+          "8.40"
         ]
       ]
     },
     {
-      "shop": "1151 Roseville",
-      "manager": "Markisha Lauderdale",
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "Nathan Mylenek",
       "count": 6,
       "rows": [
         [
-          "Danielle Woody",
-          "Fri Jul 17",
-          "8.03"
+          "Brian Redington",
+          "Sat Jul 25",
+          "8.33"
         ],
         [
-          "Inessa Samusenko",
-          "Fri Jul 17",
-          "8.03"
+          "Antonio Castaneda Gonzalez",
+          "Sat Jul 25",
+          "8.33"
         ],
         [
-          "Danielle Woody",
-          "Sat Jul 18",
-          "8.03"
+          "Alex Cichy",
+          "Sat Jul 25",
+          "8.07"
         ],
         [
-          "Inessa Samusenko",
-          "Sat Jul 18",
-          "7.98"
+          "Antonio Castaneda Gonzalez",
+          "Sun Jul 26",
+          "8.32"
         ],
         [
-          "Inessa Samusenko",
-          "Sun Jul 19",
-          "7.80"
+          "Peter Kitt",
+          "Sun Jul 26",
+          "8.18"
         ],
         [
-          "Sasha Jones",
-          "Sun Jul 19",
-          "7.80"
+          "Alex Cichy",
+          "Sun Jul 26",
+          "8.08"
+        ]
+      ]
+    },
+    {
+      "shop": "Charleston",
+      "manager": "Travis Evans",
+      "count": 6,
+      "rows": [
+        [
+          "Eric",
+          "Sun Jul 26",
+          "8.62"
+        ],
+        [
+          "Madison Tadlock",
+          "Sun Jul 26",
+          "9.65"
+        ],
+        [
+          "Ella Valentine",
+          "Sun Jul 26",
+          "9.47"
+        ],
+        [
+          "Jack Silva",
+          "Sun Jul 26",
+          "9.67"
+        ],
+        [
+          "Jarell Davis",
+          "Sun Jul 26",
+          "9.45"
+        ],
+        [
+          "Eric",
+          "Sun Jul 26",
+          "8.62"
+        ]
+      ]
+    },
+    {
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
+      "count": 6,
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sat Jul 25",
+          "0.02"
+        ],
+        [
+          "Clark",
+          "Sat Jul 25",
+          "8.25"
+        ],
+        [
+          "Cieron Hampson",
+          "Sat Jul 25",
+          "5.98"
+        ],
+        [
+          "Clark",
+          "Sun Jul 26",
+          "4.32"
+        ],
+        [
+          "Noah Strako",
+          "Sun Jul 26",
+          "6.17"
+        ],
+        [
+          "Cieron Hampson",
+          "Sun Jul 26",
+          "5.12"
         ]
       ]
     },
     {
       "shop": "Fort Lauderdale - 1016 E",
       "manager": "Ana Cintron, Tyler Kipilman",
-      "count": 4,
+      "count": 5,
       "rows": [
         [
           "Liss Llerena",
-          "Sun Jul 19",
-          "8.15"
+          "Fri Jul 24",
+          "7.63"
+        ],
+        [
+          "Roxana Artiles",
+          "Fri Jul 24",
+          "7.43"
         ],
         [
           "farhan Khandaker",
-          "Sun Jul 19",
-          "4.18"
+          "Fri Jul 24",
+          "8.12"
         ],
         [
           "Bryan Appleby",
-          "Sun Jul 19",
-          "7.93"
+          "Fri Jul 24",
+          "8.08"
         ],
         [
-          "Sophia Behar",
-          "Sun Jul 19",
-          "8.00"
+          "Ceara McKegney",
+          "Fri Jul 24",
+          "7.62"
+        ]
+      ]
+    },
+    {
+      "shop": "Walnut Creek - 147 Broadway",
+      "manager": "Ariana Diaz, Mirna Rosales, Jacquam Blue",
+      "count": 4,
+      "rows": [
+        [
+          "Abraham Boyd",
+          "Sat Jul 25",
+          "8.35"
+        ],
+        [
+          "Keith Newell",
+          "Sat Jul 25",
+          "7.48"
+        ],
+        [
+          "Abraham Boyd",
+          "Sun Jul 26",
+          "7.00"
+        ],
+        [
+          "Jeremy Raymer",
+          "Sun Jul 26",
+          "6.72"
+        ]
+      ]
+    },
+    {
+      "shop": "1151 Roseville",
+      "manager": "Markisha Lauderdale",
+      "count": 4,
+      "rows": [
+        [
+          "Danielle Woody",
+          "Sat Jul 25",
+          "8.12"
+        ],
+        [
+          "Danielle Woody",
+          "Sun Jul 26",
+          "8.25"
+        ],
+        [
+          "Inessa Samusenko",
+          "Sun Jul 26",
+          "7.83"
+        ],
+        [
+          "Sasha Jones",
+          "Sun Jul 26",
+          "8.27"
+        ]
+      ]
+    },
+    {
+      "shop": "Westport - 72 Main St",
+      "manager": "Charlie Tauck",
+      "count": 3,
+      "rows": [
+        [
+          "Trey",
+          "Sun Jul 26",
+          "8.15"
+        ],
+        [
+          "Ethan Platt",
+          "Sun Jul 26",
+          "8.28"
+        ],
+        [
+          "Jake Friedland",
+          "Sun Jul 26",
+          "8.22"
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "Mira Chong",
+      "count": 3,
+      "rows": [
+        [
+          "Elias Salgado",
+          "Sun Jul 26",
+          "5.32"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Jul 26",
+          "3.48"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sun Jul 26",
+          "4.95"
         ]
       ]
     },
@@ -202,60 +604,176 @@
       "count": 3,
       "rows": [
         [
-          "Matthew Lumsden",
-          "Sat Jul 18",
-          "8.20"
-        ],
-        [
           "Leeanna Wright",
-          "Sun Jul 19",
-          "6.43"
+          "Sun Jul 26",
+          "6.35"
         ],
         [
-          "Matthew Lumsden",
-          "Sun Jul 19",
-          "6.40"
+          "Crystal Brooks",
+          "Sun Jul 26",
+          "6.27"
+        ],
+        [
+          "Dylan",
+          "Sun Jul 26",
+          "5.85"
         ]
       ]
     },
     {
-      "shop": "10250 Century City",
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "Taylor Chase, Marquis Majors",
+      "count": 2,
+      "rows": [
+        [
+          "Antowane Oliver",
+          "Sun Jul 26",
+          "5.33"
+        ],
+        [
+          "Jhaidyn Brown",
+          "Sun Jul 26",
+          "7.32"
+        ]
+      ]
+    },
+    {
+      "shop": "Salt Lake City - 50 E Main St. N",
+      "manager": "Nathan Smith, Ashley Gabrielsen",
+      "count": 2,
+      "rows": [
+        [
+          "Nicholas Compton",
+          "Sat Jul 25",
+          "8.07"
+        ],
+        [
+          "Reece Horton",
+          "Sat Jul 25",
+          "8.13"
+        ]
+      ]
+    },
+    {
+      "shop": "Indianapolis - 8702 Keystone Crossing",
+      "manager": "Alisha Reeve",
+      "count": 2,
+      "rows": [
+        [
+          "Jakob Poore",
+          "Sun Jul 26",
+          "6.07"
+        ],
+        [
+          "William Donovan",
+          "Sun Jul 26",
+          "6.18"
+        ]
+      ]
+    },
+    {
+      "shop": "2900 Minneapolis",
       "manager": "",
       "count": 2,
       "rows": [
         [
-          "Marcus Karlsson",
-          "Sat Jul 18",
-          "7.98"
+          "Christian Horn",
+          "Sun Jul 26",
+          "7.17"
         ],
         [
-          "Marcus Karlsson",
-          "Sun Jul 19",
-          "8.02"
+          "Ethan Silverman",
+          "Sun Jul 26",
+          "7.33"
         ]
       ]
     },
     {
-      "shop": "Manhattan Beach - The Point",
-      "manager": "Gabriel Lujan, Kellen Slattery",
+      "shop": "1425 Basecamp",
+      "manager": "Sarah McCaw",
+      "count": 2,
+      "rows": [
+        [
+          "Justin Wascher",
+          "Sat Jul 25",
+          "8.25"
+        ],
+        [
+          "Justin Wascher",
+          "Sun Jul 26",
+          "8.28"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - Flatiron",
+      "manager": "Carly Radin",
       "count": 1,
       "rows": [
         [
-          "Christina Byrd",
-          "Sun Jul 19",
+          "Tyquan Jefferson",
+          "Sun Jul 26",
+          "6.45"
+        ]
+      ]
+    },
+    {
+      "shop": "La Jolla - 7857 Girard Ave",
+      "manager": "Anthony Perez Avila",
+      "count": 1,
+      "rows": [
+        [
+          "Casey Sandoval",
+          "Sun Jul 26",
+          "5.93"
+        ]
+      ]
+    },
+    {
+      "shop": "Cleveland - 251 Main Street",
+      "manager": "Will Gray",
+      "count": 1,
+      "rows": [
+        [
+          "Brenna Roberts",
+          "Sun Jul 26",
+          "7.23"
+        ]
+      ]
+    },
+    {
+      "shop": "7878 Cincinnati",
+      "manager": "Elie Tebcherani",
+      "count": 1,
+      "rows": [
+        [
+          "Kelly Sears",
+          "Sun Jul 26",
+          "6.38"
+        ]
+      ]
+    },
+    {
+      "shop": "234 Bellevue Square",
+      "manager": "Jack Werner",
+      "count": 1,
+      "rows": [
+        [
+          "Daylon Johnson",
+          "Sun Jul 26",
           "8.60"
         ]
       ]
     },
     {
-      "shop": "Birmingham - 141 W Maple",
-      "manager": "Ian Draft",
+      "shop": "122 Lexington",
+      "manager": "Craig Somma",
       "count": 1,
       "rows": [
         [
-          "Lance Minor",
-          "Sat Jul 18",
-          "8.00"
+          "Gabrielle",
+          "Sun Jul 26",
+          "5.17"
         ]
       ]
     }
