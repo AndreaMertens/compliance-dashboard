@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "12 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 12
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -49,13 +49,6 @@
           "38"
         ],
         [
-          "2026-07-25",
-          "Christian Van Dam",
-          "8:30 AM",
-          "6:01 PM",
-          "571"
-        ],
-        [
           "2026-07-26",
           "Clark",
           "11:00 AM",
@@ -63,7 +56,7 @@
           "42"
         ]
       ],
-      "count": 6
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -118,39 +111,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Christian Van Dam",
-          "Sat Jul 25",
-          "0.02"
-        ],
-        [
-          "Clark",
-          "Sat Jul 25",
-          "8.25"
-        ],
-        [
-          "Cieron Hampson",
-          "Sat Jul 25",
-          "5.98"
-        ],
-        [
-          "Clark",
-          "Sun Jul 26",
-          "4.32"
-        ],
-        [
-          "Noah Strako",
-          "Sun Jul 26",
-          "6.17"
-        ],
-        [
-          "Cieron Hampson",
-          "Sun Jul 26",
-          "5.12"
-        ]
-      ],
-      "count": 6
+      "rows": [],
+      "count": 0
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "5 pending leave requests across 3 shops",
-    "last_refreshed_display": "Data through Tue Jul 28, 2026",
+    "summary_line": "No pending leave \u2014 all caught up",
+    "last_refreshed_display": "Data through Wed Jul 29, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,57 +13,5 @@
     "Date End",
     "Note"
   ],
-  "groups": [
-    {
-      "shop": "Birmingham - 141 W Maple",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "Jordan Dixon",
-          "2026-07-21",
-          "2026-07-21",
-          "Had doctors appt"
-        ],
-        [
-          "Jordan Dixon",
-          "2026-07-16",
-          "2026-07-16",
-          "Air quality "
-        ],
-        [
-          "Jordan Dixon",
-          "2026-07-15",
-          "2026-07-15",
-          "Wardrobe styling day "
-        ]
-      ]
-    },
-    {
-      "shop": "DC - 3101 M St",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Bryce Martin",
-          "2026-07-23",
-          "2026-07-24",
-          "To get me to 40 hrs. "
-        ]
-      ]
-    },
-    {
-      "shop": "Tampa - 2223 N Westshore",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Marquis Majors",
-          "2026-07-25",
-          "2026-07-25",
-          "Wedding"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }
