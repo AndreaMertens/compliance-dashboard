@@ -304,9 +304,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 9,
+      "metric": 6,
       "metric_unit": "shops",
-      "description": "19 timecards still unapproved across the full pay period.",
+      "description": "9 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -315,60 +315,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Christian Horn",
-          "2900 Minneapolis",
-          "2026-07-26",
-          "7.17h"
-        ],
-        [
-          "Ethan Silverman",
-          "2900 Minneapolis",
-          "2026-07-26",
-          "7.33h"
-        ],
-        [
-          "Grant Fuller",
-          "2900 Minneapolis",
-          "2026-07-28",
-          "8.30h"
-        ],
-        [
-          "Grant Fuller",
-          "2900 Minneapolis",
-          "2026-07-28",
-          "8.30h"
-        ],
-        [
-          "Samantha Naill",
-          "2900 Minneapolis",
-          "2026-07-28",
-          "4.25h"
-        ],
-        [
-          "Ethan Silverman",
-          "2900 Minneapolis",
-          "2026-07-28",
-          "8.23h"
-        ],
-        [
-          "Christian Bussman",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-07-28",
-          "7.97h"
-        ],
-        [
-          "Parker Dean",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-07-28",
-          "8.02h"
-        ],
-        [
-          "William Donovan",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-07-28",
-          "6.23h"
-        ],
         [
           "Justin Wascher",
           "1425 Basecamp",
@@ -388,16 +334,16 @@
           "8.53h"
         ],
         [
-          "Michael",
-          "Cleveland - 251 Main Street",
-          "2026-07-28",
-          "8.27h"
+          "Christian Horn",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "7.17h"
         ],
         [
-          "Michael",
-          "Cleveland - 251 Main Street",
-          "2026-07-28",
-          "8.27h"
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "7.33h"
         ],
         [
           "Jeremy Raymer",
@@ -416,12 +362,6 @@
           "La Jolla - 7857 Girard Ave",
           "2026-07-28",
           "7.50h"
-        ],
-        [
-          "Micah Wheeler",
-          "DC - 3101 M St",
-          "2026-07-28",
-          "8.35h"
         ],
         [
           "Ross Graham",
@@ -451,7 +391,7 @@
       "title": "Penalty Pay",
       "metric": 3,
       "metric_unit": "shops",
-      "description": "119 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "description": "131 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1281,9 +1221,93 @@
           "0.00h"
         ],
         [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
           "Christian Sikorski",
           "333 Milwaukee",
           "2026-07-26",
+          "SCHEDULE PREMIUM - 14 DAYS",
+          "0.00h"
+        ],
+        [
+          "Christian Sikorski",
+          "333 Milwaukee",
+          "2026-07-27",
+          "SCHEDULE PREMIUM - 14 DAYS",
+          "0.00h"
+        ],
+        [
+          "Christian Sikorski",
+          "333 Milwaukee",
+          "2026-07-28",
           "SCHEDULE PREMIUM - 14 DAYS",
           "0.00h"
         ],
@@ -1299,7 +1323,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 2090,
+      "metric": 2098,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 46 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -2769,6 +2793,12 @@
           "8.23h"
         ],
         [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "8.23h"
+        ],
+        [
           "Grant Fuller",
           "2900 Minneapolis",
           "2026-07-13",
@@ -2833,6 +2863,12 @@
           "2900 Minneapolis",
           "2026-07-27",
           "8.25h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "8.30h"
         ],
         [
           "Olivia Hubbard",
@@ -2911,6 +2947,12 @@
           "2900 Minneapolis",
           "2026-07-27",
           "8.22h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-07-28",
+          "4.25h"
         ],
         [
           "Amelia Wagner",
@@ -5799,6 +5841,12 @@
           "8.38h"
         ],
         [
+          "Michael",
+          "Cleveland - 251 Main Street",
+          "2026-07-28",
+          "8.27h"
+        ],
+        [
           "Bryce Martin",
           "DC - 3101 M St",
           "2026-07-13",
@@ -5929,6 +5977,12 @@
           "DC - 3101 M St",
           "2026-07-27",
           "8.82h"
+        ],
+        [
+          "Micah Wheeler",
+          "DC - 3101 M St",
+          "2026-07-28",
+          "8.35h"
         ],
         [
           "Molly Wilgus",
@@ -9990,7 +10044,7 @@
           "Dominic Kowalski",
           "HQ-Non-Kiosk",
           "2026-07-16",
-          "3.00h"
+          "4.50h"
         ],
         [
           "Dominic Kowalski",
@@ -10050,7 +10104,7 @@
           "Guy Williams ii",
           "HQ-Non-Kiosk",
           "2026-07-15",
-          "12.45h"
+          "17.75h"
         ],
         [
           "Natalie Brown",
@@ -10335,6 +10389,12 @@
           "8.00h"
         ],
         [
+          "Christian Bussman",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-07-28",
+          "7.97h"
+        ],
+        [
           "Jacob",
           "Indianapolis - 8702 Keystone Crossing",
           "2026-07-12",
@@ -10527,6 +10587,12 @@
           "0.50h"
         ],
         [
+          "Parker Dean",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-07-28",
+          "8.02h"
+        ],
+        [
           "William Donovan",
           "Indianapolis - 8702 Keystone Crossing",
           "2026-07-19",
@@ -10573,6 +10639,12 @@
           "Indianapolis - 8702 Keystone Crossing",
           "2026-07-28",
           "0.50h"
+        ],
+        [
+          "William Donovan",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-07-28",
+          "6.23h"
         ],
         [
           "Adam Lansdown",
