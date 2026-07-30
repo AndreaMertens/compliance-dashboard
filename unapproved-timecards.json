@@ -2,7 +2,7 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of July 20\u201326, 2026",
-    "summary_line": "2 shops \u00b7 4 timecards outstanding",
+    "summary_line": "No outstanding timecards.",
     "last_refreshed_display": "Data through Wed Jul 29, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -12,40 +12,5 @@
     "Date",
     "Hours"
   ],
-  "groups": [
-    {
-      "shop": "2900 Minneapolis",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "Christian Horn",
-          "Sun Jul 26",
-          "7.17"
-        ],
-        [
-          "Ethan Silverman",
-          "Sun Jul 26",
-          "7.33"
-        ]
-      ]
-    },
-    {
-      "shop": "1425 Basecamp",
-      "manager": "Sarah McCaw",
-      "count": 2,
-      "rows": [
-        [
-          "Justin Wascher",
-          "Sat Jul 25",
-          "8.25"
-        ],
-        [
-          "Justin Wascher",
-          "Sun Jul 26",
-          "8.28"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

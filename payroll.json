@@ -4,7 +4,7 @@
     "check_label": "Jul 31, 2026",
     "period_start": "2026-07-12",
     "period_end": "2026-07-28",
-    "last_refreshed_display": "Generated Wed Jul 29, 2026"
+    "last_refreshed_display": "Generated Thu Jul 30, 2026"
   },
   "tiles": [
     {
@@ -304,72 +304,17 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 6,
+      "metric": 0,
       "metric_unit": "shops",
-      "description": "9 timecards still unapproved across the full pay period.",
-      "status": "attention",
+      "description": "0 timecards still unapproved across the full pay period.",
+      "status": "good",
       "columns": [
         "Employee",
         "Shop",
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Justin Wascher",
-          "1425 Basecamp",
-          "2026-07-25",
-          "8.25h"
-        ],
-        [
-          "Justin Wascher",
-          "1425 Basecamp",
-          "2026-07-26",
-          "8.28h"
-        ],
-        [
-          "Connor Dominiec",
-          "1425 Basecamp",
-          "2026-07-28",
-          "8.53h"
-        ],
-        [
-          "Christian Horn",
-          "2900 Minneapolis",
-          "2026-07-26",
-          "7.17h"
-        ],
-        [
-          "Ethan Silverman",
-          "2900 Minneapolis",
-          "2026-07-26",
-          "7.33h"
-        ],
-        [
-          "Jeremy Raymer",
-          "Walnut Creek - 147 Broadway",
-          "2026-07-28",
-          "7.53h"
-        ],
-        [
-          "Christina Byrd",
-          "Manhattan Beach - The Point",
-          "2026-07-28",
-          "8.72h"
-        ],
-        [
-          "Kayla Hackney",
-          "La Jolla - 7857 Girard Ave",
-          "2026-07-28",
-          "7.50h"
-        ],
-        [
-          "Ross Graham",
-          "10250 Century City",
-          "2026-07-28",
-          "8.48h"
-        ]
-      ]
+      "rows": []
     },
     {
       "id": "payroll-pending-leave",
@@ -391,7 +336,7 @@
       "title": "Penalty Pay",
       "metric": 3,
       "metric_unit": "shops",
-      "description": "131 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "description": "135 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1137,6 +1082,34 @@
           "0.00h"
         ],
         [
+          "Christian Horn",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Christian Horn",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
           "Grant Fuller",
           "2900 Minneapolis",
           "2026-07-27",
@@ -1323,7 +1296,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 2098,
+      "metric": 2108,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 46 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -1548,6 +1521,12 @@
           "Ross Graham",
           "10250 Century City",
           "2026-07-25",
+          "8.00h"
+        ],
+        [
+          "Ross Graham",
+          "10250 Century City",
+          "2026-07-28",
           "8.00h"
         ],
         [
@@ -2277,6 +2256,12 @@
           "8.27h"
         ],
         [
+          "Connor Dominiec",
+          "1425 Basecamp",
+          "2026-07-28",
+          "8.53h"
+        ],
+        [
           "Justin Wascher",
           "1425 Basecamp",
           "2026-07-12",
@@ -2329,6 +2314,24 @@
           "1425 Basecamp",
           "2026-07-24",
           "7.98h"
+        ],
+        [
+          "Justin Wascher",
+          "1425 Basecamp",
+          "2026-07-25",
+          "8.25h"
+        ],
+        [
+          "Justin Wascher",
+          "1425 Basecamp",
+          "2026-07-26",
+          "8.28h"
+        ],
+        [
+          "Justin Wascher",
+          "1425 Basecamp",
+          "2026-07-28",
+          "1.50h"
         ],
         [
           "Cieron Hampson",
@@ -2739,6 +2742,12 @@
           "8.00h"
         ],
         [
+          "Christian Horn",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "7.17h"
+        ],
+        [
           "Ethan Silverman",
           "2900 Minneapolis",
           "2026-07-12",
@@ -2791,6 +2800,12 @@
           "2900 Minneapolis",
           "2026-07-25",
           "8.23h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-07-26",
+          "7.33h"
         ],
         [
           "Ethan Silverman",
@@ -11067,6 +11082,12 @@
           "7.73h"
         ],
         [
+          "Kayla Hackney",
+          "La Jolla - 7857 Girard Ave",
+          "2026-07-28",
+          "7.88h"
+        ],
+        [
           "Maximilian Pinto",
           "La Jolla - 7857 Girard Ave",
           "2026-07-12",
@@ -11196,6 +11217,12 @@
           "Christina Byrd",
           "Manhattan Beach - The Point",
           "2026-07-27",
+          "8.00h"
+        ],
+        [
+          "Christina Byrd",
+          "Manhattan Beach - The Point",
+          "2026-07-28",
           "8.00h"
         ],
         [
@@ -13573,6 +13600,12 @@
           "Walnut Creek - 147 Broadway",
           "2026-07-27",
           "7.57h"
+        ],
+        [
+          "Jeremy Raymer",
+          "Walnut Creek - 147 Broadway",
+          "2026-07-28",
+          "7.53h"
         ],
         [
           "Keith Newell",
