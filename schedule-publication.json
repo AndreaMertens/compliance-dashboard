@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Aug 1 \u2192 Aug 22, 2026",
-    "summary_line": "1 action needed \u00b7 7 heads up",
-    "last_refreshed_display": "Data through Sat Aug 1, 8:03 AM",
+    "subtitle": "Window: Aug 4 \u2192 Aug 25, 2026",
+    "summary_line": "6 action needed \u00b7 3 heads up",
+    "last_refreshed_display": "Data through Tue Aug 4, 10:08 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,9 +16,44 @@
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 10,
-          "gap_days": 6,
+          "draft_count": 11,
+          "gap_days": 7,
           "lookahead_days": 21
+        },
+        {
+          "shop": "Houston - 888 Westheimer",
+          "manager": "",
+          "draft_count": 9,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 8,
+          "gap_days": 2,
+          "lookahead_days": 21
+        },
+        {
+          "shop": "2900 Minneapolis",
+          "manager": "",
+          "draft_count": 4,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 24,
+          "gap_days": 1,
+          "lookahead_days": 14
         }
       ]
     },
@@ -28,53 +63,25 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Fort Lauderdale - 1016 E",
+          "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 8,
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "1151 Roseville",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "333 Milwaukee",
-          "manager": "",
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
-        },
-        {
-          "shop": "Denver - 2800 E 2nd Ave",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "New York - Flatiron",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 21
         }
       ]
     }

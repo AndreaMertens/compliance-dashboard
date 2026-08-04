@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,39 +21,39 @@
       ],
       "rows": [
         [
-          "2026-07-20",
+          "2026-07-27",
           "Christian Van Dam",
           "9:00 AM",
-          "9:34 AM",
-          "34"
+          "9:25 AM",
+          "25"
         ],
         [
-          "2026-07-21",
+          "2026-07-28",
           "Christian Van Dam",
           "8:00 AM",
-          "8:18 AM",
-          "18"
+          "9:47 AM",
+          "107"
         ],
         [
-          "2026-07-22",
+          "2026-07-29",
           "Christian Van Dam",
           "8:00 AM",
-          "9:41 AM",
-          "101"
+          "9:33 AM",
+          "93"
         ],
         [
-          "2026-07-24",
+          "2026-07-31",
           "Christian Van Dam",
           "8:30 AM",
-          "9:08 AM",
-          "38"
+          "9:10 AM",
+          "40"
         ],
         [
-          "2026-07-26",
-          "Clark",
-          "11:00 AM",
-          "11:42 AM",
-          "42"
+          "2026-08-01",
+          "Christian Van Dam",
+          "8:30 AM",
+          "9:42 AM",
+          "72"
         ]
       ],
       "count": 5
@@ -71,8 +71,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Thu Jul 30",
+          "8:10 AM",
+          "6:13 PM",
+          "10.05",
+          "46.01 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -99,8 +109,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Clark",
+          "22.31",
+          "21.00",
+          "43.31",
+          "+3.31"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

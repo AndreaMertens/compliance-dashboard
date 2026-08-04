@@ -2,10 +2,10 @@
   "meta": {
     "title": "333 Milwaukee",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -35,18 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Amelia Wagner",
-          "Tue Jul 28",
-          "8:26 AM",
-          "6:43 PM",
-          "10.28",
-          "69.71 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -85,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Sikorski",
+          "Sat Aug 1",
+          "8.52"
+        ],
+        [
+          "Amelia Wagner",
+          "Sat Aug 1",
+          "8.22"
+        ],
+        [
+          "Christian Sikorski",
+          "Sun Aug 2",
+          "7.48"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

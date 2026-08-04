@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-08-01",
+          "Jose Cruz",
+          "8:00 AM",
+          "10:33 AM",
+          "153"
+        ],
+        [
+          "2026-08-02",
+          "Trent Bansak",
+          "8:00 AM",
+          "8:56 AM",
+          "56"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",

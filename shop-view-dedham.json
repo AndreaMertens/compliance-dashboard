@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -21,21 +21,49 @@
       ],
       "rows": [
         [
-          "2026-07-21",
-          "JJ Grainda",
+          "2026-07-28",
+          "Jared Radovsky",
           "9:00 AM",
-          "9:41 AM",
-          "41"
+          "9:45 AM",
+          "45"
         ],
         [
-          "2026-07-22",
+          "2026-07-29",
           "JJ Grainda",
           "9:00 AM",
           "9:58 AM",
           "58"
+        ],
+        [
+          "2026-07-30",
+          "Nolan Cahill",
+          "9:00 AM",
+          "11:55 AM",
+          "175"
+        ],
+        [
+          "2026-07-30",
+          "Mike Spinelli",
+          "9:00 AM",
+          "9:43 AM",
+          "43"
+        ],
+        [
+          "2026-07-30",
+          "Cooper Betancourt",
+          "9:00 AM",
+          "9:11 AM",
+          "11"
+        ],
+        [
+          "2026-08-02",
+          "Jabraun Johnson",
+          "9:00 AM",
+          "9:38 AM",
+          "38"
         ]
       ],
-      "count": 2
+      "count": 6
     },
     {
       "id": "long-shifts",
@@ -50,18 +78,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Dillon Stanas",
-          "Mon Jul 13",
-          "6:43 AM",
-          "5:05 PM",
-          "10.37",
-          "100.28 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -100,8 +118,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jabraun Johnson",
+          "Sun Aug 2",
+          "6.55"
+        ],
+        [
+          "Ethan Jean",
+          "Sun Aug 2",
+          "7.28"
+        ],
+        [
+          "Dillon Stanas",
+          "Sun Aug 2",
+          "7.43"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

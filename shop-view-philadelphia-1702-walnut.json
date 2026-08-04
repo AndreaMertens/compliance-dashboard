@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-07-20",
-          "Dante Barnes",
-          "7:15 AM",
-          "7:28 AM",
-          "13"
-        ],
-        [
-          "2026-07-25",
-          "Stephen Williams II",
-          "8:00 AM",
-          "8:22 AM",
-          "22"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -50,18 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Dante Barnes",
-          "Thu Jul 16",
-          "6:30 AM",
-          "4:57 PM",
-          "10.45",
-          "100.65 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -77,27 +52,34 @@
       "rows": [
         [
           "Franco Bailey",
-          "Sun Jul 26",
+          "Thu Jul 30",
           "10:00 PM",
           "10:00 PM",
           "0.00"
         ],
         [
           "Franco Bailey",
-          "Mon Jul 27",
+          "Sat Aug 1",
           "10:00 PM",
           "10:00 PM",
           "0.00"
         ],
         [
           "Franco Bailey",
-          "Tue Jul 28",
+          "Sun Aug 2",
+          "10:00 PM",
+          "10:00 PM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Mon Aug 3",
           "10:00 PM",
           "10:00 PM",
           "0.00"
         ]
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "over-40-vacation",
@@ -122,8 +104,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Fabio Santos Panisson",
+          "Sat Aug 1",
+          "0.00"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

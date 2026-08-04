@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-07-26",
-          "Inessa Samusenko",
-          "11:15 AM",
-          "11:43 AM",
-          "28"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,18 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Danielle Woody",
-          "Wed Jul 22",
-          "9:45 AM",
-          "9:00 PM",
-          "10.73",
-          "73.91 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -93,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Inessa Samusenko",
+          "Sun Aug 2",
+          "7.88"
+        ],
+        [
+          "Sasha Jones",
+          "Sun Aug 2",
+          "7.77"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

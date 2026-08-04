@@ -2,10 +2,10 @@
   "meta": {
     "title": "Ann Arbor - 212 S Main",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -75,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ravon Gillum Jr",
+          "Sun Aug 2",
+          "8.33"
+        ],
+        [
+          "Zachery Linfield",
+          "Sun Aug 2",
+          "6.12"
+        ]
+      ],
+      "count": 2
     }
   ]
 }
