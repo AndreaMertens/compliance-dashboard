@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-07-30",
+          "2026-08-05",
           "Evan",
-          "8:45 AM",
-          "8:57 AM",
-          "12"
-        ],
-        [
-          "2026-08-02",
-          "Evan",
-          "8:45 AM",
-          "9:05 AM",
-          "20"
+          "10:45 AM",
+          "10:59 AM",
+          "14"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -50,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "Tue Aug 4",
+          "9:55 AM",
+          "8:37 PM",
+          "10.70",
+          "68.14 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Thu Aug 6",
+          "9:55 AM",
+          "8:03 PM",
+          "10.13",
+          "68.14 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -78,8 +90,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Evan",
+          "35.96",
+          "10.25",
+          "46.21",
+          "+6.21"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

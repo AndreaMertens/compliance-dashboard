@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of Jul 27 \u2013 Aug 2, 2026",
-    "summary_line": "2 shops \u00b7 7 timecards outstanding",
-    "last_refreshed_display": "Data through Tue Aug 11, 2026",
+    "subtitle": "Week of August 3\u20139, 2026",
+    "summary_line": "No outstanding timecards.",
+    "last_refreshed_display": "Data through Wed Aug 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,55 +12,5 @@
     "Date",
     "Hours"
   ],
-  "groups": [
-    {
-      "shop": "Denver - 2800 E 2nd Ave",
-      "manager": "Nathan Mylenek",
-      "count": 6,
-      "rows": [
-        [
-          "Brian Redington",
-          "Sat Aug 1",
-          "8.10"
-        ],
-        [
-          "Peter Kitt",
-          "Sat Aug 1",
-          "8.03"
-        ],
-        [
-          "Alex Cichy",
-          "Sat Aug 1",
-          "8.33"
-        ],
-        [
-          "Brian Redington",
-          "Sun Aug 2",
-          "8.22"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "Sun Aug 2",
-          "8.30"
-        ],
-        [
-          "Alex Cichy",
-          "Sun Aug 2",
-          "8.18"
-        ]
-      ]
-    },
-    {
-      "shop": "Philadelphia - 1702 Walnut",
-      "manager": "Trent Johnson",
-      "count": 1,
-      "rows": [
-        [
-          "Fabio Santos Panisson",
-          "Sat Aug 1",
-          "0.00"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

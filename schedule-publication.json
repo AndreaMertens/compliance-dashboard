@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Aug 6 \u2192 Aug 27, 2026",
-    "summary_line": "2 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Thu Aug 6, 7:03 AM",
+    "subtitle": "Window: Aug 12 \u2192 Sep 2, 2026",
+    "summary_line": "2 action needed \u00b7 4 heads up",
+    "last_refreshed_display": "Data through Wed Aug 12, 8:30 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,18 +14,18 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Houston - 888 Westheimer",
+          "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 21,
-          "gap_days": 4,
+          "draft_count": 10,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
-          "shop": "2900 Minneapolis",
+          "shop": "Philadelphia - 1702 Walnut",
           "manager": "",
-          "draft_count": 13,
-          "gap_days": 4,
-          "lookahead_days": 14
+          "draft_count": 10,
+          "gap_days": 3,
+          "lookahead_days": 21
         }
       ]
     },
@@ -35,20 +35,6 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Fort Lauderdale - 1016 E",
-          "manager": "",
-          "draft_count": 5,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1000 Pittsburgh",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "1151 Roseville",
           "manager": "",
           "draft_count": 1,
@@ -56,7 +42,14 @@
           "lookahead_days": 14
         },
         {
-          "shop": "17250 Omaha",
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Miami - Brickell",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,

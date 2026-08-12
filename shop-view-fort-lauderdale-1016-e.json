@@ -2,10 +2,10 @@
   "meta": {
     "title": "Fort Lauderdale - 1016 E",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-07-27",
-          "Ceara McKegney",
-          "8:30 AM",
-          "9:26 AM",
-          "56"
-        ],
-        [
-          "2026-07-31",
-          "Phillip Santiago",
-          "11:30 AM",
-          "11:48 AM",
-          "18"
+          "2026-08-04",
+          "Roxana Artiles",
+          "10:00 AM",
+          "10:15 AM",
+          "15"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -50,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Liss Llerena",
+          "Tue Aug 4",
+          "12:25 PM",
+          "11:31 PM",
+          "11.10",
+          "86.08 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Liss Llerena",
+          "Thu Aug 6",
+          "10:30 AM",
+          "9:01 PM",
+          "10.52",
+          "86.08 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",

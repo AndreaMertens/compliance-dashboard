@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,21 +21,28 @@
       ],
       "rows": [
         [
-          "2026-07-28",
-          "Peter Kitt",
-          "10:00 AM",
-          "10:51 AM",
-          "51"
+          "2026-08-03",
+          "Douglas Beard",
+          "11:30 AM",
+          "11:42 AM",
+          "12"
         ],
         [
-          "2026-07-30",
+          "2026-08-05",
           "Alex Cichy",
-          "10:00 AM",
-          "11:01 AM",
-          "61"
+          "10:30 AM",
+          "10:42 AM",
+          "12"
+        ],
+        [
+          "2026-08-06",
+          "Peter Kitt",
+          "1:00 PM",
+          "1:15 PM",
+          "15"
         ]
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -90,39 +97,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Brian Redington",
-          "Sat Aug 1",
-          "8.10"
-        ],
-        [
-          "Peter Kitt",
-          "Sat Aug 1",
-          "8.03"
-        ],
-        [
-          "Alex Cichy",
-          "Sat Aug 1",
-          "8.33"
-        ],
-        [
-          "Brian Redington",
-          "Sun Aug 2",
-          "8.22"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "Sun Aug 2",
-          "8.30"
-        ],
-        [
-          "Alex Cichy",
-          "Sun Aug 2",
-          "8.18"
-        ]
-      ],
-      "count": 6
+      "rows": [],
+      "count": 0
     }
   ]
 }

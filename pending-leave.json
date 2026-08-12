@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 3 shops",
-    "last_refreshed_display": "Data through Tue Aug 11, 2026",
+    "summary_line": "No pending leave \u2014 all caught up",
+    "last_refreshed_display": "Data through Wed Aug 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,45 +13,5 @@
     "Date End",
     "Note"
   ],
-  "groups": [
-    {
-      "shop": "Ann Arbor - 212 S Main",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Jackson Keefer",
-          "2026-08-01",
-          "2026-08-01",
-          "Vacation"
-        ]
-      ]
-    },
-    {
-      "shop": "Birmingham - 141 W Maple",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Anna Ilina",
-          "2026-08-01",
-          "2026-08-01",
-          "Day off"
-        ]
-      ]
-    },
-    {
-      "shop": "Manhattan Beach - The Point",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Mailon Williams",
-          "2026-08-02",
-          "2026-08-02",
-          "Flat tire "
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

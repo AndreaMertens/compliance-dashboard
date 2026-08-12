@@ -2,10 +2,10 @@
   "meta": {
     "title": "Houston - 888 Westheimer",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-08-06",
+          "Auna Tastad",
+          "9:00 AM",
+          "10:09 AM",
+          "69"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -35,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Clayton Brown",
+          "Thu Aug 6",
+          "6:30 AM",
+          "8:00 PM",
+          "13.50",
+          "98.95 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Clayton Brown",
+          "Wed Aug 5",
+          "9:55 AM",
+          "8:00 PM",
+          "10.08",
+          "98.95 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",

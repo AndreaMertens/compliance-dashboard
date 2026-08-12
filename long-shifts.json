@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Jul 29 \u2013 Aug 11, 2026",
-    "summary_line": "5 flagged shifts across 5 shops \u2014 5 OT, 1 NY Spread, 3 over 11 hrs",
-    "last_refreshed_display": "Data through Tue Aug 11, 2026",
+    "summary_line": "16 flagged shifts across 9 shops \u2014 16 OT, 1 NY Spread, 6 over 11 hrs",
+    "last_refreshed_display": "Data through Wed Aug 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -25,10 +25,35 @@
         [
           "Christian Van Dam",
           "Thu Jul 30",
-          "8:10 AM",
-          "6:13 PM",
+          "10:10 AM",
+          "8:13 PM",
           "10.05",
-          "47.20 (OT)",
+          "77.70 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 2,
+      "rows": [
+        [
+          "Evan",
+          "Tue Aug 4",
+          "9:55 AM",
+          "8:37 PM",
+          "10.70",
+          "68.14 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Thu Aug 6",
+          "9:55 AM",
+          "8:03 PM",
+          "10.13",
+          "68.14 (OT)",
           "OT"
         ]
       ]
@@ -36,15 +61,65 @@
     {
       "shop": "Fort Lauderdale - 1016 E",
       "manager": "Ana Cintron, Tyler Kipilman",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Liss Llerena",
           "Tue Aug 4",
-          "10:25 AM",
-          "9:31 PM",
+          "12:25 PM",
+          "11:31 PM",
           "11.10",
-          "59.38 (OT)",
+          "86.08 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Liss Llerena",
+          "Thu Aug 6",
+          "10:30 AM",
+          "9:01 PM",
+          "10.52",
+          "86.08 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Houston - 888 Westheimer",
+      "manager": "Kristian Kingdom-Saksek, Noah Nance",
+      "count": 2,
+      "rows": [
+        [
+          "Clayton Brown",
+          "Thu Aug 6",
+          "6:30 AM",
+          "8:00 PM",
+          "13.50",
+          "98.95 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Clayton Brown",
+          "Wed Aug 5",
+          "9:55 AM",
+          "8:00 PM",
+          "10.08",
+          "98.95 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Indianapolis - 8702 Keystone Crossing",
+      "manager": "Alisha Reeve",
+      "count": 1,
+      "rows": [
+        [
+          "Jacob",
+          "Sun Aug 9",
+          "11:59 AM",
+          "10:49 AM",
+          "22.83",
+          "89.30 (OT)",
           "OT \u00b7 Over 11"
         ]
       ]
@@ -52,16 +127,25 @@
     {
       "shop": "Kansas City - 321 Nichols Rd",
       "manager": "Haylee Moore",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Charles Wolff",
           "Fri Jul 31",
-          "8:16 AM",
-          "8:05 PM",
+          "10:16 AM",
+          "10:05 PM",
           "11.82",
-          "58.77 (OT)",
+          "84.44 (OT)",
           "OT \u00b7 Over 11"
+        ],
+        [
+          "Charles Wolff",
+          "Tue Aug 4",
+          "10:25 AM",
+          "9:23 PM",
+          "10.97",
+          "84.44 (OT)",
+          "OT"
         ]
       ]
     },
@@ -73,26 +157,69 @@
         [
           "Ian Adams",
           "Sun Aug 2",
-          "5:09 PM",
-          "9:03 AM",
+          "7:09 PM",
+          "11:03 AM",
           "15.90",
-          "48.94 (OT)",
+          "57.27 (OT)",
           "OT \u00b7 NY Spread \u00b7 Over 11"
+        ]
+      ]
+    },
+    {
+      "shop": "Philadelphia - 1702 Walnut",
+      "manager": "Trent Johnson",
+      "count": 1,
+      "rows": [
+        [
+          "Dante Barnes",
+          "Thu Aug 6",
+          "10:17 AM",
+          "8:36 PM",
+          "10.32",
+          "67.56 (OT)",
+          "OT"
         ]
       ]
     },
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 1,
+      "count": 4,
       "rows": [
+        [
+          "Gloria Alexander",
+          "Mon Aug 10",
+          "11:55 AM",
+          "11:00 PM",
+          "11.08",
+          "40.12 (OT)",
+          "OT \u00b7 Over 11"
+        ],
         [
           "William Green",
           "Tue Aug 4",
-          "10:24 AM",
-          "9:01 PM",
+          "12:24 PM",
+          "11:01 PM",
           "10.62",
-          "55.38 (OT)",
+          "78.27 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Jul 30",
+          "10:00 AM",
+          "8:13 PM",
+          "10.22",
+          "40.12 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Aug 11",
+          "12:02 PM",
+          "10:06 PM",
+          "10.07",
+          "40.12 (OT)",
           "OT"
         ]
       ]

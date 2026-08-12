@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "19 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 19
   },
   "tiles": [
     {
@@ -35,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dante Barnes",
+          "Thu Aug 6",
+          "10:17 AM",
+          "8:36 PM",
+          "10.32",
+          "67.56 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -53,33 +63,124 @@
         [
           "Franco Bailey",
           "Thu Jul 30",
-          "10:00 PM",
-          "10:00 PM",
+          "12:00 AM",
+          "12:00 AM",
           "0.00"
         ],
         [
           "Franco Bailey",
           "Sat Aug 1",
-          "10:00 PM",
-          "10:00 PM",
+          "12:00 AM",
+          "12:00 AM",
           "0.00"
         ],
         [
           "Franco Bailey",
           "Sun Aug 2",
-          "10:00 PM",
-          "10:00 PM",
+          "12:00 AM",
+          "12:00 AM",
           "0.00"
         ],
         [
           "Franco Bailey",
           "Mon Aug 3",
-          "10:00 PM",
-          "10:00 PM",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Wed Aug 5",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Thu Aug 6",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Fri Aug 7",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Sat Aug 8",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Sun Aug 9",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Franco Bailey",
+          "Mon Aug 10",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Dante Barnes",
+          "Sat Aug 8",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Stephen Williams II",
+          "Thu Aug 6",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Stephen Williams II",
+          "Sat Aug 8",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Stephen Williams II",
+          "Sun Aug 9",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Stephen Williams II",
+          "Mon Aug 10",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Mate Okros",
+          "Fri Aug 7",
+          "12:00 AM",
+          "12:00 AM",
+          "0.00"
+        ],
+        [
+          "Mate Okros",
+          "Sat Aug 8",
+          "12:00 AM",
+          "12:00 AM",
           "0.00"
         ]
       ],
-      "count": 4
+      "count": 17
     },
     {
       "id": "over-40-vacation",
@@ -92,8 +193,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dante Barnes",
+          "27.44",
+          "15.00",
+          "42.44",
+          "+2.44"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -104,14 +213,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Fabio Santos Panisson",
-          "Sat Aug 1",
-          "0.00"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     }
   ]
 }
