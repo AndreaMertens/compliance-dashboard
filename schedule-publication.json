@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Aug 12 \u2192 Sep 2, 2026",
-    "summary_line": "2 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Wed Aug 12, 8:30 AM",
+    "subtitle": "Window: Aug 14 \u2192 Sep 4, 2026",
+    "summary_line": "2 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Fri Aug 14, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,18 +14,18 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "4000 New Orleans",
-          "manager": "",
-          "draft_count": 10,
-          "gap_days": 3,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Philadelphia - 1702 Walnut",
           "manager": "",
-          "draft_count": 10,
-          "gap_days": 3,
+          "draft_count": 17,
+          "gap_days": 5,
           "lookahead_days": 21
+        },
+        {
+          "shop": "4000 New Orleans",
+          "manager": "",
+          "draft_count": 14,
+          "gap_days": 5,
+          "lookahead_days": 14
         }
       ]
     },
@@ -34,6 +34,27 @@
       "label": "Heads Up",
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
+        {
+          "shop": "122 Lexington",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Denver - 2800 E 2nd Ave",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Salt Lake City - 50 E Main St. N",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
         {
           "shop": "1151 Roseville",
           "manager": "",
@@ -47,20 +68,6 @@
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
-        },
-        {
-          "shop": "Miami - Brickell",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 21
         }
       ]
     }
