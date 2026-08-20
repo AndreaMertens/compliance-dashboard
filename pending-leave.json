@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "No pending leave \u2014 all caught up",
-    "last_refreshed_display": "Data through Thu Aug 13, 2026",
+    "summary_line": "5 pending leave requests across 5 shops",
+    "last_refreshed_display": "Data through Tue Aug 25, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,5 +13,71 @@
     "Date End",
     "Note"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "696 Lynnfield",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Mike LeGree",
+          "2026-08-15",
+          "2026-08-15",
+          "Family day"
+        ]
+      ]
+    },
+    {
+      "shop": "Cleveland - 251 Main Street",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "William Gray",
+          "2026-08-15",
+          "2026-08-16",
+          ""
+        ]
+      ]
+    },
+    {
+      "shop": "Fort Lauderdale - 1016 E",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Ceara McKegney",
+          "2026-08-15",
+          "2026-08-15",
+          "Day off "
+        ]
+      ]
+    },
+    {
+      "shop": "Greenwich Avenue",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Christopher Ciarleglio",
+          "2026-08-12",
+          "2026-08-12",
+          "Prep"
+        ]
+      ]
+    },
+    {
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "2026-08-12",
+          "2026-08-12",
+          "PTO"
+        ]
+      ]
+    }
+  ]
 }

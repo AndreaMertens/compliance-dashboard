@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of August 3\u20139, 2026",
-    "summary_line": "No outstanding timecards.",
-    "last_refreshed_display": "Data through Thu Aug 13, 2026",
+    "subtitle": "Week of August 10\u201316, 2026",
+    "summary_line": "4 shops \u00b7 17 timecards outstanding",
+    "last_refreshed_display": "Data through Tue Aug 25, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,5 +12,119 @@
     "Date",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "Danny Ismail",
+      "count": 8,
+      "rows": [
+        [
+          "Yotwarit Kornwoodtikun",
+          "Wed Aug 12",
+          "8.40"
+        ],
+        [
+          "Micah Wheeler",
+          "Thu Aug 13",
+          "8.33"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Aug 14",
+          "7.87"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Aug 14",
+          "8.42"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat Aug 15",
+          "7.85"
+        ],
+        [
+          "Micah Wheeler",
+          "Sat Aug 15",
+          "8.30"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Aug 16",
+          "10.60"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun Aug 16",
+          "10.55"
+        ]
+      ]
+    },
+    {
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
+      "count": 4,
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sat Aug 15",
+          "10.30"
+        ],
+        [
+          "Clark",
+          "Sat Aug 15",
+          "8.27"
+        ],
+        [
+          "Clark",
+          "Sun Aug 16",
+          "6.52"
+        ],
+        [
+          "Noah Strako",
+          "Sun Aug 16",
+          "8.33"
+        ]
+      ]
+    },
+    {
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "Haylee Moore",
+      "count": 3,
+      "rows": [
+        [
+          "Clayton Brown",
+          "Thu Aug 13",
+          "7.52"
+        ],
+        [
+          "Clayton Brown",
+          "Fri Aug 14",
+          "8.23"
+        ],
+        [
+          "Clayton Brown",
+          "Sat Aug 15",
+          "8.58"
+        ]
+      ]
+    },
+    {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "Ian Draft",
+      "count": 2,
+      "rows": [
+        [
+          "Lance Minor",
+          "Sun Aug 16",
+          "5.90"
+        ],
+        [
+          "Brett",
+          "Sun Aug 16",
+          "8.28"
+        ]
+      ]
+    }
+  ]
 }
