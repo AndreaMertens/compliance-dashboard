@@ -2,10 +2,10 @@
   "meta": {
     "title": "Kansas City - 321 Nichols Rd",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -35,27 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Charles Wolff",
-          "Fri Jul 31",
-          "10:16 AM",
-          "10:05 PM",
-          "11.82",
-          "84.44 (OT)",
-          "OT \u00b7 Over 11"
-        ],
-        [
-          "Charles Wolff",
-          "Tue Aug 4",
-          "10:25 AM",
-          "9:23 PM",
-          "10.97",
-          "84.44 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -94,8 +75,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Clayton Brown",
+          "Thu Aug 13",
+          "7.52"
+        ],
+        [
+          "Clayton Brown",
+          "Fri Aug 14",
+          "8.23"
+        ],
+        [
+          "Clayton Brown",
+          "Sat Aug 15",
+          "8.58"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

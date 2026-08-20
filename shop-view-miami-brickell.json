@@ -2,10 +2,10 @@
   "meta": {
     "title": "Miami - Brickell",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-08-10",
+          "William Rosales",
+          "10:00 AM",
+          "10:55 AM",
+          "55"
+        ],
+        [
+          "2026-08-16",
+          "Glen Noel",
+          "8:30 AM",
+          "1:10 PM",
+          "280"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",

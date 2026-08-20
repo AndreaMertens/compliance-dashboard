@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-08-05",
+          "2026-08-12",
           "JJ Grainda",
-          "11:00 AM",
-          "11:55 AM",
-          "55"
+          "9:00 AM",
+          "10:00 AM",
+          "60"
+        ],
+        [
+          "2026-08-13",
+          "JJ Grainda",
+          "9:00 AM",
+          "10:38 AM",
+          "98"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -43,8 +50,45 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Sat Aug 15",
+          "8:35 AM",
+          "8:30 PM",
+          "11.92",
+          "46.29 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Jared Radovsky",
+          "Sat Aug 15",
+          "8:34 AM",
+          "8:27 PM",
+          "11.88",
+          "52.68 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "JJ Grainda",
+          "Sat Aug 15",
+          "8:45 AM",
+          "8:27 PM",
+          "11.70",
+          "40.73 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Dillon Stanas",
+          "Mon Aug 17",
+          "6:46 AM",
+          "5:05 PM",
+          "10.32",
+          "46.29 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "short-shifts",

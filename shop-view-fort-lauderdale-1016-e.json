@@ -2,10 +2,10 @@
   "meta": {
     "title": "Fort Lauderdale - 1016 E",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-08-04",
-          "Roxana Artiles",
+          "2026-08-10",
+          "farhan Khandaker",
+          "10:30 AM",
+          "12:27 PM",
+          "117"
+        ],
+        [
+          "2026-08-11",
+          "farhan Khandaker",
           "10:00 AM",
-          "10:15 AM",
-          "15"
+          "10:32 AM",
+          "32"
+        ],
+        [
+          "2026-08-12",
+          "Thomas Blackadar",
+          "8:30 AM",
+          "10:52 AM",
+          "142"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -43,27 +57,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Liss Llerena",
-          "Tue Aug 4",
-          "12:25 PM",
-          "11:31 PM",
-          "11.10",
-          "86.08 (OT)",
-          "OT \u00b7 Over 11"
-        ],
-        [
-          "Liss Llerena",
-          "Thu Aug 6",
-          "10:30 AM",
-          "9:01 PM",
-          "10.52",
-          "86.08 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -90,8 +85,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Phillip Santiago",
+          "24.07",
+          "19.83",
+          "43.90",
+          "+3.90"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

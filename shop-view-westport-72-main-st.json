@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-07",
-          "Matthew Reilly",
-          "10:00 AM",
-          "10:31 AM",
-          "31"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ethan Platt",
+          "Tue Aug 18",
+          "7:10 AM",
+          "5:23 PM",
+          "10.22",
+          "43.67 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",

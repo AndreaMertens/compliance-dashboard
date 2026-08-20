@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-05",
-          "William Green",
-          "3:00 PM",
-          "3:50 PM",
-          "50"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -46,42 +38,24 @@
       "rows": [
         [
           "Gloria Alexander",
-          "Mon Aug 10",
-          "11:55 AM",
-          "11:00 PM",
-          "11.08",
-          "40.12 (OT)",
-          "OT \u00b7 Over 11"
-        ],
-        [
-          "William Green",
-          "Tue Aug 4",
-          "12:24 PM",
-          "11:01 PM",
-          "10.62",
-          "78.27 (OT)",
-          "OT"
-        ],
-        [
-          "Gloria Alexander",
-          "Thu Jul 30",
+          "Mon Aug 17",
           "10:00 AM",
-          "8:13 PM",
-          "10.22",
-          "40.12 (OT)",
-          "OT"
+          "9:01 PM",
+          "11.02",
+          "37.89",
+          "Over 11"
         ],
         [
-          "Gloria Alexander",
-          "Tue Aug 11",
-          "12:02 PM",
-          "10:06 PM",
-          "10.07",
-          "40.12 (OT)",
+          "Ryland",
+          "Sun Aug 16",
+          "10:36 AM",
+          "9:10 PM",
+          "10.57",
+          "50.01 (OT)",
           "OT"
         ]
       ],
-      "count": 4
+      "count": 2
     },
     {
       "id": "short-shifts",

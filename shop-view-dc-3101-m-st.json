@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -21,18 +21,18 @@
       ],
       "rows": [
         [
-          "2026-08-03",
+          "2026-08-14",
           "Yotwarit Kornwoodtikun",
-          "11:00 AM",
-          "11:30 AM",
-          "30"
+          "9:00 AM",
+          "9:15 AM",
+          "15"
         ],
         [
-          "2026-08-08",
+          "2026-08-15",
           "Yotwarit Kornwoodtikun",
-          "10:00 AM",
-          "10:13 AM",
-          "13"
+          "8:00 AM",
+          "8:12 AM",
+          "12"
         ]
       ],
       "count": 2
@@ -90,8 +90,49 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yotwarit Kornwoodtikun",
+          "Wed Aug 12",
+          "8.40"
+        ],
+        [
+          "Micah Wheeler",
+          "Thu Aug 13",
+          "8.33"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Aug 14",
+          "7.87"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Aug 14",
+          "8.42"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat Aug 15",
+          "7.85"
+        ],
+        [
+          "Micah Wheeler",
+          "Sat Aug 15",
+          "8.30"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Aug 16",
+          "10.60"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun Aug 16",
+          "10.55"
+        ]
+      ],
+      "count": 8
     }
   ]
 }

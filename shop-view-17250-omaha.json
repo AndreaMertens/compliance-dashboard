@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,42 +21,28 @@
       ],
       "rows": [
         [
-          "2026-08-03",
+          "2026-08-13",
           "Christian Van Dam",
+          "8:30 AM",
+          "10:00 AM",
+          "90"
+        ],
+        [
+          "2026-08-14",
+          "Christian Van Dam",
+          "8:30 AM",
+          "9:20 AM",
+          "50"
+        ],
+        [
+          "2026-08-16",
+          "Clark",
           "11:00 AM",
-          "11:11 AM",
-          "11"
-        ],
-        [
-          "2026-08-04",
-          "Christian Van Dam",
-          "10:00 AM",
-          "10:28 AM",
-          "28"
-        ],
-        [
-          "2026-08-05",
-          "Christian Van Dam",
-          "10:00 AM",
-          "11:16 AM",
-          "76"
-        ],
-        [
-          "2026-08-07",
-          "Christian Van Dam",
-          "10:30 AM",
-          "11:31 AM",
-          "61"
-        ],
-        [
-          "2026-08-08",
-          "Christian Van Dam",
-          "10:30 AM",
-          "11:57 AM",
-          "87"
+          "11:15 AM",
+          "15"
         ]
       ],
-      "count": 5
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -71,18 +57,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Christian Van Dam",
-          "Thu Jul 30",
-          "10:10 AM",
-          "8:13 PM",
-          "10.05",
-          "77.70 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -121,8 +97,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sat Aug 15",
+          "10.30"
+        ],
+        [
+          "Clark",
+          "Sat Aug 15",
+          "8.27"
+        ],
+        [
+          "Clark",
+          "Sun Aug 16",
+          "6.52"
+        ],
+        [
+          "Noah Strako",
+          "Sun Aug 16",
+          "8.33"
+        ]
+      ],
+      "count": 4
     }
   ]
 }
