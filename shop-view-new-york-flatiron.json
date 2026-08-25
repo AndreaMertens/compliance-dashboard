@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - Flatiron",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,14 +21,35 @@
       ],
       "rows": [
         [
-          "2026-08-12",
-          "Fred Hilaire",
+          "2026-08-17",
+          "Ian Adams",
           "9:00 AM",
-          "9:54 AM",
-          "54"
+          "9:30 AM",
+          "30"
+        ],
+        [
+          "2026-08-19",
+          "Tyquan Jefferson",
+          "9:00 AM",
+          "9:12 AM",
+          "12"
+        ],
+        [
+          "2026-08-20",
+          "Ian Adams",
+          "9:00 AM",
+          "9:26 AM",
+          "26"
+        ],
+        [
+          "2026-08-22",
+          "Ian Adams",
+          "9:00 AM",
+          "9:29 AM",
+          "29"
         ]
       ],
-      "count": 1
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -71,8 +92,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Tyquan Jefferson",
+          "25.88",
+          "16.00",
+          "41.88",
+          "+1.88"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

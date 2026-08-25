@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-13",
-          "Connor Dominiec",
-          "10:00 AM",
-          "10:15 AM",
-          "15"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -71,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Connor Dominiec",
-          "35.31",
-          "15.00",
-          "50.31",
-          "+10.31"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -91,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Justin Wascher",
+          "Sun Aug 23",
+          "7.45"
+        ],
+        [
+          "Connor Dominiec",
+          "Sun Aug 23",
+          "8.52"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

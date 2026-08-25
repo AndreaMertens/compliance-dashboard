@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-08-18",
+          "Gloria Alexander",
+          "10:00 AM",
+          "12:00 PM",
+          "120"
+        ],
+        [
+          "2026-08-18",
+          "Ryland",
+          "10:00 AM",
+          "10:21 AM",
+          "21"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -38,12 +53,30 @@
       "rows": [
         [
           "Gloria Alexander",
+          "Mon Aug 24",
+          "9:58 AM",
+          "9:07 PM",
+          "11.15",
+          "79.25 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Gloria Alexander",
           "Mon Aug 17",
           "10:00 AM",
           "9:01 PM",
           "11.02",
-          "37.89",
-          "Over 11"
+          "79.25 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Aug 15",
+          "10:08 AM",
+          "8:57 PM",
+          "10.82",
+          "79.25 (OT)",
+          "OT"
         ],
         [
           "Ryland",
@@ -51,11 +84,29 @@
           "10:36 AM",
           "9:10 PM",
           "10.57",
-          "50.01 (OT)",
+          "82.11 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Aug 22",
+          "10:03 AM",
+          "8:29 PM",
+          "10.43",
+          "79.25 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Aug 20",
+          "8:14 AM",
+          "6:16 PM",
+          "10.03",
+          "79.25 (OT)",
           "OT"
         ]
       ],
-      "count": 2
+      "count": 6
     },
     {
       "id": "short-shifts",

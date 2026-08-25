@@ -2,10 +2,10 @@
   "meta": {
     "title": "629 Alexandria",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,28 +21,35 @@
       ],
       "rows": [
         [
-          "2026-08-10",
-          "Jackson Reid",
-          "9:00 AM",
-          "9:24 AM",
-          "24"
-        ],
-        [
-          "2026-08-12",
-          "Toronto Eschrich",
+          "2026-08-18",
+          "Nour-Eddine Seidnaly",
           "7:00 AM",
-          "8:52 AM",
-          "112"
+          "7:17 AM",
+          "17"
         ],
         [
-          "2026-08-16",
+          "2026-08-20",
           "Nour-Eddine Seidnaly",
           "9:00 AM",
-          "9:16 AM",
-          "16"
+          "9:14 AM",
+          "14"
+        ],
+        [
+          "2026-08-22",
+          "Jack",
+          "9:00 AM",
+          "10:00 AM",
+          "60"
+        ],
+        [
+          "2026-08-22",
+          "Jack",
+          "9:00 AM",
+          "10:00 AM",
+          "60"
         ]
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -57,8 +64,36 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Darius Barnes",
+          "Fri Aug 21",
+          "7:01 AM",
+          "5:03 PM",
+          "10.03",
+          "83.32 (OT)",
+          "OT"
+        ],
+        [
+          "Jack",
+          "Fri Aug 21",
+          "7:00 AM",
+          "5:02 PM",
+          "10.03",
+          "161.36 (OT)",
+          "OT"
+        ],
+        [
+          "Jack",
+          "Fri Aug 21",
+          "7:00 AM",
+          "5:02 PM",
+          "10.03",
+          "161.36 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "short-shifts",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "10 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 10
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-14",
-          "Yotwarit Kornwoodtikun",
-          "9:00 AM",
-          "9:15 AM",
-          "15"
-        ],
-        [
-          "2026-08-15",
-          "Yotwarit Kornwoodtikun",
-          "8:00 AM",
-          "8:12 AM",
-          "12"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -50,8 +35,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Aug 16",
+          "8:41 AM",
+          "7:17 PM",
+          "10.60",
+          "85.03 (OT)",
+          "OT"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun Aug 16",
+          "8:42 AM",
+          "7:15 PM",
+          "10.55",
+          "87.18 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -93,46 +97,41 @@
       "rows": [
         [
           "Yotwarit Kornwoodtikun",
-          "Wed Aug 12",
-          "8.40"
+          "Thu Aug 20",
+          "8.05"
         ],
         [
           "Micah Wheeler",
-          "Thu Aug 13",
+          "Thu Aug 20",
+          "8.40"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Aug 21",
           "8.33"
         ],
         [
           "Yotwarit Kornwoodtikun",
-          "Fri Aug 14",
-          "7.87"
-        ],
-        [
-          "Micah Wheeler",
-          "Fri Aug 14",
+          "Sat Aug 22",
           "8.42"
         ],
         [
-          "Yotwarit Kornwoodtikun",
-          "Sat Aug 15",
-          "7.85"
-        ],
-        [
           "Micah Wheeler",
-          "Sat Aug 15",
-          "8.30"
+          "Sat Aug 22",
+          "8.35"
+        ],
+        [
+          "Alex",
+          "Sun Aug 23",
+          "8.28"
         ],
         [
           "Yotwarit Kornwoodtikun",
-          "Sun Aug 16",
-          "10.60"
-        ],
-        [
-          "Micah Wheeler",
-          "Sun Aug 16",
-          "10.55"
+          "Sun Aug 23",
+          "8.28"
         ]
       ],
-      "count": 8
+      "count": 7
     }
   ]
 }

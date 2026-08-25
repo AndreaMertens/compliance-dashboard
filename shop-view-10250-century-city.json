@@ -2,10 +2,10 @@
   "meta": {
     "title": "10250 Century City",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-08-18",
+          "Ross Graham",
+          "10:30 AM",
+          "10:45 AM",
+          "15"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -75,8 +83,44 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ross Graham",
+          "Thu Aug 20",
+          "4.88"
+        ],
+        [
+          "Marcus Karlsson",
+          "Thu Aug 20",
+          "8.00"
+        ],
+        [
+          "Ross Graham",
+          "Fri Aug 21",
+          "8.45"
+        ],
+        [
+          "Marcus Karlsson",
+          "Fri Aug 21",
+          "8.00"
+        ],
+        [
+          "Ross Graham",
+          "Sat Aug 22",
+          "8.65"
+        ],
+        [
+          "Marcus Karlsson",
+          "Sat Aug 22",
+          "8.07"
+        ],
+        [
+          "Marcus Karlsson",
+          "Sun Aug 23",
+          "8.03"
+        ]
+      ],
+      "count": 7
     }
   ]
 }

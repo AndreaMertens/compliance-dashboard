@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -21,28 +21,35 @@
       ],
       "rows": [
         [
-          "2026-08-13",
+          "2026-08-17",
           "Christian Van Dam",
-          "8:30 AM",
-          "10:00 AM",
-          "90"
+          "9:00 AM",
+          "9:52 AM",
+          "52"
         ],
         [
-          "2026-08-14",
+          "2026-08-18",
           "Christian Van Dam",
-          "8:30 AM",
-          "9:20 AM",
-          "50"
+          "8:00 AM",
+          "8:59 AM",
+          "59"
         ],
         [
-          "2026-08-16",
-          "Clark",
-          "11:00 AM",
-          "11:15 AM",
-          "15"
+          "2026-08-20",
+          "Christian Van Dam",
+          "8:30 AM",
+          "9:30 AM",
+          "60"
+        ],
+        [
+          "2026-08-22",
+          "Christian Van Dam",
+          "8:30 AM",
+          "9:04 AM",
+          "34"
         ]
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -57,8 +64,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Mon Aug 17",
+          "9:52 AM",
+          "7:55 PM",
+          "10.05",
+          "86.60 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -85,8 +102,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Noah Strako",
+          "28.40",
+          "22.50",
+          "50.90",
+          "+10.90"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -100,26 +125,21 @@
       "rows": [
         [
           "Christian Van Dam",
-          "Sat Aug 15",
-          "10.30"
+          "Fri Aug 21",
+          "9.22"
         ],
         [
-          "Clark",
-          "Sat Aug 15",
-          "8.27"
+          "Christian Van Dam",
+          "Sat Aug 22",
+          "9.90"
         ],
         [
-          "Clark",
-          "Sun Aug 16",
-          "6.52"
-        ],
-        [
-          "Noah Strako",
-          "Sun Aug 16",
-          "8.33"
+          "Christian Van Dam",
+          "Sun Aug 23",
+          "7.55"
         ]
       ],
-      "count": 4
+      "count": 3
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-12",
-          "JJ Grainda",
-          "9:00 AM",
-          "10:00 AM",
-          "60"
-        ],
-        [
-          "2026-08-13",
-          "JJ Grainda",
-          "9:00 AM",
-          "10:38 AM",
-          "98"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -57,7 +42,7 @@
           "8:35 AM",
           "8:30 PM",
           "11.92",
-          "46.29 (OT)",
+          "87.26 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -66,7 +51,7 @@
           "8:34 AM",
           "8:27 PM",
           "11.88",
-          "52.68 (OT)",
+          "85.54 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -84,11 +69,20 @@
           "6:46 AM",
           "5:05 PM",
           "10.32",
-          "46.29 (OT)",
+          "87.26 (OT)",
+          "OT"
+        ],
+        [
+          "Dillon Stanas",
+          "Mon Aug 24",
+          "7:05 AM",
+          "5:13 PM",
+          "10.13",
+          "87.26 (OT)",
           "OT"
         ]
       ],
-      "count": 4
+      "count": 5
     },
     {
       "id": "short-shifts",
@@ -127,8 +121,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jared Radovsky",
+          "Sat Aug 22",
+          "9.07"
+        ],
+        [
+          "Dillon Stanas",
+          "Sat Aug 22",
+          "8.62"
+        ],
+        [
+          "Jared Radovsky",
+          "Sun Aug 23",
+          "7.37"
+        ],
+        [
+          "Dillon Stanas",
+          "Sun Aug 23",
+          "7.65"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

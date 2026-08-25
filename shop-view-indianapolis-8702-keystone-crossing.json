@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-14",
-          "Parker Dean",
-          "8:00 AM",
-          "8:50 AM",
-          "50"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -71,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Bussman",
+          "32.86",
+          "22.50",
+          "55.36",
+          "+15.36"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
