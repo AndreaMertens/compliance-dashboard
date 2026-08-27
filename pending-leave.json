@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "1 pending leave request across 1 shop",
-    "last_refreshed_display": "Data through Tue Aug 25, 2026",
+    "summary_line": "No pending leave \u2014 all caught up",
+    "last_refreshed_display": "Data through Thu Aug 27, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,19 +13,5 @@
     "Date End",
     "Note"
   ],
-  "groups": [
-    {
-      "shop": "Denver - 2800 E 2nd Ave",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Antonio Castaneda Gonzalez",
-          "2026-08-23",
-          "2026-08-23",
-          "Family emergency "
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

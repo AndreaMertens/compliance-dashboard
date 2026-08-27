@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -35,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jose Cruz",
+          "Tue Aug 25",
+          "7:58 AM",
+          "6:41 PM",
+          "10.72",
+          "80.69 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
