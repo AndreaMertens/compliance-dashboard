@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "No pending leave \u2014 all caught up",
-    "last_refreshed_display": "Data through Thu Aug 27, 2026",
+    "summary_line": "5 pending leave requests across 4 shops",
+    "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,5 +13,64 @@
     "Date End",
     "Note"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "2900 Minneapolis",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Adam Vannelli",
+          "2026-08-25",
+          "2026-08-25",
+          "Fathers heart surgery "
+        ]
+      ]
+    },
+    {
+      "shop": "Ann Arbor - 212 S Main",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Jackson Keefer",
+          "2026-08-27",
+          "2026-08-27",
+          "Birthday"
+        ]
+      ]
+    },
+    {
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Adam Lansdown",
+          "2026-08-29",
+          "2026-08-30",
+          "San Francisco University"
+        ],
+        [
+          "Adam Lansdown",
+          "2026-08-25",
+          "2026-08-25",
+          "UNLV"
+        ]
+      ]
+    },
+    {
+      "shop": "La Jolla - 7857 Girard Ave",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Alexis Bass",
+          "2026-08-28",
+          "2026-08-28",
+          "Wedding szn"
+        ]
+      ]
+    }
+  ]
 }

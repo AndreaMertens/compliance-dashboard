@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of August 17\u201323, 2026",
-    "summary_line": "No outstanding timecards.",
-    "last_refreshed_display": "Data through Thu Aug 27, 2026",
+    "subtitle": "Week of August 24\u201330, 2026",
+    "summary_line": "3 shops \u00b7 15 timecards outstanding",
+    "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,5 +12,102 @@
     "Date",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Fort Lauderdale - 1016 E",
+      "manager": "Ana Cintron, Tyler Kipilman",
+      "count": 7,
+      "rows": [
+        [
+          "Liss Llerena",
+          "Fri Aug 28",
+          "7.60"
+        ],
+        [
+          "Cody Crites",
+          "Fri Aug 28",
+          "7.63"
+        ],
+        [
+          "Liss Llerena",
+          "Sun Aug 30",
+          "8.93"
+        ],
+        [
+          "farhan Khandaker",
+          "Sun Aug 30",
+          "7.78"
+        ],
+        [
+          "Bryan Appleby",
+          "Sun Aug 30",
+          "8.00"
+        ],
+        [
+          "Thomas Blackadar",
+          "Sun Aug 30",
+          "8.07"
+        ],
+        [
+          "Ceara McKegney",
+          "Sun Aug 30",
+          "8.02"
+        ]
+      ]
+    },
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "Danny Ismail",
+      "count": 7,
+      "rows": [
+        [
+          "Micah Wheeler",
+          "Thu Aug 27",
+          "8.32"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Aug 28",
+          "7.17"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Aug 28",
+          "6.20"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat Aug 29",
+          "9.38"
+        ],
+        [
+          "Micah Wheeler",
+          "Sat Aug 29",
+          "8.57"
+        ],
+        [
+          "Alex",
+          "Sun Aug 30",
+          "8.38"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun Aug 30",
+          "8.40"
+        ]
+      ]
+    },
+    {
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "Haylee Moore",
+      "count": 1,
+      "rows": [
+        [
+          "Aiden Troup",
+          "Sat Aug 29",
+          "8.38"
+        ]
+      ]
+    }
+  ]
 }
