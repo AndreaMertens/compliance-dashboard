@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Aug 27 \u2013 Sep 10, 2026",
-    "summary_line": "4 flagged shifts across 3 shops \u2014 4 OT",
+    "summary_line": "5 flagged shifts across 4 shops \u2014 5 OT",
     "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -17,6 +17,22 @@
     "Triggered"
   ],
   "groups": [
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 1,
+      "rows": [
+        [
+          "Evan",
+          "Fri Aug 28",
+          "7:45 AM",
+          "6:00 PM",
+          "10.25",
+          "41.24 (OT)",
+          "OT"
+        ]
+      ]
+    },
     {
       "shop": "Dedham",
       "manager": "Justin Komins",
@@ -44,7 +60,7 @@
           "11:30 AM",
           "10:29 PM",
           "10.47",
-          "50.86 (OT)",
+          "59.08 (OT)",
           "OT"
         ],
         [
@@ -69,7 +85,7 @@
           "6:00 AM",
           "4:32 PM",
           "10.53",
-          "52.17 (OT)",
+          "60.19 (OT)",
           "OT"
         ]
       ]
