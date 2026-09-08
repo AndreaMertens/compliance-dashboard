@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Sep 4 \u2192 Sep 25, 2026",
-    "summary_line": "3 action needed \u00b7 12 heads up",
-    "last_refreshed_display": "Data through Fri Sep 4, 7:03 AM",
+    "subtitle": "Window: Sep 8 \u2192 Sep 29, 2026",
+    "summary_line": "4 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Tue Sep 8, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,24 +14,31 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 24,
-          "gap_days": 5,
-          "lookahead_days": 21
-        },
-        {
           "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 10,
-          "gap_days": 5,
+          "draft_count": 25,
+          "gap_days": 9,
           "lookahead_days": 14
         },
         {
-          "shop": "DC - 3101 M St",
+          "shop": "Kansas City - 321 Nichols Rd",
           "manager": "",
-          "draft_count": 1,
-          "gap_days": 1,
+          "draft_count": 6,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Miami - Brickell",
+          "manager": "",
+          "draft_count": 5,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "2900 Minneapolis",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 2,
           "lookahead_days": 14
         }
       ]
@@ -42,67 +49,11 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Denver - 2800 E 2nd Ave",
+          "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 21,
+          "draft_count": 8,
           "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "7900 Louisville",
-          "manager": "",
-          "draft_count": 5,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Miami - Brickell",
-          "manager": "",
-          "draft_count": 5,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Fort Lauderdale - 1016 E",
-          "manager": "",
-          "draft_count": 4,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Houston - 888 Westheimer",
-          "manager": "",
-          "draft_count": 4,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1151 Roseville",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "696 Lynnfield",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Dedham",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Greenhills - 2126 Abbot Martin",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
+          "lookahead_days": 21
         },
         {
           "shop": "17250 Omaha",
@@ -112,9 +63,23 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Birmingham - 141 W Maple",
+          "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
           "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "822 City Centre",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "DC - 3101 M St",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },

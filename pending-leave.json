@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "5 pending leave requests across 4 shops",
+    "summary_line": "10 pending leave requests across 8 shops",
     "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -41,10 +41,42 @@
       ]
     },
     {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Tom",
+          "2026-09-04",
+          "2026-09-04",
+          "Wedding stuff"
+        ]
+      ]
+    },
+    {
+      "shop": "Dedham",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Justin Komins",
+          "2026-08-29",
+          "2026-09-02",
+          "Vacation "
+        ]
+      ]
+    },
+    {
       "shop": "Kansas City - 321 Nichols Rd",
       "manager": "",
-      "count": 2,
+      "count": 3,
       "rows": [
+        [
+          "Adam Lansdown",
+          "2026-09-03",
+          "2026-09-05",
+          "SMU"
+        ],
         [
           "Adam Lansdown",
           "2026-08-29",
@@ -69,6 +101,32 @@
           "2026-08-28",
           "2026-08-28",
           "Wedding szn"
+        ]
+      ]
+    },
+    {
+      "shop": "Miami - Brickell",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Thomas Blackadar",
+          "2026-09-06",
+          "2026-09-06",
+          "Day Off "
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "George Rodriguez",
+          "2026-09-04",
+          "2026-09-04",
+          "Leave"
         ]
       ]
     }
