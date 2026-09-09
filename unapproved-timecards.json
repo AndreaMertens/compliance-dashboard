@@ -2,7 +2,7 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of Aug 31 \u2013 Sep 6, 2026",
-    "summary_line": "8 shops \u00b7 31 timecards outstanding",
+    "summary_line": "7 shops \u00b7 23 timecards outstanding",
     "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -13,48 +13,6 @@
     "Hours"
   ],
   "groups": [
-    {
-      "shop": "Indianapolis - 8702 Keystone Crossing",
-      "manager": "Alisha Reeve",
-      "count": 7,
-      "rows": [
-        [
-          "Parker Dean",
-          "Sat Sep 5",
-          "7.57"
-        ],
-        [
-          "Jakob Poore",
-          "Sat Sep 5",
-          "7.77"
-        ],
-        [
-          "William Donovan",
-          "Sat Sep 5",
-          "8.17"
-        ],
-        [
-          "Jacob",
-          "Sat Sep 5",
-          "7.50"
-        ],
-        [
-          "Jakob Poore",
-          "Sun Sep 6",
-          "6.47"
-        ],
-        [
-          "William Donovan",
-          "Sun Sep 6",
-          "6.18"
-        ],
-        [
-          "Jacob",
-          "Sun Sep 6",
-          "6.18"
-        ]
-      ]
-    },
     {
       "shop": "DC - 3101 M St",
       "manager": "Danny Ismail",
@@ -169,28 +127,6 @@
       ]
     },
     {
-      "shop": "HQ-Non-Kiosk",
-      "manager": "",
-      "count": 3,
-      "rows": [
-        [
-          "Dominic Kowalski",
-          "Wed Sep 2",
-          "7.70"
-        ],
-        [
-          "Dominic Kowalski",
-          "Thu Sep 3",
-          "7.72"
-        ],
-        [
-          "Natalie Brown",
-          "Fri Sep 4",
-          "7.58"
-        ]
-      ]
-    },
-    {
       "shop": "Manhattan Beach - The Point",
       "manager": "Gabriel Lujan, Kellen Slattery",
       "count": 2,
@@ -204,6 +140,23 @@
           "Christina Byrd",
           "Sun Sep 6",
           "8.60"
+        ]
+      ]
+    },
+    {
+      "shop": "HQ-Non-Kiosk",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Dominic Kowalski",
+          "Wed Sep 2",
+          "7.70"
+        ],
+        [
+          "Dominic Kowalski",
+          "Thu Sep 3",
+          "7.72"
         ]
       ]
     },
