@@ -2,7 +2,7 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of Aug 31 \u2013 Sep 6, 2026",
-    "summary_line": "6 shops \u00b7 21 timecards outstanding",
+    "summary_line": "1 shops \u00b7 4 timecards outstanding",
     "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -13,92 +13,6 @@
     "Hours"
   ],
   "groups": [
-    {
-      "shop": "DC - 3101 M St",
-      "manager": "Danny Ismail",
-      "count": 5,
-      "rows": [
-        [
-          "Alex",
-          "Fri Sep 4",
-          "5.73"
-        ],
-        [
-          "Micah Wheeler",
-          "Sat Sep 5",
-          "8.58"
-        ],
-        [
-          "Alex",
-          "Sun Sep 6",
-          "5.40"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Sun Sep 6",
-          "8.60"
-        ],
-        [
-          "Micah Wheeler",
-          "Sun Sep 6",
-          "9.08"
-        ]
-      ]
-    },
-    {
-      "shop": "Scottsdale - Scottsdale Quarte",
-      "manager": "Matt Russell",
-      "count": 4,
-      "rows": [
-        [
-          "William Green",
-          "Sun Sep 6",
-          "9.23"
-        ],
-        [
-          "Ryland",
-          "Sun Sep 6",
-          "7.80"
-        ],
-        [
-          "Andrew Smith",
-          "Sun Sep 6",
-          "8.03"
-        ],
-        [
-          "Marco Galindo",
-          "Sun Sep 6",
-          "8.05"
-        ]
-      ]
-    },
-    {
-      "shop": "Fort Lauderdale - 1016 E",
-      "manager": "Ana Cintron, Tyler Kipilman",
-      "count": 4,
-      "rows": [
-        [
-          "Liss Llerena",
-          "Sun Sep 6",
-          "8.53"
-        ],
-        [
-          "Bryan Appleby",
-          "Sun Sep 6",
-          "7.88"
-        ],
-        [
-          "Cody Crites",
-          "Sun Sep 6",
-          "8.10"
-        ],
-        [
-          "Sophia Behar",
-          "Sun Sep 6",
-          "8.02"
-        ]
-      ]
-    },
     {
       "shop": "Ann Arbor - 212 S Main",
       "manager": "Genna Gilroy",
@@ -123,40 +37,6 @@
           "Ravon Gillum Jr",
           "Sun Sep 6",
           "7.20"
-        ]
-      ]
-    },
-    {
-      "shop": "Manhattan Beach - The Point",
-      "manager": "Gabriel Lujan, Kellen Slattery",
-      "count": 2,
-      "rows": [
-        [
-          "Ross Graham",
-          "Sat Sep 5",
-          "8.47"
-        ],
-        [
-          "Christina Byrd",
-          "Sun Sep 6",
-          "8.60"
-        ]
-      ]
-    },
-    {
-      "shop": "HQ-Non-Kiosk",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "Dominic Kowalski",
-          "Wed Sep 2",
-          "7.70"
-        ],
-        [
-          "Dominic Kowalski",
-          "Thu Sep 3",
-          "7.72"
         ]
       ]
     }

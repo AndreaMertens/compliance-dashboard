@@ -2,10 +2,10 @@
   "meta": {
     "title": "Newport Beach - Fashion Island",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-08-18",
-          "Elias Salgado",
-          "5:30 PM",
-          "6:00 PM",
+          "2026-08-31",
+          "Jacob McLaughlin",
+          "12:00 PM",
+          "12:30 PM",
           "30"
+        ],
+        [
+          "2026-09-03",
+          "Elias Salgado",
+          "10:00 AM",
+          "10:12 AM",
+          "12"
+        ],
+        [
+          "2026-09-06",
+          "Elias Salgado",
+          "3:30 PM",
+          "4:30 PM",
+          "60"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -45,16 +59,25 @@
       ],
       "rows": [
         [
-          "Elias Salgado",
-          "Wed Aug 12",
-          "10:36 AM",
-          "9:09 PM",
-          "10.02",
-          "72.86 (OT)",
+          "Nathaniel Faraone",
+          "Sun Aug 30",
+          "11:30 AM",
+          "10:29 PM",
+          "10.47",
+          "87.12 (OT)",
+          "OT"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Aug 30",
+          "11:39 AM",
+          "10:25 PM",
+          "10.23",
+          "64.02 (OT)",
           "OT"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "short-shifts",

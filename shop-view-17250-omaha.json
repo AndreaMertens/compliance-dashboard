@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,35 +21,28 @@
       ],
       "rows": [
         [
-          "2026-08-17",
-          "Christian Van Dam",
-          "9:00 AM",
-          "9:52 AM",
-          "52"
-        ],
-        [
-          "2026-08-18",
-          "Christian Van Dam",
-          "8:00 AM",
-          "8:59 AM",
-          "59"
-        ],
-        [
-          "2026-08-20",
+          "2026-09-03",
           "Christian Van Dam",
           "8:30 AM",
-          "9:30 AM",
-          "60"
+          "9:02 AM",
+          "32"
         ],
         [
-          "2026-08-22",
+          "2026-09-04",
           "Christian Van Dam",
           "8:30 AM",
-          "9:04 AM",
-          "34"
+          "11:03 AM",
+          "153"
+        ],
+        [
+          "2026-09-05",
+          "Christian Van Dam",
+          "8:30 AM",
+          "10:56 AM",
+          "146"
         ]
       ],
-      "count": 4
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -64,18 +57,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Christian Van Dam",
-          "Mon Aug 17",
-          "9:52 AM",
-          "7:55 PM",
-          "10.05",
-          "100.28 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -102,16 +85,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Noah Strako",
-          "28.40",
-          "22.50",
-          "50.90",
-          "+10.90"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Ann Arbor - 212 S Main",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -35,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ravon Gillum Jr",
+          "Tue Sep 8",
+          "6:56 AM",
+          "5:05 PM",
+          "10.15",
+          "77.49 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -75,8 +85,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Gavin McCool",
+          "Thu Sep 3",
+          "9.07"
+        ],
+        [
+          "Jackson Keefer",
+          "Thu Sep 3",
+          "8.40"
+        ],
+        [
+          "James Newton",
+          "Sun Sep 6",
+          "7.10"
+        ],
+        [
+          "Ravon Gillum Jr",
+          "Sun Sep 6",
+          "7.20"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Birmingham - 141 W Maple",
+    "title": "7900 Louisville",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,30 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-02",
-          "Luke Srinivasan",
-          "9:00 AM",
-          "11:01 AM",
-          "121"
-        ],
-        [
-          "2026-09-03",
-          "Lance Minor",
-          "9:00 AM",
-          "10:00 AM",
-          "60"
-        ],
-        [
-          "2026-09-03",
-          "Luke Srinivasan",
-          "9:00 AM",
-          "9:17 AM",
-          "17"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -85,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Lance Minor",
-          "24.10",
-          "24.00",
-          "48.10",
-          "+8.10"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

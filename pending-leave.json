@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "10 pending leave requests across 8 shops",
+    "summary_line": "13 pending leave requests across 9 shops",
     "last_refreshed_display": "Data through Thu Sep 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -15,41 +15,47 @@
   ],
   "groups": [
     {
-      "shop": "2900 Minneapolis",
+      "shop": "333 Milwaukee",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Adam Vannelli",
-          "2026-08-25",
-          "2026-08-25",
-          "Fathers heart surgery "
+          "Amelia Wagner",
+          "2026-09-01",
+          "2026-09-04",
+          "Germany "
         ]
       ]
     },
     {
-      "shop": "Ann Arbor - 212 S Main",
+      "shop": "Chicago - 840 W Armitage",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Jackson Keefer",
-          "2026-08-27",
-          "2026-08-27",
-          "Birthday"
+          "Christian Sikorski",
+          "2026-09-03",
+          "2026-09-03",
+          "3rd Day off this week "
         ]
       ]
     },
     {
-      "shop": "Birmingham - 141 W Maple",
+      "shop": "DC - 3101 M St",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
-          "Tom",
+          "Micah Wheeler",
           "2026-09-04",
           "2026-09-04",
-          "Wedding stuff"
+          "Philly"
+        ],
+        [
+          "Micah Wheeler",
+          "2026-08-28",
+          "2026-08-28",
+          "I don\u2019t know why\n"
         ]
       ]
     },
@@ -63,6 +69,19 @@
           "2026-08-29",
           "2026-09-02",
           "Vacation "
+        ]
+      ]
+    },
+    {
+      "shop": "HQ - Warehouse",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Aaron Frazier",
+          "2026-09-01",
+          "2026-09-01",
+          "Missed day"
         ]
       ]
     },
@@ -94,13 +113,32 @@
     {
       "shop": "La Jolla - 7857 Girard Ave",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Maximilian Pinto",
+          "2026-09-05",
+          "2026-09-06",
+          "Clovis"
+        ],
         [
           "Alexis Bass",
           "2026-08-28",
           "2026-08-28",
           "Wedding szn"
+        ]
+      ]
+    },
+    {
+      "shop": "Manhattan Beach - The Point",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Mailon Williams",
+          "2026-09-05",
+          "2026-09-05",
+          "Took my nephew to a school Dance "
         ]
       ]
     },
@@ -114,19 +152,6 @@
           "2026-09-06",
           "2026-09-06",
           "Day Off "
-        ]
-      ]
-    },
-    {
-      "shop": "Newport Beach - Fashion Island",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "George Rodriguez",
-          "2026-09-04",
-          "2026-09-04",
-          "Leave"
         ]
       ]
     }

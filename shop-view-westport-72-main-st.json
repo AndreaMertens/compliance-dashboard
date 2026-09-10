@@ -2,10 +2,10 @@
   "meta": {
     "title": "Westport - 72 Main St",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-08-17",
-          "Matthew Reilly",
-          "8:00 AM",
-          "8:12 AM",
-          "12"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,18 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Ethan Platt",
-          "Tue Aug 18",
-          "7:10 AM",
-          "5:23 PM",
-          "10.22",
-          "84.47 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
