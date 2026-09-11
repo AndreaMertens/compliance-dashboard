@@ -198,7 +198,7 @@
     {
       "id": "payroll-over-40",
       "title": "Over 40 + Vacation",
-      "metric": 7,
+      "metric": 8,
       "metric_unit": "employees",
       "description": "Hourly employees whose worked + leave exceeded 40 hrs in a week. 1 complete Mon\u2013Sun week(s) in this period.",
       "status": "attention",
@@ -211,6 +211,14 @@
         "Total"
       ],
       "rows": [
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-08-31 \u2013 2026-09-06",
+          "74.44h worked",
+          "15.0h leave",
+          "89.44h total"
+        ],
         [
           "Michael",
           "Cleveland - 251 Main Street",
@@ -287,7 +295,7 @@
     {
       "id": "payroll-pending-leave",
       "title": "Pending Leave",
-      "metric": 10,
+      "metric": 9,
       "metric_unit": "requests",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
       "status": "attention",
@@ -309,12 +317,6 @@
           "2026-09-10",
           "2026-09-11",
           "Missouri State"
-        ],
-        [
-          "Grant Fuller",
-          "2026-09-06",
-          "2026-09-08",
-          "Labor Day"
         ],
         [
           "Adam Lansdown",
@@ -1297,7 +1299,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 463,
+      "metric": 464,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 46 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -3605,6 +3607,12 @@
           "New York - Flatiron",
           "2026-08-30",
           "8.38h"
+        ],
+        [
+          "Tyquan Jefferson",
+          "New York - Flatiron",
+          "2026-09-10",
+          "2.50h"
         ],
         [
           "Elias Salgado",
