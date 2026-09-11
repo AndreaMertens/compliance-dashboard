@@ -272,9 +272,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 3,
-      "metric_unit": "shops",
-      "description": "6 timecards still unapproved across the full pay period.",
+      "metric": 1,
+      "metric_unit": "shop",
+      "description": "1 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -283,36 +283,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Grant Fuller",
-          "2900 Minneapolis",
-          "2026-09-10",
-          "8.25h"
-        ],
-        [
-          "Grant Fuller",
-          "2900 Minneapolis",
-          "2026-09-10",
-          "8.25h"
-        ],
-        [
-          "Olivia Hubbard",
-          "2900 Minneapolis",
-          "2026-09-10",
-          "8.25h"
-        ],
-        [
-          "Christian Van Dam",
-          "17250 Omaha",
-          "2026-09-10",
-          "9.03h"
-        ],
-        [
-          "Noah Strako",
-          "17250 Omaha",
-          "2026-09-10",
-          "7.67h"
-        ],
         [
           "Abraham Boyd",
           "Walnut Creek - 147 Broadway",
@@ -408,7 +378,7 @@
       "title": "Penalty Pay",
       "metric": 3,
       "metric_unit": "shops",
-      "description": "122 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "description": "131 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1098,6 +1068,69 @@
           "0.00h"
         ],
         [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
           "Mate Okros",
           "Boston - 201 Newbury Street",
           "2026-08-31",
@@ -1277,7 +1310,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 1694,
+      "metric": 1697,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 47 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -2159,6 +2192,12 @@
           "8.40h"
         ],
         [
+          "Noah Strako",
+          "17250 Omaha",
+          "2026-09-10",
+          "7.67h"
+        ],
+        [
           "Daylon Johnson",
           "234 Bellevue Square",
           "2026-08-27",
@@ -2429,6 +2468,12 @@
           "8.95h"
         ],
         [
+          "Grant Fuller",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "8.25h"
+        ],
+        [
           "Olivia Hubbard",
           "2900 Minneapolis",
           "2026-08-27",
@@ -2463,6 +2508,12 @@
           "2900 Minneapolis",
           "2026-09-08",
           "8.22h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-09-10",
+          "8.25h"
         ],
         [
           "Samantha Naill",
