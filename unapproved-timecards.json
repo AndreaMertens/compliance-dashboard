@@ -2,8 +2,8 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of Aug 31 \u2013 Sep 6, 2026",
-    "summary_line": "1 shops \u00b7 4 timecards outstanding",
-    "last_refreshed_display": "Data through Thu Sep 10, 2026",
+    "summary_line": "No outstanding timecards.",
+    "last_refreshed_display": "Data through Fri Sep 11, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,33 +12,5 @@
     "Date",
     "Hours"
   ],
-  "groups": [
-    {
-      "shop": "Ann Arbor - 212 S Main",
-      "manager": "Genna Gilroy",
-      "count": 4,
-      "rows": [
-        [
-          "Gavin McCool",
-          "Thu Sep 3",
-          "9.07"
-        ],
-        [
-          "Jackson Keefer",
-          "Thu Sep 3",
-          "8.40"
-        ],
-        [
-          "James Newton",
-          "Sun Sep 6",
-          "7.10"
-        ],
-        [
-          "Ravon Gillum Jr",
-          "Sun Sep 6",
-          "7.20"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

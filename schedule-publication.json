@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Sep 10 \u2192 Oct 1, 2026",
-    "summary_line": "2 action needed \u00b7 7 heads up",
-    "last_refreshed_display": "Data through Thu Sep 10, 3:36 PM",
+    "subtitle": "Window: Sep 11 \u2192 Oct 2, 2026",
+    "summary_line": "2 action needed \u00b7 8 heads up",
+    "last_refreshed_display": "Data through Fri Sep 11, 6:32 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,15 +16,15 @@
         {
           "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 30,
-          "gap_days": 11,
+          "draft_count": 34,
+          "gap_days": 12,
           "lookahead_days": 14
         },
         {
           "shop": "Miami - Brickell",
           "manager": "",
-          "draft_count": 10,
-          "gap_days": 4,
+          "draft_count": 13,
+          "gap_days": 5,
           "lookahead_days": 14
         }
       ]
@@ -35,18 +35,18 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
+          "shop": "696 Lynnfield",
+          "manager": "",
+          "draft_count": 8,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
           "draft_count": 8,
           "gap_days": 0,
           "lookahead_days": 21
-        },
-        {
-          "shop": "696 Lynnfield",
-          "manager": "",
-          "draft_count": 7,
-          "gap_days": 0,
-          "lookahead_days": 14
         },
         {
           "shop": "17250 Omaha",
@@ -58,7 +58,14 @@
         {
           "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
-          "draft_count": 3,
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "2900 Minneapolis",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         },
