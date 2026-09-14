@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Over 40 + Vacation",
-    "subtitle": "Covers Aug 31 \u2013 Sep 6",
-    "summary_line": "8 employees flagged across 7 shops",
-    "last_refreshed_display": "Data through Fri Sep 11, 2026",
+    "subtitle": "Covers Sep 7 \u2013 Sep 13",
+    "summary_line": "6 employees flagged across 6 shops",
+    "last_refreshed_display": "Data through Sun Sep 13, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,16 +16,30 @@
   ],
   "groups": [
     {
+      "shop": "1425 Basecamp",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Justin Wascher",
+          "34.59",
+          "7.50",
+          "42.09",
+          "+2.09"
+        ]
+      ]
+    },
+    {
       "shop": "234 Bellevue Square",
       "manager": "",
       "count": 1,
       "rows": [
         [
           "Daylon Johnson",
-          "31.29",
-          "22.50",
-          "53.79",
-          "+13.79"
+          "42.84",
+          "7.50",
+          "50.34",
+          "+10.34"
         ]
       ]
     },
@@ -36,59 +50,38 @@
       "rows": [
         [
           "Grant Fuller",
-          "74.44",
-          "15.00",
-          "89.44",
-          "+49.44"
+          "81.76",
+          "30.00",
+          "111.76",
+          "+71.76"
         ]
       ]
     },
     {
-      "shop": "629 Alexandria",
+      "shop": "4002 Columbus",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Nour-Eddine Seidnaly",
-          "33.30",
-          "8.00",
-          "41.30",
-          "+1.30"
+          "Larry Whitaker",
+          "25.37",
+          "22.50",
+          "47.87",
+          "+7.87"
         ]
       ]
     },
     {
-      "shop": "Birmingham - 141 W Maple",
+      "shop": "7900 Louisville",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Lance Minor",
-          "24.10",
-          "24.00",
-          "48.10",
-          "+8.10"
-        ]
-      ]
-    },
-    {
-      "shop": "Chicago - 840 W Armitage",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "Andrew Bell",
-          "33.65",
+          "Matthew Lumsden",
+          "33.83",
           "8.00",
-          "41.65",
-          "+1.65"
-        ],
-        [
-          "Christian Sikorski",
-          "33.30",
-          "8.00",
-          "41.30",
-          "+1.30"
+          "41.83",
+          "+1.83"
         ]
       ]
     },
@@ -99,24 +92,10 @@
       "rows": [
         [
           "Michael",
-          "66.96",
-          "15.00",
-          "81.96",
-          "+41.96"
-        ]
-      ]
-    },
-    {
-      "shop": "DC - 3101 M St",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Micah Wheeler",
-          "41.16",
-          "1.50",
-          "42.66",
-          "+2.66"
+          "67.04",
+          "16.00",
+          "83.04",
+          "+43.04"
         ]
       ]
     }
