@@ -61,9 +61,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 30,
+      "metric": 31,
       "metric_unit": "shops",
-      "description": "132 timecards still unapproved across the full pay period.",
+      "description": "133 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -691,6 +691,24 @@
           "8.58h"
         ],
         [
+          "Christian Bussman",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-09-15",
+          "8.10h"
+        ],
+        [
+          "Jacob",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-09-15",
+          "6.12h"
+        ],
+        [
+          "Jakob Poore",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-09-16",
+          "8.00h"
+        ],
+        [
           "James Newton",
           "Ann Arbor - 212 S Main",
           "2026-09-15",
@@ -787,30 +805,6 @@
           "8.40h"
         ],
         [
-          "Christian Bussman",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-09-15",
-          "8.10h"
-        ],
-        [
-          "Jacob",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-09-15",
-          "6.12h"
-        ],
-        [
-          "Danniella Arishaba",
-          "Dallas - 3699 McKinney",
-          "2026-09-15",
-          "8.62h"
-        ],
-        [
-          "Kweshaan Thomas",
-          "Dallas - 3699 McKinney",
-          "2026-09-15",
-          "8.80h"
-        ],
-        [
           "Liss Llerena",
           "7900 Louisville",
           "2026-09-15",
@@ -851,6 +845,18 @@
           "822 City Centre",
           "2026-09-15",
           "8.03h"
+        ],
+        [
+          "Kelly Sears",
+          "7878 Cincinnati",
+          "2026-09-16",
+          "7.98h"
+        ],
+        [
+          "Larry Whitaker",
+          "4002 Columbus",
+          "2026-09-16",
+          "8.00h"
         ],
         [
           "Leng Tshua",
@@ -917,22 +923,10 @@
           "Family celebration"
         ],
         [
-          "Kayla Hackney",
-          "2026-09-17",
-          "2026-09-17",
-          "Wedding"
-        ],
-        [
           "Adam Lansdown",
           "2026-09-15",
           "2026-09-16",
           "Missouri state"
-        ],
-        [
-          "Sarah McCaw",
-          "2026-09-16",
-          "2026-09-16",
-          "PTO "
         ],
         [
           "farhan Khandaker",
@@ -941,10 +935,10 @@
           "Gnv "
         ],
         [
-          "Ceara McKegney",
-          "2026-09-10",
-          "2026-09-15",
-          "Going home to clt for panthers game "
+          "Grant Fuller",
+          "2026-09-14",
+          "2026-09-14",
+          "40"
         ],
         [
           "Inessa Samusenko",
@@ -957,6 +951,18 @@
           "2026-09-10",
           "2026-09-11",
           "Missouri State"
+        ],
+        [
+          "Dominic Saenz",
+          "2026-09-11",
+          "2026-09-11",
+          "Global"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "2026-09-11",
+          "2026-09-11",
+          "Sick day! "
         ]
       ]
     },
@@ -1218,7 +1224,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 436,
+      "metric": 438,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 43 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -2382,6 +2388,12 @@
           "8.18h"
         ],
         [
+          "Danniella Arishaba",
+          "Dallas - 3699 McKinney",
+          "2026-09-15",
+          "8.62h"
+        ],
+        [
           "Dawson Plott",
           "Dallas - 3699 McKinney",
           "2026-09-11",
@@ -2422,6 +2434,12 @@
           "Dallas - 3699 McKinney",
           "2026-09-14",
           "8.22h"
+        ],
+        [
+          "Kweshaan Thomas",
+          "Dallas - 3699 McKinney",
+          "2026-09-15",
+          "8.80h"
         ],
         [
           "Cooper Betancourt",

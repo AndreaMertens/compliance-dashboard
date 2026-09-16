@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-11",
+          "Alex",
+          "9:00 AM",
+          "11:14 AM",
+          "134"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -63,16 +71,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Micah Wheeler",
-          "41.16",
-          "1.50",
-          "42.66",
-          "+2.66"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -83,8 +83,34 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Alex",
+          "Fri Sep 11",
+          "5.82"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Sep 11",
+          "8.42"
+        ],
+        [
+          "Micah Wheeler",
+          "Sat Sep 12",
+          "9.45"
+        ],
+        [
+          "Alex",
+          "Sun Sep 13",
+          "5.30"
+        ],
+        [
+          "Micah Wheeler",
+          "Sun Sep 13",
+          "8.33"
+        ]
+      ],
+      "count": 5
     }
   ]
 }

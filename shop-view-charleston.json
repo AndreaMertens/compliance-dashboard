@@ -2,10 +2,10 @@
   "meta": {
     "title": "Charleston",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,30 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-09",
+          "Christian Somma",
+          "8:00 AM",
+          "8:20 AM",
+          "20"
+        ],
+        [
+          "2026-09-09",
+          "Jarell Davis",
+          "9:00 AM",
+          "9:15 AM",
+          "15"
+        ],
+        [
+          "2026-09-11",
+          "Christian Somma",
+          "9:00 AM",
+          "9:11 AM",
+          "11"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "long-shifts",

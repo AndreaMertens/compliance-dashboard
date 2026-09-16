@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - Flatiron",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,8 +19,51 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-08",
+          "Davids Rozitis",
+          "6:00 AM",
+          "7:40 AM",
+          "100"
+        ],
+        [
+          "2026-09-09",
+          "Davids Rozitis",
+          "6:00 AM",
+          "7:20 AM",
+          "80"
+        ],
+        [
+          "2026-09-09",
+          "Ian Adams",
+          "8:00 AM",
+          "8:44 AM",
+          "44"
+        ],
+        [
+          "2026-09-10",
+          "Davids Rozitis",
+          "6:00 AM",
+          "7:53 AM",
+          "113"
+        ],
+        [
+          "2026-09-11",
+          "Amber Harvey",
+          "8:50 AM",
+          "9:11 AM",
+          "21"
+        ],
+        [
+          "2026-09-11",
+          "Fred Hilaire",
+          "8:50 AM",
+          "9:01 AM",
+          "11"
+        ]
+      ],
+      "count": 6
     },
     {
       "id": "long-shifts",

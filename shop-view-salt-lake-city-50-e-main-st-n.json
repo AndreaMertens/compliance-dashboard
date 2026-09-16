@@ -2,10 +2,10 @@
   "meta": {
     "title": "Salt Lake City - 50 E Main St. N",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-11",
+          "Val Simanca Delgado",
+          "10:00 AM",
+          "12:01 PM",
+          "121"
+        ],
+        [
+          "2026-09-11",
+          "Nicholas Compton",
+          "6:00 PM",
+          "6:54 PM",
+          "54"
+        ],
+        [
+          "2026-09-11",
+          "Charlie Shaffer",
+          "4:00 PM",
+          "4:17 PM",
+          "17"
+        ],
+        [
+          "2026-09-12",
+          "Charlie Shaffer",
+          "4:00 PM",
+          "4:15 PM",
+          "15"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -75,8 +104,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Nicholas Compton",
+          "Fri Sep 11",
+          "2.20"
+        ],
+        [
+          "Val Simanca Delgado",
+          "Fri Sep 11",
+          "7.03"
+        ],
+        [
+          "Charlie Shaffer",
+          "Fri Sep 11",
+          "4.82"
+        ],
+        [
+          "Nicholas Compton",
+          "Sat Sep 12",
+          "8.22"
+        ],
+        [
+          "Val Simanca Delgado",
+          "Sat Sep 12",
+          "8.10"
+        ],
+        [
+          "Charlie Shaffer",
+          "Sat Sep 12",
+          "4.87"
+        ]
+      ],
+      "count": 6
     }
   ]
 }
