@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Sep 15 \u2192 Oct 6, 2026",
-    "summary_line": "6 action needed \u00b7 8 heads up",
-    "last_refreshed_display": "Data through Tue Sep 15, 7:04 AM",
+    "subtitle": "Window: Sep 16 \u2192 Oct 7, 2026",
+    "summary_line": "5 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Wed Sep 16, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,43 +16,36 @@
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 12,
-          "gap_days": 2,
+          "draft_count": 15,
+          "gap_days": 3,
           "lookahead_days": 21
         },
         {
           "shop": "Denver - 2800 E 2nd Ave",
           "manager": "",
-          "draft_count": 8,
-          "gap_days": 2,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Westport - 72 Main St",
-          "manager": "",
-          "draft_count": 6,
-          "gap_days": 2,
+          "draft_count": 12,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
           "shop": "2900 Minneapolis",
           "manager": "",
-          "draft_count": 5,
-          "gap_days": 2,
+          "draft_count": 10,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
           "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 4,
-          "gap_days": 2,
+          "draft_count": 7,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 3,
-          "gap_days": 2,
+          "draft_count": 4,
+          "gap_days": 3,
           "lookahead_days": 14
         }
       ]
@@ -63,13 +56,6 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "696 Lynnfield",
-          "manager": "",
-          "draft_count": 11,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "17250 Omaha",
           "manager": "",
           "draft_count": 2,
@@ -77,14 +63,21 @@
           "lookahead_days": 14
         },
         {
-          "shop": "333 Milwaukee",
+          "shop": "822 City Centre",
           "manager": "",
-          "draft_count": 1,
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "822 City Centre",
+          "shop": "Walnut Creek - 147 Broadway",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "333 Milwaukee",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
@@ -103,20 +96,6 @@
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
-        },
-        {
-          "shop": "Walnut Creek - 147 Broadway",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 21
         }
       ]
     }
