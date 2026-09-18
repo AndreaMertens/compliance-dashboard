@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of September 7\u201313, 2026",
-    "generated_at": "2026-09-17T07:03:47.337692",
-    "generated_at_display": "Generated Sep 17, 7:03 AM"
+    "generated_at": "2026-09-18T07:03:47.490231",
+    "generated_at_display": "Generated Sep 18, 7:03 AM"
   },
   "summary": [],
   "sections": [
@@ -19,7 +19,7 @@
           "metric_unit": "shop-days",
           "description": "Retail shops with a full day where nobody clocked in. Excludes scheduled closures.",
           "status": "ok",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 7 \u2013 Sep 13",
           "is_mock": false
         },
@@ -28,11 +28,11 @@
           "title": "Schedule Publication",
           "review_day": "Monday",
           "metric": 4,
-          "metric_unit": " \u00b7 7 heads up",
+          "metric_unit": " \u00b7 5 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Sep 17, 7:03 AM",
-          "covers_label": "Compliance window: next 21 days from 2026-09-17",
+          "last_refreshed_display": "Data through Fri Sep 18, 7:03 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-09-18",
           "is_mock": false
         },
         {
@@ -43,7 +43,7 @@
           "metric_unit": "last week",
           "description": "2026 avg: 19.0%. 24 managers above 20% YTD threshold.",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "YTD through 2026-09-13",
           "is_mock": false
         }
@@ -60,7 +60,7 @@
           "metric_unit": "tardy clock-ins",
           "description": "Hourly employees clocked in >5 min after scheduled start. Spans 22 shop(s).",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 7 \u2013 Sep 13",
           "is_mock": false
         },
@@ -68,11 +68,11 @@
           "id": "long-shifts",
           "title": "Long Shift Penalties",
           "review_day": "Wednesday",
-          "metric": 0,
+          "metric": 3,
           "metric_unit": "shifts flagged",
-          "description": "No long shifts this pay period triggered OT, NY Spread, or the 11-hour review flag.",
-          "status": "good",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "description": "Across 3 shops this pay period \u2014 3 OT.",
+          "status": "watch",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 11 \u2013 Sep 25",
           "is_mock": false
         },
@@ -84,7 +84,7 @@
           "metric_unit": "shifts flagged",
           "description": "No approved timecards under 20 minutes this pay period.",
           "status": "good",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 11 \u2013 Sep 25",
           "is_mock": false
         },
@@ -96,7 +96,7 @@
           "metric_unit": "employees flagged",
           "description": "Hourly employees whose worked hours plus approved leave hours exceeded 40 in the week.",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 7 \u2013 Sep 13",
           "is_mock": false
         },
@@ -106,9 +106,9 @@
           "review_day": "Wednesday",
           "metric": 4,
           "metric_unit": "shops outstanding",
-          "description": "10 timecards still unapproved past the 3-day grace period.",
+          "description": "8 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 7 \u2013 Sep 13",
           "is_mock": false
         },
@@ -120,7 +120,7 @@
           "metric_unit": "pending",
           "description": "Leave submitted for a past work week not yet approved or denied.",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Prior completed weeks",
           "is_mock": false
         },
@@ -132,7 +132,7 @@
           "metric_unit": "shop with penalties",
           "description": "Timesheets with labor-law penalties (meal/rest break, predictability pay, etc.). 50 penalty events.",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Sep 17, 2026",
+          "last_refreshed_display": "Data through Fri Sep 18, 2026",
           "covers_label": "Covers Sep 7 \u2013 Sep 13",
           "is_mock": false
         }
