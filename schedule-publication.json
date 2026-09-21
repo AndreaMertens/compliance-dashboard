@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Sep 18 \u2192 Oct 9, 2026",
-    "summary_line": "4 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Fri Sep 18, 7:03 AM",
+    "subtitle": "Window: Sep 21 \u2192 Oct 12, 2026",
+    "summary_line": "3 action needed \u00b7 4 heads up",
+    "last_refreshed_display": "Data through Mon Sep 21, 9:11 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,31 +14,24 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
+          "shop": "4000 New Orleans",
+          "manager": "",
+          "draft_count": 21,
+          "gap_days": 8,
+          "lookahead_days": 14
+        },
+        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 28,
-          "gap_days": 5,
+          "draft_count": 34,
+          "gap_days": 7,
           "lookahead_days": 21
         },
         {
-          "shop": "Denver - 2800 E 2nd Ave",
+          "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 22,
-          "gap_days": 5,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "4000 New Orleans",
-          "manager": "",
-          "draft_count": 13,
-          "gap_days": 5,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Fort Lauderdale - 1016 E",
-          "manager": "",
-          "draft_count": 7,
-          "gap_days": 5,
+          "draft_count": 11,
+          "gap_days": 1,
           "lookahead_days": 14
         }
       ]
@@ -49,35 +42,28 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Walnut Creek - 147 Broadway",
+          "shop": "Miami - Brickell",
           "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "17250 Omaha",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "2900 Minneapolis",
-          "manager": "",
-          "draft_count": 1,
+          "draft_count": 6,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "822 City Centre",
           "manager": "",
-          "draft_count": 1,
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "Miami - Brickell",
+          "shop": "Denver - 2800 E 2nd Ave",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "17250 Omaha",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,

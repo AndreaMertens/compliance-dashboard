@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "11 pending leave requests across 7 shops",
-    "last_refreshed_display": "Data through Fri Sep 18, 2026",
+    "summary_line": "16 pending leave requests across 9 shops",
+    "last_refreshed_display": "Data through Mon Sep 21, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -41,6 +41,19 @@
       ]
     },
     {
+      "shop": "2900 Minneapolis",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Grant Fuller",
+          "2026-09-14",
+          "2026-09-14",
+          "40"
+        ]
+      ]
+    },
+    {
       "shop": "696 Lynnfield",
       "manager": "",
       "count": 1,
@@ -56,8 +69,14 @@
     {
       "shop": "Denver - 2800 E 2nd Ave",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Brian Redington",
+          "2026-09-19",
+          "2026-09-19",
+          "Family celebration"
+        ],
         [
           "Dominic Saenz",
           "2026-09-11",
@@ -67,10 +86,35 @@
       ]
     },
     {
+      "shop": "Fort Lauderdale - 1016 E",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "farhan Khandaker",
+          "2026-09-13",
+          "2026-09-16",
+          "Gnv "
+        ]
+      ]
+    },
+    {
       "shop": "Kansas City - 321 Nichols Rd",
       "manager": "",
-      "count": 5,
+      "count": 7,
       "rows": [
+        [
+          "Adam Lansdown",
+          "2026-09-19",
+          "2026-09-20",
+          "San Diego"
+        ],
+        [
+          "Adam Lansdown",
+          "2026-09-15",
+          "2026-09-16",
+          "Missouri state"
+        ],
         [
           "Adam Lansdown",
           "2026-09-10",
