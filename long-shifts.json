@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Sep 11 \u2013 Sep 25, 2026",
-    "summary_line": "7 flagged shifts across 5 shops \u2014 7 OT, 1 over 11 hrs",
-    "last_refreshed_display": "Data through Mon Sep 21, 2026",
+    "summary_line": "11 flagged shifts across 7 shops \u2014 11 OT, 2 over 11 hrs",
+    "last_refreshed_display": "Data through Thu Sep 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -18,6 +18,22 @@
   ],
   "groups": [
     {
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
+      "count": 1,
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Fri Sep 11",
+          "10:25 AM",
+          "8:26 PM",
+          "10.02",
+          "75.30 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
       "shop": "234 Bellevue Square",
       "manager": "Jack Werner",
       "count": 1,
@@ -28,7 +44,7 @@
           "1:15 PM",
           "12:17 AM",
           "11.03",
-          "61.59 (OT)",
+          "78.60 (OT)",
           "OT \u00b7 Over 11"
         ]
       ]
@@ -44,7 +60,7 @@
           "9:45 AM",
           "7:50 PM",
           "10.08",
-          "64.67 (OT)",
+          "82.63 (OT)",
           "OT"
         ]
       ]
@@ -60,7 +76,32 @@
           "9:56 AM",
           "8:49 PM",
           "10.88",
-          "50.74 (OT)",
+          "74.21 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "Danny Ismail",
+      "count": 2,
+      "rows": [
+        [
+          "Micah Wheeler",
+          "Sat Sep 19",
+          "9:40 AM",
+          "8:05 PM",
+          "10.42",
+          "97.72 (OT)",
+          "OT"
+        ],
+        [
+          "Micah Wheeler",
+          "Tue Sep 22",
+          "9:11 AM",
+          "7:34 PM",
+          "10.38",
+          "97.72 (OT)",
           "OT"
         ]
       ]
@@ -68,15 +109,24 @@
     {
       "shop": "Dedham",
       "manager": "Justin Komins",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Dillon Stanas",
+          "Mon Sep 21",
+          "8:34 AM",
+          "9:15 PM",
+          "12.68",
+          "80.11 (OT)",
+          "OT \u00b7 Over 11"
+        ],
         [
           "Dillon Stanas",
           "Mon Sep 14",
           "8:44 AM",
           "7:06 PM",
           "10.37",
-          "75.43 (OT)",
+          "80.11 (OT)",
           "OT"
         ]
       ]
@@ -92,7 +142,7 @@
           "12:03 PM",
           "10:41 PM",
           "10.63",
-          "49.25 (OT)",
+          "57.25 (OT)",
           "OT"
         ],
         [
@@ -101,7 +151,7 @@
           "11:56 AM",
           "10:00 PM",
           "10.07",
-          "49.25 (OT)",
+          "57.25 (OT)",
           "OT"
         ],
         [
@@ -110,7 +160,7 @@
           "11:56 AM",
           "9:59 PM",
           "10.05",
-          "49.25 (OT)",
+          "57.25 (OT)",
           "OT"
         ]
       ]

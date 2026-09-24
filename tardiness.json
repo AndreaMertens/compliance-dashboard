@@ -2,8 +2,8 @@
   "meta": {
     "title": "Tardiness",
     "subtitle": "Covers Sep 14 \u2013 Sep 20",
-    "summary_line": "38 tardy clock-ins across 20 shops",
-    "last_refreshed_display": "Data through Mon Sep 21, 2026",
+    "summary_line": "39 tardy clock-ins across 20 shops",
+    "last_refreshed_display": "Data through Thu Sep 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -128,20 +128,6 @@
       ]
     },
     {
-      "shop": "7900 Louisville",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "2026-09-20",
-          "Jacob Raderer",
-          "12:00 PM",
-          "12:19 PM",
-          "19"
-        ]
-      ]
-    },
-    {
       "shop": "Birmingham - 141 W Maple",
       "manager": "",
       "count": 1,
@@ -228,7 +214,7 @@
     {
       "shop": "Chicago - 840 W Armitage",
       "manager": "",
-      "count": 3,
+      "count": 4,
       "rows": [
         [
           "2026-09-15",
@@ -245,10 +231,31 @@
           "12"
         ],
         [
+          "2026-09-18",
+          "Christian Sikorski",
+          "5:00 PM",
+          "5:30 PM",
+          "30"
+        ],
+        [
           "2026-09-19",
           "Christian Sikorski",
           "12:00 PM",
           "1:00 PM",
+          "60"
+        ]
+      ]
+    },
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-09-20",
+          "Yotwarit Kornwoodtikun",
+          "11:00 AM",
+          "12:00 PM",
           "60"
         ]
       ]
@@ -395,8 +402,8 @@
           "2026-09-16",
           "Elias Salgado",
           "12:30 PM",
-          "12:55 PM",
-          "25"
+          "12:45 PM",
+          "15"
         ],
         [
           "2026-09-19",
