@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-09-07",
+          "2026-09-14",
           "Cooper Betancourt",
-          "9:00 AM",
-          "12:30 PM",
-          "210"
-        ],
-        [
-          "2026-09-09",
-          "Cooper Betancourt",
-          "9:00 AM",
-          "9:14 AM",
-          "14"
+          "11:00 AM",
+          "11:26 AM",
+          "26"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -50,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Mon Sep 21",
+          "8:34 AM",
+          "9:15 PM",
+          "12.68",
+          "80.11 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Dillon Stanas",
+          "Mon Sep 14",
+          "8:44 AM",
+          "7:06 PM",
+          "10.37",
+          "80.11 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",

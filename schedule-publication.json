@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: Sep 25 \u2192 Oct 16, 2026",
-    "summary_line": "3 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Fri Sep 25, 9:03 AM",
+    "summary_line": "4 action needed \u00b7 4 heads up",
+    "last_refreshed_display": "Data through Fri Sep 25, 11:24 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -28,10 +28,17 @@
           "lookahead_days": 14
         },
         {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 4,
+          "gap_days": 4,
+          "lookahead_days": 14
+        },
+        {
           "shop": "1805 Boulder",
           "manager": "",
-          "draft_count": 0,
-          "gap_days": 0,
+          "draft_count": 2,
+          "gap_days": 1,
           "lookahead_days": 14
         }
       ]
@@ -44,7 +51,7 @@
         {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 9,
+          "draft_count": 8,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -66,13 +73,6 @@
           "shop": "17250 Omaha",
           "manager": "",
           "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Greenhills - 2126 Abbot Martin",
-          "manager": "",
-          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         }

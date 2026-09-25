@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-12",
-          "Andrew Smith",
-          "1:00 PM",
-          "1:17 PM",
-          "17"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,8 +35,36 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Gloria Alexander",
+          "Sat Sep 12",
+          "12:03 PM",
+          "10:41 PM",
+          "10.63",
+          "73.25 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Mon Sep 14",
+          "11:56 AM",
+          "10:00 PM",
+          "10.07",
+          "73.25 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Sep 15",
+          "11:56 AM",
+          "9:59 PM",
+          "10.05",
+          "73.25 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "short-shifts",

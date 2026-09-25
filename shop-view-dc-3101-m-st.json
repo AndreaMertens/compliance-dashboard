@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-09-11",
-          "Alex",
-          "9:00 AM",
-          "11:14 AM",
-          "134"
+          "2026-09-20",
+          "Yotwarit Kornwoodtikun",
+          "11:00 AM",
+          "12:00 PM",
+          "60"
         ]
       ],
       "count": 1
@@ -43,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Micah Wheeler",
+          "Sat Sep 19",
+          "9:40 AM",
+          "8:05 PM",
+          "10.42",
+          "104.72 (OT)",
+          "OT"
+        ],
+        [
+          "Micah Wheeler",
+          "Tue Sep 22",
+          "9:11 AM",
+          "7:34 PM",
+          "10.38",
+          "104.72 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -83,34 +102,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Alex",
-          "Fri Sep 11",
-          "5.82"
-        ],
-        [
-          "Micah Wheeler",
-          "Fri Sep 11",
-          "8.42"
-        ],
-        [
-          "Micah Wheeler",
-          "Sat Sep 12",
-          "9.45"
-        ],
-        [
-          "Alex",
-          "Sun Sep 13",
-          "5.30"
-        ],
-        [
-          "Micah Wheeler",
-          "Sun Sep 13",
-          "8.33"
-        ]
-      ],
-      "count": 5
+      "rows": [],
+      "count": 0
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Birmingham - 141 W Maple",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-14",
+          "Alexander Conklin",
+          "11:00 AM",
+          "12:04 PM",
+          "64"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -75,8 +83,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brett",
+          "Sun Sep 20",
+          "8.17"
+        ],
+        [
+          "Luke Srinivasan",
+          "Sun Sep 20",
+          "7.93"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

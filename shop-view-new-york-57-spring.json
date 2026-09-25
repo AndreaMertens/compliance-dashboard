@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-09-12",
+          "2026-09-17",
           "Yoseph Woldu",
-          "8:45 AM",
-          "8:57 AM",
-          "12"
+          "10:45 AM",
+          "11:20 AM",
+          "35"
+        ],
+        [
+          "2026-09-19",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:09 AM",
+          "24"
+        ],
+        [
+          "2026-09-19",
+          "Lekwan Massey-Phillips",
+          "10:45 AM",
+          "11:09 AM",
+          "24"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -71,8 +85,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Lekwan Massey-Phillips",
+          "67.72",
+          "16.00",
+          "83.72",
+          "+43.72"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -83,24 +105,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Yoseph Woldu",
-          "Fri Sep 11",
-          "7.20"
-        ],
-        [
-          "Yoseph Woldu",
-          "Sat Sep 12",
-          "8.17"
-        ],
-        [
-          "Yoseph Woldu",
-          "Sun Sep 13",
-          "7.25"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

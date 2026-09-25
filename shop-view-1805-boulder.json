@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "696 Lynnfield",
+    "title": "1805 Boulder",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-19",
-          "Evan",
-          "12:00 PM",
-          "12:18 PM",
-          "18"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,18 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Evan",
-          "Sat Sep 12",
-          "9:56 AM",
-          "8:49 PM",
-          "10.88",
-          "82.14 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",

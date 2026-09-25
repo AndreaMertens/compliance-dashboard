@@ -2,10 +2,10 @@
   "meta": {
     "title": "4002 Columbus",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-18",
+          "Larry Whitaker",
+          "10:00 AM",
+          "10:14 AM",
+          "14"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -35,8 +43,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Megan Piper",
+          "Sat Sep 12",
+          "9:45 AM",
+          "7:50 PM",
+          "10.08",
+          "90.63 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -63,16 +81,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Larry Whitaker",
-          "25.37",
-          "22.50",
-          "47.87",
-          "+7.87"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

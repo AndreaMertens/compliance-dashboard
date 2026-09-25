@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-08",
-          "Douglas Beard",
-          "9:30 AM",
-          "9:43 AM",
-          "13"
-        ],
-        [
-          "2026-09-09",
-          "Alex Cichy",
-          "8:30 AM",
-          "8:53 AM",
-          "23"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -50,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "Thu Sep 24",
+          "9:48 AM",
+          "10:00 PM",
+          "12.20",
+          "103.31 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",

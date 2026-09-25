@@ -2,10 +2,10 @@
   "meta": {
     "title": "7900 Louisville",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-10",
-          "Liss Llerena",
-          "10:00 AM",
-          "4:45 PM",
-          "405"
-        ],
-        [
-          "2026-09-13",
-          "Liss Llerena",
-          "10:00 AM",
-          "10:13 AM",
-          "13"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -78,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Matthew Lumsden",
-          "33.83",
-          "8.00",
-          "41.83",
-          "+1.83"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
