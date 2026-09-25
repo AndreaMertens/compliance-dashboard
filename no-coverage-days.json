@@ -2,8 +2,8 @@
   "meta": {
     "title": "No Coverage Days",
     "subtitle": "Covers Sep 14 \u2013 Sep 20",
-    "summary_line": "7 shop-days across 1 shops",
-    "last_refreshed_display": "Data through Thu Sep 24, 2026",
+    "summary_line": "14 shop-days across 2 shops",
+    "last_refreshed_display": "Data through Fri Sep 25, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -12,6 +12,41 @@
     "Day of Week"
   ],
   "groups": [
+    {
+      "shop": "1805 Boulder",
+      "manager": "",
+      "count": 7,
+      "rows": [
+        [
+          "2026-09-14",
+          "Monday"
+        ],
+        [
+          "2026-09-15",
+          "Tuesday"
+        ],
+        [
+          "2026-09-16",
+          "Wednesday"
+        ],
+        [
+          "2026-09-17",
+          "Thursday"
+        ],
+        [
+          "2026-09-18",
+          "Friday"
+        ],
+        [
+          "2026-09-19",
+          "Saturday"
+        ],
+        [
+          "2026-09-20",
+          "Sunday"
+        ]
+      ]
+    },
     {
       "shop": "785 Naples",
       "manager": "",
