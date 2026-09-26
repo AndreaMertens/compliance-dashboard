@@ -2,7 +2,7 @@
   "meta": {
     "title": "Short Shifts",
     "subtitle": "Pay period Sep 11 \u2013 Sep 25, 2026",
-    "summary_line": "No approved shifts under 20 minutes this pay period.",
+    "summary_line": "1 approved shift under 20 minutes across 1 shop",
     "last_refreshed_display": "Data through Fri Sep 25, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -14,5 +14,20 @@
     "End",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Indianapolis - 8702 Keystone Crossing",
+      "manager": "Alisha Reeve",
+      "count": 1,
+      "rows": [
+        [
+          "Parker Dean",
+          "Tue Sep 22",
+          "7:10 PM",
+          "7:20 PM",
+          "0.17"
+        ]
+      ]
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Sep 11 \u2013 Sep 25, 2026",
-    "summary_line": "12 flagged shifts across 8 shops \u2014 12 OT, 3 over 11 hrs",
+    "summary_line": "13 flagged shifts across 8 shops \u2014 13 OT, 3 over 11 hrs",
     "last_refreshed_display": "Data through Fri Sep 25, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -20,15 +20,24 @@
     {
       "shop": "17250 Omaha",
       "manager": "Christian Van Dam",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Christian Van Dam",
+          "Thu Sep 24",
+          "9:02 AM",
+          "7:41 PM",
+          "10.65",
+          "105.00 (OT)",
+          "OT"
+        ],
+        [
+          "Christian Van Dam",
           "Fri Sep 11",
-          "10:25 AM",
-          "8:26 PM",
+          "9:25 AM",
+          "7:26 PM",
           "10.02",
-          "84.88 (OT)",
+          "105.00 (OT)",
           "OT"
         ]
       ]
@@ -41,8 +50,8 @@
         [
           "Daylon Johnson",
           "Sat Sep 19",
-          "1:15 PM",
-          "12:17 AM",
+          "12:15 PM",
+          "11:17 PM",
           "11.03",
           "86.83 (OT)",
           "OT \u00b7 Over 11"
@@ -57,10 +66,10 @@
         [
           "Megan Piper",
           "Sat Sep 12",
-          "9:45 AM",
-          "7:50 PM",
+          "8:45 AM",
+          "6:50 PM",
           "10.08",
-          "90.63 (OT)",
+          "91.40 (OT)",
           "OT"
         ]
       ]
@@ -73,8 +82,8 @@
         [
           "Evan",
           "Sat Sep 12",
-          "9:56 AM",
-          "8:49 PM",
+          "8:56 AM",
+          "7:49 PM",
           "10.88",
           "82.14 (OT)",
           "OT"
@@ -89,19 +98,19 @@
         [
           "Micah Wheeler",
           "Sat Sep 19",
-          "9:40 AM",
-          "8:05 PM",
+          "8:40 AM",
+          "7:05 PM",
           "10.42",
-          "104.72 (OT)",
+          "104.99 (OT)",
           "OT"
         ],
         [
           "Micah Wheeler",
           "Tue Sep 22",
-          "9:11 AM",
-          "7:34 PM",
+          "8:11 AM",
+          "6:34 PM",
           "10.38",
-          "104.72 (OT)",
+          "104.99 (OT)",
           "OT"
         ]
       ]
@@ -114,8 +123,8 @@
         [
           "Dillon Stanas",
           "Mon Sep 21",
-          "8:34 AM",
-          "9:15 PM",
+          "7:34 AM",
+          "8:15 PM",
           "12.68",
           "80.11 (OT)",
           "OT \u00b7 Over 11"
@@ -123,8 +132,8 @@
         [
           "Dillon Stanas",
           "Mon Sep 14",
-          "8:44 AM",
-          "7:06 PM",
+          "7:44 AM",
+          "6:06 PM",
           "10.37",
           "80.11 (OT)",
           "OT"
@@ -139,8 +148,8 @@
         [
           "Antonio Castaneda Gonzalez",
           "Thu Sep 24",
-          "9:48 AM",
-          "10:00 PM",
+          "8:48 AM",
+          "9:00 PM",
           "12.20",
           "103.31 (OT)",
           "OT \u00b7 Over 11"
@@ -155,8 +164,8 @@
         [
           "Gloria Alexander",
           "Sat Sep 12",
-          "12:03 PM",
-          "10:41 PM",
+          "11:03 AM",
+          "9:41 PM",
           "10.63",
           "73.25 (OT)",
           "OT"
@@ -164,8 +173,8 @@
         [
           "Gloria Alexander",
           "Mon Sep 14",
-          "11:56 AM",
-          "10:00 PM",
+          "10:56 AM",
+          "9:00 PM",
           "10.07",
           "73.25 (OT)",
           "OT"
@@ -173,8 +182,8 @@
         [
           "Gloria Alexander",
           "Tue Sep 15",
-          "11:56 AM",
-          "9:59 PM",
+          "10:56 AM",
+          "8:59 PM",
           "10.05",
           "73.25 (OT)",
           "OT"

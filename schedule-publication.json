@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Sep 25 \u2192 Oct 16, 2026",
-    "summary_line": "4 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Fri Sep 25, 11:24 AM",
+    "subtitle": "Window: Sep 26 \u2192 Oct 17, 2026",
+    "summary_line": "3 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Sat Sep 26, 8:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,6 +14,13 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
+          "shop": "New York - 57 Spring",
+          "manager": "",
+          "draft_count": 16,
+          "gap_days": 6,
+          "lookahead_days": 14
+        },
+        {
           "shop": "785 Naples",
           "manager": "",
           "draft_count": 6,
@@ -21,24 +28,10 @@
           "lookahead_days": 14
         },
         {
-          "shop": "New York - 57 Spring",
-          "manager": "",
-          "draft_count": 6,
-          "gap_days": 5,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Fort Lauderdale - 1016 E",
-          "manager": "",
-          "draft_count": 4,
-          "gap_days": 4,
-          "lookahead_days": 14
-        },
-        {
           "shop": "1805 Boulder",
           "manager": "",
-          "draft_count": 2,
-          "gap_days": 1,
+          "draft_count": 0,
+          "gap_days": 0,
           "lookahead_days": 14
         }
       ]
@@ -51,21 +44,14 @@
         {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 8,
+          "draft_count": 7,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 6,
-          "gap_days": 0,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 6,
+          "draft_count": 7,
           "gap_days": 0,
           "lookahead_days": 21
         },
@@ -75,6 +61,20 @@
           "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Salt Lake City - 50 E Main St. N",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 21
         }
       ]
     }
