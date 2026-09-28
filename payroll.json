@@ -276,7 +276,7 @@
     {
       "id": "payroll-pending-leave",
       "title": "Pending Leave",
-      "metric": 4,
+      "metric": 3,
       "metric_unit": "requests",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
       "status": "attention",
@@ -292,12 +292,6 @@
           "2026-09-25",
           "2026-09-26",
           "Family in town "
-        ],
-        [
-          "Genna Gilroy",
-          "2026-09-17",
-          "2026-09-17",
-          "PTO - career fair week and 3:30 home game"
         ],
         [
           "Grant Fuller",

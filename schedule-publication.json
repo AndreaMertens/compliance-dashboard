@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: Sep 27 \u2192 Oct 18, 2026",
-    "summary_line": "3 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Sun Sep 27, 8:42 AM",
+    "summary_line": "3 action needed \u00b7 8 heads up",
+    "last_refreshed_display": "Data through Sun Sep 27, 8:18 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -42,18 +42,18 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 7,
-          "gap_days": 0,
-          "lookahead_days": 21
-        },
-        {
           "shop": "1425 Basecamp",
           "manager": "",
           "draft_count": 6,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Chicago - 840 W Armitage",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 21
         },
         {
           "shop": "17250 Omaha",
@@ -63,7 +63,21 @@
           "lookahead_days": 14
         },
         {
+          "shop": "822 City Centre",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "Boston - 201 Newbury Street",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Indianapolis - 8702 Keystone Crossing",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
