@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of September 14\u201320, 2026",
-    "summary_line": "1 shops \u00b7 3 timecards outstanding",
-    "last_refreshed_display": "Data through Sun Sep 27, 2026",
+    "subtitle": "Week of September 21\u201327, 2026",
+    "summary_line": "9 shops \u00b7 35 timecards outstanding",
+    "last_refreshed_display": "Data through Mon Sep 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,24 +14,240 @@
   ],
   "groups": [
     {
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "Agnes Krol",
+      "count": 11,
+      "rows": [
+        [
+          "Christian Sikorski",
+          "Sat Sep 26",
+          "8.07"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Sat Sep 26",
+          "7.98"
+        ],
+        [
+          "Andrea Calderon",
+          "Sat Sep 26",
+          "8.03"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sat Sep 26",
+          "8.08"
+        ],
+        [
+          "Andrew Bell",
+          "Sat Sep 26",
+          "0.00"
+        ],
+        [
+          "Andrew Bell",
+          "Sat Sep 26",
+          "8.15"
+        ],
+        [
+          "Holden Tamblyn",
+          "Sat Sep 26",
+          "8.08"
+        ],
+        [
+          "Christian Sikorski",
+          "Sun Sep 27",
+          "8.08"
+        ],
+        [
+          "Andrea Calderon",
+          "Sun Sep 27",
+          "8.07"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Sun Sep 27",
+          "8.08"
+        ],
+        [
+          "Andrew Bell",
+          "Sun Sep 27",
+          "8.00"
+        ]
+      ]
+    },
+    {
       "shop": "HQ-Non-Kiosk",
+      "manager": "",
+      "count": 10,
+      "rows": [
+        [
+          "Guy Williams ii",
+          "Mon Sep 21",
+          "16.28"
+        ],
+        [
+          "Zachary Opuda",
+          "Mon Sep 21",
+          "17.55"
+        ],
+        [
+          "Dominic Kowalski",
+          "Mon Sep 21",
+          "7.20"
+        ],
+        [
+          "Dominic Kowalski",
+          "Tue Sep 22",
+          "9.65"
+        ],
+        [
+          "Dominic Kowalski",
+          "Wed Sep 23",
+          "6.42"
+        ],
+        [
+          "Dominic Kowalski",
+          "Thu Sep 24",
+          "6.43"
+        ],
+        [
+          "Dominic Kowalski",
+          "Fri Sep 25",
+          "1.00"
+        ],
+        [
+          "Guy Williams ii",
+          "Sun Sep 27",
+          "3.33"
+        ],
+        [
+          "Zachary Opuda",
+          "Sun Sep 27",
+          "3.40"
+        ],
+        [
+          "Dominic Kowalski",
+          "Sun Sep 27",
+          "8.02"
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "Mira Chong",
+      "count": 4,
+      "rows": [
+        [
+          "Elias Salgado",
+          "Sat Sep 26",
+          "4.37"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sat Sep 26",
+          "7.35"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sat Sep 26",
+          "7.87"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sun Sep 27",
+          "7.32"
+        ]
+      ]
+    },
+    {
+      "shop": "10250 Century City",
       "manager": "",
       "count": 3,
       "rows": [
         [
-          "Guy Williams ii",
-          "Sun Sep 20",
-          "17.35"
+          "Ross Graham",
+          "Sat Sep 26",
+          "8.48"
         ],
         [
-          "Zachary Opuda",
-          "Sun Sep 20",
-          "14.07"
+          "Marcus Karlsson",
+          "Sat Sep 26",
+          "8.02"
         ],
         [
-          "Dominic Kowalski",
-          "Sun Sep 20",
-          "13.55"
+          "Marcus Karlsson",
+          "Sun Sep 27",
+          "8.02"
+        ]
+      ]
+    },
+    {
+      "shop": "Miami - Brickell",
+      "manager": "Amber Long",
+      "count": 2,
+      "rows": [
+        [
+          "Gabriel Gonzalez",
+          "Sat Sep 26",
+          "7.97"
+        ],
+        [
+          "Gabriel Gonzalez",
+          "Sun Sep 27",
+          "10.63"
+        ]
+      ]
+    },
+    {
+      "shop": "333 Milwaukee",
+      "manager": "Tia Reeves",
+      "count": 2,
+      "rows": [
+        [
+          "Ivory Turner",
+          "Sun Sep 27",
+          "7.55"
+        ],
+        [
+          "Clark",
+          "Sun Sep 27",
+          "5.90"
+        ]
+      ]
+    },
+    {
+      "shop": "Manhattan Beach - The Point",
+      "manager": "Gabriel Lujan, Kellen Slattery",
+      "count": 1,
+      "rows": [
+        [
+          "Sean Kelley",
+          "Sun Sep 27",
+          "8.00"
+        ]
+      ]
+    },
+    {
+      "shop": "DC - 3101 M St",
+      "manager": "Danny Ismail",
+      "count": 1,
+      "rows": [
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Sep 27",
+          "8.25"
+        ]
+      ]
+    },
+    {
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
+      "count": 1,
+      "rows": [
+        [
+          "Noah Strako",
+          "Sun Sep 27",
+          "7.28"
         ]
       ]
     }

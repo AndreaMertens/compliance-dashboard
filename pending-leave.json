@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 3 shops",
-    "last_refreshed_display": "Data through Sun Sep 27, 2026",
+    "summary_line": "5 pending leave requests across 5 shops",
+    "last_refreshed_display": "Data through Mon Sep 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -28,6 +28,19 @@
       ]
     },
     {
+      "shop": "1805 Boulder",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Dominic Saenz",
+          "2026-09-11",
+          "2026-09-11",
+          "Global"
+        ]
+      ]
+    },
+    {
       "shop": "2900 Minneapolis",
       "manager": "",
       "count": 1,
@@ -41,15 +54,28 @@
       ]
     },
     {
-      "shop": "Denver - 2800 E 2nd Ave",
+      "shop": "Fort Lauderdale - 1016 E",
       "manager": "",
       "count": 1,
       "rows": [
         [
-          "Dominic Saenz",
-          "2026-09-11",
-          "2026-09-11",
-          "Global"
+          "Ceara McKegney",
+          "2026-09-25",
+          "2026-09-26",
+          "Family in town "
+        ]
+      ]
+    },
+    {
+      "shop": "HQ - Warehouse",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Lawrence Pado",
+          "2026-09-27",
+          "2026-09-27",
+          "Have to go pick up my car "
         ]
       ]
     }
