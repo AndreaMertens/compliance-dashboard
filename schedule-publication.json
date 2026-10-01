@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Sep 30 \u2192 Oct 21, 2026",
+    "subtitle": "Window: Oct 1 \u2192 Oct 22, 2026",
     "summary_line": "3 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Wed Sep 30, 7:03 AM",
+    "last_refreshed_display": "Data through Thu Oct 1, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,17 +14,17 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
+          "shop": "1805 Boulder",
+          "manager": "",
+          "draft_count": 12,
+          "gap_days": 7,
+          "lookahead_days": 14
+        },
+        {
           "shop": "785 Naples",
           "manager": "",
           "draft_count": 7,
           "gap_days": 6,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1805 Boulder",
-          "manager": "",
-          "draft_count": 10,
-          "gap_days": 5,
           "lookahead_days": 14
         },
         {
@@ -42,23 +42,23 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "1425 Basecamp",
-          "manager": "",
-          "draft_count": 5,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 13,
           "gap_days": 0,
           "lookahead_days": 21
         },
         {
-          "shop": "Boston - 201 Newbury Street",
+          "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 1,
+          "draft_count": 4,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "822 City Centre",
+          "manager": "",
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
