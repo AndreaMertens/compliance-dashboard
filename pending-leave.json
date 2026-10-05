@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "5 pending leave requests across 5 shops",
+    "summary_line": "9 pending leave requests across 7 shops",
     "last_refreshed_display": "Data through Mon Oct 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -56,8 +56,14 @@
     {
       "shop": "Fort Lauderdale - 1016 E",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Cody Crites",
+          "2026-09-28",
+          "2026-09-28",
+          "Sick"
+        ],
         [
           "Ceara McKegney",
           "2026-09-25",
@@ -69,13 +75,45 @@
     {
       "shop": "HQ - Warehouse",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Tamara Stalter",
+          "2026-10-04",
+          "2026-10-04",
+          "I\u2019m going out of town for that weekend. "
+        ],
         [
           "Lawrence Pado",
           "2026-09-27",
           "2026-09-27",
           "Have to go pick up my car "
+        ]
+      ]
+    },
+    {
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Adam Lansdown",
+          "2026-10-01",
+          "2026-10-03",
+          "St Thomas"
+        ]
+      ]
+    },
+    {
+      "shop": "Miami - Brickell",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Thomas Blackadar",
+          "2026-09-30",
+          "2026-10-01",
+          "Bday "
         ]
       ]
     }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 2 \u2192 Oct 23, 2026",
-    "summary_line": "3 action needed \u00b7 8 heads up",
-    "last_refreshed_display": "Data through Fri Oct 2, 7:03 AM",
+    "subtitle": "Window: Oct 5 \u2192 Oct 26, 2026",
+    "summary_line": "3 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Mon Oct 5, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,17 +14,17 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "1805 Boulder",
+          "shop": "785 Naples",
           "manager": "",
           "draft_count": 11,
           "gap_days": 7,
           "lookahead_days": 14
         },
         {
-          "shop": "785 Naples",
+          "shop": "1805 Boulder",
           "manager": "",
-          "draft_count": 7,
-          "gap_days": 6,
+          "draft_count": 3,
+          "gap_days": 1,
           "lookahead_days": 14
         },
         {
@@ -42,32 +42,32 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Chicago - 840 W Armitage",
+          "shop": "Philadelphia - 1702 Walnut",
           "manager": "",
-          "draft_count": 13,
+          "draft_count": 7,
           "gap_days": 0,
           "lookahead_days": 21
         },
         {
-          "shop": "Salt Lake City - 50 E Main St. N",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1425 Basecamp",
+          "shop": "122 Lexington",
           "manager": "",
           "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "822 City Centre",
+          "shop": "Boston - 201 Newbury Street",
           "manager": "",
           "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Chicago - 840 W Armitage",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 21
         },
         {
           "shop": "17250 Omaha",
@@ -77,25 +77,11 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Nashville - 5th + Broadway",
+          "shop": "234 Bellevue Square",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
-        },
-        {
-          "shop": "Walnut Creek - 147 Broadway",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 21
         }
       ]
     }
