@@ -2,10 +2,10 @@
   "meta": {
     "title": "1151 Roseville",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-14",
-          "Inessa Samusenko",
-          "11:30 AM",
-          "11:52 AM",
-          "22"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -83,8 +75,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Inessa Samusenko",
+          "Fri Oct 2",
+          "8.10"
+        ],
+        [
+          "Inessa Samusenko",
+          "Sat Oct 3",
+          "7.87"
+        ],
+        [
+          "Inessa Samusenko",
+          "Sun Oct 4",
+          "7.42"
+        ],
+        [
+          "Sasha Jones",
+          "Sun Oct 4",
+          "7.60"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

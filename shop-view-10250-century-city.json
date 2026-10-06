@@ -2,10 +2,10 @@
   "meta": {
     "title": "10250 Century City",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-09-28",
+          "Marcus Karlsson",
+          "10:30 AM",
+          "1:45 PM",
+          "195"
+        ],
+        [
+          "2026-10-01",
+          "Christina Byrd",
+          "11:30 AM",
+          "1:45 PM",
+          "135"
+        ],
+        [
+          "2026-10-01",
+          "Ross Graham",
+          "10:30 AM",
+          "10:45 AM",
+          "15"
+        ],
+        [
+          "2026-10-02",
+          "Ross Graham",
+          "2:45 PM",
+          "3:00 PM",
+          "15"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -75,8 +104,34 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ross Graham",
+          "Fri Oct 2",
+          "8.17"
+        ],
+        [
+          "Marcus Karlsson",
+          "Fri Oct 2",
+          "8.00"
+        ],
+        [
+          "Ross Graham",
+          "Sat Oct 3",
+          "8.52"
+        ],
+        [
+          "Marcus Karlsson",
+          "Sat Oct 3",
+          "20.43"
+        ],
+        [
+          "Marcus Karlsson",
+          "Sun Oct 4",
+          "8.02"
+        ]
+      ],
+      "count": 5
     }
   ]
 }

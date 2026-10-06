@@ -2,10 +2,10 @@
   "meta": {
     "title": "Westport - 72 Main St",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-01",
+          "Christian Somma",
+          "8:00 AM",
+          "8:12 AM",
+          "12"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -65,11 +73,11 @@
       ],
       "rows": [
         [
-          "Ethan Platt",
-          "32.97",
-          "8.50",
-          "41.47",
-          "+1.47"
+          "Matthew Reilly",
+          "33.65",
+          "8.00",
+          "41.65",
+          "+1.65"
         ]
       ],
       "count": 1
@@ -83,8 +91,24 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ethan Platt",
+          "Sun Oct 4",
+          "8.33"
+        ],
+        [
+          "Jake Friedland",
+          "Sun Oct 4",
+          "8.10"
+        ],
+        [
+          "Christian Somma",
+          "Sun Oct 4",
+          "7.72"
+        ]
+      ],
+      "count": 3
     }
   ]
 }

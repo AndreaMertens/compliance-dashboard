@@ -2,10 +2,10 @@
   "meta": {
     "title": "New York - 57 Spring",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,30 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-17",
-          "Yoseph Woldu",
-          "9:45 AM",
-          "10:20 AM",
-          "35"
-        ],
-        [
-          "2026-09-19",
-          "Lekwan Massey-Phillips",
-          "9:45 AM",
-          "10:09 AM",
-          "24"
-        ],
-        [
-          "2026-09-19",
-          "Lekwan Massey-Phillips",
-          "9:45 AM",
-          "10:09 AM",
-          "24"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -85,16 +63,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Lekwan Massey-Phillips",
-          "67.72",
-          "16.00",
-          "83.72",
-          "+43.72"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

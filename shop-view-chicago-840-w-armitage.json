@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,28 +21,14 @@
       ],
       "rows": [
         [
-          "2026-09-15",
-          "Andrea Calderon",
+          "2026-10-04",
+          "Donald Crawford",
           "9:00 AM",
-          "11:41 AM",
-          "161"
-        ],
-        [
-          "2026-09-18",
-          "Christian Sikorski",
-          "4:00 PM",
-          "4:30 PM",
-          "30"
-        ],
-        [
-          "2026-09-19",
-          "Christian Sikorski",
-          "11:00 AM",
-          "12:00 PM",
-          "60"
+          "9:14 AM",
+          "14"
         ]
       ],
-      "count": 3
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -71,8 +57,23 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Andrea Calderon",
+          "Mon Sep 28",
+          "10:00 PM",
+          "10:00 PM",
+          "0.00"
+        ],
+        [
+          "Andrea Calderon",
+          "Wed Sep 30",
+          "10:00 PM",
+          "10:00 PM",
+          "0.00"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "over-40-vacation",
@@ -97,8 +98,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Holden Tamblyn",
+          "Fri Oct 2",
+          "0.00"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

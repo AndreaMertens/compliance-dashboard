@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of Sep 28 \u2013 Oct 4, 2026",
-    "generated_at": "2026-10-06T07:03:38.566398",
-    "generated_at_display": "Generated Oct 6, 7:03 AM"
+    "generated_at": "2026-10-06T13:24:56.224186",
+    "generated_at_display": "Generated Oct 6, 1:24 PM"
   },
   "summary": [],
   "sections": [
@@ -31,7 +31,7 @@
           "metric_unit": " \u00b7 5 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Tue Oct 6, 7:03 AM",
+          "last_refreshed_display": "Data through Tue Oct 6, 1:24 PM",
           "covers_label": "Compliance window: next 21 days from 2026-10-06",
           "is_mock": false
         },
@@ -104,9 +104,9 @@
           "id": "unapproved-timecards",
           "title": "Unapproved Timecards",
           "review_day": "Wednesday",
-          "metric": 10,
+          "metric": 9,
           "metric_unit": "shops outstanding",
-          "description": "54 timecards still unapproved past the 3-day grace period.",
+          "description": "52 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
           "last_refreshed_display": "Data through Mon Oct 12, 2026",
           "covers_label": "Covers Sep 28 \u2013 Oct 4",
@@ -116,7 +116,7 @@
           "id": "pending-leave",
           "title": "Pending Leave Approvals",
           "review_day": "Monday",
-          "metric": 9,
+          "metric": 8,
           "metric_unit": "pending",
           "description": "Leave submitted for a past work week not yet approved or denied.",
           "status": "attention",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-09-20",
-          "Yotwarit Kornwoodtikun",
-          "10:00 AM",
-          "11:00 AM",
-          "60"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,27 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Micah Wheeler",
-          "Sat Sep 19",
-          "8:40 AM",
-          "7:05 PM",
-          "10.42",
-          "104.99 (OT)",
-          "OT"
-        ],
-        [
-          "Micah Wheeler",
-          "Tue Sep 22",
-          "8:11 AM",
-          "6:34 PM",
-          "10.38",
-          "104.99 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -102,8 +75,54 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Bryce",
+          "Thu Oct 1",
+          "8.27"
+        ],
+        [
+          "Micah Wheeler",
+          "Thu Oct 1",
+          "8.18"
+        ],
+        [
+          "Alex",
+          "Fri Oct 2",
+          "8.37"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Oct 2",
+          "8.10"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Oct 2",
+          "8.32"
+        ],
+        [
+          "Bryce",
+          "Sat Oct 3",
+          "8.35"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat Oct 3",
+          "9.03"
+        ],
+        [
+          "Bryce",
+          "Sun Oct 4",
+          "8.35"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Oct 4",
+          "8.48"
+        ]
+      ],
+      "count": 9
     }
   ]
 }

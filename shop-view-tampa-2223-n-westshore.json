@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tampa - 2223 N Westshore",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-02",
+          "Bo Kenney",
+          "9:45 AM",
+          "10:09 AM",
+          "24"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -35,8 +43,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "Thu Oct 1",
+          "7:16 AM",
+          "6:07 PM",
+          "10.85",
+          "54.82 (OT)",
+          "OT"
+        ],
+        [
+          "Yasmeen Khan",
+          "Sat Oct 3",
+          "6:32 AM",
+          "5:03 PM",
+          "10.52",
+          "54.82 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",
