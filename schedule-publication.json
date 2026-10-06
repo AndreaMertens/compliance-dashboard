@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 5 \u2192 Oct 26, 2026",
-    "summary_line": "3 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Mon Oct 5, 7:03 AM",
+    "subtitle": "Window: Oct 6 \u2192 Oct 27, 2026",
+    "summary_line": "3 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Tue Oct 6, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,17 +14,17 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
+          "shop": "1805 Boulder",
+          "manager": "",
+          "draft_count": 13,
+          "gap_days": 8,
+          "lookahead_days": 14
+        },
+        {
           "shop": "785 Naples",
           "manager": "",
           "draft_count": 11,
           "gap_days": 7,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1805 Boulder",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 1,
           "lookahead_days": 14
         },
         {
@@ -56,13 +56,6 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Boston - 201 Newbury Street",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
           "draft_count": 2,
@@ -77,7 +70,7 @@
           "lookahead_days": 14
         },
         {
-          "shop": "234 Bellevue Square",
+          "shop": "Boston - 201 Newbury Street",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,

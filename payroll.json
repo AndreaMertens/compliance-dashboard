@@ -4,15 +4,15 @@
     "check_label": "Oct 15, 2026",
     "period_start": "2026-09-26",
     "period_end": "2026-10-12",
-    "last_refreshed_display": "Generated Mon Oct 5, 2026"
+    "last_refreshed_display": "Generated Tue Oct 6, 2026"
   },
   "tiles": [
     {
       "id": "payroll-long-shifts",
       "title": "Long Shift Penalties",
-      "metric": 11,
+      "metric": 16,
       "metric_unit": "shifts",
-      "description": "Shifts over 10 hours across 7 shop(s). OT and spread premiums may apply.",
+      "description": "Shifts over 10 hours across 10 shop(s). OT and spread premiums may apply.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -38,6 +38,14 @@
           "9:49 AM",
           "9:46 PM",
           "11.95h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-09-30",
+          "7:02 AM",
+          "6:13 PM",
+          "11.18h"
         ],
         [
           "Gloria Alexander",
@@ -72,11 +80,27 @@
           "10.63h"
         ],
         [
+          "Yasmeen Khan",
+          "Tampa - 2223 N Westshore",
+          "2026-10-03",
+          "6:32 AM",
+          "5:03 PM",
+          "10.52h"
+        ],
+        [
           "Evan",
           "696 Lynnfield",
           "2026-09-28",
           "7:45 AM",
           "6:07 PM",
+          "10.37h"
+        ],
+        [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-10-05",
+          "6:54 AM",
+          "5:16 PM",
           "10.37h"
         ],
         [
@@ -104,12 +128,28 @@
           "10.28h"
         ],
         [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "8:45 AM",
+          "7:02 PM",
+          "10.28h"
+        ],
+        [
           "Christian Van Dam",
           "17250 Omaha",
           "2026-10-02",
           "8:38 AM",
           "6:48 PM",
           "10.17h"
+        ],
+        [
+          "Evan",
+          "696 Lynnfield",
+          "2026-10-03",
+          "7:55 AM",
+          "6:04 PM",
+          "10.15h"
         ]
       ]
     },
@@ -192,9 +232,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 35,
+      "metric": 28,
       "metric_unit": "shops",
-      "description": "229 timecards still unapproved across the full pay period.",
+      "description": "147 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -203,348 +243,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Ivan Steinhoff-Arnot",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "9.22h"
-        ],
-        [
-          "Jeremy McMullen",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.13h"
-        ],
-        [
-          "Sean Parvin",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.58h"
-        ],
-        [
-          "Caleb Sebring",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.15h"
-        ],
-        [
-          "Lisa Stahl",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.07h"
-        ],
-        [
-          "Robert",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "9.85h"
-        ],
-        [
-          "Holley Berky",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.00h"
-        ],
-        [
-          "Dylan Rodriguez",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.08h"
-        ],
-        [
-          "Darien Kenny",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.00h"
-        ],
-        [
-          "Jerome Wilson",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "9.08h"
-        ],
-        [
-          "Noor Rammuny",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.77h"
-        ],
-        [
-          "Michael",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.70h"
-        ],
-        [
-          "Skylar Logsdon",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.98h"
-        ],
-        [
-          "Demetrius Sanders",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.03h"
-        ],
-        [
-          "Emanuel Williams",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.02h"
-        ],
-        [
-          "Brennan Lakatos",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.03h"
-        ],
-        [
-          "Billy Bates",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.02h"
-        ],
-        [
-          "Dustin Nguyen",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.90h"
-        ],
-        [
-          "Devin",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "8.05h"
-        ],
-        [
-          "Jonathan Hamm",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.65h"
-        ],
-        [
-          "Michael",
-          "HQ - Warehouse",
-          "2026-10-02",
-          "7.70h"
-        ],
-        [
-          "Heather Sexton",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "5.83h"
-        ],
-        [
-          "Holley Berky",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "8.53h"
-        ],
-        [
-          "Michael",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "7.92h"
-        ],
-        [
-          "Skylar Logsdon",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "8.70h"
-        ],
-        [
-          "Emanuel Williams",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "8.02h"
-        ],
-        [
-          "Brennan Lakatos",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "8.02h"
-        ],
-        [
-          "Billy Bates",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "8.02h"
-        ],
-        [
-          "Dustin Nguyen",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "7.87h"
-        ],
-        [
-          "Devin",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "8.13h"
-        ],
-        [
-          "Jonathan Hamm",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "7.95h"
-        ],
-        [
-          "Michael",
-          "HQ - Warehouse",
-          "2026-10-03",
-          "7.92h"
-        ],
-        [
-          "Ivan Steinhoff-Arnot",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "9.52h"
-        ],
-        [
-          "Gerardo Jimenez Damian",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "8.08h"
-        ],
-        [
-          "Jerome Wilson",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "8.57h"
-        ],
-        [
-          "Jody Twichell",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "8.27h"
-        ],
-        [
-          "Mario Aguirre",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "8.13h"
-        ],
-        [
-          "Dustin Nguyen",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "7.97h"
-        ],
-        [
-          "April",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "8.00h"
-        ],
-        [
-          "Dominique Mckenney",
-          "HQ - Warehouse",
-          "2026-10-04",
-          "8.27h"
-        ],
-        [
-          "Heather Sexton",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "9.00h"
-        ],
-        [
-          "Ivan Steinhoff-Arnot",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "9.00h"
-        ],
-        [
-          "Sean Parvin",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Caleb Sebring",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Lisa Stahl",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Robert",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "1.00h"
-        ],
-        [
-          "Dylan Rodriguez",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "7.93h"
-        ],
-        [
-          "Gerardo Jimenez Damian",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Darien Kenny",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Jerome Wilson",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Noor Rammuny",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Jody Twichell",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Demetrius Sanders",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Mario Aguirre",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Dustin Nguyen",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "7.92h"
-        ],
-        [
-          "Dominique Mckenney",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Jonathan Hamm",
-          "HQ - Warehouse",
-          "2026-10-05",
-          "3.93h"
-        ],
         [
           "Guy Williams ii",
           "HQ-Non-Kiosk",
@@ -687,19 +385,13 @@
           "Guy Williams ii",
           "HQ-Non-Kiosk",
           "2026-10-04",
-          "1.00h"
+          "10.87h"
         ],
         [
           "Guy Williams ii",
           "HQ-Non-Kiosk",
           "2026-10-04",
-          "10.87h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-10-04",
-          "1.00h"
+          "18.43h"
         ],
         [
           "Zachary Opuda",
@@ -708,238 +400,226 @@
           "11.38h"
         ],
         [
+          "Zachary Opuda",
+          "HQ-Non-Kiosk",
+          "2026-10-04",
+          "18.02h"
+        ],
+        [
           "Shelly Postyeni",
           "HQ-Non-Kiosk",
           "2026-10-05",
-          "1.00h"
+          "2.70h"
+        ],
+        [
+          "Shelly Postyeni",
+          "HQ-Non-Kiosk",
+          "2026-10-05",
+          "5.25h"
         ],
         [
           "Natalie Brown",
           "HQ-Non-Kiosk",
           "2026-10-05",
+          "8.18h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-10-05",
+          "7.55h"
+        ],
+        [
+          "Shelly Postyeni",
+          "HQ-Non-Kiosk",
+          "2026-10-06",
           "1.00h"
         ],
         [
-          "Brett",
-          "Birmingham - 141 W Maple",
-          "2026-09-29",
-          "3.73h"
+          "Guy Williams ii",
+          "HQ-Non-Kiosk",
+          "2026-10-06",
+          "1.00h"
         ],
         [
-          "Alexander Conklin",
-          "Birmingham - 141 W Maple",
-          "2026-09-29",
-          "7.93h"
+          "Zachary Opuda",
+          "HQ-Non-Kiosk",
+          "2026-10-06",
+          "1.00h"
         ],
         [
-          "Luke Srinivasan",
-          "Birmingham - 141 W Maple",
-          "2026-09-29",
+          "Natalie Brown",
+          "HQ-Non-Kiosk",
+          "2026-10-06",
+          "1.00h"
+        ],
+        [
+          "Heather Sexton",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "9.00h"
+        ],
+        [
+          "Ivan Steinhoff-Arnot",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "9.00h"
+        ],
+        [
+          "Jeremy McMullen",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "9.50h"
+        ],
+        [
+          "Sean Parvin",
+          "HQ - Warehouse",
+          "2026-10-06",
           "8.00h"
         ],
         [
-          "Lance Minor",
-          "Birmingham - 141 W Maple",
-          "2026-09-30",
-          "8.70h"
-        ],
-        [
-          "Brett",
-          "Birmingham - 141 W Maple",
-          "2026-09-30",
-          "11.18h"
-        ],
-        [
-          "Alexander Conklin",
-          "Birmingham - 141 W Maple",
-          "2026-09-30",
-          "9.37h"
-        ],
-        [
-          "Luke Srinivasan",
-          "Birmingham - 141 W Maple",
-          "2026-09-30",
-          "9.32h"
-        ],
-        [
-          "Lance Minor",
-          "Birmingham - 141 W Maple",
-          "2026-10-01",
-          "6.52h"
-        ],
-        [
-          "Alexander Conklin",
-          "Birmingham - 141 W Maple",
-          "2026-10-01",
-          "8.15h"
-        ],
-        [
-          "Tom",
-          "Birmingham - 141 W Maple",
-          "2026-10-01",
-          "7.95h"
-        ],
-        [
-          "Brett",
-          "Birmingham - 141 W Maple",
-          "2026-10-02",
-          "8.32h"
-        ],
-        [
-          "Tom",
-          "Birmingham - 141 W Maple",
-          "2026-10-02",
-          "8.02h"
-        ],
-        [
-          "Luke Srinivasan",
-          "Birmingham - 141 W Maple",
-          "2026-10-02",
-          "8.33h"
-        ],
-        [
-          "Lance Minor",
-          "Birmingham - 141 W Maple",
-          "2026-10-03",
-          "7.87h"
-        ],
-        [
-          "Brett",
-          "Birmingham - 141 W Maple",
-          "2026-10-03",
-          "4.28h"
-        ],
-        [
-          "Alexander Conklin",
-          "Birmingham - 141 W Maple",
-          "2026-10-03",
-          "8.15h"
-        ],
-        [
-          "Tom",
-          "Birmingham - 141 W Maple",
-          "2026-10-03",
-          "8.03h"
-        ],
-        [
-          "Lance Minor",
-          "Birmingham - 141 W Maple",
-          "2026-10-04",
-          "8.08h"
-        ],
-        [
-          "Brett",
-          "Birmingham - 141 W Maple",
-          "2026-10-04",
-          "8.13h"
-        ],
-        [
-          "Alexander Conklin",
-          "Birmingham - 141 W Maple",
-          "2026-10-04",
-          "8.28h"
-        ],
-        [
-          "Luke Srinivasan",
-          "Birmingham - 141 W Maple",
-          "2026-10-04",
-          "8.07h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-10-02",
-          "8.08h"
-        ],
-        [
-          "Viktoriia Fedorchak",
-          "Chicago - 840 W Armitage",
-          "2026-10-02",
-          "8.08h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-10-02",
-          "0.00h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-10-02",
-          "8.07h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-10-03",
-          "0.00h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-10-03",
-          "8.32h"
-        ],
-        [
-          "Jonathan Gunderlach",
-          "Chicago - 840 W Armitage",
-          "2026-10-03",
-          "8.20h"
-        ],
-        [
-          "Viktoriia Fedorchak",
-          "Chicago - 840 W Armitage",
-          "2026-10-03",
-          "8.08h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-10-03",
-          "8.08h"
-        ],
-        [
-          "Christian Sikorski",
-          "Chicago - 840 W Armitage",
-          "2026-10-04",
-          "8.77h"
-        ],
-        [
-          "Jonathan Gunderlach",
-          "Chicago - 840 W Armitage",
-          "2026-10-04",
-          "8.07h"
-        ],
-        [
-          "Viktoriia Fedorchak",
-          "Chicago - 840 W Armitage",
-          "2026-10-04",
-          "7.57h"
-        ],
-        [
-          "Holden Tamblyn",
-          "Chicago - 840 W Armitage",
-          "2026-10-04",
-          "8.80h"
-        ],
-        [
-          "Donald Crawford",
-          "Chicago - 840 W Armitage",
-          "2026-10-04",
+          "Caleb Sebring",
+          "HQ - Warehouse",
+          "2026-10-06",
           "7.97h"
         ],
         [
-          "Andrea Calderon",
-          "Chicago - 840 W Armitage",
-          "2026-10-10",
-          "0.00h"
+          "Lisa Stahl",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
         ],
         [
-          "Andrew Bell",
-          "Chicago - 840 W Armitage",
-          "2026-10-11",
-          "0.00h"
+          "Robert",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "9.50h"
+        ],
+        [
+          "Holley Berky",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Dylan Rodriguez",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "7.95h"
+        ],
+        [
+          "Aaron Frazier",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "7.92h"
+        ],
+        [
+          "Gerardo Jimenez Damian",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Molly Meisner",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "7.97h"
+        ],
+        [
+          "Jerome Wilson",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Noor Rammuny",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Jody Twichell",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Michael",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Skylar Logsdon",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Demetrius Sanders",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Emanuel Williams",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Mario Aguirre",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Brennan Lakatos",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Billy Bates",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Dustin Nguyen",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "7.88h"
+        ],
+        [
+          "April",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "7.98h"
+        ],
+        [
+          "Dominique Mckenney",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Devin",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Jonathan Hamm",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "Michael",
+          "HQ - Warehouse",
+          "2026-10-06",
+          "8.00h"
         ],
         [
           "Bryce",
@@ -996,220 +676,52 @@
           "8.48h"
         ],
         [
-          "Stephen Williams II",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-02",
-          "8.35h"
-        ],
-        [
-          "Mate Okros",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-02",
+          "Bryce",
+          "DC - 3101 M St",
+          "2026-10-05",
           "8.47h"
         ],
         [
-          "Fabio Santos Panisson",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-02",
-          "8.07h"
-        ],
-        [
-          "Stephen Williams II",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-03",
-          "8.68h"
-        ],
-        [
-          "Stephen Williams II",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-04",
-          "7.52h"
-        ],
-        [
-          "Fabio Santos Panisson",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-04",
-          "8.68h"
-        ],
-        [
-          "Stephen Williams II",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-07",
-          "0.00h"
-        ],
-        [
-          "Mate Okros",
-          "Philadelphia - 1702 Walnut",
-          "2026-10-09",
-          "0.00h"
-        ],
-        [
-          "Lucas",
-          "Charleston",
-          "2026-10-04",
-          "6.85h"
-        ],
-        [
-          "Eric",
-          "Charleston",
-          "2026-10-04",
-          "7.33h"
-        ],
-        [
-          "Madison Tadlock",
-          "Charleston",
-          "2026-10-04",
-          "7.42h"
-        ],
-        [
-          "Matt Schaeffer",
-          "Charleston",
-          "2026-10-04",
-          "7.27h"
-        ],
-        [
-          "Eric",
-          "Charleston",
-          "2026-10-04",
-          "7.33h"
-        ],
-        [
-          "Eric",
-          "Charleston",
+          "Yotwarit Kornwoodtikun",
+          "DC - 3101 M St",
           "2026-10-05",
-          "7.87h"
-        ],
-        [
-          "Madison Tadlock",
-          "Charleston",
-          "2026-10-05",
-          "8.00h"
-        ],
-        [
-          "Eric",
-          "Charleston",
-          "2026-10-05",
-          "7.87h"
-        ],
-        [
-          "Yasmeen Khan",
-          "Tampa - 2223 N Westshore",
-          "2026-10-03",
-          "10.52h"
-        ],
-        [
-          "Antowane Oliver",
-          "Tampa - 2223 N Westshore",
-          "2026-10-03",
           "8.35h"
         ],
         [
-          "Jhaidyn Brown",
-          "Tampa - 2223 N Westshore",
+          "Inessa Samusenko",
+          "1151 Roseville",
+          "2026-10-02",
+          "8.10h"
+        ],
+        [
+          "Inessa Samusenko",
+          "1151 Roseville",
           "2026-10-03",
-          "8.33h"
+          "7.87h"
         ],
         [
-          "Bo Kenney",
-          "Tampa - 2223 N Westshore",
-          "2026-10-03",
-          "8.53h"
-        ],
-        [
-          "Yasmeen Khan",
-          "Tampa - 2223 N Westshore",
-          "2026-10-04",
-          "7.62h"
-        ],
-        [
-          "Antowane Oliver",
-          "Tampa - 2223 N Westshore",
-          "2026-10-04",
-          "7.33h"
-        ],
-        [
-          "Bo Kenney",
-          "Tampa - 2223 N Westshore",
+          "Inessa Samusenko",
+          "1151 Roseville",
           "2026-10-04",
           "7.42h"
         ],
         [
-          "Crystal Brooks",
-          "103 Greenville",
-          "2026-10-03",
-          "8.42h"
-        ],
-        [
-          "Matthew Lumsden",
-          "103 Greenville",
-          "2026-10-03",
-          "8.45h"
-        ],
-        [
-          "Dylan",
-          "103 Greenville",
-          "2026-10-03",
-          "8.32h"
-        ],
-        [
-          "Crystal Brooks",
-          "103 Greenville",
+          "Sasha Jones",
+          "1151 Roseville",
           "2026-10-04",
-          "6.40h"
+          "7.60h"
         ],
         [
-          "Matthew Lumsden",
-          "103 Greenville",
-          "2026-10-04",
-          "6.08h"
-        ],
-        [
-          "Dylan",
-          "103 Greenville",
-          "2026-10-04",
-          "6.35h"
-        ],
-        [
-          "Matthew Lumsden",
-          "103 Greenville",
+          "Danielle Woody",
+          "1151 Roseville",
           "2026-10-05",
-          "8.00h"
+          "8.02h"
         ],
         [
-          "Samantha Naill",
-          "2900 Minneapolis",
-          "2026-10-02",
-          "8.17h"
-        ],
-        [
-          "Olivia Hubbard",
-          "2900 Minneapolis",
-          "2026-10-02",
-          "10.28h"
-        ],
-        [
-          "Samantha Naill",
-          "2900 Minneapolis",
-          "2026-10-03",
-          "8.23h"
-        ],
-        [
-          "Ethan Silverman",
-          "2900 Minneapolis",
-          "2026-10-03",
-          "8.27h"
-        ],
-        [
-          "Samantha Naill",
-          "2900 Minneapolis",
-          "2026-10-04",
-          "7.27h"
-        ],
-        [
-          "Olivia Hubbard",
-          "2900 Minneapolis",
-          "2026-10-04",
-          "7.25h"
+          "Inessa Samusenko",
+          "1151 Roseville",
+          "2026-10-05",
+          "8.18h"
         ],
         [
           "Ross Graham",
@@ -1242,76 +754,10 @@
           "8.02h"
         ],
         [
-          "Elias Salgado",
-          "Newport Beach - Fashion Island",
-          "2026-10-03",
-          "8.13h"
-        ],
-        [
-          "Jacob McLaughlin",
-          "Newport Beach - Fashion Island",
-          "2026-10-03",
-          "2.67h"
-        ],
-        [
-          "Nathaniel Faraone",
-          "Newport Beach - Fashion Island",
-          "2026-10-03",
-          "8.82h"
-        ],
-        [
-          "Nathaniel Faraone",
-          "Newport Beach - Fashion Island",
-          "2026-10-04",
-          "7.90h"
-        ],
-        [
-          "Brian Redington",
-          "Denver - 2800 E 2nd Ave",
-          "2026-10-03",
-          "9.25h"
-        ],
-        [
-          "Douglas Beard",
-          "Denver - 2800 E 2nd Ave",
-          "2026-10-03",
-          "8.18h"
-        ],
-        [
-          "Alex Cichy",
-          "Denver - 2800 E 2nd Ave",
-          "2026-10-03",
-          "8.57h"
-        ],
-        [
-          "Antonio Castaneda Gonzalez",
-          "Denver - 2800 E 2nd Ave",
-          "2026-10-04",
-          "8.53h"
-        ],
-        [
-          "Inessa Samusenko",
-          "1151 Roseville",
-          "2026-10-02",
-          "8.10h"
-        ],
-        [
-          "Inessa Samusenko",
-          "1151 Roseville",
-          "2026-10-03",
-          "7.87h"
-        ],
-        [
-          "Inessa Samusenko",
-          "1151 Roseville",
-          "2026-10-04",
-          "7.42h"
-        ],
-        [
-          "Sasha Jones",
-          "1151 Roseville",
-          "2026-10-04",
-          "7.60h"
+          "Marcus Karlsson",
+          "10250 Century City",
+          "2026-10-05",
+          "8.00h"
         ],
         [
           "Ethan Platt",
@@ -1332,76 +778,142 @@
           "7.72h"
         ],
         [
-          "Trent Bansak",
-          "Greenwich Avenue",
-          "2026-10-02",
-          "8.00h"
+          "Ethan Platt",
+          "Westport - 72 Main St",
+          "2026-10-05",
+          "8.28h"
         ],
         [
-          "Trent Bansak",
-          "Greenwich Avenue",
-          "2026-10-03",
+          "Jake Friedland",
+          "Westport - 72 Main St",
+          "2026-10-05",
+          "8.37h"
+        ],
+        [
+          "Eric",
+          "Charleston",
+          "2026-10-05",
+          "7.87h"
+        ],
+        [
+          "Madison Tadlock",
+          "Charleston",
+          "2026-10-05",
+          "8.07h"
+        ],
+        [
+          "Ella Valentine",
+          "Charleston",
+          "2026-10-05",
+          "8.07h"
+        ],
+        [
+          "Jarell Davis",
+          "Charleston",
+          "2026-10-05",
+          "7.95h"
+        ],
+        [
+          "Eric",
+          "Charleston",
+          "2026-10-05",
+          "7.87h"
+        ],
+        [
+          "Gloria Alexander",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-10-05",
+          "10.05h"
+        ],
+        [
+          "Will",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-10-05",
+          "10.02h"
+        ],
+        [
+          "Ryland",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-10-05",
+          "7.00h"
+        ],
+        [
+          "Andrew Smith",
+          "Scottsdale - Scottsdale Quarte",
+          "2026-10-05",
+          "8.08h"
+        ],
+        [
+          "Mate Okros",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-05",
+          "7.62h"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-05",
+          "8.05h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-07",
+          "0.00h"
+        ],
+        [
+          "Mate Okros",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-09",
+          "0.00h"
+        ],
+        [
+          "Ian Adams",
+          "New York - Flatiron",
+          "2026-10-04",
+          "8.83h"
+        ],
+        [
+          "Tyquan Jefferson",
+          "New York - Flatiron",
+          "2026-10-04",
+          "7.27h"
+        ],
+        [
+          "Ian Adams",
+          "New York - Flatiron",
+          "2026-10-05",
+          "7.92h"
+        ],
+        [
+          "Davids Rozitis",
+          "New York - Flatiron",
+          "2026-10-05",
+          "9.27h"
+        ],
+        [
+          "Christian Bussman",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-10-05",
+          "8.02h"
+        ],
+        [
+          "Parker Dean",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-10-05",
+          "5.52h"
+        ],
+        [
+          "Jakob Poore",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-10-05",
           "8.15h"
         ],
         [
-          "Trent Bansak",
-          "Greenwich Avenue",
-          "2026-10-04",
-          "7.22h"
-        ],
-        [
-          "Dillon Stanas",
-          "Dedham",
-          "2026-10-03",
-          "8.47h"
-        ],
-        [
-          "Dillon Stanas",
-          "Dedham",
-          "2026-10-04",
-          "7.50h"
-        ],
-        [
-          "Dillon Stanas",
-          "Dedham",
-          "2026-10-05",
+          "Christian Bussman",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-10-06",
           "8.00h"
-        ],
-        [
-          "Dawson Plott",
-          "Dallas - 3699 McKinney",
-          "2026-10-04",
-          "8.38h"
-        ],
-        [
-          "Aaron Flores",
-          "Dallas - 3699 McKinney",
-          "2026-10-04",
-          "6.98h"
-        ],
-        [
-          "Kweshaan Thomas",
-          "Dallas - 3699 McKinney",
-          "2026-10-04",
-          "8.38h"
-        ],
-        [
-          "Leng Tshua",
-          "234 Bellevue Square",
-          "2026-10-04",
-          "9.53h"
-        ],
-        [
-          "Daylon Johnson",
-          "234 Bellevue Square",
-          "2026-10-04",
-          "9.28h"
-        ],
-        [
-          "Kaylee",
-          "234 Bellevue Square",
-          "2026-10-04",
-          "9.28h"
         ],
         [
           "Noah Strako",
@@ -1422,40 +934,28 @@
           "7.37h"
         ],
         [
-          "Abraham Boyd",
-          "Walnut Creek - 147 Broadway",
-          "2026-10-04",
-          "6.57h"
+          "Christian Van Dam",
+          "17250 Omaha",
+          "2026-10-05",
+          "0.02h"
         ],
         [
-          "Jeremy Raymer",
-          "Walnut Creek - 147 Broadway",
-          "2026-10-04",
-          "6.65h"
+          "Jhaidyn Brown",
+          "Tampa - 2223 N Westshore",
+          "2026-10-05",
+          "8.45h"
         ],
         [
-          "Ian Adams",
-          "New York - Flatiron",
-          "2026-10-04",
-          "8.83h"
+          "Ivan Rhodes",
+          "Tampa - 2223 N Westshore",
+          "2026-10-05",
+          "8.25h"
         ],
         [
-          "Tyquan Jefferson",
-          "New York - Flatiron",
-          "2026-10-04",
-          "7.27h"
-        ],
-        [
-          "Yoseph Woldu",
-          "New York - 57 Spring",
-          "2026-10-03",
-          "8.55h"
-        ],
-        [
-          "Yoseph Woldu",
-          "New York - 57 Spring",
-          "2026-10-04",
-          "7.47h"
+          "Bo Kenney",
+          "Tampa - 2223 N Westshore",
+          "2026-10-05",
+          "8.37h"
         ],
         [
           "Christina Byrd",
@@ -1470,64 +970,112 @@
           "8.52h"
         ],
         [
-          "Maximilian Pinto",
-          "La Jolla - 7857 Girard Ave",
-          "2026-10-04",
-          "9.43h"
+          "Christina Byrd",
+          "Manhattan Beach - The Point",
+          "2026-10-05",
+          "8.62h"
         ],
         [
-          "Kayla Hackney",
-          "La Jolla - 7857 Girard Ave",
-          "2026-10-04",
-          "8.73h"
+          "Brian Redington",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-05",
+          "8.43h"
+        ],
+        [
+          "Douglas Beard",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-05",
+          "7.07h"
+        ],
+        [
+          "Antonio Castaneda Gonzalez",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-05",
+          "8.48h"
+        ],
+        [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-10-02",
+          "0.00h"
+        ],
+        [
+          "Andrea Calderon",
+          "Chicago - 840 W Armitage",
+          "2026-10-10",
+          "0.00h"
+        ],
+        [
+          "Andrew Bell",
+          "Chicago - 840 W Armitage",
+          "2026-10-11",
+          "0.00h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-10-05",
+          "9.85h"
+        ],
+        [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-10-05",
+          "8.37h"
+        ],
+        [
+          "Luke Srinivasan",
+          "Birmingham - 141 W Maple",
+          "2026-10-05",
+          "8.17h"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "New York - 57 Spring",
+          "2026-10-05",
+          "5.60h"
+        ],
+        [
+          "Lekwan Massey-Phillips",
+          "New York - 57 Spring",
+          "2026-10-05",
+          "5.60h"
         ],
         [
           "Charles Wolff",
           "Kansas City - 321 Nichols Rd",
-          "2026-10-04",
-          "8.07h"
+          "2026-10-05",
+          "8.10h"
         ],
         [
-          "Adam Lansdown",
+          "Aiden Troup",
           "Kansas City - 321 Nichols Rd",
-          "2026-10-04",
-          "6.05h"
-        ],
-        [
-          "Parker Dean",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-10-04",
-          "6.37h"
-        ],
-        [
-          "William Donovan",
-          "Indianapolis - 8702 Keystone Crossing",
-          "2026-10-04",
-          "6.30h"
-        ],
-        [
-          "Jacob Raderer",
-          "7900 Louisville",
-          "2026-10-03",
+          "2026-10-05",
           "8.27h"
         ],
         [
-          "Jacob Raderer",
-          "7900 Louisville",
-          "2026-10-04",
-          "6.17h"
+          "Clayton Brown",
+          "822 City Centre",
+          "2026-10-05",
+          "9.12h"
         ],
         [
-          "Ivory Turner",
-          "333 Milwaukee",
-          "2026-10-04",
-          "7.22h"
+          "Aunhale Tastad",
+          "822 City Centre",
+          "2026-10-05",
+          "8.00h"
         ],
         [
-          "Clark",
-          "333 Milwaukee",
-          "2026-10-04",
-          "6.27h"
+          "Todd Wasserman",
+          "7875 Cincinnati",
+          "2026-10-05",
+          "8.42h"
+        ],
+        [
+          "Matt Van Valkenburgh",
+          "7875 Cincinnati",
+          "2026-10-05",
+          "8.35h"
         ],
         [
           "Gabrielle",
@@ -1542,40 +1090,40 @@
           "5.72h"
         ],
         [
-          "Johnathan Rhodes",
-          "1000 Pittsburgh",
-          "2026-10-03",
-          "8.38h"
+          "Jeremy Raymer",
+          "Walnut Creek - 147 Broadway",
+          "2026-10-05",
+          "8.07h"
         ],
         [
-          "Johnathan Rhodes",
-          "1000 Pittsburgh",
-          "2026-10-04",
-          "7.40h"
-        ],
-        [
-          "Nicholas Compton",
+          "Val Simanca Delgado",
           "Salt Lake City - 50 E Main St. N",
-          "2026-10-03",
-          "9.95h"
+          "2026-10-05",
+          "4.08h"
+        ],
+        [
+          "Roxana Artiles",
+          "Fort Lauderdale - 1016 E",
+          "2026-10-06",
+          "8.00h"
+        ],
+        [
+          "William Gardner",
+          "Boston - 201 Newbury Street",
+          "2026-10-05",
+          "7.60h"
         ],
         [
           "Ravon Gillum Jr",
           "Ann Arbor - 212 S Main",
           "2026-10-05",
-          "8.00h"
+          "8.15h"
         ],
         [
-          "Evan",
-          "696 Lynnfield",
-          "2026-10-03",
-          "10.15h"
-        ],
-        [
-          "Justin Wascher",
-          "1425 Basecamp",
-          "2026-10-04",
-          "8.28h"
+          "Johnathan Rhodes",
+          "1000 Pittsburgh",
+          "2026-10-05",
+          "8.23h"
         ]
       ]
     },
@@ -1690,7 +1238,7 @@
       "title": "Penalty Pay",
       "metric": 3,
       "metric_unit": "shops",
-      "description": "31 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "description": "57 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1841,6 +1389,139 @@
           "0.00h"
         ],
         [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-04",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-04",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-04",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-04",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-05",
+          "Missed Meal Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-05",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-05",
+          "Missed Rest Break Allowance",
+          "0.00h"
+        ],
+        [
           "Andrea Calderon",
           "Chicago - 840 W Armitage",
           "2026-09-28",
@@ -1851,6 +1532,13 @@
           "Andrea Calderon",
           "Chicago - 840 W Armitage",
           "2026-09-30",
+          "SCHEDULE PREMIUM - 14 DAYS",
+          "0.00h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-10-05",
           "SCHEDULE PREMIUM - 14 DAYS",
           "0.00h"
         ],
@@ -1916,13 +1604,55 @@
           "2026-10-01",
           "SCHEDULE PREMIUM - CHANGED 13DAYS",
           "0.00h"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-02",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
+        ],
+        [
+          "Mate Okros",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-02",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-02",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-03",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-04",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-04",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
         ]
       ]
     },
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 784,
+      "metric": 982,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 48 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -1944,6 +1674,18 @@
           "1000 Pittsburgh",
           "2026-10-02",
           "8.30h"
+        ],
+        [
+          "Johnathan Rhodes",
+          "1000 Pittsburgh",
+          "2026-10-03",
+          "8.38h"
+        ],
+        [
+          "Johnathan Rhodes",
+          "1000 Pittsburgh",
+          "2026-10-04",
+          "7.40h"
         ],
         [
           "Christina Byrd",
@@ -2024,6 +1766,18 @@
           "8.10h"
         ],
         [
+          "Crystal Brooks",
+          "103 Greenville",
+          "2026-10-03",
+          "8.42h"
+        ],
+        [
+          "Crystal Brooks",
+          "103 Greenville",
+          "2026-10-04",
+          "6.40h"
+        ],
+        [
           "Dylan",
           "103 Greenville",
           "2026-09-30",
@@ -2040,6 +1794,18 @@
           "103 Greenville",
           "2026-10-02",
           "8.33h"
+        ],
+        [
+          "Dylan",
+          "103 Greenville",
+          "2026-10-03",
+          "8.32h"
+        ],
+        [
+          "Dylan",
+          "103 Greenville",
+          "2026-10-04",
+          "6.35h"
         ],
         [
           "Leeanna Wright",
@@ -2072,6 +1838,12 @@
           "8.35h"
         ],
         [
+          "Leeanna Wright",
+          "103 Greenville",
+          "2026-10-05",
+          "7.17h"
+        ],
+        [
           "Matthew Lumsden",
           "103 Greenville",
           "2026-09-26",
@@ -2100,6 +1872,24 @@
           "103 Greenville",
           "2026-10-02",
           "6.70h"
+        ],
+        [
+          "Matthew Lumsden",
+          "103 Greenville",
+          "2026-10-03",
+          "8.45h"
+        ],
+        [
+          "Matthew Lumsden",
+          "103 Greenville",
+          "2026-10-04",
+          "6.08h"
+        ],
+        [
+          "Matthew Lumsden",
+          "103 Greenville",
+          "2026-10-05",
+          "8.37h"
         ],
         [
           "Danielle Woody",
@@ -2222,6 +2012,12 @@
           "8.15h"
         ],
         [
+          "Gabrielle",
+          "122 Lexington",
+          "2026-10-05",
+          "8.25h"
+        ],
+        [
           "Logan Hopper",
           "122 Lexington",
           "2026-09-27",
@@ -2264,6 +2060,12 @@
           "8.13h"
         ],
         [
+          "Maxwell Webster",
+          "122 Lexington",
+          "2026-10-05",
+          "8.27h"
+        ],
+        [
           "Justin Wascher",
           "1425 Basecamp",
           "2026-09-26",
@@ -2292,6 +2094,18 @@
           "1425 Basecamp",
           "2026-10-03",
           "9.52h"
+        ],
+        [
+          "Justin Wascher",
+          "1425 Basecamp",
+          "2026-10-04",
+          "8.28h"
+        ],
+        [
+          "Justin Wascher",
+          "1425 Basecamp",
+          "2026-10-05",
+          "8.40h"
         ],
         [
           "Noah Strako",
@@ -2354,6 +2168,12 @@
           "8.25h"
         ],
         [
+          "Daylon Johnson",
+          "234 Bellevue Square",
+          "2026-10-04",
+          "9.28h"
+        ],
+        [
           "Kaylee",
           "234 Bellevue Square",
           "2026-09-26",
@@ -2382,6 +2202,12 @@
           "234 Bellevue Square",
           "2026-10-03",
           "8.07h"
+        ],
+        [
+          "Kaylee",
+          "234 Bellevue Square",
+          "2026-10-04",
+          "9.28h"
         ],
         [
           "Leng Tshua",
@@ -2420,6 +2246,18 @@
           "8.65h"
         ],
         [
+          "Leng Tshua",
+          "234 Bellevue Square",
+          "2026-10-04",
+          "9.53h"
+        ],
+        [
+          "Leng Tshua",
+          "234 Bellevue Square",
+          "2026-10-05",
+          "8.53h"
+        ],
+        [
           "Ethan Silverman",
           "2900 Minneapolis",
           "2026-09-26",
@@ -2430,6 +2268,12 @@
           "2900 Minneapolis",
           "2026-09-27",
           "3.18h"
+        ],
+        [
+          "Ethan Silverman",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "8.27h"
         ],
         [
           "Olivia Hubbard",
@@ -2450,6 +2294,18 @@
           "8.47h"
         ],
         [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "10.28h"
+        ],
+        [
+          "Olivia Hubbard",
+          "2900 Minneapolis",
+          "2026-10-04",
+          "7.25h"
+        ],
+        [
           "Samantha Naill",
           "2900 Minneapolis",
           "2026-09-26",
@@ -2466,6 +2322,30 @@
           "2900 Minneapolis",
           "2026-09-28",
           "8.47h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-02",
+          "8.17h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-03",
+          "8.23h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-04",
+          "7.27h"
+        ],
+        [
+          "Samantha Naill",
+          "2900 Minneapolis",
+          "2026-10-05",
+          "8.05h"
         ],
         [
           "Amelia Wagner",
@@ -2522,6 +2402,12 @@
           "6.70h"
         ],
         [
+          "Clark",
+          "333 Milwaukee",
+          "2026-10-04",
+          "6.27h"
+        ],
+        [
           "Ivory Turner",
           "333 Milwaukee",
           "2026-09-26",
@@ -2556,6 +2442,12 @@
           "333 Milwaukee",
           "2026-10-03",
           "8.93h"
+        ],
+        [
+          "Ivory Turner",
+          "333 Milwaukee",
+          "2026-10-04",
+          "7.22h"
         ],
         [
           "Elizabeth Staffiera",
@@ -2594,6 +2486,12 @@
           "7.75h"
         ],
         [
+          "Elizabeth Staffiera",
+          "4002 Columbus",
+          "2026-10-05",
+          "8.20h"
+        ],
+        [
           "Larry Whitaker",
           "4002 Columbus",
           "2026-09-26",
@@ -2628,6 +2526,12 @@
           "4002 Columbus",
           "2026-10-04",
           "6.72h"
+        ],
+        [
+          "Larry Whitaker",
+          "4002 Columbus",
+          "2026-10-05",
+          "9.37h"
         ],
         [
           "Megan Piper",
@@ -2672,6 +2576,12 @@
           "6.45h"
         ],
         [
+          "Megan Piper",
+          "4002 Columbus",
+          "2026-10-05",
+          "7.62h"
+        ],
+        [
           "Darius Barnes",
           "629 Alexandria",
           "2026-09-26",
@@ -2712,6 +2622,12 @@
           "629 Alexandria",
           "2026-10-04",
           "8.18h"
+        ],
+        [
+          "Darius Barnes",
+          "629 Alexandria",
+          "2026-10-05",
+          "8.25h"
         ],
         [
           "Jackson Reid",
@@ -2780,6 +2696,12 @@
           "7.97h"
         ],
         [
+          "Nour-Eddine Seidnaly",
+          "629 Alexandria",
+          "2026-10-05",
+          "8.15h"
+        ],
+        [
           "Toronto Eschrich",
           "629 Alexandria",
           "2026-09-26",
@@ -2822,6 +2744,12 @@
           "7.70h"
         ],
         [
+          "Toronto Eschrich",
+          "629 Alexandria",
+          "2026-10-05",
+          "8.38h"
+        ],
+        [
           "Evan",
           "696 Lynnfield",
           "2026-09-26",
@@ -2844,6 +2772,18 @@
           "696 Lynnfield",
           "2026-10-01",
           "10.28h"
+        ],
+        [
+          "Evan",
+          "696 Lynnfield",
+          "2026-10-03",
+          "10.15h"
+        ],
+        [
+          "Evan",
+          "696 Lynnfield",
+          "2026-10-04",
+          "1.00h"
         ],
         [
           "Kelly Sears",
@@ -3014,6 +2954,24 @@
           "8.32h"
         ],
         [
+          "Jacob Raderer",
+          "7900 Louisville",
+          "2026-10-03",
+          "8.27h"
+        ],
+        [
+          "Jacob Raderer",
+          "7900 Louisville",
+          "2026-10-04",
+          "7.02h"
+        ],
+        [
+          "Jacob Raderer",
+          "7900 Louisville",
+          "2026-10-05",
+          "8.30h"
+        ],
+        [
           "Aunhale Tastad",
           "822 City Centre",
           "2026-09-27",
@@ -3158,6 +3116,36 @@
           "8.25h"
         ],
         [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-09-29",
+          "7.93h"
+        ],
+        [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-09-30",
+          "9.37h"
+        ],
+        [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-10-01",
+          "8.15h"
+        ],
+        [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-10-03",
+          "8.15h"
+        ],
+        [
+          "Alexander Conklin",
+          "Birmingham - 141 W Maple",
+          "2026-10-04",
+          "8.28h"
+        ],
+        [
           "Brett",
           "Birmingham - 141 W Maple",
           "2026-09-26",
@@ -3176,6 +3164,36 @@
           "8.15h"
         ],
         [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-09-29",
+          "3.73h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-09-30",
+          "11.18h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-10-02",
+          "8.32h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-10-03",
+          "4.28h"
+        ],
+        [
+          "Brett",
+          "Birmingham - 141 W Maple",
+          "2026-10-04",
+          "8.13h"
+        ],
+        [
           "Lance Minor",
           "Birmingham - 141 W Maple",
           "2026-09-26",
@@ -3190,8 +3208,32 @@
         [
           "Lance Minor",
           "Birmingham - 141 W Maple",
+          "2026-09-30",
+          "8.70h"
+        ],
+        [
+          "Lance Minor",
+          "Birmingham - 141 W Maple",
+          "2026-10-01",
+          "6.52h"
+        ],
+        [
+          "Lance Minor",
+          "Birmingham - 141 W Maple",
           "2026-10-02",
           "8.27h"
+        ],
+        [
+          "Lance Minor",
+          "Birmingham - 141 W Maple",
+          "2026-10-03",
+          "7.87h"
+        ],
+        [
+          "Lance Minor",
+          "Birmingham - 141 W Maple",
+          "2026-10-04",
+          "8.08h"
         ],
         [
           "Luke Srinivasan",
@@ -3206,6 +3248,30 @@
           "8.08h"
         ],
         [
+          "Luke Srinivasan",
+          "Birmingham - 141 W Maple",
+          "2026-09-29",
+          "8.00h"
+        ],
+        [
+          "Luke Srinivasan",
+          "Birmingham - 141 W Maple",
+          "2026-09-30",
+          "9.32h"
+        ],
+        [
+          "Luke Srinivasan",
+          "Birmingham - 141 W Maple",
+          "2026-10-02",
+          "8.33h"
+        ],
+        [
+          "Luke Srinivasan",
+          "Birmingham - 141 W Maple",
+          "2026-10-04",
+          "8.07h"
+        ],
+        [
           "Tom",
           "Birmingham - 141 W Maple",
           "2026-09-26",
@@ -3216,6 +3282,24 @@
           "Birmingham - 141 W Maple",
           "2026-09-27",
           "7.93h"
+        ],
+        [
+          "Tom",
+          "Birmingham - 141 W Maple",
+          "2026-10-01",
+          "7.95h"
+        ],
+        [
+          "Tom",
+          "Birmingham - 141 W Maple",
+          "2026-10-02",
+          "8.02h"
+        ],
+        [
+          "Tom",
+          "Birmingham - 141 W Maple",
+          "2026-10-03",
+          "8.03h"
         ],
         [
           "Eric Garcia",
@@ -3270,6 +3354,12 @@
           "Boston - 201 Newbury Street",
           "2026-10-03",
           "8.70h"
+        ],
+        [
+          "Jack Osterhage",
+          "Boston - 201 Newbury Street",
+          "2026-10-05",
+          "8.90h"
         ],
         [
           "Jared Radovsky",
@@ -3410,6 +3500,12 @@
           "5.32h"
         ],
         [
+          "William Hatton",
+          "Boston - 201 Newbury Street",
+          "2026-10-05",
+          "8.77h"
+        ],
+        [
           "Ella Valentine",
           "Charleston",
           "2026-09-26",
@@ -3462,6 +3558,12 @@
           "Charleston",
           "2026-10-03",
           "8.17h"
+        ],
+        [
+          "Eric",
+          "Charleston",
+          "2026-10-04",
+          "7.33h"
         ],
         [
           "Jack Silva",
@@ -3560,6 +3662,12 @@
           "8.25h"
         ],
         [
+          "Lucas",
+          "Charleston",
+          "2026-10-04",
+          "6.85h"
+        ],
+        [
           "Madison Tadlock",
           "Charleston",
           "2026-09-28",
@@ -3584,6 +3692,12 @@
           "8.17h"
         ],
         [
+          "Madison Tadlock",
+          "Charleston",
+          "2026-10-04",
+          "7.42h"
+        ],
+        [
           "Matt Schaeffer",
           "Charleston",
           "2026-09-27",
@@ -3594,6 +3708,12 @@
           "Charleston",
           "2026-09-30",
           "7.95h"
+        ],
+        [
+          "Matt Schaeffer",
+          "Charleston",
+          "2026-10-04",
+          "7.27h"
         ],
         [
           "Andrea Calderon",
@@ -3710,10 +3830,40 @@
           "8.10h"
         ],
         [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-10-02",
+          "8.08h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-10-03",
+          "8.32h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-10-04",
+          "8.77h"
+        ],
+        [
+          "Christian Sikorski",
+          "Chicago - 840 W Armitage",
+          "2026-10-05",
+          "8.15h"
+        ],
+        [
           "Donald Crawford",
           "Chicago - 840 W Armitage",
           "2026-09-28",
           "0.70h"
+        ],
+        [
+          "Donald Crawford",
+          "Chicago - 840 W Armitage",
+          "2026-10-04",
+          "7.97h"
         ],
         [
           "Holden Tamblyn",
@@ -3734,10 +3884,40 @@
           "7.40h"
         ],
         [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-10-02",
+          "8.07h"
+        ],
+        [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-10-03",
+          "8.08h"
+        ],
+        [
+          "Holden Tamblyn",
+          "Chicago - 840 W Armitage",
+          "2026-10-04",
+          "8.80h"
+        ],
+        [
           "Jonathan Gunderlach",
           "Chicago - 840 W Armitage",
           "2026-09-26",
           "7.98h"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Chicago - 840 W Armitage",
+          "2026-10-03",
+          "8.20h"
+        ],
+        [
+          "Jonathan Gunderlach",
+          "Chicago - 840 W Armitage",
+          "2026-10-04",
+          "8.07h"
         ],
         [
           "Viktoriia Fedorchak",
@@ -3761,6 +3941,30 @@
           "Viktoriia Fedorchak",
           "Chicago - 840 W Armitage",
           "2026-09-29",
+          "8.08h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-10-02",
+          "8.08h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-10-03",
+          "8.08h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-10-04",
+          "7.57h"
+        ],
+        [
+          "Viktoriia Fedorchak",
+          "Chicago - 840 W Armitage",
+          "2026-10-05",
           "8.08h"
         ],
         [
@@ -3804,6 +4008,12 @@
           "Cleveland - 251 Main Street",
           "2026-10-04",
           "6.27h"
+        ],
+        [
+          "Brenna Roberts",
+          "Cleveland - 251 Main Street",
+          "2026-10-05",
+          "8.17h"
         ],
         [
           "Michael",
@@ -3932,6 +4142,12 @@
           "7.85h"
         ],
         [
+          "Aaron Flores",
+          "Dallas - 3699 McKinney",
+          "2026-10-04",
+          "6.98h"
+        ],
+        [
           "Cole Graham",
           "Dallas - 3699 McKinney",
           "2026-09-26",
@@ -3972,6 +4188,12 @@
           "Dallas - 3699 McKinney",
           "2026-10-02",
           "8.08h"
+        ],
+        [
+          "Cole Graham",
+          "Dallas - 3699 McKinney",
+          "2026-10-05",
+          "8.38h"
         ],
         [
           "Danniella Arishaba",
@@ -4034,6 +4256,18 @@
           "8.17h"
         ],
         [
+          "Dawson Plott",
+          "Dallas - 3699 McKinney",
+          "2026-10-04",
+          "8.38h"
+        ],
+        [
+          "Dawson Plott",
+          "Dallas - 3699 McKinney",
+          "2026-10-05",
+          "8.47h"
+        ],
+        [
           "Kweshaan Thomas",
           "Dallas - 3699 McKinney",
           "2026-09-26",
@@ -4070,6 +4304,18 @@
           "8.38h"
         ],
         [
+          "Kweshaan Thomas",
+          "Dallas - 3699 McKinney",
+          "2026-10-04",
+          "8.38h"
+        ],
+        [
+          "Kweshaan Thomas",
+          "Dallas - 3699 McKinney",
+          "2026-10-05",
+          "8.47h"
+        ],
+        [
           "Cooper Betancourt",
           "Dedham",
           "2026-09-28",
@@ -4082,6 +4328,12 @@
           "8.05h"
         ],
         [
+          "Cooper Betancourt",
+          "Dedham",
+          "2026-10-05",
+          "8.25h"
+        ],
+        [
           "Dillon Stanas",
           "Dedham",
           "2026-10-01",
@@ -4092,6 +4344,24 @@
           "Dedham",
           "2026-10-02",
           "8.43h"
+        ],
+        [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-10-03",
+          "8.47h"
+        ],
+        [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-10-04",
+          "7.50h"
+        ],
+        [
+          "Dillon Stanas",
+          "Dedham",
+          "2026-10-05",
+          "10.37h"
         ],
         [
           "Alex Cichy",
@@ -4130,6 +4400,12 @@
           "8.43h"
         ],
         [
+          "Alex Cichy",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-03",
+          "8.57h"
+        ],
+        [
           "Antonio Castaneda Gonzalez",
           "Denver - 2800 E 2nd Ave",
           "2026-09-28",
@@ -4152,6 +4428,12 @@
           "Denver - 2800 E 2nd Ave",
           "2026-10-01",
           "8.30h"
+        ],
+        [
+          "Antonio Castaneda Gonzalez",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-04",
+          "8.53h"
         ],
         [
           "Brian Redington",
@@ -4178,6 +4460,18 @@
           "8.90h"
         ],
         [
+          "Brian Redington",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-03",
+          "9.25h"
+        ],
+        [
+          "Brian Redington",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-04",
+          "8.53h"
+        ],
+        [
           "Douglas Beard",
           "Denver - 2800 E 2nd Ave",
           "2026-09-28",
@@ -4194,6 +4488,12 @@
           "Denver - 2800 E 2nd Ave",
           "2026-10-02",
           "8.55h"
+        ],
+        [
+          "Douglas Beard",
+          "Denver - 2800 E 2nd Ave",
+          "2026-10-03",
+          "8.18h"
         ],
         [
           "Yasmeen Khan",
@@ -4256,6 +4556,12 @@
           "8.08h"
         ],
         [
+          "Cody Crites",
+          "Fort Lauderdale - 1016 E",
+          "2026-10-05",
+          "8.07h"
+        ],
+        [
           "Phillip Santiago",
           "Fort Lauderdale - 1016 E",
           "2026-09-26",
@@ -4298,6 +4604,12 @@
           "7.18h"
         ],
         [
+          "Phillip Santiago",
+          "Fort Lauderdale - 1016 E",
+          "2026-10-05",
+          "7.95h"
+        ],
+        [
           "Roxana Artiles",
           "Fort Lauderdale - 1016 E",
           "2026-09-29",
@@ -4307,13 +4619,19 @@
           "Roxana Artiles",
           "Fort Lauderdale - 1016 E",
           "2026-09-30",
-          "7.87h"
+          "8.27h"
         ],
         [
           "Roxana Artiles",
           "Fort Lauderdale - 1016 E",
           "2026-10-01",
           "8.12h"
+        ],
+        [
+          "Roxana Artiles",
+          "Fort Lauderdale - 1016 E",
+          "2026-10-05",
+          "8.58h"
         ],
         [
           "Sophia Behar",
@@ -4388,6 +4706,18 @@
           "7.30h"
         ],
         [
+          "Tyler Sibley",
+          "Greenhills - 2126 Abbot Martin",
+          "2026-10-05",
+          "0.72h"
+        ],
+        [
+          "Tyler Sibley",
+          "Greenhills - 2126 Abbot Martin",
+          "2026-10-05",
+          "8.38h"
+        ],
+        [
           "Zach",
           "Greenhills - 2126 Abbot Martin",
           "2026-09-26",
@@ -4430,6 +4760,12 @@
           "7.03h"
         ],
         [
+          "Zach",
+          "Greenhills - 2126 Abbot Martin",
+          "2026-10-05",
+          "0.48h"
+        ],
+        [
           "Jose Cruz",
           "Greenwich Avenue",
           "2026-09-26",
@@ -4458,6 +4794,24 @@
           "Greenwich Avenue",
           "2026-10-01",
           "8.73h"
+        ],
+        [
+          "Trent Bansak",
+          "Greenwich Avenue",
+          "2026-10-02",
+          "8.35h"
+        ],
+        [
+          "Trent Bansak",
+          "Greenwich Avenue",
+          "2026-10-03",
+          "8.15h"
+        ],
+        [
+          "Trent Bansak",
+          "Greenwich Avenue",
+          "2026-10-04",
+          "7.22h"
         ],
         [
           "Aaron Frazier",
@@ -4514,6 +4868,12 @@
           "8.23h"
         ],
         [
+          "April",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.00h"
+        ],
+        [
           "Billy Bates",
           "HQ - Warehouse",
           "2026-09-26",
@@ -4538,6 +4898,18 @@
           "8.00h"
         ],
         [
+          "Billy Bates",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.02h"
+        ],
+        [
+          "Billy Bates",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "8.02h"
+        ],
+        [
           "Brennan Lakatos",
           "HQ - Warehouse",
           "2026-09-26",
@@ -4554,6 +4926,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "8.00h"
+        ],
+        [
+          "Brennan Lakatos",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.03h"
+        ],
+        [
+          "Brennan Lakatos",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "8.02h"
         ],
         [
           "Caleb Sebring",
@@ -4580,6 +4964,18 @@
           "7.98h"
         ],
         [
+          "Caleb Sebring",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.15h"
+        ],
+        [
+          "Caleb Sebring",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.15h"
+        ],
+        [
           "Darien Kenny",
           "HQ - Warehouse",
           "2026-09-28",
@@ -4604,6 +5000,18 @@
           "8.00h"
         ],
         [
+          "Darien Kenny",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.00h"
+        ],
+        [
+          "Darien Kenny",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "2.13h"
+        ],
+        [
           "Demetrius Sanders",
           "HQ - Warehouse",
           "2026-09-28",
@@ -4626,6 +5034,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "7.93h"
+        ],
+        [
+          "Demetrius Sanders",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.03h"
+        ],
+        [
+          "Demetrius Sanders",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.00h"
         ],
         [
           "Devin",
@@ -4652,6 +5072,18 @@
           "8.07h"
         ],
         [
+          "Devin",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.05h"
+        ],
+        [
+          "Devin",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "8.13h"
+        ],
+        [
           "Dominique Mckenney",
           "HQ - Warehouse",
           "2026-09-27",
@@ -4676,6 +5108,18 @@
           "8.03h"
         ],
         [
+          "Dominique Mckenney",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.27h"
+        ],
+        [
+          "Dominique Mckenney",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.07h"
+        ],
+        [
           "Dustin Nguyen",
           "HQ - Warehouse",
           "2026-09-26",
@@ -4700,6 +5144,30 @@
           "7.88h"
         ],
         [
+          "Dustin Nguyen",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "7.90h"
+        ],
+        [
+          "Dustin Nguyen",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "7.87h"
+        ],
+        [
+          "Dustin Nguyen",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "7.97h"
+        ],
+        [
+          "Dustin Nguyen",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "7.85h"
+        ],
+        [
           "Dylan Rodriguez",
           "HQ - Warehouse",
           "2026-09-28",
@@ -4716,6 +5184,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "7.88h"
+        ],
+        [
+          "Dylan Rodriguez",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.08h"
+        ],
+        [
+          "Dylan Rodriguez",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.05h"
         ],
         [
           "Emanuel Williams",
@@ -4740,6 +5220,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "8.00h"
+        ],
+        [
+          "Emanuel Williams",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.02h"
+        ],
+        [
+          "Emanuel Williams",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "8.02h"
         ],
         [
           "Gerardo Jimenez Damian",
@@ -4770,6 +5262,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "8.05h"
+        ],
+        [
+          "Gerardo Jimenez Damian",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.08h"
+        ],
+        [
+          "Gerardo Jimenez Damian",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.02h"
         ],
         [
           "Heather Sexton",
@@ -4802,6 +5306,18 @@
           "8.57h"
         ],
         [
+          "Heather Sexton",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "5.83h"
+        ],
+        [
+          "Heather Sexton",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.58h"
+        ],
+        [
           "Holley Berky",
           "HQ - Warehouse",
           "2026-09-26",
@@ -4818,6 +5334,18 @@
           "HQ - Warehouse",
           "2026-09-30",
           "8.02h"
+        ],
+        [
+          "Holley Berky",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.00h"
+        ],
+        [
+          "Holley Berky",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "8.53h"
         ],
         [
           "Ivan Steinhoff-Arnot",
@@ -4844,6 +5372,24 @@
           "9.10h"
         ],
         [
+          "Ivan Steinhoff-Arnot",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "9.22h"
+        ],
+        [
+          "Ivan Steinhoff-Arnot",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "9.52h"
+        ],
+        [
+          "Ivan Steinhoff-Arnot",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "9.15h"
+        ],
+        [
           "Jeremy McMullen",
           "HQ - Warehouse",
           "2026-09-28",
@@ -4866,6 +5412,12 @@
           "HQ - Warehouse",
           "2026-10-01",
           "9.30h"
+        ],
+        [
+          "Jeremy McMullen",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "7.13h"
         ],
         [
           "Jerome Wilson",
@@ -4898,6 +5450,24 @@
           "8.43h"
         ],
         [
+          "Jerome Wilson",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "9.08h"
+        ],
+        [
+          "Jerome Wilson",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.57h"
+        ],
+        [
+          "Jerome Wilson",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.20h"
+        ],
+        [
           "Jody Twichell",
           "HQ - Warehouse",
           "2026-09-27",
@@ -4928,6 +5498,18 @@
           "8.03h"
         ],
         [
+          "Jody Twichell",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.27h"
+        ],
+        [
+          "Jody Twichell",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.05h"
+        ],
+        [
           "Jonathan Hamm",
           "HQ - Warehouse",
           "2026-09-26",
@@ -4956,6 +5538,24 @@
           "HQ - Warehouse",
           "2026-10-01",
           "5.42h"
+        ],
+        [
+          "Jonathan Hamm",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "7.65h"
+        ],
+        [
+          "Jonathan Hamm",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "7.95h"
+        ],
+        [
+          "Jonathan Hamm",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "3.90h"
         ],
         [
           "Lisa Johnson",
@@ -4994,6 +5594,18 @@
           "8.33h"
         ],
         [
+          "Lisa Stahl",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.07h"
+        ],
+        [
+          "Lisa Stahl",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "7.00h"
+        ],
+        [
           "Mario Aguirre",
           "HQ - Warehouse",
           "2026-09-29",
@@ -5010,6 +5622,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "8.18h"
+        ],
+        [
+          "Mario Aguirre",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.13h"
+        ],
+        [
+          "Mario Aguirre",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.47h"
         ],
         [
           "Michael",
@@ -5034,6 +5658,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "7.88h"
+        ],
+        [
+          "Michael",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "7.70h"
+        ],
+        [
+          "Michael",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "7.92h"
         ],
         [
           "Molly Meisner",
@@ -5090,6 +5726,18 @@
           "5.72h"
         ],
         [
+          "Nathan Henry",
+          "HQ - Warehouse",
+          "2026-10-04",
+          "8.00h"
+        ],
+        [
+          "Nathan Henry",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.00h"
+        ],
+        [
           "Noor Rammuny",
           "HQ - Warehouse",
           "2026-09-28",
@@ -5112,6 +5760,18 @@
           "HQ - Warehouse",
           "2026-10-01",
           "8.10h"
+        ],
+        [
+          "Noor Rammuny",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "8.77h"
+        ],
+        [
+          "Noor Rammuny",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.57h"
         ],
         [
           "Robert",
@@ -5138,6 +5798,18 @@
           "9.15h"
         ],
         [
+          "Robert",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "9.85h"
+        ],
+        [
+          "Robert",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "10.02h"
+        ],
+        [
           "Sean Parvin",
           "HQ - Warehouse",
           "2026-09-28",
@@ -5162,6 +5834,18 @@
           "8.38h"
         ],
         [
+          "Sean Parvin",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "7.58h"
+        ],
+        [
+          "Sean Parvin",
+          "HQ - Warehouse",
+          "2026-10-05",
+          "8.30h"
+        ],
+        [
           "Skylar Logsdon",
           "HQ - Warehouse",
           "2026-09-26",
@@ -5178,6 +5862,18 @@
           "HQ - Warehouse",
           "2026-09-30",
           "8.05h"
+        ],
+        [
+          "Skylar Logsdon",
+          "HQ - Warehouse",
+          "2026-10-02",
+          "7.98h"
+        ],
+        [
+          "Skylar Logsdon",
+          "HQ - Warehouse",
+          "2026-10-03",
+          "8.70h"
         ],
         [
           "Natalie Brown",
@@ -5396,6 +6092,12 @@
           "8.05h"
         ],
         [
+          "Parker Dean",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-10-04",
+          "6.37h"
+        ],
+        [
           "William Donovan",
           "Indianapolis - 8702 Keystone Crossing",
           "2026-09-26",
@@ -5418,6 +6120,18 @@
           "Indianapolis - 8702 Keystone Crossing",
           "2026-10-03",
           "8.25h"
+        ],
+        [
+          "William Donovan",
+          "Indianapolis - 8702 Keystone Crossing",
+          "2026-10-04",
+          "6.30h"
+        ],
+        [
+          "Adam Lansdown",
+          "Kansas City - 321 Nichols Rd",
+          "2026-10-04",
+          "6.05h"
         ],
         [
           "Aiden Troup",
@@ -5492,6 +6206,12 @@
           "8.33h"
         ],
         [
+          "Charles Wolff",
+          "Kansas City - 321 Nichols Rd",
+          "2026-10-04",
+          "8.07h"
+        ],
+        [
           "Casey Sandoval",
           "La Jolla - 7857 Girard Ave",
           "2026-09-26",
@@ -5534,6 +6254,12 @@
           "2.42h"
         ],
         [
+          "Casey Sandoval",
+          "La Jolla - 7857 Girard Ave",
+          "2026-10-05",
+          "7.63h"
+        ],
+        [
           "Kayla Hackney",
           "La Jolla - 7857 Girard Ave",
           "2026-09-26",
@@ -5570,6 +6296,18 @@
           "7.87h"
         ],
         [
+          "Kayla Hackney",
+          "La Jolla - 7857 Girard Ave",
+          "2026-10-04",
+          "8.73h"
+        ],
+        [
+          "Kayla Hackney",
+          "La Jolla - 7857 Girard Ave",
+          "2026-10-05",
+          "7.62h"
+        ],
+        [
           "Maximilian Pinto",
           "La Jolla - 7857 Girard Ave",
           "2026-09-27",
@@ -5592,6 +6330,18 @@
           "La Jolla - 7857 Girard Ave",
           "2026-09-30",
           "7.43h"
+        ],
+        [
+          "Maximilian Pinto",
+          "La Jolla - 7857 Girard Ave",
+          "2026-10-04",
+          "9.43h"
+        ],
+        [
+          "Maximilian Pinto",
+          "La Jolla - 7857 Girard Ave",
+          "2026-10-05",
+          "7.48h"
         ],
         [
           "Christina Byrd",
@@ -5654,10 +6404,22 @@
           "7.73h"
         ],
         [
+          "Gabriel Gonzalez",
+          "Miami - Brickell",
+          "2026-10-05",
+          "7.17h"
+        ],
+        [
           "James Robinson",
           "Miami - Brickell",
           "2026-09-26",
           "8.15h"
+        ],
+        [
+          "farhan Khandaker",
+          "Miami - Brickell",
+          "2026-10-05",
+          "7.82h"
         ],
         [
           "Ashley Hayes",
@@ -5694,6 +6456,12 @@
           "Nashville - 5th + Broadway",
           "2026-10-04",
           "8.22h"
+        ],
+        [
+          "Ashley Hayes",
+          "Nashville - 5th + Broadway",
+          "2026-10-05",
+          "7.60h"
         ],
         [
           "Jeffrey Harrell",
@@ -5796,6 +6564,18 @@
           "New York - 57 Spring",
           "2026-10-02",
           "8.63h"
+        ],
+        [
+          "Yoseph Woldu",
+          "New York - 57 Spring",
+          "2026-10-03",
+          "8.55h"
+        ],
+        [
+          "Yoseph Woldu",
+          "New York - 57 Spring",
+          "2026-10-04",
+          "7.47h"
         ],
         [
           "Amber Harvey",
@@ -5936,6 +6716,12 @@
           "7.50h"
         ],
         [
+          "Tyquan Jefferson",
+          "New York - Flatiron",
+          "2026-10-05",
+          "8.22h"
+        ],
+        [
           "Elias Salgado",
           "Newport Beach - Fashion Island",
           "2026-09-26",
@@ -5966,6 +6752,12 @@
           "8.22h"
         ],
         [
+          "Elias Salgado",
+          "Newport Beach - Fashion Island",
+          "2026-10-03",
+          "8.15h"
+        ],
+        [
           "Jacob McLaughlin",
           "Newport Beach - Fashion Island",
           "2026-09-26",
@@ -5982,6 +6774,18 @@
           "Newport Beach - Fashion Island",
           "2026-09-29",
           "7.90h"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Newport Beach - Fashion Island",
+          "2026-10-03",
+          "2.67h"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Newport Beach - Fashion Island",
+          "2026-10-05",
+          "7.55h"
         ],
         [
           "Nathaniel Faraone",
@@ -6012,6 +6816,24 @@
           "Newport Beach - Fashion Island",
           "2026-10-01",
           "8.02h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-10-03",
+          "8.82h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-10-04",
+          "7.90h"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Newport Beach - Fashion Island",
+          "2026-10-05",
+          "7.90h"
         ],
         [
           "Celina Bryant",
@@ -6056,6 +6878,18 @@
           "7.93h"
         ],
         [
+          "Fabio Santos Panisson",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-02",
+          "8.07h"
+        ],
+        [
+          "Fabio Santos Panisson",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-04",
+          "8.68h"
+        ],
+        [
           "Mate Okros",
           "Philadelphia - 1702 Walnut",
           "2026-09-26",
@@ -6092,10 +6926,34 @@
           "8.08h"
         ],
         [
+          "Mate Okros",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-02",
+          "8.47h"
+        ],
+        [
           "Stephen Williams II",
           "Philadelphia - 1702 Walnut",
           "2026-10-01",
           "7.85h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-02",
+          "8.35h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-03",
+          "8.68h"
+        ],
+        [
+          "Stephen Williams II",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-04",
+          "7.52h"
         ],
         [
           "Nicholas Compton",
@@ -6126,6 +6984,12 @@
           "Salt Lake City - 50 E Main St. N",
           "2026-10-02",
           "4.62h"
+        ],
+        [
+          "Nicholas Compton",
+          "Salt Lake City - 50 E Main St. N",
+          "2026-10-03",
+          "9.95h"
         ],
         [
           "Val Simanca Delgado",
@@ -6350,6 +7214,18 @@
           "8.28h"
         ],
         [
+          "Antowane Oliver",
+          "Tampa - 2223 N Westshore",
+          "2026-10-03",
+          "8.35h"
+        ],
+        [
+          "Antowane Oliver",
+          "Tampa - 2223 N Westshore",
+          "2026-10-04",
+          "7.33h"
+        ],
+        [
           "Bo Kenney",
           "Tampa - 2223 N Westshore",
           "2026-09-26",
@@ -6378,6 +7254,18 @@
           "Tampa - 2223 N Westshore",
           "2026-10-02",
           "8.17h"
+        ],
+        [
+          "Bo Kenney",
+          "Tampa - 2223 N Westshore",
+          "2026-10-03",
+          "8.53h"
+        ],
+        [
+          "Bo Kenney",
+          "Tampa - 2223 N Westshore",
+          "2026-10-04",
+          "7.42h"
         ],
         [
           "Ivan Rhodes",
@@ -6452,6 +7340,12 @@
           "8.32h"
         ],
         [
+          "Jhaidyn Brown",
+          "Tampa - 2223 N Westshore",
+          "2026-10-03",
+          "8.33h"
+        ],
+        [
           "Yasmeen Khan",
           "Tampa - 2223 N Westshore",
           "2026-09-27",
@@ -6474,6 +7368,18 @@
           "Tampa - 2223 N Westshore",
           "2026-10-02",
           "9.23h"
+        ],
+        [
+          "Yasmeen Khan",
+          "Tampa - 2223 N Westshore",
+          "2026-10-03",
+          "10.52h"
+        ],
+        [
+          "Yasmeen Khan",
+          "Tampa - 2223 N Westshore",
+          "2026-10-04",
+          "7.62h"
         ],
         [
           "Abraham Boyd",
@@ -6512,6 +7418,12 @@
           "8.73h"
         ],
         [
+          "Abraham Boyd",
+          "Walnut Creek - 147 Broadway",
+          "2026-10-04",
+          "6.57h"
+        ],
+        [
           "Jeremy Raymer",
           "Walnut Creek - 147 Broadway",
           "2026-09-27",
@@ -6540,6 +7452,12 @@
           "Walnut Creek - 147 Broadway",
           "2026-10-02",
           "7.90h"
+        ],
+        [
+          "Jeremy Raymer",
+          "Walnut Creek - 147 Broadway",
+          "2026-10-04",
+          "6.65h"
         ],
         [
           "Christian Somma",
