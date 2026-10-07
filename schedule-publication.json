@@ -2,8 +2,8 @@
   "meta": {
     "title": "Schedule Publication",
     "subtitle": "Window: Oct 7 \u2192 Oct 28, 2026",
-    "summary_line": "3 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Wed Oct 7, 7:03 AM",
+    "summary_line": "4 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Wed Oct 7, 2:12 PM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,13 +14,6 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "1805 Boulder",
-          "manager": "",
-          "draft_count": 13,
-          "gap_days": 8,
-          "lookahead_days": 14
-        },
-        {
           "shop": "785 Naples",
           "manager": "",
           "draft_count": 11,
@@ -28,10 +21,24 @@
           "lookahead_days": 14
         },
         {
-          "shop": "4000 New Orleans",
+          "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 1,
+          "draft_count": 25,
+          "gap_days": 3,
+          "lookahead_days": 21
+        },
+        {
+          "shop": "1805 Boulder",
+          "manager": "",
+          "draft_count": 6,
           "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "144 Naperville",
+          "manager": "",
+          "draft_count": 0,
+          "gap_days": 0,
           "lookahead_days": 14
         }
       ]
@@ -49,11 +56,11 @@
           "lookahead_days": 21
         },
         {
-          "shop": "Chicago - 840 W Armitage",
+          "shop": "10250 Century City",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 1,
           "gap_days": 0,
-          "lookahead_days": 21
+          "lookahead_days": 14
         },
         {
           "shop": "122 Lexington",

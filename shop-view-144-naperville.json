@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Tampa - 2223 N Westshore",
+    "title": "144 Naperville",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "No issues this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 0
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-02",
-          "Bo Kenney",
-          "9:45 AM",
-          "10:09 AM",
-          "24"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,27 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Yasmeen Khan",
-          "Thu Oct 1",
-          "7:16 AM",
-          "6:07 PM",
-          "10.85",
-          "62.72 (OT)",
-          "OT"
-        ],
-        [
-          "Yasmeen Khan",
-          "Sat Oct 3",
-          "6:32 AM",
-          "5:03 PM",
-          "10.52",
-          "62.72 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",

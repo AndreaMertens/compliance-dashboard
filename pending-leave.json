@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "8 pending leave requests across 7 shops",
+    "summary_line": "9 pending leave requests across 8 shops",
     "last_refreshed_display": "Data through Mon Oct 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -14,19 +14,6 @@
     "Note"
   ],
   "groups": [
-    {
-      "shop": "10250 Century City",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Ian Cameron",
-          "2026-10-03",
-          "2026-10-03",
-          "Sick Stomach "
-        ]
-      ]
-    },
     {
       "shop": "1425 Basecamp",
       "manager": "",
@@ -80,6 +67,19 @@
       ]
     },
     {
+      "shop": "Birmingham - 141 W Maple",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Tom",
+          "2026-09-28",
+          "2026-09-28",
+          "Sick"
+        ]
+      ]
+    },
+    {
       "shop": "Denver - 2800 E 2nd Ave",
       "manager": "",
       "count": 1,
@@ -108,6 +108,19 @@
           "2026-09-25",
           "2026-09-26",
           "Family in town "
+        ]
+      ]
+    },
+    {
+      "shop": "Manhattan Beach - The Point",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Ian Cameron",
+          "2026-10-03",
+          "2026-10-03",
+          "Sick Stomach "
         ]
       ]
     }
