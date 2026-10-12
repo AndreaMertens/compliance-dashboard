@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 9 \u2192 Oct 30, 2026",
-    "summary_line": "2 action needed \u00b7 8 heads up",
-    "last_refreshed_display": "Data through Fri Oct 9, 7:04 AM",
+    "subtitle": "Window: Oct 12 \u2192 Nov 2, 2026",
+    "summary_line": "5 action needed \u00b7 7 heads up",
+    "last_refreshed_display": "Data through Mon Oct 12, 7:03 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,8 +16,29 @@
         {
           "shop": "785 Naples",
           "manager": "",
-          "draft_count": 12,
-          "gap_days": 5,
+          "draft_count": 16,
+          "gap_days": 7,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "1805 Boulder",
+          "manager": "",
+          "draft_count": 14,
+          "gap_days": 7,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Fort Lauderdale - 1016 E",
+          "manager": "",
+          "draft_count": 5,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Miami - Brickell",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 1,
           "lookahead_days": 14
         },
         {
@@ -35,9 +56,9 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "1805 Boulder",
+          "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 3,
+          "draft_count": 11,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -49,6 +70,13 @@
           "lookahead_days": 21
         },
         {
+          "shop": "103 Greenville",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
           "shop": "4000 New Orleans",
           "manager": "",
           "draft_count": 2,
@@ -56,21 +84,7 @@
           "lookahead_days": 14
         },
         {
-          "shop": "10250 Century City",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "122 Lexington",
-          "manager": "",
-          "draft_count": 1,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "17250 Omaha",
+          "shop": "822 City Centre",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
@@ -84,11 +98,11 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Newport Beach - Fashion Island",
+          "shop": "Chicago - 840 W Armitage",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
-          "lookahead_days": 14
+          "lookahead_days": 21
         }
       ]
     }
