@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-09-30",
-          "Celina Bryant",
-          "9:30 AM",
-          "11:56 AM",
-          "146"
+          "2026-10-09",
+          "Fabio Santos Panisson",
+          "8:30 AM",
+          "8:54 AM",
+          "24"
         ]
       ],
       "count": 1
@@ -43,8 +43,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Mate Okros",
+          "Tue Oct 6",
+          "7:24 AM",
+          "5:28 PM",
+          "10.07",
+          "106.55 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -57,8 +67,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Mate Okros",
+          "Fri Oct 9",
+          "10:00 PM",
+          "10:00 PM",
+          "0.00"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",

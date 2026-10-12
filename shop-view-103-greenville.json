@@ -2,10 +2,10 @@
   "meta": {
     "title": "103 Greenville",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-01",
-          "Crystal Brooks",
-          "8:30 AM",
-          "8:41 AM",
-          "11"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -50,7 +42,7 @@
           "5:47 AM",
           "4:06 PM",
           "10.32",
-          "78.24 (OT)",
+          "93.87 (OT)",
           "OT"
         ]
       ],
@@ -93,8 +85,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Leeanna Wright",
+          "Sat Oct 10",
+          "7.57"
+        ],
+        [
+          "Crystal Brooks",
+          "Sat Oct 10",
+          "7.72"
+        ],
+        [
+          "Dylan",
+          "Sat Oct 10",
+          "3.13"
+        ],
+        [
+          "Leeanna Wright",
+          "Sun Oct 11",
+          "6.47"
+        ],
+        [
+          "Crystal Brooks",
+          "Sun Oct 11",
+          "5.27"
+        ],
+        [
+          "Dylan",
+          "Sun Oct 11",
+          "6.35"
+        ]
+      ],
+      "count": 6
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "9 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 9
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-06",
+          "Bryce",
+          "7:00 AM",
+          "8:39 AM",
+          "99"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -63,8 +71,23 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Bryce",
+          "33.24",
+          "8.00",
+          "41.24",
+          "+1.24"
+        ],
+        [
+          "Micah Wheeler",
+          "34.87",
+          "7.50",
+          "42.37",
+          "+2.37"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "unapproved-timecards",
@@ -75,54 +98,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Bryce",
-          "Thu Oct 1",
-          "8.27"
-        ],
-        [
-          "Micah Wheeler",
-          "Thu Oct 1",
-          "8.18"
-        ],
-        [
-          "Alex",
-          "Fri Oct 2",
-          "8.37"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Fri Oct 2",
-          "8.10"
-        ],
-        [
-          "Micah Wheeler",
-          "Fri Oct 2",
-          "8.32"
-        ],
-        [
-          "Bryce",
-          "Sat Oct 3",
-          "8.35"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Sat Oct 3",
-          "9.03"
-        ],
-        [
-          "Bryce",
-          "Sun Oct 4",
-          "8.35"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Sun Oct 4",
-          "8.48"
-        ]
-      ],
-      "count": 9
+      "rows": [],
+      "count": 0
     }
   ]
 }

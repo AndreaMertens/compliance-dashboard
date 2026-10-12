@@ -2,7 +2,7 @@
   "meta": {
     "title": "Over 40 + Vacation",
     "subtitle": "Covers Oct 5 \u2013 Oct 11",
-    "summary_line": "7 employees flagged across 7 shops",
+    "summary_line": "9 employees flagged across 8 shops",
     "last_refreshed_display": "Data through Mon Oct 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -46,8 +46,15 @@
     {
       "shop": "DC - 3101 M St",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Bryce",
+          "33.24",
+          "8.00",
+          "41.24",
+          "+1.24"
+        ],
         [
           "Micah Wheeler",
           "34.87",
@@ -110,6 +117,20 @@
           "15.00",
           "44.12",
           "+4.12"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - 57 Spring",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Yoseph Woldu",
+          "33.15",
+          "8.25",
+          "41.40",
+          "+1.40"
         ]
       ]
     }

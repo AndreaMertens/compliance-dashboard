@@ -2,10 +2,10 @@
   "meta": {
     "title": "Ann Arbor - 212 S Main",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -63,8 +63,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Gavin McCool",
+          "33.53",
+          "9.00",
+          "42.53",
+          "+2.53"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -75,8 +83,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Gavin McCool",
+          "Sun Oct 11",
+          "7.23"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

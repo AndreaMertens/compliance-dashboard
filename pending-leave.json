@@ -2,7 +2,7 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "15 pending leave requests across 10 shops",
+    "summary_line": "6 pending leave requests across 5 shops",
     "last_refreshed_display": "Data through Mon Oct 12, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -14,32 +14,6 @@
     "Note"
   ],
   "groups": [
-    {
-      "shop": "1425 Basecamp",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Sarah McCaw",
-          "2026-09-06",
-          "2026-09-06",
-          "Sick day - loss of a friend "
-        ]
-      ]
-    },
-    {
-      "shop": "1805 Boulder",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Dominic Saenz",
-          "2026-09-11",
-          "2026-09-11",
-          "Global"
-        ]
-      ]
-    },
     {
       "shop": "2900 Minneapolis",
       "manager": "",
@@ -56,19 +30,32 @@
     {
       "shop": "696 Lynnfield",
       "manager": "",
-      "count": 2,
+      "count": 1,
       "rows": [
         [
           "Mike LeGree",
           "2026-10-10",
           "2026-10-11",
           "Lucy Bday"
+        ]
+      ]
+    },
+    {
+      "shop": "7875 Cincinnati",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Matt Van Valkenburgh",
+          "2026-10-09",
+          "2026-10-09",
+          "Sick"
         ],
         [
-          "Mike LeGree",
-          "2026-09-26",
-          "2026-09-27",
-          "PTO "
+          "Matt Van Valkenburgh",
+          "2026-10-08",
+          "2026-10-08",
+          "I can\u2019t remember the exact time I clocked out."
         ]
       ]
     },
@@ -82,82 +69,6 @@
           "2026-09-28",
           "2026-09-28",
           "Sick"
-        ]
-      ]
-    },
-    {
-      "shop": "DC - 3101 M St",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Bryce",
-          "2026-10-09",
-          "2026-10-09",
-          "Saturday Sunday off for move. This is so I have 40 hrs. "
-        ]
-      ]
-    },
-    {
-      "shop": "Denver - 2800 E 2nd Ave",
-      "manager": "",
-      "count": 2,
-      "rows": [
-        [
-          "Antonio Castaneda Gonzalez",
-          "2026-10-09",
-          "2026-10-09",
-          "Extra day off this week"
-        ],
-        [
-          "Parker Hill",
-          "2026-10-01",
-          "2026-10-01",
-          "Sick\n"
-        ]
-      ]
-    },
-    {
-      "shop": "Fort Lauderdale - 1016 E",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "Ceara McKegney",
-          "2026-10-09",
-          "2026-10-11",
-          "Going to the keys "
-        ],
-        [
-          "farhan Khandaker",
-          "2026-10-09",
-          "2026-10-11",
-          "Anniversary "
-        ],
-        [
-          "Cody Crites",
-          "2026-09-28",
-          "2026-09-28",
-          "Sick"
-        ],
-        [
-          "Ceara McKegney",
-          "2026-09-25",
-          "2026-09-26",
-          "Family in town "
-        ]
-      ]
-    },
-    {
-      "shop": "Kansas City - 321 Nichols Rd",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Adam Lansdown",
-          "2026-10-06",
-          "2026-10-07",
-          "Tulsa "
         ]
       ]
     },

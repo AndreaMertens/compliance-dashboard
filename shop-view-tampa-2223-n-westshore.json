@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tampa - 2223 N Westshore",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-02",
-          "Bo Kenney",
-          "9:45 AM",
-          "10:09 AM",
-          "24"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -50,7 +42,7 @@
           "7:16 AM",
           "6:07 PM",
           "10.85",
-          "62.72 (OT)",
+          "105.99 (OT)",
           "OT"
         ],
         [
@@ -59,7 +51,7 @@
           "6:32 AM",
           "5:03 PM",
           "10.52",
-          "62.72 (OT)",
+          "105.99 (OT)",
           "OT"
         ]
       ],
@@ -102,8 +94,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "Sat Oct 10",
+          "8.52"
+        ],
+        [
+          "Bo Kenney",
+          "Sat Oct 10",
+          "8.27"
+        ],
+        [
+          "Yasmeen Khan",
+          "Sun Oct 11",
+          "8.43"
+        ],
+        [
+          "Antowane Oliver",
+          "Sun Oct 11",
+          "8.38"
+        ],
+        [
+          "Ivan Rhodes",
+          "Sun Oct 11",
+          "1.38"
+        ],
+        [
+          "Bo Kenney",
+          "Sun Oct 11",
+          "4.60"
+        ]
+      ],
+      "count": 6
     }
   ]
 }

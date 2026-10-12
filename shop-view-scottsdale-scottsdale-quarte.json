@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-01",
-          "Gloria Alexander",
-          "8:15 AM",
-          "8:27 AM",
-          "12"
-        ],
-        [
-          "2026-10-03",
-          "John Khano",
-          "10:30 AM",
-          "10:43 AM",
-          "13"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -57,7 +42,7 @@
           "9:49 AM",
           "9:46 PM",
           "11.95",
-          "74.77 (OT)",
+          "101.67 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -66,7 +51,7 @@
           "8:27 AM",
           "7:31 PM",
           "11.07",
-          "74.77 (OT)",
+          "101.67 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -75,7 +60,7 @@
           "10:01 AM",
           "9:00 PM",
           "10.98",
-          "74.77 (OT)",
+          "101.67 (OT)",
           "OT"
         ],
         [
@@ -84,7 +69,16 @@
           "10:03 AM",
           "8:24 PM",
           "10.35",
-          "74.77 (OT)",
+          "101.67 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Oct 10",
+          "9:56 AM",
+          "8:02 PM",
+          "10.10",
+          "101.67 (OT)",
           "OT"
         ],
         [
@@ -93,7 +87,7 @@
           "9:54 AM",
           "7:57 PM",
           "10.05",
-          "74.77 (OT)",
+          "101.67 (OT)",
           "OT"
         ],
         [
@@ -102,11 +96,11 @@
           "11:03 AM",
           "9:04 PM",
           "10.02",
-          "50.52 (OT)",
+          "67.71 (OT)",
           "OT"
         ]
       ],
-      "count": 6
+      "count": 7
     },
     {
       "id": "short-shifts",

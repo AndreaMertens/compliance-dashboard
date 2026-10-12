@@ -2,10 +2,10 @@
   "meta": {
     "title": "Westport - 72 Main St",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,11 +21,11 @@
       ],
       "rows": [
         [
-          "2026-10-01",
-          "Christian Somma",
+          "2026-10-06",
+          "Matthew Reilly",
           "8:00 AM",
-          "8:12 AM",
-          "12"
+          "9:15 AM",
+          "75"
         ]
       ],
       "count": 1
@@ -71,16 +71,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Matthew Reilly",
-          "33.65",
-          "8.00",
-          "41.65",
-          "+1.65"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -91,8 +83,39 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Ethan Platt",
+          "Sat Oct 10",
+          "8.27"
+        ],
+        [
+          "Jake Friedland",
+          "Sat Oct 10",
+          "8.40"
+        ],
+        [
+          "Christian Somma",
+          "Sat Oct 10",
+          "8.07"
+        ],
+        [
+          "Ethan Platt",
+          "Sun Oct 11",
+          "8.17"
+        ],
+        [
+          "Matthew Reilly",
+          "Sun Oct 11",
+          "8.05"
+        ],
+        [
+          "Christian Somma",
+          "Sun Oct 11",
+          "8.22"
+        ]
+      ],
+      "count": 6
     }
   ]
 }

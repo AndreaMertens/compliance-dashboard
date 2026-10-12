@@ -2,10 +2,10 @@
   "meta": {
     "title": "Indianapolis - 8702 Keystone Crossing",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-10",
+          "William Donovan",
+          "8:00 AM",
+          "9:02 AM",
+          "62"
+        ],
+        [
+          "2026-10-11",
+          "Jacob",
+          "9:45 AM",
+          "9:57 AM",
+          "12"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -63,8 +78,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Parker Dean",
+          "28.42",
+          "22.50",
+          "50.92",
+          "+10.92"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

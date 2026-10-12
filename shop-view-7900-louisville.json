@@ -2,10 +2,10 @@
   "meta": {
     "title": "7900 Louisville",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -75,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Jacob Raderer",
+          "Sat Oct 10",
+          "8.28"
+        ],
+        [
+          "Jacob Raderer",
+          "Sun Oct 11",
+          "6.23"
+        ]
+      ],
+      "count": 2
     }
   ]
 }
