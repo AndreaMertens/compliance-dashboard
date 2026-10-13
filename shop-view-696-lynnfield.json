@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -19,8 +19,30 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-05",
+          "Emirson Santana",
+          "10:00 AM",
+          "12:20 PM",
+          "140"
+        ],
+        [
+          "2026-10-08",
+          "Emirson Santana",
+          "9:00 AM",
+          "9:27 AM",
+          "27"
+        ],
+        [
+          "2026-10-10",
+          "Marian Claure arias",
+          "9:00 AM",
+          "9:14 AM",
+          "14"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -36,6 +58,15 @@
         "Triggered"
       ],
       "rows": [
+        [
+          "Emirson Santana",
+          "Thu Oct 8",
+          "9:27 AM",
+          "8:00 AM",
+          "22.55",
+          "100.90 (OT)",
+          "OT \u00b7 Over 11"
+        ],
         [
           "Evan",
           "Mon Sep 28",
@@ -100,7 +131,7 @@
           "OT"
         ]
       ],
-      "count": 7
+      "count": 8
     },
     {
       "id": "short-shifts",

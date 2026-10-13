@@ -2,10 +2,10 @@
   "meta": {
     "title": "Boston - 201 Newbury Street",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -42,6 +42,13 @@
           "12"
         ],
         [
+          "2026-10-10",
+          "Anne Malloy",
+          "7:30 AM",
+          "7:52 AM",
+          "22"
+        ],
+        [
           "2026-10-11",
           "Jared Radovsky",
           "7:30 AM",
@@ -49,7 +56,7 @@
           "14"
         ]
       ],
-      "count": 4
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -64,8 +71,27 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Anne Malloy",
+          "Wed Sep 30",
+          "6:09 AM",
+          "4:30 PM",
+          "10.35",
+          "116.20 (OT)",
+          "OT"
+        ],
+        [
+          "Anne Malloy",
+          "Wed Oct 7",
+          "5:37 AM",
+          "3:40 PM",
+          "10.05",
+          "116.20 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "short-shifts",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -26,9 +26,16 @@
           "8:00 AM",
           "8:17 AM",
           "17"
+        ],
+        [
+          "2026-10-11",
+          "Isaac Elias",
+          "8:00 AM",
+          "10:03 AM",
+          "123"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",

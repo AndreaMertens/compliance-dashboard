@@ -10,9 +10,9 @@
     {
       "id": "payroll-long-shifts",
       "title": "Long Shift Penalties",
-      "metric": 28,
+      "metric": 33,
       "metric_unit": "shifts",
-      "description": "Shifts over 10 hours across 11 shop(s). OT and spread premiums may apply.",
+      "description": "Shifts over 10 hours across 12 shop(s). OT and spread premiums may apply.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -23,6 +23,14 @@
         "Hours"
       ],
       "rows": [
+        [
+          "Emirson Santana",
+          "696 Lynnfield",
+          "2026-10-08",
+          "9:27 AM",
+          "8:00 AM",
+          "22.55h"
+        ],
         [
           "Jeremy Raymer",
           "Walnut Creek - 147 Broadway",
@@ -104,6 +112,14 @@
           "10.63h"
         ],
         [
+          "Adrian Santana",
+          "Miami - Brickell",
+          "2026-09-27",
+          "8:16 AM",
+          "6:54 PM",
+          "10.63h"
+        ],
+        [
           "Yasmeen Khan",
           "Tampa - 2223 N Westshore",
           "2026-10-03",
@@ -141,6 +157,14 @@
           "2026-10-06",
           "10:03 AM",
           "8:24 PM",
+          "10.35h"
+        ],
+        [
+          "Anne Malloy",
+          "Boston - 201 Newbury Street",
+          "2026-09-30",
+          "6:09 AM",
+          "4:30 PM",
           "10.35h"
         ],
         [
@@ -224,6 +248,14 @@
           "10.10h"
         ],
         [
+          "Kendra Johnson",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-03",
+          "7:25 AM",
+          "5:30 PM",
+          "10.08h"
+        ],
+        [
           "Mate Okros",
           "Philadelphia - 1702 Walnut",
           "2026-10-06",
@@ -240,6 +272,14 @@
           "10.05h"
         ],
         [
+          "Anne Malloy",
+          "Boston - 201 Newbury Street",
+          "2026-10-07",
+          "5:37 AM",
+          "3:40 PM",
+          "10.05h"
+        ],
+        [
           "Will",
           "Scottsdale - Scottsdale Quarte",
           "2026-10-05",
@@ -252,9 +292,9 @@
     {
       "id": "payroll-short-shifts",
       "title": "Short Shifts",
-      "metric": 4,
+      "metric": 6,
       "metric_unit": "shifts",
-      "description": "Approved timecards under 20 minutes across 2 shop(s). Likely accidental punches or mis-approvals to clean up before payroll closes.",
+      "description": "Approved timecards under 20 minutes across 3 shop(s). Likely accidental punches or mis-approvals to clean up before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -296,13 +336,29 @@
           "10:00 PM",
           "10:00 PM",
           "0.00h"
+        ],
+        [
+          "Margaret Seper",
+          "144 Naperville",
+          "2026-10-09",
+          "12:00 PM",
+          "12:20 PM",
+          "0.33h"
+        ],
+        [
+          "Ryan Harris",
+          "144 Naperville",
+          "2026-10-09",
+          "12:00 PM",
+          "12:20 PM",
+          "0.33h"
         ]
       ]
     },
     {
       "id": "payroll-over-40",
       "title": "Over 40 + Vacation",
-      "metric": 13,
+      "metric": 14,
       "metric_unit": "employees",
       "description": "Hourly employees whose worked + leave exceeded 40 hrs in a week. 2 complete Mon\u2013Sun week(s) in this period.",
       "status": "attention",
@@ -322,6 +378,14 @@
           "51.1h worked",
           "30.0h leave",
           "81.1h total"
+        ],
+        [
+          "Parker Hill",
+          "Denver - 2800 E 2nd Ave",
+          "2026-09-28 \u2013 2026-10-04",
+          "58.38h worked",
+          "16.0h leave",
+          "74.38h total"
         ],
         [
           "Maximilian Pinto",
@@ -426,7 +490,7 @@
       "title": "Unapproved Timecards",
       "metric": 2,
       "metric_unit": "shops",
-      "description": "35 timecards still unapproved across the full pay period.",
+      "description": "84 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -435,6 +499,360 @@
         "Hours"
       ],
       "rows": [
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-09-30",
+          "8.00h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-01",
+          "8.00h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-02",
+          "9.55h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-02",
+          "8.35h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-02",
+          "8.35h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-02",
+          "8.38h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-02",
+          "8.18h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-02",
+          "8.88h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-03",
+          "8.12h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-04",
+          "5.30h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-04",
+          "2.55h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-05",
+          "8.85h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-05",
+          "8.30h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-05",
+          "8.08h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-05",
+          "8.05h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-05",
+          "8.35h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-05",
+          "8.22h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-05",
+          "8.40h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-06",
+          "5.77h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-06",
+          "8.67h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-06",
+          "8.25h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-06",
+          "8.28h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-06",
+          "8.13h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-06",
+          "8.43h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-06",
+          "8.03h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-06",
+          "8.40h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-07",
+          "8.13h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-07",
+          "8.25h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-07",
+          "8.25h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-07",
+          "8.03h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-07",
+          "8.15h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-07",
+          "8.22h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-07",
+          "8.08h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-08",
+          "8.28h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-08",
+          "8.35h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-08",
+          "8.22h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-08",
+          "8.47h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-08",
+          "8.50h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-08",
+          "8.15h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-08",
+          "8.13h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-08",
+          "8.28h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-09",
+          "8.25h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-09",
+          "8.83h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-09",
+          "8.20h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-09",
+          "7.72h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-09",
+          "8.17h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-09",
+          "8.20h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-09",
+          "7.98h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-10",
+          "8.33h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-11",
+          "5.52h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-11",
+          "2.50h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-12",
+          "8.35h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-12",
+          "8.42h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-12",
+          "8.28h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-12",
+          "8.05h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-12",
+          "8.38h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-12",
+          "8.20h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-10-12",
+          "8.15h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-12",
+          "8.88h"
+        ],
         [
           "Guy Williams ii",
           "HQ-Non-Kiosk",
@@ -584,66 +1002,6 @@
           "HQ-Non-Kiosk",
           "2026-10-04",
           "18.02h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-05",
-          "7.55h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-10-06",
-          "19.58h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-10-06",
-          "3.42h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-06",
-          "4.60h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-10-07",
-          "15.97h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-07",
-          "7.92h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-08",
-          "6.43h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-09",
-          "6.17h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-12",
-          "7.90h"
-        ],
-        [
-          "Justin Wascher",
-          "1425 Basecamp",
-          "2026-10-12",
-          "9.27h"
         ]
       ]
     },
@@ -672,9 +1030,9 @@
     {
       "id": "payroll-penalty-pay",
       "title": "Penalty Pay",
-      "metric": 3,
+      "metric": 4,
       "metric_unit": "shops",
-      "description": "81 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
+      "description": "83 penalty event(s) (meal/rest breaks, predictability pay, etc.).",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1196,6 +1554,13 @@
           "0.00h"
         ],
         [
+          "Luke Debellis",
+          "New York - Flatiron",
+          "2026-10-09",
+          "SSR",
+          "0.00h"
+        ],
+        [
           "Fabio Santos Panisson",
           "Philadelphia - 1702 Walnut",
           "2026-09-26",
@@ -1220,6 +1585,13 @@
           "Mate Okros",
           "Philadelphia - 1702 Walnut",
           "2026-09-30",
+          "SCHEDULE PREMIUM - CHANGED 13DAYS",
+          "0.00h"
+        ],
+        [
+          "Alejandro Serp",
+          "Philadelphia - 1702 Walnut",
+          "2026-10-01",
           "SCHEDULE PREMIUM - CHANGED 13DAYS",
           "0.00h"
         ],
@@ -1256,9 +1628,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 81,
+      "metric": 117,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 8 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 10 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1350,6 +1722,216 @@
           "822 City Centre",
           "2026-10-12",
           "8.32h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-09-28",
+          "8.67h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-09-29",
+          "8.57h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-09-30",
+          "8.55h"
+        ],
+        [
+          "Angelica Albay",
+          "CX Team",
+          "2026-10-01",
+          "8.48h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-09-26",
+          "8.37h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-09-28",
+          "8.52h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-09-29",
+          "8.20h"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "CX Team",
+          "2026-10-01",
+          "8.55h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-09-28",
+          "8.00h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-09-29",
+          "8.00h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-09-30",
+          "8.35h"
+        ],
+        [
+          "Elaine Abarico",
+          "CX Team",
+          "2026-10-01",
+          "8.32h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-09-28",
+          "8.47h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-09-29",
+          "8.38h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-09-30",
+          "8.22h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-01",
+          "8.75h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-05",
+          "8.75h"
+        ],
+        [
+          "Erika",
+          "CX Team",
+          "2026-10-07",
+          "8.50h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-09-28",
+          "9.22h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-09-29",
+          "8.52h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-09-30",
+          "8.17h"
+        ],
+        [
+          "Ferlle Martinez",
+          "CX Team",
+          "2026-10-01",
+          "8.37h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-09-27",
+          "2.53h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-09-28",
+          "8.33h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-09-29",
+          "8.73h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-09-30",
+          "8.22h"
+        ],
+        [
+          "Jen",
+          "CX Team",
+          "2026-10-01",
+          "8.22h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-09-28",
+          "3.97h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-09-29",
+          "8.42h"
+        ],
+        [
+          "Jessica Tanchingco",
+          "CX Team",
+          "2026-09-30",
+          "4.32h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-09-27",
+          "5.08h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-09-28",
+          "8.48h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-09-29",
+          "4.85h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-09-30",
+          "8.15h"
+        ],
+        [
+          "Ysa",
+          "CX Team",
+          "2026-10-01",
+          "9.07h"
         ],
         [
           "Bryce",
@@ -1560,6 +2142,12 @@
           "Indianapolis - 8702 Keystone Crossing",
           "2026-10-12",
           "8.32h"
+        ],
+        [
+          "Adrian Santana",
+          "Miami - Brickell",
+          "2026-09-26",
+          "9.33h"
         ],
         [
           "Mate Okros",

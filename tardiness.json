@@ -2,7 +2,7 @@
   "meta": {
     "title": "Tardiness",
     "subtitle": "Covers Oct 5 \u2013 Oct 11",
-    "summary_line": "32 tardy clock-ins across 16 shops",
+    "summary_line": "48 tardy clock-ins across 22 shops",
     "last_refreshed_display": "Data through Tue Oct 13, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -16,9 +16,37 @@
   ],
   "groups": [
     {
-      "shop": "1425 Basecamp",
+      "shop": "1000 Pittsburgh",
       "manager": "",
       "count": 1,
+      "rows": [
+        [
+          "2026-10-06",
+          "Angelo Drake",
+          "6:00 AM",
+          "6:13 AM",
+          "13"
+        ]
+      ]
+    },
+    {
+      "shop": "1151 Roseville",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-10-08",
+          "Taji-Mikal Mekki",
+          "10:30 AM",
+          "10:52 AM",
+          "22"
+        ]
+      ]
+    },
+    {
+      "shop": "1425 Basecamp",
+      "manager": "",
+      "count": 3,
       "rows": [
         [
           "2026-10-05",
@@ -26,6 +54,20 @@
           "10:00 AM",
           "10:38 AM",
           "38"
+        ],
+        [
+          "2026-10-07",
+          "Amad Karamo",
+          "10:30 AM",
+          "11:00 AM",
+          "30"
+        ],
+        [
+          "2026-10-10",
+          "Dexter Clardy",
+          "10:30 AM",
+          "10:59 AM",
+          "29"
         ]
       ]
     },
@@ -79,9 +121,37 @@
       ]
     },
     {
+      "shop": "696 Lynnfield",
+      "manager": "",
+      "count": 3,
+      "rows": [
+        [
+          "2026-10-05",
+          "Emirson Santana",
+          "10:00 AM",
+          "12:20 PM",
+          "140"
+        ],
+        [
+          "2026-10-08",
+          "Emirson Santana",
+          "9:00 AM",
+          "9:27 AM",
+          "27"
+        ],
+        [
+          "2026-10-10",
+          "Marian Claure arias",
+          "9:00 AM",
+          "9:14 AM",
+          "14"
+        ]
+      ]
+    },
+    {
       "shop": "Boston - 201 Newbury Street",
       "manager": "",
-      "count": 4,
+      "count": 5,
       "rows": [
         [
           "2026-10-06",
@@ -103,6 +173,13 @@
           "8:30 AM",
           "8:42 AM",
           "12"
+        ],
+        [
+          "2026-10-10",
+          "Anne Malloy",
+          "7:30 AM",
+          "7:52 AM",
+          "22"
         ],
         [
           "2026-10-11",
@@ -158,7 +235,7 @@
     {
       "shop": "DC - 3101 M St",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-10-06",
@@ -166,6 +243,13 @@
           "7:00 AM",
           "8:39 AM",
           "99"
+        ],
+        [
+          "2026-10-10",
+          "Andrew Le",
+          "9:00 AM",
+          "9:45 AM",
+          "45"
         ]
       ]
     },
@@ -184,9 +268,30 @@
       ]
     },
     {
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "2026-10-11",
+          "Parker Hill",
+          "10:00 AM",
+          "10:31 AM",
+          "31"
+        ],
+        [
+          "2026-10-11",
+          "Parker Hill",
+          "10:00 AM",
+          "10:31 AM",
+          "31"
+        ]
+      ]
+    },
+    {
       "shop": "Greenwich Avenue",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-10-07",
@@ -194,6 +299,27 @@
           "8:00 AM",
           "8:17 AM",
           "17"
+        ],
+        [
+          "2026-10-11",
+          "Isaac Elias",
+          "8:00 AM",
+          "10:03 AM",
+          "123"
+        ]
+      ]
+    },
+    {
+      "shop": "Houston - 888 Westheimer",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-10-06",
+          "Elliot Gallon",
+          "9:00 AM",
+          "9:12 AM",
+          "12"
         ]
       ]
     },
@@ -277,7 +403,7 @@
     {
       "shop": "New York - Flatiron",
       "manager": "",
-      "count": 2,
+      "count": 3,
       "rows": [
         [
           "2026-10-05",
@@ -292,6 +418,13 @@
           "7:00 AM",
           "7:52 AM",
           "52"
+        ],
+        [
+          "2026-10-11",
+          "Luke Debellis",
+          "8:50 AM",
+          "9:03 AM",
+          "13"
         ]
       ]
     },
@@ -326,7 +459,7 @@
     {
       "shop": "Philadelphia - 1702 Walnut",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "2026-10-09",
@@ -334,6 +467,27 @@
           "8:30 AM",
           "8:54 AM",
           "24"
+        ],
+        [
+          "2026-10-10",
+          "Kendra Johnson",
+          "9:30 AM",
+          "9:45 AM",
+          "15"
+        ]
+      ]
+    },
+    {
+      "shop": "Salt Lake City - 50 E Main St. N",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "2026-10-09",
+          "Naomi Gilmore",
+          "8:30 AM",
+          "8:41 AM",
+          "11"
         ]
       ]
     },

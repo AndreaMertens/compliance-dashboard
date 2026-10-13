@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Sep 26 \u2013 Oct 12, 2026",
-    "summary_line": "28 flagged shifts across 11 shops \u2014 28 OT, 6 over 11 hrs",
+    "summary_line": "33 flagged shifts across 12 shops \u2014 33 OT, 7 over 11 hrs",
     "last_refreshed_display": "Data through Tue Oct 13, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -68,8 +68,17 @@
     {
       "shop": "696 Lynnfield",
       "manager": "Mike LeGree",
-      "count": 7,
+      "count": 8,
       "rows": [
+        [
+          "Emirson Santana",
+          "Thu Oct 8",
+          "9:27 AM",
+          "8:00 AM",
+          "22.55",
+          "100.90 (OT)",
+          "OT \u00b7 Over 11"
+        ],
         [
           "Evan",
           "Mon Sep 28",
@@ -152,6 +161,31 @@
       ]
     },
     {
+      "shop": "Boston - 201 Newbury Street",
+      "manager": "Brian Ward, Kyle Harwood, Katie Litchfield",
+      "count": 2,
+      "rows": [
+        [
+          "Anne Malloy",
+          "Wed Sep 30",
+          "6:09 AM",
+          "4:30 PM",
+          "10.35",
+          "116.20 (OT)",
+          "OT"
+        ],
+        [
+          "Anne Malloy",
+          "Wed Oct 7",
+          "5:37 AM",
+          "3:40 PM",
+          "10.05",
+          "116.20 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
       "shop": "Dedham",
       "manager": "Justin Komins",
       "count": 2,
@@ -179,7 +213,7 @@
     {
       "shop": "Miami - Brickell",
       "manager": "Amber Long",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Gabriel Gonzalez",
@@ -189,14 +223,32 @@
           "10.63",
           "104.48 (OT)",
           "OT"
+        ],
+        [
+          "Adrian Santana",
+          "Sun Sep 27",
+          "8:16 AM",
+          "6:54 PM",
+          "10.63",
+          "96.71 (OT)",
+          "OT"
         ]
       ]
     },
     {
       "shop": "Philadelphia - 1702 Walnut",
       "manager": "Trent Johnson",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Kendra Johnson",
+          "Sat Oct 3",
+          "7:25 AM",
+          "5:30 PM",
+          "10.08",
+          "107.39 (OT)",
+          "OT"
+        ],
         [
           "Mate Okros",
           "Tue Oct 6",

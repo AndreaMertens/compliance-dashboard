@@ -2,10 +2,10 @@
   "meta": {
     "title": "144 Naperville",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -49,8 +49,23 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Margaret Seper",
+          "Fri Oct 9",
+          "12:00 PM",
+          "12:20 PM",
+          "0.33"
+        ],
+        [
+          "Ryan Harris",
+          "Fri Oct 9",
+          "12:00 PM",
+          "12:20 PM",
+          "0.33"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "over-40-vacation",
