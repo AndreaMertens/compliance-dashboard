@@ -4,7 +4,7 @@
     "check_label": "Oct 15, 2026",
     "period_start": "2026-09-26",
     "period_end": "2026-10-12",
-    "last_refreshed_display": "Generated Tue Oct 13, 2026"
+    "last_refreshed_display": "Generated Wed Oct 14, 2026"
   },
   "tiles": [
     {
@@ -488,9 +488,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 2,
-      "metric_unit": "shops",
-      "description": "84 timecards still unapproved across the full pay period.",
+      "metric": 1,
+      "metric_unit": "shop",
+      "description": "59 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -852,156 +852,6 @@
           "CX Team",
           "2026-10-12",
           "8.88h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-09-27",
-          "3.33h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-09-27",
-          "3.40h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-09-27",
-          "8.02h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-09-28",
-          "6.63h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-09-28",
-          "16.60h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-09-28",
-          "6.67h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-09-28",
-          "15.62h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-09-28",
-          "11.78h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-09-29",
-          "15.98h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-09-29",
-          "16.38h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-09-30",
-          "13.90h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-09-30",
-          "19.05h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-09-30",
-          "15.85h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-09-30",
-          "10.48h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-10-01",
-          "17.38h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-10-01",
-          "16.68h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-01",
-          "9.73h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-02",
-          "9.20h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-10-03",
-          "14.83h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-10-03",
-          "12.63h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-03",
-          "3.57h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-10-04",
-          "10.87h"
-        ],
-        [
-          "Guy Williams ii",
-          "HQ-Non-Kiosk",
-          "2026-10-04",
-          "18.43h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-10-04",
-          "11.38h"
-        ],
-        [
-          "Zachary Opuda",
-          "HQ-Non-Kiosk",
-          "2026-10-04",
-          "18.02h"
         ]
       ]
     },
@@ -1628,9 +1478,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 117,
+      "metric": 116,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 10 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 9 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1639,12 +1489,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Noah Strako",
-          "17250 Omaha",
-          "2026-09-27",
-          "7.28h"
-        ],
         [
           "Clayton Brown",
           "822 City Centre",

@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 13 \u2192 Nov 3, 2026",
-    "summary_line": "5 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Tue Oct 13, 12:30 PM",
+    "subtitle": "Window: Oct 14 \u2192 Nov 4, 2026",
+    "summary_line": "6 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Wed Oct 14, 7:04 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -30,15 +30,22 @@
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 10,
-          "gap_days": 2,
+          "draft_count": 14,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
           "shop": "Miami - Brickell",
           "manager": "",
-          "draft_count": 4,
-          "gap_days": 2,
+          "draft_count": 6,
+          "gap_days": 3,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "DC - 3101 M St",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 1,
           "lookahead_days": 14
         },
         {
@@ -63,18 +70,18 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 3,
-          "gap_days": 0,
-          "lookahead_days": 21
-        },
-        {
           "shop": "4000 New Orleans",
           "manager": "",
           "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 21
         },
         {
           "shop": "822 City Centre",
