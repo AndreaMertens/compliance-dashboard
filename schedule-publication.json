@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 14 \u2192 Nov 4, 2026",
-    "summary_line": "6 action needed \u00b7 5 heads up",
-    "last_refreshed_display": "Data through Wed Oct 14, 7:04 AM",
+    "subtitle": "Window: Oct 15 \u2192 Nov 5, 2026",
+    "summary_line": "7 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Thu Oct 15, 7:04 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,37 +14,44 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "785 Naples",
-          "manager": "",
-          "draft_count": 23,
-          "gap_days": 7,
-          "lookahead_days": 14
-        },
-        {
           "shop": "1805 Boulder",
           "manager": "",
-          "draft_count": 13,
-          "gap_days": 7,
+          "draft_count": 17,
+          "gap_days": 11,
           "lookahead_days": 14
         },
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 14,
-          "gap_days": 3,
+          "draft_count": 18,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "Miami - Brickell",
           "manager": "",
-          "draft_count": 6,
-          "gap_days": 3,
+          "draft_count": 9,
+          "gap_days": 4,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "785 Naples",
+          "manager": "",
+          "draft_count": 7,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "DC - 3101 M St",
           "manager": "",
-          "draft_count": 1,
+          "draft_count": 2,
+          "gap_days": 2,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Nashville - 5th + Broadway",
+          "manager": "",
+          "draft_count": 4,
           "gap_days": 1,
           "lookahead_days": 14
         },
@@ -65,7 +72,7 @@
         {
           "shop": "17250 Omaha",
           "manager": "",
-          "draft_count": 9,
+          "draft_count": 8,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -77,13 +84,6 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Philadelphia - 1702 Walnut",
-          "manager": "",
-          "draft_count": 2,
-          "gap_days": 0,
-          "lookahead_days": 21
-        },
-        {
           "shop": "822 City Centre",
           "manager": "",
           "draft_count": 1,
@@ -91,11 +91,18 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Houston - 888 Westheimer",
+          "shop": "Westport - 72 Main St",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Philadelphia - 1702 Walnut",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 21
         }
       ]
     }
