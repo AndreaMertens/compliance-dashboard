@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Oct 13 \u2013 Oct 27, 2026",
-    "summary_line": "1 flagged shifts across 1 shops \u2014 1 OT, 1 over 11 hrs",
+    "summary_line": "3 flagged shifts across 3 shops \u2014 3 OT, 1 over 11 hrs",
     "last_refreshed_display": "Data through Sat Oct 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -17,6 +17,38 @@
     "Triggered"
   ],
   "groups": [
+    {
+      "shop": "Boston - 201 Newbury Street",
+      "manager": "Brian Ward, Kyle Harwood, Katie Litchfield",
+      "count": 1,
+      "rows": [
+        [
+          "Anne Malloy",
+          "Thu Oct 15",
+          "4:38 AM",
+          "3:34 PM",
+          "10.93",
+          "45.43 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "Nathan Mylenek",
+      "count": 1,
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "Sat Oct 17",
+          "9:43 AM",
+          "7:46 PM",
+          "10.05",
+          "44.01 (OT)",
+          "OT"
+        ]
+      ]
+    },
     {
       "shop": "Salt Lake City - 50 E Main St. N",
       "manager": "Nathan Smith, Ashley Gabrielsen",
