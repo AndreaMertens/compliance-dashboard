@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Oct 13 \u2013 Oct 27, 2026",
-    "summary_line": "4 flagged shifts across 4 shops \u2014 4 OT, 1 over 11 hrs",
+    "summary_line": "9 flagged shifts across 5 shops \u2014 9 OT, 2 over 11 hrs",
     "last_refreshed_display": "Data through Sat Oct 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -17,6 +17,22 @@
     "Triggered"
   ],
   "groups": [
+    {
+      "shop": "696 Lynnfield",
+      "manager": "Mike LeGree",
+      "count": 1,
+      "rows": [
+        [
+          "Marian Claure arias",
+          "Sat Oct 17",
+          "7:57 AM",
+          "6:02 PM",
+          "10.08",
+          "46.13 (OT)",
+          "OT"
+        ]
+      ]
+    },
     {
       "shop": "Boston - 201 Newbury Street",
       "manager": "Brian Ward, Kyle Harwood, Katie Litchfield",
@@ -44,7 +60,7 @@
           "9:43 AM",
           "7:46 PM",
           "10.05",
-          "52.56 (OT)",
+          "60.86 (OT)",
           "OT"
         ]
       ]
@@ -52,7 +68,7 @@
     {
       "shop": "Salt Lake City - 50 E Main St. N",
       "manager": "Nathan Smith, Ashley Gabrielsen",
-      "count": 1,
+      "count": 3,
       "rows": [
         [
           "James Robinson",
@@ -60,16 +76,52 @@
           "8:53 AM",
           "8:45 PM",
           "11.87",
-          "60.09 (OT)",
+          "68.22 (OT)",
           "OT \u00b7 Over 11"
+        ],
+        [
+          "James Robinson",
+          "Thu Oct 15",
+          "9:22 AM",
+          "8:51 PM",
+          "11.48",
+          "68.22 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Mate Okros",
+          "Mon Oct 19",
+          "9:35 AM",
+          "8:13 PM",
+          "10.63",
+          "79.67 (OT)",
+          "OT"
         ]
       ]
     },
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 1,
+      "count": 3,
       "rows": [
+        [
+          "Will",
+          "Mon Oct 19",
+          "11:49 AM",
+          "10:34 PM",
+          "10.75",
+          "62.09 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Oct 20",
+          "9:47 AM",
+          "8:25 PM",
+          "10.63",
+          "50.40 (OT)",
+          "OT"
+        ],
         [
           "Gloria Alexander",
           "Thu Oct 15",

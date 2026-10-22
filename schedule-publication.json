@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 21 \u2192 Nov 11, 2026",
-    "summary_line": "9 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Wed Oct 21, 7:07 AM",
+    "subtitle": "Window: Oct 22 \u2192 Nov 12, 2026",
+    "summary_line": "7 action needed \u00b7 5 heads up",
+    "last_refreshed_display": "Data through Thu Oct 22, 7:05 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,59 +14,45 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "1805 Boulder",
-          "manager": "",
-          "draft_count": 14,
-          "gap_days": 10,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "DC - 3101 M St",
-          "manager": "",
-          "draft_count": 7,
-          "gap_days": 5,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 19,
-          "gap_days": 3,
-          "lookahead_days": 21
-        },
-        {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 12,
-          "gap_days": 3,
+          "draft_count": 24,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "1425 Basecamp",
           "manager": "",
-          "draft_count": 9,
-          "gap_days": 3,
+          "draft_count": 13,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 7,
-          "gap_days": 3,
+          "draft_count": 9,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "785 Naples",
           "manager": "",
-          "draft_count": 6,
-          "gap_days": 3,
+          "draft_count": 8,
+          "gap_days": 4,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "1805 Boulder",
+          "manager": "",
+          "draft_count": 7,
+          "gap_days": 4,
           "lookahead_days": 14
         },
         {
           "shop": "Miami - Brickell",
           "manager": "",
-          "draft_count": 2,
-          "gap_days": 2,
+          "draft_count": 3,
+          "gap_days": 3,
           "lookahead_days": 14
         },
         {
@@ -84,16 +70,23 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "17250 Omaha",
+          "shop": "1000 Pittsburgh",
           "manager": "",
           "draft_count": 4,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "1000 Pittsburgh",
+          "shop": "17250 Omaha",
           "manager": "",
           "draft_count": 3,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "DC - 3101 M St",
+          "manager": "",
+          "draft_count": 2,
           "gap_days": 0,
           "lookahead_days": 14
         },
