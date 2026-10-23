@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Oct 13 \u2013 Oct 27, 2026",
-    "summary_line": "9 flagged shifts across 5 shops \u2014 9 OT, 2 over 11 hrs",
+    "summary_line": "15 flagged shifts across 7 shops \u2014 15 OT, 6 over 11 hrs",
     "last_refreshed_display": "Data through Sat Oct 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -20,8 +20,17 @@
     {
       "shop": "696 Lynnfield",
       "manager": "Mike LeGree",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Evan",
+          "Wed Oct 21",
+          "7:45 AM",
+          "6:02 PM",
+          "10.28",
+          "59.77 (OT)",
+          "OT"
+        ],
         [
           "Marian Claure arias",
           "Sat Oct 17",
@@ -44,7 +53,23 @@
           "4:38 AM",
           "3:34 PM",
           "10.93",
-          "54.66 (OT)",
+          "63.16 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Dedham",
+      "manager": "Justin Komins",
+      "count": 1,
+      "rows": [
+        [
+          "Dillon Stanas",
+          "Mon Oct 19",
+          "6:55 AM",
+          "5:10 PM",
+          "10.25",
+          "52.57 (OT)",
           "OT"
         ]
       ]
@@ -60,15 +85,31 @@
           "9:43 AM",
           "7:46 PM",
           "10.05",
-          "60.86 (OT)",
+          "69.18 (OT)",
           "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Miami - Brickell",
+      "manager": "Amber Long",
+      "count": 1,
+      "rows": [
+        [
+          "Gabriel Gonzalez",
+          "Thu Oct 22",
+          "7:02 AM",
+          "7:09 PM",
+          "12.12",
+          "43.66 (OT)",
+          "OT \u00b7 Over 11"
         ]
       ]
     },
     {
       "shop": "Salt Lake City - 50 E Main St. N",
       "manager": "Nathan Smith, Ashley Gabrielsen",
-      "count": 3,
+      "count": 6,
       "rows": [
         [
           "James Robinson",
@@ -76,7 +117,7 @@
           "8:53 AM",
           "8:45 PM",
           "11.87",
-          "68.22 (OT)",
+          "75.67 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -85,7 +126,34 @@
           "9:22 AM",
           "8:51 PM",
           "11.48",
-          "68.22 (OT)",
+          "75.67 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Mate Okros",
+          "Sat Oct 17",
+          "9:42 AM",
+          "9:07 PM",
+          "11.42",
+          "79.67 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Mate Okros",
+          "Fri Oct 16",
+          "9:44 AM",
+          "9:03 PM",
+          "11.32",
+          "79.67 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Mate Okros",
+          "Thu Oct 15",
+          "9:49 AM",
+          "8:52 PM",
+          "11.05",
+          "79.67 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -119,7 +187,7 @@
           "9:47 AM",
           "8:25 PM",
           "10.63",
-          "50.40 (OT)",
+          "59.00 (OT)",
           "OT"
         ],
         [
@@ -128,7 +196,7 @@
           "7:58 AM",
           "6:02 PM",
           "10.07",
-          "50.40 (OT)",
+          "59.00 (OT)",
           "OT"
         ]
       ]
