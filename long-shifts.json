@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Oct 13 \u2013 Oct 27, 2026",
-    "summary_line": "15 flagged shifts across 7 shops \u2014 15 OT, 6 over 11 hrs",
-    "last_refreshed_display": "Data through Sat Oct 24, 2026",
+    "summary_line": "19 flagged shifts across 8 shops \u2014 19 OT, 6 over 11 hrs",
+    "last_refreshed_display": "Data through Mon Oct 26, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -18,9 +18,25 @@
   ],
   "groups": [
     {
+      "shop": "4002 Columbus",
+      "manager": "Paul Fregeau",
+      "count": 1,
+      "rows": [
+        [
+          "Larry Whitaker",
+          "Sat Oct 24",
+          "7:17 AM",
+          "5:44 PM",
+          "10.45",
+          "61.78 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
       "shop": "696 Lynnfield",
       "manager": "Mike LeGree",
-      "count": 2,
+      "count": 3,
       "rows": [
         [
           "Evan",
@@ -32,12 +48,21 @@
           "OT"
         ],
         [
+          "Evan",
+          "Thu Oct 22",
+          "7:50 AM",
+          "6:01 PM",
+          "10.18",
+          "59.77 (OT)",
+          "OT"
+        ],
+        [
           "Marian Claure arias",
           "Sat Oct 17",
           "7:57 AM",
           "6:02 PM",
           "10.08",
-          "46.13 (OT)",
+          "68.86 (OT)",
           "OT"
         ]
       ]
@@ -45,7 +70,7 @@
     {
       "shop": "Boston - 201 Newbury Street",
       "manager": "Brian Ward, Kyle Harwood, Katie Litchfield",
-      "count": 1,
+      "count": 2,
       "rows": [
         [
           "Anne Malloy",
@@ -53,7 +78,16 @@
           "4:38 AM",
           "3:34 PM",
           "10.93",
-          "63.16 (OT)",
+          "81.43 (OT)",
+          "OT"
+        ],
+        [
+          "William Hatton",
+          "Sat Oct 24",
+          "7:12 AM",
+          "5:13 PM",
+          "10.02",
+          "65.22 (OT)",
           "OT"
         ]
       ]
@@ -69,7 +103,7 @@
           "6:55 AM",
           "5:10 PM",
           "10.25",
-          "52.57 (OT)",
+          "84.80 (OT)",
           "OT"
         ]
       ]
@@ -101,7 +135,7 @@
           "7:02 AM",
           "7:09 PM",
           "12.12",
-          "43.66 (OT)",
+          "69.63 (OT)",
           "OT \u00b7 Over 11"
         ]
       ]
@@ -117,7 +151,7 @@
           "8:53 AM",
           "8:45 PM",
           "11.87",
-          "75.67 (OT)",
+          "91.61 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -126,7 +160,7 @@
           "9:22 AM",
           "8:51 PM",
           "11.48",
-          "75.67 (OT)",
+          "91.61 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -135,7 +169,7 @@
           "9:42 AM",
           "9:07 PM",
           "11.42",
-          "79.67 (OT)",
+          "104.06 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -144,7 +178,7 @@
           "9:44 AM",
           "9:03 PM",
           "11.32",
-          "79.67 (OT)",
+          "104.06 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -153,7 +187,7 @@
           "9:49 AM",
           "8:52 PM",
           "11.05",
-          "79.67 (OT)",
+          "104.06 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -162,7 +196,7 @@
           "9:35 AM",
           "8:13 PM",
           "10.63",
-          "79.67 (OT)",
+          "104.06 (OT)",
           "OT"
         ]
       ]
@@ -170,7 +204,7 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 3,
+      "count": 4,
       "rows": [
         [
           "Will",
@@ -178,7 +212,7 @@
           "11:49 AM",
           "10:34 PM",
           "10.75",
-          "62.09 (OT)",
+          "87.34 (OT)",
           "OT"
         ],
         [
@@ -187,7 +221,16 @@
           "9:47 AM",
           "8:25 PM",
           "10.63",
-          "59.00 (OT)",
+          "69.25 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Oct 24",
+          "10:01 AM",
+          "8:16 PM",
+          "10.25",
+          "69.25 (OT)",
           "OT"
         ],
         [
@@ -196,7 +239,7 @@
           "7:58 AM",
           "6:02 PM",
           "10.07",
-          "59.00 (OT)",
+          "69.25 (OT)",
           "OT"
         ]
       ]
