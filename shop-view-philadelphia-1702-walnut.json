@@ -2,10 +2,10 @@
   "meta": {
     "title": "Philadelphia - 1702 Walnut",
     "subtitle": "Manager view",
-    "summary_line": "5 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 5
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-10-09",
-          "Fabio Santos Panisson",
-          "8:30 AM",
-          "8:54 AM",
-          "24"
-        ],
-        [
-          "2026-10-10",
+          "2026-10-24",
           "Kendra Johnson",
           "9:30 AM",
-          "9:45 AM",
-          "15"
+          "9:49 AM",
+          "19"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -50,27 +43,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Kendra Johnson",
-          "Sat Oct 3",
-          "7:25 AM",
-          "5:30 PM",
-          "10.08",
-          "107.39 (OT)",
-          "OT"
-        ],
-        [
-          "Mate Okros",
-          "Tue Oct 6",
-          "7:24 AM",
-          "5:28 PM",
-          "10.07",
-          "106.57 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -83,16 +57,8 @@
         "End",
         "Hours"
       ],
-      "rows": [
-        [
-          "Mate Okros",
-          "Fri Oct 9",
-          "10:00 PM",
-          "10:00 PM",
-          "0.00"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "over-40-vacation",
@@ -105,8 +71,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Kendra Johnson",
+          "32.32",
+          "9.00",
+          "41.32",
+          "+1.32"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

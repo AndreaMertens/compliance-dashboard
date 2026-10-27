@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-10-11",
-          "Parker Hill",
+          "2026-10-25",
+          "Brian Redington",
           "10:00 AM",
-          "10:31 AM",
-          "31"
-        ],
-        [
-          "2026-10-11",
-          "Parker Hill",
-          "10:00 AM",
-          "10:31 AM",
-          "31"
+          "10:24 AM",
+          "24"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -50,8 +43,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "Sat Oct 17",
+          "9:43 AM",
+          "7:46 PM",
+          "10.05",
+          "77.56 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -90,8 +93,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brian Redington",
+          "Sun Oct 25",
+          "8.72"
+        ],
+        [
+          "D'Angelo Rivas",
+          "Sun Oct 25",
+          "8.15"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

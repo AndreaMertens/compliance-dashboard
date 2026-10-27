@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tampa - 2223 N Westshore",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-22",
+          "Antowane Oliver",
+          "10:45 AM",
+          "1:15 PM",
+          "150"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -35,36 +43,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Yasmeen Khan",
-          "Thu Oct 1",
-          "7:16 AM",
-          "6:07 PM",
-          "10.85",
-          "108.39 (OT)",
-          "OT"
-        ],
-        [
-          "Yasmeen Khan",
-          "Mon Oct 12",
-          "7:43 AM",
-          "6:22 PM",
-          "10.65",
-          "108.39 (OT)",
-          "OT"
-        ],
-        [
-          "Yasmeen Khan",
-          "Sat Oct 3",
-          "6:32 AM",
-          "5:03 PM",
-          "10.52",
-          "108.39 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",

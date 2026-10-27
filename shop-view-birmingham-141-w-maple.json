@@ -2,10 +2,10 @@
   "meta": {
     "title": "Birmingham - 141 W Maple",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "11 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 11
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-22",
+          "Alexander Conklin",
+          "9:00 AM",
+          "9:14 AM",
+          "14"
+        ],
+        [
+          "2026-10-25",
+          "Lance Minor",
+          "9:00 AM",
+          "10:44 AM",
+          "104"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -35,18 +50,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Brett",
-          "Wed Sep 30",
-          "7:02 AM",
-          "6:13 PM",
-          "11.18",
-          "112.29 (OT)",
-          "OT \u00b7 Over 11"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -85,8 +90,54 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brett",
+          "Fri Oct 23",
+          "8.07"
+        ],
+        [
+          "Lance Minor",
+          "Sat Oct 24",
+          "6.17"
+        ],
+        [
+          "Brett",
+          "Sat Oct 24",
+          "9.45"
+        ],
+        [
+          "Alexander Conklin",
+          "Sat Oct 24",
+          "3.00"
+        ],
+        [
+          "Luke Srinivasan",
+          "Sat Oct 24",
+          "8.43"
+        ],
+        [
+          "Lance Minor",
+          "Sun Oct 25",
+          "6.30"
+        ],
+        [
+          "Brett",
+          "Sun Oct 25",
+          "8.10"
+        ],
+        [
+          "Alexander Conklin",
+          "Sun Oct 25",
+          "8.27"
+        ],
+        [
+          "Luke Srinivasan",
+          "Sun Oct 25",
+          "6.53"
+        ]
+      ],
+      "count": 9
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "4002 Columbus",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -35,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Larry Whitaker",
+          "Sat Oct 24",
+          "7:17 AM",
+          "5:44 PM",
+          "10.45",
+          "69.88 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",

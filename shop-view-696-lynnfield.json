@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "11 flags this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 11
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,30 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-05",
-          "Emirson Santana",
-          "10:00 AM",
-          "12:20 PM",
-          "140"
-        ],
-        [
-          "2026-10-08",
-          "Emirson Santana",
-          "9:00 AM",
-          "9:27 AM",
-          "27"
-        ],
-        [
-          "2026-10-10",
-          "Marian Claure arias",
-          "9:00 AM",
-          "9:14 AM",
-          "14"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -59,79 +37,34 @@
       ],
       "rows": [
         [
-          "Emirson Santana",
-          "Thu Oct 8",
-          "9:27 AM",
-          "8:00 AM",
-          "22.55",
-          "100.90 (OT)",
-          "OT \u00b7 Over 11"
-        ],
-        [
           "Evan",
-          "Mon Sep 28",
-          "7:45 AM",
-          "6:07 PM",
-          "10.37",
-          "98.48 (OT)",
-          "OT"
-        ],
-        [
-          "Evan",
-          "Tue Sep 29",
+          "Wed Oct 21",
           "7:45 AM",
           "6:02 PM",
           "10.28",
-          "98.48 (OT)",
+          "59.77 (OT)",
           "OT"
         ],
         [
           "Evan",
-          "Thu Oct 1",
-          "7:47 AM",
-          "6:04 PM",
-          "10.28",
-          "98.48 (OT)",
+          "Thu Oct 22",
+          "7:50 AM",
+          "6:01 PM",
+          "10.18",
+          "59.77 (OT)",
           "OT"
         ],
         [
-          "Evan",
-          "Tue Oct 6",
-          "7:47 AM",
+          "Marian Claure arias",
+          "Sat Oct 17",
+          "7:57 AM",
           "6:02 PM",
-          "10.25",
-          "98.48 (OT)",
-          "OT"
-        ],
-        [
-          "Evan",
-          "Thu Oct 8",
-          "7:48 AM",
-          "6:02 PM",
-          "10.23",
-          "98.48 (OT)",
-          "OT"
-        ],
-        [
-          "Evan",
-          "Sat Oct 3",
-          "7:55 AM",
-          "6:04 PM",
-          "10.15",
-          "98.48 (OT)",
-          "OT"
-        ],
-        [
-          "Evan",
-          "Wed Oct 7",
-          "7:53 AM",
-          "6:02 PM",
-          "10.15",
-          "98.48 (OT)",
+          "10.08",
+          "76.81 (OT)",
           "OT"
         ]
       ],
-      "count": 8
+      "count": 3
     },
     {
       "id": "short-shifts",

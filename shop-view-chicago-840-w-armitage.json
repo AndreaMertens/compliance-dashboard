@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-19",
+          "Holden Tamblyn",
+          "9:25 AM",
+          "9:54 AM",
+          "29"
+        ],
+        [
+          "2026-10-21",
+          "Holden Tamblyn",
+          "9:25 AM",
+          "9:56 AM",
+          "31"
+        ],
+        [
+          "2026-10-22",
+          "Viktoriia Fedorchak",
+          "8:00 AM",
+          "9:55 AM",
+          "115"
+        ],
+        [
+          "2026-10-24",
+          "Holden Tamblyn",
+          "9:00 AM",
+          "12:37 PM",
+          "217"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -51,25 +80,25 @@
       ],
       "rows": [
         [
-          "Andrea Calderon",
-          "Mon Sep 28",
+          "Viktoriia Fedorchak",
+          "Fri Oct 23",
           "10:00 PM",
           "10:00 PM",
           "0.00"
         ],
         [
-          "Andrea Calderon",
-          "Wed Sep 30",
-          "10:00 PM",
-          "10:00 PM",
-          "0.00"
+          "Charles Flynn",
+          "Thu Oct 15",
+          "11:30 AM",
+          "11:43 AM",
+          "0.22"
         ],
         [
-          "Holden Tamblyn",
-          "Fri Oct 2",
-          "10:00 PM",
-          "10:00 PM",
-          "0.00"
+          "Charles Flynn",
+          "Thu Oct 15",
+          "12:00 PM",
+          "12:18 PM",
+          "0.30"
         ]
       ],
       "count": 3

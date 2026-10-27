@@ -2,10 +2,10 @@
   "meta": {
     "title": "1425 Basecamp",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,30 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-05",
-          "Justin Wascher",
-          "10:00 AM",
-          "10:38 AM",
-          "38"
-        ],
-        [
-          "2026-10-07",
-          "Amad Karamo",
-          "10:30 AM",
-          "11:00 AM",
-          "30"
-        ],
-        [
-          "2026-10-10",
-          "Dexter Clardy",
-          "10:30 AM",
-          "10:59 AM",
-          "29"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -85,8 +63,23 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Dexter Clardy",
+          "27.30",
+          "15.00",
+          "42.30",
+          "+2.30"
+        ],
+        [
+          "Justin Wascher",
+          "41.70",
+          "7.50",
+          "49.20",
+          "+9.20"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "unapproved-timecards",

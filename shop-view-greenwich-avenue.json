@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -19,23 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-07",
-          "Trent Bansak",
-          "8:00 AM",
-          "8:17 AM",
-          "17"
-        ],
-        [
-          "2026-10-11",
-          "Isaac Elias",
-          "8:00 AM",
-          "10:03 AM",
-          "123"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -64,8 +49,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Isaac Elias",
+          "Mon Oct 19",
+          "8:00 AM",
+          "8:15 AM",
+          "0.25"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",
@@ -78,16 +71,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Jose Cruz",
-          "34.40",
-          "7.50",
-          "41.90",
-          "+1.90"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "1 flag this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 1
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-10-06",
+          "2026-10-20",
           "Bryce",
           "7:00 AM",
-          "8:39 AM",
-          "99"
-        ],
-        [
-          "2026-10-10",
-          "Andrew Le",
-          "9:00 AM",
-          "9:45 AM",
-          "45"
+          "8:43 AM",
+          "103"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -78,23 +71,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Bryce",
-          "33.24",
-          "8.00",
-          "41.24",
-          "+1.24"
-        ],
-        [
-          "Micah Wheeler",
-          "34.87",
-          "7.50",
-          "42.37",
-          "+2.37"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

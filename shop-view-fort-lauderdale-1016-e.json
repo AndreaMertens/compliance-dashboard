@@ -2,10 +2,10 @@
   "meta": {
     "title": "Fort Lauderdale - 1016 E",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,23 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-10-24",
+          "farhan Khandaker",
+          "9:00 AM",
+          "9:13 AM",
+          "13"
+        ],
+        [
+          "2026-10-24",
+          "Phillip Santiago",
+          "8:30 AM",
+          "8:41 AM",
+          "11"
+        ]
+      ],
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -63,16 +78,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Phillip Santiago",
-          "33.41",
-          "8.00",
-          "41.41",
-          "+1.41"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
