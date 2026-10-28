@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-25",
-          "Brian Redington",
-          "10:00 AM",
-          "10:24 AM",
-          "24"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -47,10 +39,10 @@
         [
           "Antonio Castaneda Gonzalez",
           "Sat Oct 17",
-          "9:43 AM",
-          "7:46 PM",
+          "10:43 AM",
+          "8:46 PM",
           "10.05",
-          "77.56 (OT)",
+          "85.89 (OT)",
           "OT"
         ]
       ],
@@ -81,8 +73,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "33.69",
+          "7.50",
+          "41.19",
+          "+1.19"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
@@ -93,19 +93,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Brian Redington",
-          "Sun Oct 25",
-          "8.72"
-        ],
-        [
-          "D'Angelo Rivas",
-          "Sun Oct 25",
-          "8.15"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }

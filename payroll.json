@@ -304,9 +304,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 6,
+      "metric": 2,
       "metric_unit": "shops",
-      "description": "45 timecards still unapproved across the full pay period.",
+      "description": "25 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -460,126 +460,6 @@
           "8.22h"
         ],
         [
-          "Liss Llerena",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-26",
-          "7.55h"
-        ],
-        [
-          "Roxana Artiles",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-26",
-          "7.25h"
-        ],
-        [
-          "farhan Khandaker",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-26",
-          "8.07h"
-        ],
-        [
-          "Ceara McKegney",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-26",
-          "5.13h"
-        ],
-        [
-          "Cody Crites",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-26",
-          "8.12h"
-        ],
-        [
-          "Liss Llerena",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-27",
-          "8.25h"
-        ],
-        [
-          "Roxana Artiles",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-27",
-          "7.70h"
-        ],
-        [
-          "Phillip Santiago",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-27",
-          "8.15h"
-        ],
-        [
-          "Cody Crites",
-          "Fort Lauderdale - 1016 E",
-          "2026-10-27",
-          "8.10h"
-        ],
-        [
-          "Yasmeen Khan",
-          "4000 New Orleans",
-          "2026-10-25",
-          "8.38h"
-        ],
-        [
-          "Isabelle Nixon",
-          "4000 New Orleans",
-          "2026-10-25",
-          "8.70h"
-        ],
-        [
-          "James Clay",
-          "4000 New Orleans",
-          "2026-10-25",
-          "8.68h"
-        ],
-        [
-          "Yasmeen Khan",
-          "4000 New Orleans",
-          "2026-10-26",
-          "8.10h"
-        ],
-        [
-          "Meghan Rolfs",
-          "4000 New Orleans",
-          "2026-10-26",
-          "8.37h"
-        ],
-        [
-          "James Clay",
-          "4000 New Orleans",
-          "2026-10-26",
-          "8.02h"
-        ],
-        [
-          "Meghan Rolfs",
-          "4000 New Orleans",
-          "2026-10-27",
-          "8.45h"
-        ],
-        [
-          "Isabelle Nixon",
-          "4000 New Orleans",
-          "2026-10-27",
-          "8.08h"
-        ],
-        [
-          "Jordan Honore",
-          "822 City Centre",
-          "2026-10-27",
-          "8.20h"
-        ],
-        [
-          "Devin Henderson",
-          "822 City Centre",
-          "2026-10-27",
-          "8.35h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-10-27",
-          "19.25h"
-        ],
-        [
           "Christian Van Dam",
           "17250 Omaha",
           "2026-10-26",
@@ -590,36 +470,17 @@
     {
       "id": "payroll-pending-leave",
       "title": "Pending Leave",
-      "metric": 3,
+      "metric": 0,
       "metric_unit": "requests",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
-      "status": "attention",
+      "status": "good",
       "columns": [
         "Employee",
         "Date Start",
         "Date End",
         "Note"
       ],
-      "rows": [
-        [
-          "April",
-          "2026-10-25",
-          "2026-10-25",
-          "car was down"
-        ],
-        [
-          "Ernesto Santana Mendez",
-          "2026-10-24",
-          "2026-10-24",
-          "Personal errand"
-        ],
-        [
-          "Evan",
-          "2026-10-24",
-          "2026-10-24",
-          "Sick day"
-        ]
-      ]
+      "rows": []
     },
     {
       "id": "payroll-penalty-pay",
@@ -1068,9 +929,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 183,
+      "metric": 177,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 18 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 16 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1079,30 +940,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Rex Walters",
-          "122 Lexington",
-          "2026-10-27",
-          "8.15h"
-        ],
-        [
-          "Cody Sonier",
-          "17250 Omaha",
-          "2026-10-26",
-          "8.02h"
-        ],
-        [
-          "Cody Sonier",
-          "17250 Omaha",
-          "2026-10-27",
-          "7.97h"
-        ],
-        [
-          "Noah Strako",
-          "17250 Omaha",
-          "2026-10-27",
-          "9.03h"
-        ],
         [
           "Ivory Turner",
           "333 Milwaukee",
@@ -1186,6 +1023,18 @@
           "4000 New Orleans",
           "2026-10-24",
           "8.50h"
+        ],
+        [
+          "Yasmeen Khan",
+          "4000 New Orleans",
+          "2026-10-25",
+          "8.38h"
+        ],
+        [
+          "Yasmeen Khan",
+          "4000 New Orleans",
+          "2026-10-26",
+          "8.10h"
         ],
         [
           "Clayton Brown",
@@ -1920,6 +1769,12 @@
           "8.47h"
         ],
         [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-10-27",
+          "19.25h"
+        ],
+        [
           "Christian Bussman",
           "Indianapolis - 8702 Keystone Crossing",
           "2026-10-13",
@@ -1986,12 +1841,6 @@
           "8.12h"
         ],
         [
-          "Adrian Santana",
-          "Miami - Brickell",
-          "2026-10-27",
-          "8.32h"
-        ],
-        [
           "Mate Okros",
           "Philadelphia - 1702 Walnut",
           "2026-10-13",
@@ -2020,12 +1869,6 @@
           "Philadelphia - 1702 Walnut",
           "2026-10-27",
           "8.15h"
-        ],
-        [
-          "Daylon Johnson",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-10-27",
-          "10.60h"
         ],
         [
           "Mate Okros",
@@ -2062,24 +1905,6 @@
           "Salt Lake City - 50 E Main St. N",
           "2026-10-20",
           "8.20h"
-        ],
-        [
-          "Naomi Gilmore",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-10-27",
-          "8.20h"
-        ],
-        [
-          "Nicholas Compton",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-10-27",
-          "4.42h"
-        ],
-        [
-          "Val Simanca Delgado",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-10-27",
-          "5.12h"
         ],
         [
           "Will",

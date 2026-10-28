@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 3 shops",
-    "last_refreshed_display": "Data through Tue Oct 27, 2026",
+    "summary_line": "No pending leave \u2014 all caught up",
+    "last_refreshed_display": "Data through Wed Oct 28, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,45 +13,5 @@
     "Date End",
     "Note"
   ],
-  "groups": [
-    {
-      "shop": "696 Lynnfield",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Evan",
-          "2026-10-24",
-          "2026-10-24",
-          "Sick day"
-        ]
-      ]
-    },
-    {
-      "shop": "HQ - Warehouse",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "April",
-          "2026-10-25",
-          "2026-10-25",
-          "car was down"
-        ]
-      ]
-    },
-    {
-      "shop": "Miami - Brickell",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Ernesto Santana Mendez",
-          "2026-10-24",
-          "2026-10-24",
-          "Personal errand"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }
