@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Oct 30 \u2192 Nov 20, 2026",
-    "summary_line": "4 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Fri Oct 30, 8:04 AM",
+    "subtitle": "Window: Nov 2 \u2192 Nov 23, 2026",
+    "summary_line": "5 action needed \u00b7 7 heads up",
+    "last_refreshed_display": "Data through Mon Nov 2, 8:05 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,28 +14,35 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "4000 New Orleans",
+          "shop": "Newport Beach - Fashion Island",
           "manager": "",
-          "draft_count": 35,
-          "gap_days": 13,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "1805 Boulder",
-          "manager": "",
-          "draft_count": 11,
+          "draft_count": 20,
           "gap_days": 7,
           "lookahead_days": 14
         },
         {
-          "shop": "144 Naperville",
+          "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 0,
-          "gap_days": 0,
-          "lookahead_days": 14
+          "draft_count": 8,
+          "gap_days": 1,
+          "lookahead_days": 21
         },
         {
           "shop": "St. Louis",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Greenwich Avenue",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 1,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "144 Naperville",
           "manager": "",
           "draft_count": 0,
           "gap_days": 0,
@@ -49,13 +56,6 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "1000 Pittsburgh",
-          "manager": "",
-          "draft_count": 12,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "Charleston",
           "manager": "",
           "draft_count": 10,
@@ -65,14 +65,42 @@
         {
           "shop": "2900 Minneapolis",
           "manager": "",
-          "draft_count": 8,
+          "draft_count": 9,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "1151 Roseville",
+          "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 3,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "10250 Century City",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "333 Milwaukee",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Greenhills - 2126 Abbot Martin",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Scottsdale - Scottsdale Quarte",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         }

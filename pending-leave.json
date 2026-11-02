@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "No pending leave \u2014 all caught up",
-    "last_refreshed_display": "Data through Thu Oct 29, 2026",
+    "summary_line": "3 pending leave requests across 3 shops",
+    "last_refreshed_display": "Data through Mon Nov 9, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,5 +13,45 @@
     "Date End",
     "Note"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "2026-11-01",
+          "2026-11-01",
+          "Time off"
+        ]
+      ]
+    },
+    {
+      "shop": "Kansas City - 321 Nichols Rd",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Adam Lansdown",
+          "2026-10-30",
+          "2026-10-31",
+          "Omaha"
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Jacob McLaughlin",
+          "2026-10-30",
+          "2026-11-01",
+          "Event"
+        ]
+      ]
+    }
+  ]
 }
