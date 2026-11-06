@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Nov 5 \u2192 Nov 26, 2026",
-    "summary_line": "3 action needed \u00b7 6 heads up",
-    "last_refreshed_display": "Data through Thu Nov 5, 7:04 AM",
+    "subtitle": "Window: Nov 6 \u2192 Nov 27, 2026",
+    "summary_line": "2 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Fri Nov 6, 7:04 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,13 +13,6 @@
       "label": "Action Needed",
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
-        {
-          "shop": "Salt Lake City - 50 E Main St. N",
-          "manager": "",
-          "draft_count": 18,
-          "gap_days": 4,
-          "lookahead_days": 14
-        },
         {
           "shop": "St. Louis",
           "manager": "",
@@ -42,13 +35,6 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Charleston",
-          "manager": "",
-          "draft_count": 12,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
           "shop": "1000 Pittsburgh",
           "manager": "",
           "draft_count": 5,
@@ -56,16 +42,9 @@
           "lookahead_days": 14
         },
         {
-          "shop": "Manhattan Beach - The Point",
+          "shop": "2900 Minneapolis",
           "manager": "",
           "draft_count": 4,
-          "gap_days": 0,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "10250 Century City",
-          "manager": "",
-          "draft_count": 3,
           "gap_days": 0,
           "lookahead_days": 14
         },
@@ -77,9 +56,23 @@
           "lookahead_days": 14
         },
         {
+          "shop": "Chicago - 840 W Armitage",
+          "manager": "",
+          "draft_count": 3,
+          "gap_days": 0,
+          "lookahead_days": 21
+        },
+        {
           "shop": "DC - 3101 M St",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "New York - 57 Spring",
+          "manager": "",
+          "draft_count": 1,
           "gap_days": 0,
           "lookahead_days": 14
         }
