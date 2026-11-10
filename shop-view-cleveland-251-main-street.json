@@ -2,10 +2,10 @@
   "meta": {
     "title": "Cleveland - 251 Main Street",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -35,8 +35,36 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Michael",
+          "Fri Nov 6",
+          "7:30 AM",
+          "6:04 PM",
+          "10.57",
+          "167.44 (OT)",
+          "OT"
+        ],
+        [
+          "Michael",
+          "Fri Nov 6",
+          "7:30 AM",
+          "6:04 PM",
+          "10.57",
+          "167.44 (OT)",
+          "OT"
+        ],
+        [
+          "Brenna Roberts",
+          "Fri Nov 6",
+          "7:47 AM",
+          "6:04 PM",
+          "10.28",
+          "75.35 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "short-shifts",
@@ -63,16 +91,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Michael",
-          "80.42",
-          "9.96",
-          "90.38",
-          "+50.38"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

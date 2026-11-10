@@ -2,10 +2,10 @@
   "meta": {
     "title": "DC - 3101 M St",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "13 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 13
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-10-20",
+          "2026-11-03",
+          "Yotwarit Kornwoodtikun",
+          "9:00 AM",
+          "9:26 AM",
+          "26"
+        ],
+        [
+          "2026-11-03",
           "Bryce",
-          "8:00 AM",
-          "9:43 AM",
-          "103"
+          "7:00 AM",
+          "7:12 AM",
+          "12"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -83,8 +90,64 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Bryce",
+          "Fri Nov 6",
+          "8.43"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Nov 6",
+          "9.28"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Nov 6",
+          "9.32"
+        ],
+        [
+          "Bryce",
+          "Sat Nov 7",
+          "8.43"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat Nov 7",
+          "9.35"
+        ],
+        [
+          "Nour-Eddine Seidnaly",
+          "Sat Nov 7",
+          "8.33"
+        ],
+        [
+          "Micah Wheeler",
+          "Sat Nov 7",
+          "8.40"
+        ],
+        [
+          "Andrew Le",
+          "Sat Nov 7",
+          "8.08"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Nov 8",
+          "8.40"
+        ],
+        [
+          "Nour-Eddine Seidnaly",
+          "Sun Nov 8",
+          "8.58"
+        ],
+        [
+          "Andrew Le",
+          "Sun Nov 8",
+          "8.18"
+        ]
+      ],
+      "count": 11
     }
   ]
 }

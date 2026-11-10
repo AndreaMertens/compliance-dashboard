@@ -2,10 +2,10 @@
   "meta": {
     "title": "Newport Beach - Fashion Island",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "12 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 12
   },
   "tiles": [
     {
@@ -21,28 +21,35 @@
       ],
       "rows": [
         [
-          "2026-10-22",
+          "2026-11-03",
           "Elias Salgado",
-          "11:00 AM",
-          "11:16 AM",
-          "16"
+          "10:30 AM",
+          "1:44 PM",
+          "194"
         ],
         [
-          "2026-10-25",
+          "2026-11-04",
           "Elias Salgado",
-          "12:30 PM",
-          "12:42 PM",
-          "12"
+          "10:30 AM",
+          "10:41 AM",
+          "11"
         ],
         [
-          "2026-10-25",
+          "2026-11-06",
           "Jacob McLaughlin",
-          "12:30 PM",
-          "12:42 PM",
-          "12"
+          "12:00 PM",
+          "12:15 PM",
+          "15"
+        ],
+        [
+          "2026-11-08",
+          "Jennifer Martinez",
+          "11:30 AM",
+          "11:41 AM",
+          "11"
         ]
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -97,8 +104,49 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Elias Salgado",
+          "Sat Nov 7",
+          "7.52"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sat Nov 7",
+          "7.37"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sat Nov 7",
+          "8.02"
+        ],
+        [
+          "Jennifer Martinez",
+          "Sat Nov 7",
+          "7.92"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Nov 8",
+          "3.93"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Nov 8",
+          "16.67"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sun Nov 8",
+          "4.05"
+        ],
+        [
+          "Jennifer Martinez",
+          "Sun Nov 8",
+          "4.42"
+        ]
+      ],
+      "count": 8
     }
   ]
 }

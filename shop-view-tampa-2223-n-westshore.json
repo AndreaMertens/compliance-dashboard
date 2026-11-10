@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tampa - 2223 N Westshore",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -21,14 +21,21 @@
       ],
       "rows": [
         [
-          "2026-10-22",
-          "Antowane Oliver",
-          "11:45 AM",
-          "2:15 PM",
-          "150"
+          "2026-11-02",
+          "Zachary Shankman",
+          "7:45 AM",
+          "8:05 AM",
+          "20"
+        ],
+        [
+          "2026-11-03",
+          "Brooke Amling",
+          "8:00 AM",
+          "8:18 AM",
+          "18"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -43,8 +50,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "Wed Nov 4",
+          "6:51 AM",
+          "4:54 PM",
+          "10.05",
+          "90.40 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -83,8 +100,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Antowane Oliver",
+          "Sun Nov 8",
+          "8.32"
+        ],
+        [
+          "Bo Kenney",
+          "Sun Nov 8",
+          "8.35"
+        ],
+        [
+          "Brooke Amling",
+          "Sun Nov 8",
+          "8.12"
+        ],
+        [
+          "Abigail Gaona",
+          "Sun Nov 8",
+          "8.32"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

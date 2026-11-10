@@ -2,10 +2,10 @@
   "meta": {
     "title": "Denver - 2800 E 2nd Ave",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,8 +19,44 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-11-04",
+          "Parker Hill",
+          "10:00 AM",
+          "10:56 AM",
+          "56"
+        ],
+        [
+          "2026-11-04",
+          "Parker Hill",
+          "10:00 AM",
+          "10:56 AM",
+          "56"
+        ],
+        [
+          "2026-11-05",
+          "Nasya Ramirez",
+          "9:00 AM",
+          "9:12 AM",
+          "12"
+        ],
+        [
+          "2026-11-07",
+          "Parker Hill",
+          "10:00 AM",
+          "10:52 AM",
+          "52"
+        ],
+        [
+          "2026-11-07",
+          "Parker Hill",
+          "10:00 AM",
+          "10:52 AM",
+          "52"
+        ]
+      ],
+      "count": 5
     },
     {
       "id": "long-shifts",
@@ -35,18 +71,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Antonio Castaneda Gonzalez",
-          "Sat Oct 17",
-          "10:43 AM",
-          "8:46 PM",
-          "10.05",
-          "85.89 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -76,10 +102,10 @@
       "rows": [
         [
           "Antonio Castaneda Gonzalez",
-          "33.69",
+          "34.51",
           "7.50",
-          "41.19",
-          "+1.19"
+          "42.01",
+          "+2.01"
         ]
       ],
       "count": 1

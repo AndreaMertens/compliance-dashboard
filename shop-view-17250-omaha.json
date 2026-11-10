@@ -2,10 +2,10 @@
   "meta": {
     "title": "17250 Omaha",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -21,35 +21,28 @@
       ],
       "rows": [
         [
-          "2026-10-23",
-          "Noah Strako",
-          "11:00 AM",
-          "11:18 AM",
-          "18"
+          "2026-11-03",
+          "Christian Van Dam",
+          "8:00 AM",
+          "8:32 AM",
+          "32"
         ],
         [
-          "2026-10-25",
-          "Cody Sonier",
-          "10:00 AM",
-          "12:09 PM",
-          "129"
-        ],
-        [
-          "2026-10-25",
-          "Noah Strako",
-          "9:30 AM",
-          "11:32 AM",
-          "122"
-        ],
-        [
-          "2026-10-25",
+          "2026-11-07",
           "Dane Weston",
-          "10:00 AM",
-          "11:02 AM",
-          "62"
+          "9:30 AM",
+          "1:49 PM",
+          "259"
+        ],
+        [
+          "2026-11-07",
+          "Christian Van Dam",
+          "8:30 AM",
+          "9:28 AM",
+          "58"
         ]
       ],
-      "count": 4
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -64,8 +57,36 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Thu Oct 29",
+          "8:19 AM",
+          "4:32 AM",
+          "20.22",
+          "106.87 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Christian Van Dam",
+          "Mon Nov 2",
+          "4:32 AM",
+          "5:05 PM",
+          "12.55",
+          "106.87 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Christian Van Dam",
+          "Wed Nov 4",
+          "8:23 AM",
+          "6:28 PM",
+          "10.08",
+          "106.87 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "short-shifts",
@@ -104,8 +125,29 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Sun Nov 8",
+          "2.05"
+        ],
+        [
+          "Noah Strako",
+          "Sun Nov 8",
+          "6.23"
+        ],
+        [
+          "Cody Sonier",
+          "Sun Nov 8",
+          "6.07"
+        ],
+        [
+          "Dane Weston",
+          "Sun Nov 8",
+          "7.13"
+        ]
+      ],
+      "count": 4
     }
   ]
 }

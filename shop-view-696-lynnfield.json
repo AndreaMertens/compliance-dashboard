@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "3 flags this week",
+    "summary_line": "10 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 3
+    "total_flags": 10
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-11-02",
+          "Marian Claure arias",
+          "10:00 AM",
+          "10:19 AM",
+          "19"
+        ],
+        [
+          "2026-11-03",
+          "Emirson Santana",
+          "9:00 AM",
+          "9:14 AM",
+          "14"
+        ],
+        [
+          "2026-11-07",
+          "Marian Claure arias",
+          "10:00 AM",
+          "11:01 AM",
+          "61"
+        ],
+        [
+          "2026-11-07",
+          "Emirson Santana",
+          "10:00 AM",
+          "10:11 AM",
+          "11"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -38,33 +67,60 @@
       "rows": [
         [
           "Evan",
-          "Wed Oct 21",
-          "8:45 AM",
-          "7:02 PM",
-          "10.28",
-          "68.87 (OT)",
+          "Sat Nov 7",
+          "7:51 AM",
+          "6:12 PM",
+          "10.35",
+          "84.41 (OT)",
           "OT"
         ],
         [
           "Evan",
-          "Thu Oct 22",
-          "8:50 AM",
-          "7:01 PM",
-          "10.18",
-          "68.87 (OT)",
+          "Thu Nov 5",
+          "7:46 AM",
+          "6:01 PM",
+          "10.25",
+          "84.41 (OT)",
           "OT"
         ],
         [
-          "Marian Claure arias",
-          "Sat Oct 17",
-          "8:57 AM",
-          "7:02 PM",
-          "10.08",
-          "76.81 (OT)",
+          "Emirson Santana",
+          "Fri Nov 6",
+          "7:58 AM",
+          "6:13 PM",
+          "10.25",
+          "63.80 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Thu Oct 29",
+          "7:47 AM",
+          "6:00 PM",
+          "10.22",
+          "84.41 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Wed Nov 4",
+          "7:55 AM",
+          "6:01 PM",
+          "10.10",
+          "84.41 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Sat Oct 31",
+          "7:59 AM",
+          "6:01 PM",
+          "10.03",
+          "84.41 (OT)",
           "OT"
         ]
       ],
-      "count": 3
+      "count": 6
     },
     {
       "id": "short-shifts",

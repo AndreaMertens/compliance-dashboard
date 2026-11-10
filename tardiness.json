@@ -2,7 +2,7 @@
   "meta": {
     "title": "Tardiness",
     "subtitle": "Covers Nov 2 \u2013 Nov 8",
-    "summary_line": "52 tardy clock-ins across 22 shops",
+    "summary_line": "53 tardy clock-ins across 22 shops",
     "last_refreshed_display": "Data through Tue Nov 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -487,8 +487,15 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "2026-11-03",
+          "William Green",
+          "10:00 AM",
+          "12:34 PM",
+          "154"
+        ],
         [
           "2026-11-08",
           "Andrew Smith",

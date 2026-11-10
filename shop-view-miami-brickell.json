@@ -2,10 +2,10 @@
   "meta": {
     "title": "Miami - Brickell",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,42 +21,21 @@
       ],
       "rows": [
         [
-          "2026-10-19",
-          "farhan Khandaker",
+          "2026-11-02",
+          "Gabriel Gonzalez",
+          "8:30 AM",
+          "8:55 AM",
+          "25"
+        ],
+        [
+          "2026-11-05",
+          "Phillip Santiago",
           "11:00 AM",
-          "11:17 AM",
-          "17"
-        ],
-        [
-          "2026-10-20",
-          "Gabriel Gonzalez",
-          "12:00 PM",
-          "12:34 PM",
-          "34"
-        ],
-        [
-          "2026-10-23",
-          "Gabriel Gonzalez",
-          "9:30 AM",
-          "9:53 AM",
-          "23"
-        ],
-        [
-          "2026-10-25",
-          "Adrian Santana",
-          "9:30 AM",
-          "9:50 AM",
-          "20"
-        ],
-        [
-          "2026-10-25",
-          "Gabriel Gonzalez",
-          "9:30 AM",
-          "9:46 AM",
-          "16"
+          "11:25 AM",
+          "25"
         ]
       ],
-      "count": 5
+      "count": 2
     },
     {
       "id": "long-shifts",
@@ -74,12 +53,12 @@
       "rows": [
         [
           "Gabriel Gonzalez",
-          "Thu Oct 22",
-          "8:02 AM",
-          "8:09 PM",
-          "12.12",
-          "77.60 (OT)",
-          "OT \u00b7 Over 11"
+          "Mon Nov 2",
+          "8:55 AM",
+          "7:15 PM",
+          "10.33",
+          "71.13 (OT)",
+          "OT"
         ]
       ],
       "count": 1
@@ -109,8 +88,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Gabriel Gonzalez",
+          "27.92",
+          "15.50",
+          "43.42",
+          "+3.42"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",

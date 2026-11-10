@@ -2,10 +2,10 @@
   "meta": {
     "title": "822 City Centre",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,16 +19,8 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [
-        [
-          "2026-10-24",
-          "Jordan Honore",
-          "10:00 AM",
-          "10:11 AM",
-          "11"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "long-shifts",
@@ -43,8 +35,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Clayton Brown",
+          "Fri Oct 30",
+          "8:42 AM",
+          "6:48 PM",
+          "10.10",
+          "78.34 (OT)",
+          "OT"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",
@@ -57,8 +59,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Devin Henderson",
+          "Wed Nov 4",
+          "5:06 PM",
+          "5:25 PM",
+          "0.32"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",

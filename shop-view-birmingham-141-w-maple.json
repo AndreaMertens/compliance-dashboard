@@ -2,10 +2,10 @@
   "meta": {
     "title": "Birmingham - 141 W Maple",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,21 +21,14 @@
       ],
       "rows": [
         [
-          "2026-10-22",
-          "Alexander Conklin",
-          "10:00 AM",
-          "10:14 AM",
-          "14"
-        ],
-        [
-          "2026-10-25",
+          "2026-11-02",
           "Lance Minor",
-          "10:00 AM",
-          "11:44 AM",
-          "104"
+          "9:00 AM",
+          "9:30 AM",
+          "30"
         ]
       ],
-      "count": 2
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -64,8 +57,30 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Brett",
+          "Wed Nov 4",
+          "8:56 AM",
+          "8:58 AM",
+          "0.03"
+        ],
+        [
+          "Alexander Conklin",
+          "Thu Nov 5",
+          "5:00 PM",
+          "5:45 PM",
+          "0.25"
+        ],
+        [
+          "Tom",
+          "Thu Nov 5",
+          "5:00 PM",
+          "5:45 PM",
+          "0.25"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "over-40-vacation",
