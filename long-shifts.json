@@ -2,8 +2,8 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Oct 28 \u2013 Nov 10, 2026",
-    "summary_line": "16 flagged shifts across 10 shops \u2014 16 OT, 2 over 11 hrs",
-    "last_refreshed_display": "Data through Mon Nov 9, 2026",
+    "summary_line": "28 flagged shifts across 13 shops \u2014 28 OT, 2 over 11 hrs",
+    "last_refreshed_display": "Data through Tue Nov 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -20,7 +20,7 @@
     {
       "shop": "17250 Omaha",
       "manager": "Christian Van Dam",
-      "count": 2,
+      "count": 3,
       "rows": [
         [
           "Christian Van Dam",
@@ -28,7 +28,7 @@
           "8:19 AM",
           "4:32 AM",
           "20.22",
-          "79.18 (OT)",
+          "99.82 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -37,23 +37,59 @@
           "4:32 AM",
           "5:05 PM",
           "12.55",
-          "79.18 (OT)",
+          "99.82 (OT)",
           "OT \u00b7 Over 11"
+        ],
+        [
+          "Christian Van Dam",
+          "Wed Nov 4",
+          "8:23 AM",
+          "6:28 PM",
+          "10.08",
+          "99.82 (OT)",
+          "OT"
         ]
       ]
     },
     {
       "shop": "696 Lynnfield",
       "manager": "Mike LeGree",
-      "count": 3,
+      "count": 6,
       "rows": [
+        [
+          "Evan",
+          "Sat Nov 7",
+          "7:51 AM",
+          "6:12 PM",
+          "10.35",
+          "76.44 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Thu Nov 5",
+          "7:46 AM",
+          "6:01 PM",
+          "10.25",
+          "76.44 (OT)",
+          "OT"
+        ],
+        [
+          "Emirson Santana",
+          "Fri Nov 6",
+          "7:58 AM",
+          "6:13 PM",
+          "10.25",
+          "55.80 (OT)",
+          "OT"
+        ],
         [
           "Evan",
           "Thu Oct 29",
           "7:47 AM",
           "6:00 PM",
           "10.22",
-          "58.92 (OT)",
+          "76.44 (OT)",
           "OT"
         ],
         [
@@ -62,7 +98,7 @@
           "7:55 AM",
           "6:01 PM",
           "10.10",
-          "58.92 (OT)",
+          "76.44 (OT)",
           "OT"
         ],
         [
@@ -71,7 +107,7 @@
           "7:59 AM",
           "6:01 PM",
           "10.03",
-          "58.92 (OT)",
+          "76.44 (OT)",
           "OT"
         ]
       ]
@@ -87,7 +123,7 @@
           "7:45 AM",
           "6:30 PM",
           "10.75",
-          "49.20 (OT)",
+          "72.96 (OT)",
           "OT"
         ]
       ]
@@ -103,7 +139,57 @@
           "8:42 AM",
           "6:48 PM",
           "10.10",
-          "52.54 (OT)",
+          "78.34 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Boston - 201 Newbury Street",
+      "manager": "Brian Ward, Kyle Harwood, Katie Litchfield",
+      "count": 1,
+      "rows": [
+        [
+          "William Hatton",
+          "Fri Nov 6",
+          "6:54 AM",
+          "5:05 PM",
+          "10.18",
+          "73.51 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Cleveland - 251 Main Street",
+      "manager": "Will Gray",
+      "count": 3,
+      "rows": [
+        [
+          "Michael",
+          "Fri Nov 6",
+          "7:30 AM",
+          "6:04 PM",
+          "10.57",
+          "151.94 (OT)",
+          "OT"
+        ],
+        [
+          "Michael",
+          "Fri Nov 6",
+          "7:30 AM",
+          "6:04 PM",
+          "10.57",
+          "151.94 (OT)",
+          "OT"
+        ],
+        [
+          "Brenna Roberts",
+          "Fri Nov 6",
+          "7:47 AM",
+          "6:04 PM",
+          "10.28",
+          "75.35 (OT)",
           "OT"
         ]
       ]
@@ -111,15 +197,24 @@
     {
       "shop": "Dedham",
       "manager": "Justin Komins",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Dillon Stanas",
+          "Mon Nov 9",
+          "6:25 AM",
+          "5:10 PM",
+          "10.75",
+          "86.34 (OT)",
+          "OT"
+        ],
         [
           "Dillon Stanas",
           "Mon Nov 2",
           "6:47 AM",
           "5:08 PM",
           "10.35",
-          "51.49 (OT)",
+          "86.34 (OT)",
           "OT"
         ]
       ]
@@ -167,7 +262,7 @@
           "9:43 AM",
           "8:12 PM",
           "10.48",
-          "63.29 (OT)",
+          "80.21 (OT)",
           "OT"
         ],
         [
@@ -176,7 +271,7 @@
           "10:54 AM",
           "9:21 PM",
           "10.45",
-          "63.29 (OT)",
+          "80.21 (OT)",
           "OT"
         ]
       ]
@@ -184,7 +279,7 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 2,
+      "count": 4,
       "rows": [
         [
           "Gloria Alexander",
@@ -192,7 +287,25 @@
           "8:45 AM",
           "7:03 PM",
           "10.30",
-          "48.58 (OT)",
+          "70.41 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Thu Nov 5",
+          "6:46 AM",
+          "5:04 PM",
+          "10.30",
+          "70.41 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Nov 7",
+          "9:10 AM",
+          "7:15 PM",
+          "10.08",
+          "70.41 (OT)",
           "OT"
         ],
         [
@@ -201,7 +314,7 @@
           "7:55 AM",
           "5:58 PM",
           "10.05",
-          "48.58 (OT)",
+          "70.41 (OT)",
           "OT"
         ]
       ]
@@ -217,7 +330,7 @@
           "8:00 AM",
           "7:00 PM",
           "11.00",
-          "75.97 (OT)",
+          "102.08 (OT)",
           "OT"
         ],
         [
@@ -226,7 +339,23 @@
           "8:00 AM",
           "6:51 PM",
           "10.85",
-          "75.97 (OT)",
+          "102.08 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "Taylor Chase, Marquis Majors",
+      "count": 1,
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "Wed Nov 4",
+          "6:51 AM",
+          "4:54 PM",
+          "10.05",
+          "82.15 (OT)",
           "OT"
         ]
       ]

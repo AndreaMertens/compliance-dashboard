@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Unapproved Timecards",
-    "subtitle": "Week of Oct 26 \u2013 Nov 1, 2026",
-    "summary_line": "5 shops \u00b7 30 timecards outstanding",
-    "last_refreshed_display": "Data through Mon Nov 9, 2026",
+    "subtitle": "Week of November 2\u20138, 2026",
+    "summary_line": "9 shops \u00b7 86 timecards outstanding",
+    "last_refreshed_display": "Data through Tue Nov 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,187 +14,495 @@
   ],
   "groups": [
     {
-      "shop": "DC - 3101 M St",
-      "manager": "Danny Ismail",
-      "count": 14,
-      "rows": [
-        [
-          "Bryce",
-          "Wed Oct 28",
-          "8.30"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Wed Oct 28",
-          "8.35"
-        ],
-        [
-          "Bryce",
-          "Thu Oct 29",
-          "8.58"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Thu Oct 29",
-          "8.42"
-        ],
-        [
-          "Micah Wheeler",
-          "Thu Oct 29",
-          "8.95"
-        ],
-        [
-          "Bryce",
-          "Fri Oct 30",
-          "7.97"
-        ],
-        [
-          "Yotwarit Kornwoodtikun",
-          "Fri Oct 30",
-          "7.33"
-        ],
-        [
-          "Bryce",
-          "Sat Oct 31",
-          "8.47"
-        ],
-        [
-          "Nour-Eddine Seidnaly",
-          "Sat Oct 31",
-          "8.45"
-        ],
-        [
-          "Micah Wheeler",
-          "Sat Oct 31",
-          "8.42"
-        ],
-        [
-          "Andrew Le",
-          "Sat Oct 31",
-          "8.28"
-        ],
-        [
-          "Nour-Eddine Seidnaly",
-          "Sun Nov 1",
-          "8.12"
-        ],
-        [
-          "Micah Wheeler",
-          "Sun Nov 1",
-          "8.60"
-        ],
-        [
-          "Andrew Le",
-          "Sun Nov 1",
-          "8.10"
-        ]
-      ]
-    },
-    {
       "shop": "CX Team",
       "manager": "",
-      "count": 8,
+      "count": 40,
       "rows": [
         [
           "Ysa",
-          "Fri Oct 30",
-          "8.28"
+          "Mon Nov 2",
+          "4.22"
         ],
         [
           "Erika",
-          "Fri Oct 30",
-          "8.33"
+          "Mon Nov 2",
+          "4.00"
         ],
         [
           "Angelica Albay",
-          "Fri Oct 30",
-          "8.30"
-        ],
-        [
-          "Elaine Abarico",
-          "Fri Oct 30",
-          "8.52"
-        ],
-        [
-          "Jessica Tanchingco",
-          "Fri Oct 30",
-          "8.28"
-        ],
-        [
-          "Ferlle Martinez",
-          "Fri Oct 30",
+          "Mon Nov 2",
           "4.22"
         ],
         [
           "Cherry Cristel Fabreag",
-          "Sat Oct 31",
-          "8.25"
+          "Mon Nov 2",
+          "4.10"
+        ],
+        [
+          "Elaine Abarico",
+          "Mon Nov 2",
+          "4.25"
+        ],
+        [
+          "Jessica Tanchingco",
+          "Mon Nov 2",
+          "4.08"
+        ],
+        [
+          "Ferlle Martinez",
+          "Mon Nov 2",
+          "4.83"
+        ],
+        [
+          "Ysa",
+          "Tue Nov 3",
+          "4.47"
+        ],
+        [
+          "Erika",
+          "Tue Nov 3",
+          "8.53"
         ],
         [
           "Jen",
-          "Sun Nov 1",
-          "2.47"
+          "Tue Nov 3",
+          "8.23"
+        ],
+        [
+          "Angelica Albay",
+          "Tue Nov 3",
+          "8.40"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "Tue Nov 3",
+          "8.20"
+        ],
+        [
+          "Elaine Abarico",
+          "Tue Nov 3",
+          "8.15"
+        ],
+        [
+          "Jessica Tanchingco",
+          "Tue Nov 3",
+          "8.37"
+        ],
+        [
+          "Ferlle Martinez",
+          "Tue Nov 3",
+          "8.23"
+        ],
+        [
+          "Ysa",
+          "Wed Nov 4",
+          "8.28"
+        ],
+        [
+          "Erika",
+          "Wed Nov 4",
+          "8.48"
+        ],
+        [
+          "Jen",
+          "Wed Nov 4",
+          "8.37"
+        ],
+        [
+          "Angelica Albay",
+          "Wed Nov 4",
+          "8.25"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "Wed Nov 4",
+          "8.20"
+        ],
+        [
+          "Elaine Abarico",
+          "Wed Nov 4",
+          "8.33"
+        ],
+        [
+          "Jessica Tanchingco",
+          "Wed Nov 4",
+          "8.07"
+        ],
+        [
+          "Ferlle Martinez",
+          "Wed Nov 4",
+          "8.37"
+        ],
+        [
+          "Ysa",
+          "Thu Nov 5",
+          "8.25"
+        ],
+        [
+          "Erika",
+          "Thu Nov 5",
+          "8.00"
+        ],
+        [
+          "Jen",
+          "Thu Nov 5",
+          "8.13"
+        ],
+        [
+          "Angelica Albay",
+          "Thu Nov 5",
+          "8.25"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "Thu Nov 5",
+          "8.13"
+        ],
+        [
+          "Elaine Abarico",
+          "Thu Nov 5",
+          "8.25"
+        ],
+        [
+          "Jessica Tanchingco",
+          "Thu Nov 5",
+          "8.10"
+        ],
+        [
+          "Ferlle Martinez",
+          "Thu Nov 5",
+          "18.75"
+        ],
+        [
+          "Ysa",
+          "Fri Nov 6",
+          "8.63"
+        ],
+        [
+          "Jen",
+          "Fri Nov 6",
+          "8.15"
+        ],
+        [
+          "Angelica Albay",
+          "Fri Nov 6",
+          "8.43"
+        ],
+        [
+          "Elaine Abarico",
+          "Fri Nov 6",
+          "8.18"
+        ],
+        [
+          "Jessica Tanchingco",
+          "Fri Nov 6",
+          "8.30"
+        ],
+        [
+          "Ferlle Martinez",
+          "Fri Nov 6",
+          "8.17"
+        ],
+        [
+          "Cherry Cristel Fabreag",
+          "Sat Nov 7",
+          "8.32"
+        ],
+        [
+          "Ysa",
+          "Sun Nov 8",
+          "5.32"
+        ],
+        [
+          "Jen",
+          "Sun Nov 8",
+          "2.50"
         ]
       ]
     },
     {
-      "shop": "St. Louis",
+      "shop": "DC - 3101 M St",
+      "manager": "Danny Ismail",
+      "count": 11,
+      "rows": [
+        [
+          "Bryce",
+          "Fri Nov 6",
+          "8.43"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Fri Nov 6",
+          "9.28"
+        ],
+        [
+          "Micah Wheeler",
+          "Fri Nov 6",
+          "9.32"
+        ],
+        [
+          "Bryce",
+          "Sat Nov 7",
+          "8.43"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sat Nov 7",
+          "9.35"
+        ],
+        [
+          "Nour-Eddine Seidnaly",
+          "Sat Nov 7",
+          "8.33"
+        ],
+        [
+          "Micah Wheeler",
+          "Sat Nov 7",
+          "8.40"
+        ],
+        [
+          "Andrew Le",
+          "Sat Nov 7",
+          "8.08"
+        ],
+        [
+          "Yotwarit Kornwoodtikun",
+          "Sun Nov 8",
+          "8.40"
+        ],
+        [
+          "Nour-Eddine Seidnaly",
+          "Sun Nov 8",
+          "8.58"
+        ],
+        [
+          "Andrew Le",
+          "Sun Nov 8",
+          "8.18"
+        ]
+      ]
+    },
+    {
+      "shop": "HQ-Non-Kiosk",
       "manager": "",
+      "count": 9,
+      "rows": [
+        [
+          "Guy Williams ii",
+          "Tue Nov 3",
+          "16.95"
+        ],
+        [
+          "Dominic Kowalski",
+          "Tue Nov 3",
+          "13.92"
+        ],
+        [
+          "Guy Williams ii",
+          "Wed Nov 4",
+          "19.23"
+        ],
+        [
+          "Dominic Kowalski",
+          "Wed Nov 4",
+          "15.55"
+        ],
+        [
+          "Guy Williams ii",
+          "Thu Nov 5",
+          "1.00"
+        ],
+        [
+          "Dominic Kowalski",
+          "Thu Nov 5",
+          "19.63"
+        ],
+        [
+          "Guy Williams ii",
+          "Sat Nov 7",
+          "1.00"
+        ],
+        [
+          "Guy Williams ii",
+          "Sun Nov 8",
+          "18.67"
+        ],
+        [
+          "Zachary Opuda",
+          "Sun Nov 8",
+          "5.38"
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "Mira Chong",
+      "count": 8,
+      "rows": [
+        [
+          "Elias Salgado",
+          "Sat Nov 7",
+          "7.52"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sat Nov 7",
+          "7.37"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sat Nov 7",
+          "8.02"
+        ],
+        [
+          "Jennifer Martinez",
+          "Sat Nov 7",
+          "7.92"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Nov 8",
+          "3.93"
+        ],
+        [
+          "Jacob McLaughlin",
+          "Sun Nov 8",
+          "16.67"
+        ],
+        [
+          "Nathaniel Faraone",
+          "Sun Nov 8",
+          "4.05"
+        ],
+        [
+          "Jennifer Martinez",
+          "Sun Nov 8",
+          "4.42"
+        ]
+      ]
+    },
+    {
+      "shop": "New York - Flatiron",
+      "manager": "Carly Radin",
+      "count": 6,
+      "rows": [
+        [
+          "Fred Hilaire",
+          "Sat Nov 7",
+          "8.23"
+        ],
+        [
+          "Amber Harvey",
+          "Sat Nov 7",
+          "8.48"
+        ],
+        [
+          "Tyquan Jefferson",
+          "Sat Nov 7",
+          "8.50"
+        ],
+        [
+          "Luke Debellis",
+          "Sat Nov 7",
+          "8.65"
+        ],
+        [
+          "Ian Adams",
+          "Sun Nov 8",
+          "8.40"
+        ],
+        [
+          "Amber Harvey",
+          "Sun Nov 8",
+          "8.32"
+        ]
+      ]
+    },
+    {
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "Taylor Chase, Marquis Majors",
       "count": 4,
       "rows": [
         [
-          "Jhaidyn Brown",
-          "Sat Oct 31",
-          "9.43"
+          "Antowane Oliver",
+          "Sun Nov 8",
+          "8.32"
         ],
         [
-          "Kweshaan Thomas",
-          "Sat Oct 31",
-          "9.27"
+          "Bo Kenney",
+          "Sun Nov 8",
+          "8.35"
         ],
         [
-          "Jhaidyn Brown",
-          "Sun Nov 1",
-          "22.82"
+          "Brooke Amling",
+          "Sun Nov 8",
+          "8.12"
         ],
         [
-          "Kweshaan Thomas",
-          "Sun Nov 1",
-          "7.32"
+          "Abigail Gaona",
+          "Sun Nov 8",
+          "8.32"
         ]
       ]
     },
     {
-      "shop": "New York - 57 Spring",
-      "manager": "Erin McGowan",
-      "count": 2,
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
+      "count": 4,
       "rows": [
         [
-          "Lekwan Massey-Phillips",
-          "Sun Nov 1",
-          "7.45"
+          "Christian Van Dam",
+          "Sun Nov 8",
+          "2.05"
         ],
         [
-          "Lekwan Massey-Phillips",
-          "Sun Nov 1",
-          "7.45"
+          "Noah Strako",
+          "Sun Nov 8",
+          "6.23"
+        ],
+        [
+          "Cody Sonier",
+          "Sun Nov 8",
+          "6.07"
+        ],
+        [
+          "Dane Weston",
+          "Sun Nov 8",
+          "7.13"
         ]
       ]
     },
     {
-      "shop": "La Jolla - 7857 Girard Ave",
-      "manager": "Anthony Perez Avila",
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "Agnes Krol",
       "count": 2,
       "rows": [
         [
-          "Brendan Muldoon",
-          "Sat Oct 31",
-          "7.72"
+          "Donald Crawford",
+          "Sat Nov 7",
+          "0.00"
         ],
         [
-          "Brendan Muldoon",
-          "Sun Nov 1",
-          "7.90"
+          "Charles Flynn",
+          "Sun Nov 8",
+          "0.00"
+        ]
+      ]
+    },
+    {
+      "shop": "785 Naples",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Ryan Naumovski",
+          "Sun Nov 8",
+          "8.10"
+        ],
+        [
+          "Charles Montana",
+          "Sun Nov 8",
+          "7.87"
         ]
       ]
     }

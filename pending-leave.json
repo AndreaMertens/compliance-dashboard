@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 3 shops",
-    "last_refreshed_display": "Data through Mon Nov 9, 2026",
+    "summary_line": "8 pending leave requests across 6 shops",
+    "last_refreshed_display": "Data through Tue Nov 10, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,6 +14,25 @@
     "Note"
   ],
   "groups": [
+    {
+      "shop": "Ann Arbor - 212 S Main",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Genna Gilroy",
+          "2026-11-03",
+          "2026-11-03",
+          "PTO - visiting Jacksonville"
+        ],
+        [
+          "Genna Gilroy",
+          "2026-11-02",
+          "2026-11-02",
+          "PTO - visiting Jacksonville"
+        ]
+      ]
+    },
     {
       "shop": "Denver - 2800 E 2nd Ave",
       "manager": "",
@@ -41,10 +60,42 @@
       ]
     },
     {
-      "shop": "Newport Beach - Fashion Island",
+      "shop": "Manhattan Beach - The Point",
       "manager": "",
       "count": 1,
       "rows": [
+        [
+          "Sean Kelley",
+          "2026-11-07",
+          "2026-11-07",
+          "Leave "
+        ]
+      ]
+    },
+    {
+      "shop": "Miami - Brickell",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Gabriel Gonzalez",
+          "2026-11-08",
+          "2026-11-08",
+          "Edc"
+        ]
+      ]
+    },
+    {
+      "shop": "Newport Beach - Fashion Island",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Nathaniel Faraone",
+          "2026-10-31",
+          "2026-11-04",
+          "Wedding Anniversary"
+        ],
         [
           "Jacob McLaughlin",
           "2026-10-30",
