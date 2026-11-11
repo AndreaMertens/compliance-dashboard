@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "3 pending leave requests across 3 shops",
-    "last_refreshed_display": "Data through Tue Nov 10, 2026",
+    "summary_line": "No pending leave \u2014 all caught up",
+    "last_refreshed_display": "Data through Wed Nov 11, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,45 +13,5 @@
     "Date End",
     "Note"
   ],
-  "groups": [
-    {
-      "shop": "103 Greenville",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Leeanna Wright",
-          "2026-11-01",
-          "2026-11-01",
-          "8hrs of PTO for weekend in CHS "
-        ]
-      ]
-    },
-    {
-      "shop": "1151 Roseville",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Danielle Woody",
-          "2026-11-07",
-          "2026-11-07",
-          "Moving"
-        ]
-      ]
-    },
-    {
-      "shop": "HQ-Non-Kiosk",
-      "manager": "",
-      "count": 1,
-      "rows": [
-        [
-          "Natalie Brown",
-          "2026-11-05",
-          "2026-11-05",
-          "PTO"
-        ]
-      ]
-    }
-  ]
+  "groups": []
 }

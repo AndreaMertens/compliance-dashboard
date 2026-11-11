@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -57,7 +57,7 @@
           "9:00 AM",
           "8:00 PM",
           "11.00",
-          "80.41 (OT)",
+          "79.44 (OT)",
           "OT"
         ],
         [
@@ -66,7 +66,7 @@
           "8:45 AM",
           "7:03 PM",
           "10.30",
-          "80.41 (OT)",
+          "79.44 (OT)",
           "OT"
         ],
         [
@@ -75,7 +75,7 @@
           "6:46 AM",
           "5:04 PM",
           "10.30",
-          "80.41 (OT)",
+          "79.44 (OT)",
           "OT"
         ],
         [
@@ -84,7 +84,7 @@
           "9:10 AM",
           "7:15 PM",
           "10.08",
-          "80.41 (OT)",
+          "79.44 (OT)",
           "OT"
         ],
         [
@@ -93,7 +93,7 @@
           "7:55 AM",
           "5:58 PM",
           "10.05",
-          "80.41 (OT)",
+          "79.44 (OT)",
           "OT"
         ]
       ],
@@ -124,8 +124,16 @@
         "Total",
         "Overage"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "William Green",
+          "41.78",
+          "4.00",
+          "45.78",
+          "+5.78"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "unapproved-timecards",
