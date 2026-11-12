@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of November 2\u20138, 2026",
-    "generated_at": "2026-11-11T07:04:43.392374",
-    "generated_at_display": "Generated Nov 11, 7:04 AM"
+    "generated_at": "2026-11-12T07:04:32.415134",
+    "generated_at_display": "Generated Nov 12, 7:04 AM"
   },
   "summary": [],
   "sections": [
@@ -31,8 +31,8 @@
           "metric_unit": " \u00b7 6 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Wed Nov 11, 7:04 AM",
-          "covers_label": "Compliance window: next 21 days from 2026-11-11",
+          "last_refreshed_display": "Data through Thu Nov 12, 7:04 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-11-12",
           "is_mock": false
         },
         {
@@ -104,9 +104,9 @@
           "id": "unapproved-timecards",
           "title": "Unapproved Timecards",
           "review_day": "Wednesday",
-          "metric": 3,
+          "metric": 2,
           "metric_unit": "shops outstanding",
-          "description": "51 timecards still unapproved past the 3-day grace period.",
+          "description": "11 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
           "last_refreshed_display": "Data through Wed Nov 11, 2026",
           "covers_label": "Covers Nov 2 \u2013 Nov 8",
