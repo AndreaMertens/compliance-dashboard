@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "No pending leave \u2014 all caught up",
-    "last_refreshed_display": "Data through Thu Nov 12, 2026",
+    "summary_line": "5 pending leave requests across 4 shops",
+    "last_refreshed_display": "Data through Sun Nov 22, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -13,5 +13,64 @@
     "Date End",
     "Note"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "17250 Omaha",
+      "manager": "",
+      "count": 2,
+      "rows": [
+        [
+          "Cody Sonier",
+          "2026-11-15",
+          "2026-11-15",
+          "Deer hunting"
+        ],
+        [
+          "Cody Sonier",
+          "2026-11-14",
+          "2026-11-14",
+          "Deer hunting"
+        ]
+      ]
+    },
+    {
+      "shop": "4000 New Orleans",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "James Clay",
+          "2026-11-12",
+          "2026-11-13",
+          "away."
+        ]
+      ]
+    },
+    {
+      "shop": "New York - Flatiron",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Matthew Grecky",
+          "2026-11-07",
+          "2026-11-09",
+          ""
+        ]
+      ]
+    },
+    {
+      "shop": "Tampa - 2223 N Westshore",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Yasmeen Khan",
+          "2026-11-10",
+          "2026-11-10",
+          "PTO"
+        ]
+      ]
+    }
+  ]
 }
