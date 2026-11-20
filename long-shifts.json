@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Nov 11 \u2013 Nov 24, 2026",
-    "summary_line": "10 flagged shifts across 6 shops \u2014 10 OT, 1 over 11 hrs",
+    "summary_line": "12 flagged shifts across 7 shops \u2014 12 OT",
     "last_refreshed_display": "Data through Sun Nov 22, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -18,9 +18,25 @@
   ],
   "groups": [
     {
+      "shop": "17250 Omaha",
+      "manager": "Christian Van Dam",
+      "count": 1,
+      "rows": [
+        [
+          "Christian Van Dam",
+          "Mon Nov 16",
+          "8:27 AM",
+          "6:47 PM",
+          "10.33",
+          "48.74 (OT)",
+          "OT"
+        ]
+      ]
+    },
+    {
       "shop": "333 Milwaukee",
       "manager": "Tia Reeves",
-      "count": 2,
+      "count": 3,
       "rows": [
         [
           "Ivory Turner",
@@ -28,6 +44,15 @@
           "10:22 AM",
           "8:45 PM",
           "10.38",
+          "59.20 (OT)",
+          "OT"
+        ],
+        [
+          "Ivory Turner",
+          "Wed Nov 18",
+          "10:21 AM",
+          "8:30 PM",
+          "10.15",
           "59.20 (OT)",
           "OT"
         ],
@@ -78,7 +103,7 @@
           "10:58 AM",
           "9:17 PM",
           "10.32",
-          "55.44 (OT)",
+          "63.46 (OT)",
           "OT"
         ]
       ]
@@ -94,7 +119,7 @@
           "9:59 AM",
           "8:19 PM",
           "10.33",
-          "42.50 (OT)",
+          "52.07 (OT)",
           "OT"
         ]
       ]
@@ -128,24 +153,24 @@
           "9:30 AM",
           "7:31 PM",
           "10.02",
-          "46.53 (OT)",
+          "58.96 (OT)",
           "OT"
         ]
       ]
     },
     {
-      "shop": "St. Louis",
-      "manager": "",
+      "shop": "Dedham",
+      "manager": "Justin Komins",
       "count": 1,
       "rows": [
         [
-          "Andrew Bell",
+          "Dillon Stanas",
           "Mon Nov 16",
-          "10:43 AM",
-          "8:00 AM",
-          "21.28",
-          "53.93 (OT)",
-          "OT \u00b7 Over 11"
+          "8:46 AM",
+          "7:05 PM",
+          "10.32",
+          "52.24 (OT)",
+          "OT"
         ]
       ]
     }

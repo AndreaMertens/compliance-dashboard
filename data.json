@@ -3,8 +3,8 @@
     "title": "Weekly Compliance Dashboard",
     "subtitle": "Leadership view",
     "week_label": "Week of November 9\u201315, 2026",
-    "generated_at": "2026-11-19T09:04:18.783989",
-    "generated_at_display": "Generated Nov 19, 9:04 AM"
+    "generated_at": "2026-11-20T09:04:18.605591",
+    "generated_at_display": "Generated Nov 20, 9:04 AM"
   },
   "summary": [],
   "sections": [
@@ -31,8 +31,8 @@
           "metric_unit": " \u00b7 4 heads up",
           "description": "Shops with unpublished shifts in the next 3 weeks. Policy: publish 3 weeks ahead.",
           "status": "attention",
-          "last_refreshed_display": "Data through Thu Nov 19, 9:04 AM",
-          "covers_label": "Compliance window: next 21 days from 2026-11-19",
+          "last_refreshed_display": "Data through Fri Nov 20, 9:04 AM",
+          "covers_label": "Compliance window: next 21 days from 2026-11-20",
           "is_mock": false
         },
         {
@@ -68,9 +68,9 @@
           "id": "long-shifts",
           "title": "Long Shift Penalties",
           "review_day": "Wednesday",
-          "metric": 10,
+          "metric": 12,
           "metric_unit": "shifts flagged",
-          "description": "Across 6 shops this pay period \u2014 10 OT, 1 over 11 hrs.",
+          "description": "Across 7 shops this pay period \u2014 12 OT.",
           "status": "watch",
           "last_refreshed_display": "Data through Sun Nov 22, 2026",
           "covers_label": "Covers Nov 11 \u2013 Nov 24",
@@ -104,9 +104,9 @@
           "id": "unapproved-timecards",
           "title": "Unapproved Timecards",
           "review_day": "Wednesday",
-          "metric": 7,
+          "metric": 5,
           "metric_unit": "shops outstanding",
-          "description": "77 timecards still unapproved past the 3-day grace period.",
+          "description": "61 timecards still unapproved past the 3-day grace period.",
           "status": "alert",
           "last_refreshed_display": "Data through Sun Nov 22, 2026",
           "covers_label": "Covers Nov 9 \u2013 Nov 15",
