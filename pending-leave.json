@@ -2,8 +2,8 @@
   "meta": {
     "title": "Pending Leave Approvals",
     "subtitle": "Leave submitted for a past week, not yet approved/denied",
-    "summary_line": "5 pending leave requests across 4 shops",
-    "last_refreshed_display": "Data through Sun Nov 22, 2026",
+    "summary_line": "8 pending leave requests across 6 shops",
+    "last_refreshed_display": "Data through Mon Nov 23, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -17,8 +17,14 @@
     {
       "shop": "17250 Omaha",
       "manager": "",
-      "count": 2,
+      "count": 3,
       "rows": [
+        [
+          "Dane Weston",
+          "2026-11-21",
+          "2026-11-21",
+          "Nebraska vs. Ohio state "
+        ],
         [
           "Cody Sonier",
           "2026-11-15",
@@ -43,6 +49,32 @@
           "2026-11-12",
           "2026-11-13",
           "away."
+        ]
+      ]
+    },
+    {
+      "shop": "Denver - 2800 E 2nd Ave",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Antonio Castaneda Gonzalez",
+          "2026-11-19",
+          "2026-11-19",
+          "Family"
+        ]
+      ]
+    },
+    {
+      "shop": "Fort Lauderdale - 1016 E",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Sophia Behar",
+          "2026-11-19",
+          "2026-11-22",
+          "Jersey "
         ]
       ]
     },

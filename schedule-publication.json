@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Nov 20 \u2192 Dec 11, 2026",
-    "summary_line": "5 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Fri Nov 20, 9:04 AM",
+    "subtitle": "Window: Nov 23 \u2192 Dec 14, 2026",
+    "summary_line": "3 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Mon Nov 23, 7:04 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -14,37 +14,23 @@
       "description": "At least one day with no published shifts in the next 3 weeks.",
       "rows": [
         {
-          "shop": "Chicago - 840 W Armitage",
-          "manager": "",
-          "draft_count": 27,
-          "gap_days": 5,
-          "lookahead_days": 21
-        },
-        {
-          "shop": "Indianapolis - 8702 Keystone Crossing",
-          "manager": "",
-          "draft_count": 15,
-          "gap_days": 5,
-          "lookahead_days": 14
-        },
-        {
           "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 12,
-          "gap_days": 5,
+          "draft_count": 22,
+          "gap_days": 8,
           "lookahead_days": 14
+        },
+        {
+          "shop": "Chicago - 840 W Armitage",
+          "manager": "",
+          "draft_count": 21,
+          "gap_days": 1,
+          "lookahead_days": 21
         },
         {
           "shop": "Charleston",
           "manager": "",
           "draft_count": 5,
-          "gap_days": 1,
-          "lookahead_days": 14
-        },
-        {
-          "shop": "Miami - Brickell",
-          "manager": "",
-          "draft_count": 4,
           "gap_days": 1,
           "lookahead_days": 14
         }
@@ -58,19 +44,19 @@
         {
           "shop": "Fort Lauderdale - 1016 E",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 9,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "1000 Pittsburgh",
+          "shop": "Miami - Brickell",
           "manager": "",
-          "draft_count": 3,
+          "draft_count": 4,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
-          "shop": "1805 Boulder",
+          "shop": "10250 Century City",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
@@ -78,6 +64,20 @@
         },
         {
           "shop": "Boston - 201 Newbury Street",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Dedham",
+          "manager": "",
+          "draft_count": 1,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Salt Lake City - 50 E Main St. N",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,
