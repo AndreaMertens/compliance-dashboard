@@ -2,10 +2,10 @@
   "meta": {
     "title": "1805 Boulder",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -75,8 +75,19 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Rylan Kissell",
+          "Sat Nov 21",
+          "7.25"
+        ],
+        [
+          "Rylan Kissell",
+          "Sun Nov 22",
+          "7.27"
+        ]
+      ],
+      "count": 2
     }
   ]
 }

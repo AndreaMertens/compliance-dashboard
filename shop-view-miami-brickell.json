@@ -2,10 +2,10 @@
   "meta": {
     "title": "Miami - Brickell",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -21,21 +21,63 @@
       ],
       "rows": [
         [
-          "2026-11-02",
+          "2026-11-16",
           "Gabriel Gonzalez",
-          "8:30 AM",
-          "8:55 AM",
-          "25"
+          "12:00 PM",
+          "12:11 PM",
+          "11"
         ],
         [
-          "2026-11-05",
-          "Phillip Santiago",
+          "2026-11-18",
+          "Jared Rivera",
+          "12:00 PM",
+          "12:12 PM",
+          "12"
+        ],
+        [
+          "2026-11-19",
+          "Gabriel Gonzalez",
+          "7:00 AM",
+          "7:24 AM",
+          "24"
+        ],
+        [
+          "2026-11-20",
+          "Jared Rivera",
+          "12:00 PM",
+          "12:59 PM",
+          "59"
+        ],
+        [
+          "2026-11-21",
+          "Gabriel Gonzalez",
           "11:00 AM",
-          "11:25 AM",
-          "25"
+          "11:13 AM",
+          "13"
+        ],
+        [
+          "2026-11-22",
+          "Jared Rivera",
+          "9:00 AM",
+          "9:29 AM",
+          "29"
+        ],
+        [
+          "2026-11-22",
+          "Adrian Santana",
+          "9:00 AM",
+          "9:28 AM",
+          "28"
+        ],
+        [
+          "2026-11-22",
+          "Gabriel Gonzalez",
+          "9:00 AM",
+          "9:28 AM",
+          "28"
         ]
       ],
-      "count": 2
+      "count": 8
     },
     {
       "id": "long-shifts",
@@ -50,18 +92,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Gabriel Gonzalez",
-          "Mon Nov 2",
-          "8:55 AM",
-          "7:15 PM",
-          "10.33",
-          "71.17 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -88,16 +120,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Gabriel Gonzalez",
-          "27.92",
-          "15.50",
-          "43.42",
-          "+3.42"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

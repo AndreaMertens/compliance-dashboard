@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dallas - 3699 McKinney",
     "subtitle": "Manager view",
-    "summary_line": "1 flag this week",
+    "summary_line": "4 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 1
+    "total_flags": 4
   },
   "tiles": [
     {
@@ -21,14 +21,28 @@
       ],
       "rows": [
         [
-          "2026-11-06",
+          "2026-11-17",
           "Danniella Arishaba",
-          "10:00 AM",
-          "10:11 AM",
-          "11"
+          "11:00 AM",
+          "12:01 PM",
+          "61"
+        ],
+        [
+          "2026-11-20",
+          "James Robinson",
+          "11:00 AM",
+          "11:23 AM",
+          "23"
+        ],
+        [
+          "2026-11-21",
+          "Danniella Arishaba",
+          "11:00 AM",
+          "11:13 AM",
+          "13"
         ]
       ],
-      "count": 1
+      "count": 3
     },
     {
       "id": "long-shifts",
@@ -43,8 +57,18 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Aaron Flores",
+          "Sat Nov 21",
+          "10:59 AM",
+          "6:15 AM",
+          "19.27",
+          "40.25 (OT)",
+          "OT \u00b7 Over 11"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "short-shifts",

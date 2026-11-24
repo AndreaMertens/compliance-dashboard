@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -19,8 +19,37 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-11-17",
+          "Andrew Bell",
+          "11:30 AM",
+          "12:31 PM",
+          "61"
+        ],
+        [
+          "2026-11-22",
+          "Holden Tamblyn",
+          "10:00 AM",
+          "11:58 AM",
+          "118"
+        ],
+        [
+          "2026-11-22",
+          "Andrea Calderon",
+          "10:00 AM",
+          "11:51 AM",
+          "111"
+        ],
+        [
+          "2026-11-22",
+          "Christian Sikorski",
+          "10:00 AM",
+          "11:00 AM",
+          "60"
+        ]
+      ],
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -77,13 +106,13 @@
       ],
       "rows": [
         [
-          "Donald Crawford",
-          "Sat Nov 7",
+          "Charles Flynn",
+          "Fri Nov 20",
           "0.00"
         ],
         [
-          "Charles Flynn",
-          "Sun Nov 8",
+          "Viktoriia Fedorchak",
+          "Sun Nov 22",
           "0.00"
         ]
       ],

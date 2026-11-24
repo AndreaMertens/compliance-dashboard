@@ -2,10 +2,10 @@
   "meta": {
     "title": "785 Naples",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "2 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 2
   },
   "tiles": [
     {
@@ -19,8 +19,16 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-11-22",
+          "Charles Montana",
+          "10:00 AM",
+          "10:15 AM",
+          "15"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "long-shifts",
@@ -75,8 +83,14 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Charles Montana",
+          "Sun Nov 22",
+          "6.80"
+        ]
+      ],
+      "count": 1
     }
   ]
 }

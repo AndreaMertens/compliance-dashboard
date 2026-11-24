@@ -2,10 +2,10 @@
   "meta": {
     "title": "St. Louis",
     "subtitle": "Manager view",
-    "summary_line": "2 flags this week",
+    "summary_line": "7 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 2
+    "total_flags": 7
   },
   "tiles": [
     {
@@ -35,27 +35,8 @@
         "Weekly",
         "Triggered"
       ],
-      "rows": [
-        [
-          "Kweshaan Thomas",
-          "Wed Oct 28",
-          "8:00 AM",
-          "7:00 PM",
-          "11.00",
-          "111.45 (OT)",
-          "OT"
-        ],
-        [
-          "Kweshaan Thomas",
-          "Thu Oct 29",
-          "8:00 AM",
-          "6:51 PM",
-          "10.85",
-          "111.45 (OT)",
-          "OT"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     },
     {
       "id": "short-shifts",
@@ -94,8 +75,44 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Leeanna Wright",
+          "Sat Nov 21",
+          "9.47"
+        ],
+        [
+          "Jhaidyn Brown",
+          "Sat Nov 21",
+          "9.57"
+        ],
+        [
+          "Kweshaan Thomas",
+          "Sat Nov 21",
+          "9.38"
+        ],
+        [
+          "Kealoha Hooper",
+          "Sat Nov 21",
+          "9.15"
+        ],
+        [
+          "Leeanna Wright",
+          "Sun Nov 22",
+          "7.43"
+        ],
+        [
+          "Jhaidyn Brown",
+          "Sun Nov 22",
+          "7.48"
+        ],
+        [
+          "Kealoha Hooper",
+          "Sun Nov 22",
+          "7.03"
+        ]
+      ],
+      "count": 7
     }
   ]
 }

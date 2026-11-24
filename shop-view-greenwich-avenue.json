@@ -2,10 +2,10 @@
   "meta": {
     "title": "Greenwich Avenue",
     "subtitle": "Manager view",
-    "summary_line": "No issues this week",
+    "summary_line": "3 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 0
+    "total_flags": 3
   },
   "tiles": [
     {
@@ -19,8 +19,30 @@
         "Actual",
         "Min Late"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "2026-11-17",
+          "Zachary Jones",
+          "9:00 AM",
+          "9:13 AM",
+          "13"
+        ],
+        [
+          "2026-11-18",
+          "Zachary Jones",
+          "9:00 AM",
+          "9:26 AM",
+          "26"
+        ],
+        [
+          "2026-11-21",
+          "Zachary Jones",
+          "12:00 PM",
+          "1:01 PM",
+          "61"
+        ]
+      ],
+      "count": 3
     },
     {
       "id": "long-shifts",

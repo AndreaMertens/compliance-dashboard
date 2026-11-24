@@ -2,10 +2,10 @@
   "meta": {
     "title": "Dedham",
     "subtitle": "Manager view",
-    "summary_line": "4 flags this week",
+    "summary_line": "6 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 4
+    "total_flags": 6
   },
   "tiles": [
     {
@@ -21,14 +21,35 @@
       ],
       "rows": [
         [
-          "2026-11-04",
+          "2026-11-16",
           "Cooper Betancourt",
-          "9:00 AM",
-          "9:41 AM",
-          "41"
+          "10:00 AM",
+          "10:15 AM",
+          "15"
+        ],
+        [
+          "2026-11-18",
+          "Cooper Betancourt",
+          "10:00 AM",
+          "10:26 AM",
+          "26"
+        ],
+        [
+          "2026-11-22",
+          "Mike Spinelli",
+          "10:00 AM",
+          "10:40 AM",
+          "40"
+        ],
+        [
+          "2026-11-22",
+          "Mike Spinelli",
+          "10:00 AM",
+          "10:40 AM",
+          "40"
         ]
       ],
-      "count": 1
+      "count": 4
     },
     {
       "id": "long-shifts",
@@ -46,20 +67,20 @@
       "rows": [
         [
           "Dillon Stanas",
-          "Mon Nov 9",
-          "6:25 AM",
-          "5:10 PM",
-          "10.75",
-          "86.34 (OT)",
+          "Mon Nov 16",
+          "7:46 AM",
+          "6:05 PM",
+          "10.32",
+          "86.61 (OT)",
           "OT"
         ],
         [
           "Dillon Stanas",
-          "Mon Nov 2",
-          "6:47 AM",
-          "5:08 PM",
-          "10.35",
-          "86.34 (OT)",
+          "Mon Nov 23",
+          "7:55 AM",
+          "6:05 PM",
+          "10.17",
+          "86.61 (OT)",
           "OT"
         ]
       ],
@@ -90,16 +111,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Cameron Merenda",
-          "33.12",
-          "8.00",
-          "41.12",
-          "+1.12"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",

@@ -2,7 +2,7 @@
   "meta": {
     "title": "Unapproved Timecards",
     "subtitle": "Week of November 16\u201322, 2026",
-    "summary_line": "14 shops \u00b7 111 timecards outstanding",
+    "summary_line": "13 shops \u00b7 104 timecards outstanding",
     "last_refreshed_display": "Data through Tue Nov 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -409,7 +409,7 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 8,
+      "count": 9,
       "rows": [
         [
           "Andrew Smith",
@@ -450,6 +450,11 @@
           "Jules",
           "Sun Nov 22",
           "8.08"
+        ],
+        [
+          "Liza Lugo",
+          "Sun Nov 22",
+          "8.05"
         ]
       ]
     },
@@ -498,13 +503,8 @@
     {
       "shop": "Salt Lake City - 50 E Main St. N",
       "manager": "Nathan Smith, Ashley Gabrielsen",
-      "count": 4,
+      "count": 3,
       "rows": [
-        [
-          "Cody Crites",
-          "Fri Nov 20",
-          "8.00"
-        ],
         [
           "Nicholas Compton",
           "Sat Nov 21",
@@ -519,60 +519,6 @@
           "Naomi Gilmore",
           "Sat Nov 21",
           "8.02"
-        ]
-      ]
-    },
-    {
-      "shop": "785 Naples",
-      "manager": "",
-      "count": 4,
-      "rows": [
-        [
-          "Charles Montana",
-          "Wed Nov 18",
-          "8.70"
-        ],
-        [
-          "Ryan Naumovski",
-          "Fri Nov 20",
-          "8.28"
-        ],
-        [
-          "Ryan Naumovski",
-          "Sun Nov 22",
-          "7.37"
-        ],
-        [
-          "Charles Montana",
-          "Sun Nov 22",
-          "6.80"
-        ]
-      ]
-    },
-    {
-      "shop": "122 Lexington",
-      "manager": "Craig Somma",
-      "count": 4,
-      "rows": [
-        [
-          "Maxwell Webster",
-          "Fri Nov 20",
-          "8.22"
-        ],
-        [
-          "Gabrielle",
-          "Sat Nov 21",
-          "8.28"
-        ],
-        [
-          "Rex Walters",
-          "Sat Nov 21",
-          "7.47"
-        ],
-        [
-          "Maxwell Webster",
-          "Sun Nov 22",
-          "5.90"
         ]
       ]
     },
@@ -663,6 +609,18 @@
           "Guy Williams ii",
           "Thu Nov 19",
           "14.37"
+        ]
+      ]
+    },
+    {
+      "shop": "785 Naples",
+      "manager": "",
+      "count": 1,
+      "rows": [
+        [
+          "Charles Montana",
+          "Sun Nov 22",
+          "6.80"
         ]
       ]
     }

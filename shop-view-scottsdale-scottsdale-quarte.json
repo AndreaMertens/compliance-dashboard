@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "8 flags this week",
+    "summary_line": "15 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 8
+    "total_flags": 15
   },
   "tiles": [
     {
@@ -21,18 +21,18 @@
       ],
       "rows": [
         [
-          "2026-11-03",
-          "William Green",
-          "10:00 AM",
-          "12:34 PM",
-          "154"
+          "2026-11-20",
+          "Andrew Smith",
+          "10:30 AM",
+          "10:42 AM",
+          "12"
         ],
         [
-          "2026-11-08",
-          "Andrew Smith",
-          "9:00 AM",
-          "9:29 AM",
-          "29"
+          "2026-11-21",
+          "Gloria Alexander",
+          "10:00 AM",
+          "10:13 AM",
+          "13"
         ]
       ],
       "count": 2
@@ -53,51 +53,33 @@
       "rows": [
         [
           "Gloria Alexander",
-          "Mon Nov 9",
-          "9:00 AM",
-          "8:00 PM",
-          "11.00",
-          "79.44 (OT)",
+          "Thu Nov 19",
+          "7:36 AM",
+          "7:34 PM",
+          "11.97",
+          "61.08 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Nov 14",
+          "10:11 AM",
+          "8:55 PM",
+          "10.73",
+          "61.08 (OT)",
           "OT"
         ],
         [
           "Gloria Alexander",
-          "Tue Nov 3",
-          "8:45 AM",
-          "7:03 PM",
-          "10.30",
-          "79.44 (OT)",
-          "OT"
-        ],
-        [
-          "Gloria Alexander",
-          "Thu Nov 5",
-          "6:46 AM",
-          "5:04 PM",
-          "10.30",
-          "79.44 (OT)",
-          "OT"
-        ],
-        [
-          "Gloria Alexander",
-          "Sat Nov 7",
-          "9:10 AM",
-          "7:15 PM",
-          "10.08",
-          "79.44 (OT)",
-          "OT"
-        ],
-        [
-          "Gloria Alexander",
-          "Thu Oct 29",
-          "7:55 AM",
-          "5:58 PM",
-          "10.05",
-          "79.44 (OT)",
+          "Thu Nov 12",
+          "7:34 AM",
+          "5:40 PM",
+          "10.10",
+          "61.08 (OT)",
           "OT"
         ]
       ],
-      "count": 5
+      "count": 3
     },
     {
       "id": "short-shifts",
@@ -126,11 +108,11 @@
       ],
       "rows": [
         [
-          "William Green",
-          "41.78",
-          "4.00",
-          "45.78",
-          "+5.78"
+          "Ryland",
+          "34.49",
+          "8.00",
+          "42.49",
+          "+2.49"
         ]
       ],
       "count": 1
@@ -144,8 +126,54 @@
         "Date",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Andrew Smith",
+          "Fri Nov 20",
+          "7.80"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Nov 21",
+          "9.78"
+        ],
+        [
+          "William Green",
+          "Sat Nov 21",
+          "7.80"
+        ],
+        [
+          "John Khano",
+          "Sat Nov 21",
+          "7.95"
+        ],
+        [
+          "Andrew Smith",
+          "Sat Nov 21",
+          "8.08"
+        ],
+        [
+          "Hansi",
+          "Sun Nov 22",
+          "8.73"
+        ],
+        [
+          "Marco Galindo",
+          "Sun Nov 22",
+          "8.07"
+        ],
+        [
+          "Jules",
+          "Sun Nov 22",
+          "8.08"
+        ],
+        [
+          "Liza Lugo",
+          "Sun Nov 22",
+          "8.05"
+        ]
+      ],
+      "count": 9
     }
   ]
 }
