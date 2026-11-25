@@ -2,10 +2,10 @@
   "meta": {
     "title": "696 Lynnfield",
     "subtitle": "Manager view",
-    "summary_line": "10 flags this week",
+    "summary_line": "9 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 10
+    "total_flags": 9
   },
   "tiles": [
     {
@@ -85,6 +85,24 @@
         ],
         [
           "Evan",
+          "Tue Nov 24",
+          "8:50 AM",
+          "7:00 PM",
+          "10.17",
+          "62.75 (OT)",
+          "OT"
+        ],
+        [
+          "Marian Claure arias",
+          "Mon Nov 23",
+          "8:51 AM",
+          "7:00 PM",
+          "10.15",
+          "80.83 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
           "Sat Nov 21",
           "8:56 AM",
           "7:02 PM",
@@ -93,7 +111,7 @@
           "OT"
         ]
       ],
-      "count": 3
+      "count": 5
     },
     {
       "id": "short-shifts",
@@ -132,24 +150,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Dominic Ferragamo",
-          "Sun Nov 22",
-          "6.23"
-        ],
-        [
-          "Emirson Santana",
-          "Sun Nov 22",
-          "6.05"
-        ],
-        [
-          "Marian Claure arias",
-          "Sun Nov 22",
-          "4.87"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

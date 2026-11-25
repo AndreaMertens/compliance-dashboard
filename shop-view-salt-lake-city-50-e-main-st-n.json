@@ -2,10 +2,10 @@
   "meta": {
     "title": "Salt Lake City - 50 E Main St. N",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -53,15 +53,24 @@
       "rows": [
         [
           "Cameron Randall",
+          "Mon Nov 23",
+          "10:03 AM",
+          "9:14 PM",
+          "11.18",
+          "43.78 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Cameron Randall",
           "Mon Nov 16",
           "10:22 AM",
           "9:05 PM",
           "10.72",
-          "40.47 (OT)",
+          "43.78 (OT)",
           "OT"
         ]
       ],
-      "count": 1
+      "count": 2
     },
     {
       "id": "short-shifts",
@@ -108,24 +117,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Nicholas Compton",
-          "Sat Nov 21",
-          "8.72"
-        ],
-        [
-          "Charlie Shaffer",
-          "Sat Nov 21",
-          "8.63"
-        ],
-        [
-          "Naomi Gilmore",
-          "Sat Nov 21",
-          "8.02"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

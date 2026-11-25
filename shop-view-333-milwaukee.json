@@ -2,10 +2,10 @@
   "meta": {
     "title": "333 Milwaukee",
     "subtitle": "Manager view",
-    "summary_line": "7 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 7
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -42,7 +42,7 @@
           "9:22 AM",
           "7:45 PM",
           "10.38",
-          "86.73 (OT)",
+          "96.88 (OT)",
           "OT"
         ],
         [
@@ -51,7 +51,16 @@
           "9:21 AM",
           "7:30 PM",
           "10.15",
-          "86.73 (OT)",
+          "96.88 (OT)",
+          "OT"
+        ],
+        [
+          "Ivory Turner",
+          "Tue Nov 24",
+          "9:21 AM",
+          "7:30 PM",
+          "10.15",
+          "96.88 (OT)",
           "OT"
         ],
         [
@@ -60,11 +69,11 @@
           "9:20 AM",
           "7:28 PM",
           "10.13",
-          "86.73 (OT)",
+          "96.88 (OT)",
           "OT"
         ]
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "short-shifts",
@@ -111,24 +120,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Ivory Turner",
-          "Sun Nov 22",
-          "7.40"
-        ],
-        [
-          "Clark",
-          "Sun Nov 22",
-          "6.08"
-        ],
-        [
-          "Oliver Roa",
-          "Sun Nov 22",
-          "7.23"
-        ]
-      ],
-      "count": 3
+      "rows": [],
+      "count": 0
     }
   ]
 }

@@ -2,10 +2,10 @@
   "meta": {
     "title": "Scottsdale - Scottsdale Quarte",
     "subtitle": "Manager view",
-    "summary_line": "15 flags this week",
+    "summary_line": "8 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 15
+    "total_flags": 8
   },
   "tiles": [
     {
@@ -57,7 +57,16 @@
           "7:36 AM",
           "7:34 PM",
           "11.97",
-          "61.08 (OT)",
+          "72.01 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Gloria Alexander",
+          "Mon Nov 23",
+          "7:34 AM",
+          "7:04 PM",
+          "11.50",
+          "72.01 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -66,7 +75,16 @@
           "10:11 AM",
           "8:55 PM",
           "10.73",
-          "61.08 (OT)",
+          "72.01 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Nov 24",
+          "9:36 AM",
+          "8:17 PM",
+          "10.68",
+          "72.01 (OT)",
           "OT"
         ],
         [
@@ -75,11 +93,20 @@
           "7:34 AM",
           "5:40 PM",
           "10.10",
-          "61.08 (OT)",
+          "72.01 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Nov 21",
+          "10:13 AM",
+          "8:15 PM",
+          "10.03",
+          "72.01 (OT)",
           "OT"
         ]
       ],
-      "count": 3
+      "count": 6
     },
     {
       "id": "short-shifts",
@@ -106,16 +133,8 @@
         "Total",
         "Overage"
       ],
-      "rows": [
-        [
-          "Ryland",
-          "34.49",
-          "8.00",
-          "42.49",
-          "+2.49"
-        ]
-      ],
-      "count": 1
+      "rows": [],
+      "count": 0
     },
     {
       "id": "unapproved-timecards",
@@ -126,54 +145,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Andrew Smith",
-          "Fri Nov 20",
-          "7.80"
-        ],
-        [
-          "Gloria Alexander",
-          "Sat Nov 21",
-          "9.78"
-        ],
-        [
-          "William Green",
-          "Sat Nov 21",
-          "7.80"
-        ],
-        [
-          "John Khano",
-          "Sat Nov 21",
-          "7.95"
-        ],
-        [
-          "Andrew Smith",
-          "Sat Nov 21",
-          "8.08"
-        ],
-        [
-          "Hansi",
-          "Sun Nov 22",
-          "8.73"
-        ],
-        [
-          "Marco Galindo",
-          "Sun Nov 22",
-          "8.07"
-        ],
-        [
-          "Jules",
-          "Sun Nov 22",
-          "8.08"
-        ],
-        [
-          "Liza Lugo",
-          "Sun Nov 22",
-          "8.05"
-        ]
-      ],
-      "count": 9
+      "rows": [],
+      "count": 0
     }
   ]
 }

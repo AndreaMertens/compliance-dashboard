@@ -320,9 +320,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 5,
+      "metric": 4,
       "metric_unit": "shops",
-      "description": "77 timecards still unapproved across the full pay period.",
+      "description": "75 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -764,18 +764,6 @@
           "8.20h"
         ],
         [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-11-23",
-          "8.22h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-11-24",
-          "8.13h"
-        ],
-        [
           "Inessa Samusenko",
           "1151 Roseville",
           "2026-11-24",
@@ -798,8 +786,8 @@
     {
       "id": "payroll-pending-leave",
       "title": "Pending Leave",
-      "metric": 2,
-      "metric_unit": "requests",
+      "metric": 1,
+      "metric_unit": "request",
       "description": "Leave requests overlapping this pay period not yet approved or denied.",
       "status": "attention",
       "columns": [
@@ -810,16 +798,10 @@
       ],
       "rows": [
         [
-          "Mira Chong",
-          "2026-11-21",
-          "2026-11-22",
-          "Birthday weekend"
-        ],
-        [
-          "Evan",
-          "2026-11-18",
-          "2026-11-18",
-          "Personal day. "
+          "Isabelle Nixon",
+          "2026-11-20",
+          "2026-11-20",
+          "Sick "
         ]
       ]
     },
@@ -1473,7 +1455,7 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 150,
+      "metric": 152,
       "metric_unit": "timecards",
       "description": "Hourly timecards approved but not yet marked Paid across 16 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
@@ -1484,12 +1466,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Rex Walters",
-          "122 Lexington",
-          "2026-11-24",
-          "8.13h"
-        ],
         [
           "Will Mathews",
           "2900 Minneapolis",
@@ -2101,6 +2077,24 @@
           "Greenwich Avenue",
           "2026-11-23",
           "7.67h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-11-19",
+          "4.00h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-11-23",
+          "8.22h"
+        ],
+        [
+          "Dominic Kowalski",
+          "HQ-Non-Kiosk",
+          "2026-11-24",
+          "8.13h"
         ],
         [
           "Clayton Brown",

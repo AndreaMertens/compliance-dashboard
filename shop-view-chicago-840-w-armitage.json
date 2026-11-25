@@ -2,10 +2,10 @@
   "meta": {
     "title": "Chicago - 840 W Armitage",
     "subtitle": "Manager view",
-    "summary_line": "6 flags this week",
+    "summary_line": "5 flags this week",
     "back_label": "Dashboard",
     "back_url": "index.html",
-    "total_flags": 6
+    "total_flags": 5
   },
   "tiles": [
     {
@@ -78,8 +78,16 @@
         "End",
         "Hours"
       ],
-      "rows": [],
-      "count": 0
+      "rows": [
+        [
+          "Viktoriia Fedorchak",
+          "Sun Nov 22",
+          "11:00 PM",
+          "11:00 PM",
+          "0.00"
+        ]
+      ],
+      "count": 1
     },
     {
       "id": "over-40-vacation",
@@ -104,19 +112,8 @@
         "Date",
         "Hours"
       ],
-      "rows": [
-        [
-          "Charles Flynn",
-          "Fri Nov 20",
-          "0.00"
-        ],
-        [
-          "Viktoriia Fedorchak",
-          "Sun Nov 22",
-          "0.00"
-        ]
-      ],
-      "count": 2
+      "rows": [],
+      "count": 0
     }
   ]
 }
