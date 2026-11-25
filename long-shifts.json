@@ -2,7 +2,7 @@
   "meta": {
     "title": "Long Shift Penalties",
     "subtitle": "Pay period Nov 11 \u2013 Nov 24, 2026",
-    "summary_line": "20 flagged shifts across 11 shops \u2014 20 OT, 2 over 11 hrs",
+    "summary_line": "26 flagged shifts across 10 shops \u2014 26 OT, 3 over 11 hrs",
     "last_refreshed_display": "Data through Tue Nov 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -28,7 +28,7 @@
           "7:27 AM",
           "5:47 PM",
           "10.33",
-          "81.84 (OT)",
+          "89.24 (OT)",
           "OT"
         ]
       ]
@@ -36,7 +36,7 @@
     {
       "shop": "333 Milwaukee",
       "manager": "Tia Reeves",
-      "count": 3,
+      "count": 4,
       "rows": [
         [
           "Ivory Turner",
@@ -44,7 +44,7 @@
           "9:22 AM",
           "7:45 PM",
           "10.38",
-          "86.73 (OT)",
+          "96.88 (OT)",
           "OT"
         ],
         [
@@ -53,7 +53,16 @@
           "9:21 AM",
           "7:30 PM",
           "10.15",
-          "86.73 (OT)",
+          "96.88 (OT)",
+          "OT"
+        ],
+        [
+          "Ivory Turner",
+          "Tue Nov 24",
+          "9:21 AM",
+          "7:30 PM",
+          "10.15",
+          "96.88 (OT)",
           "OT"
         ],
         [
@@ -62,7 +71,7 @@
           "9:20 AM",
           "7:28 PM",
           "10.13",
-          "86.73 (OT)",
+          "96.88 (OT)",
           "OT"
         ]
       ]
@@ -70,7 +79,7 @@
     {
       "shop": "696 Lynnfield",
       "manager": "Mike LeGree",
-      "count": 3,
+      "count": 5,
       "rows": [
         [
           "Evan",
@@ -88,6 +97,24 @@
           "7:01 PM",
           "10.18",
           "62.75 (OT)",
+          "OT"
+        ],
+        [
+          "Evan",
+          "Tue Nov 24",
+          "8:50 AM",
+          "7:00 PM",
+          "10.17",
+          "62.75 (OT)",
+          "OT"
+        ],
+        [
+          "Marian Claure arias",
+          "Mon Nov 23",
+          "8:51 AM",
+          "7:00 PM",
+          "10.15",
+          "80.83 (OT)",
           "OT"
         ],
         [
@@ -112,7 +139,7 @@
           "9:58 AM",
           "8:17 PM",
           "10.32",
-          "85.49 (OT)",
+          "93.72 (OT)",
           "OT"
         ]
       ]
@@ -128,7 +155,7 @@
           "8:59 AM",
           "7:19 PM",
           "10.33",
-          "75.90 (OT)",
+          "76.62 (OT)",
           "OT"
         ]
       ]
@@ -144,7 +171,7 @@
           "6:14 AM",
           "4:42 PM",
           "10.47",
-          "88.15 (OT)",
+          "97.12 (OT)",
           "OT"
         ],
         [
@@ -153,7 +180,7 @@
           "8:20 AM",
           "6:22 PM",
           "10.03",
-          "76.92 (OT)",
+          "85.04 (OT)",
           "OT"
         ],
         [
@@ -178,24 +205,8 @@
           "8:49 AM",
           "7:00 PM",
           "10.18",
-          "58.87 (OT)",
+          "67.37 (OT)",
           "OT"
-        ]
-      ]
-    },
-    {
-      "shop": "Dallas - 3699 McKinney",
-      "manager": "Miguel Trevino-Martinez",
-      "count": 1,
-      "rows": [
-        [
-          "Aaron Flores",
-          "Sat Nov 21",
-          "10:59 AM",
-          "6:15 AM",
-          "19.27",
-          "40.25 (OT)",
-          "OT \u00b7 Over 11"
         ]
       ]
     },
@@ -210,7 +221,7 @@
           "7:46 AM",
           "6:05 PM",
           "10.32",
-          "86.61 (OT)",
+          "95.06 (OT)",
           "OT"
         ],
         [
@@ -219,7 +230,7 @@
           "7:55 AM",
           "6:05 PM",
           "10.17",
-          "86.61 (OT)",
+          "95.06 (OT)",
           "OT"
         ]
       ]
@@ -227,15 +238,24 @@
     {
       "shop": "Salt Lake City - 50 E Main St. N",
       "manager": "Nathan Smith, Ashley Gabrielsen",
-      "count": 1,
+      "count": 2,
       "rows": [
+        [
+          "Cameron Randall",
+          "Mon Nov 23",
+          "10:03 AM",
+          "9:14 PM",
+          "11.18",
+          "43.78 (OT)",
+          "OT \u00b7 Over 11"
+        ],
         [
           "Cameron Randall",
           "Mon Nov 16",
           "10:22 AM",
           "9:05 PM",
           "10.72",
-          "40.47 (OT)",
+          "43.78 (OT)",
           "OT"
         ]
       ]
@@ -243,7 +263,7 @@
     {
       "shop": "Scottsdale - Scottsdale Quarte",
       "manager": "Matt Russell",
-      "count": 3,
+      "count": 6,
       "rows": [
         [
           "Gloria Alexander",
@@ -251,7 +271,16 @@
           "7:36 AM",
           "7:34 PM",
           "11.97",
-          "61.08 (OT)",
+          "72.01 (OT)",
+          "OT \u00b7 Over 11"
+        ],
+        [
+          "Gloria Alexander",
+          "Mon Nov 23",
+          "7:34 AM",
+          "7:04 PM",
+          "11.50",
+          "72.01 (OT)",
           "OT \u00b7 Over 11"
         ],
         [
@@ -260,7 +289,16 @@
           "10:11 AM",
           "8:55 PM",
           "10.73",
-          "61.08 (OT)",
+          "72.01 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Tue Nov 24",
+          "9:36 AM",
+          "8:17 PM",
+          "10.68",
+          "72.01 (OT)",
           "OT"
         ],
         [
@@ -269,7 +307,16 @@
           "7:34 AM",
           "5:40 PM",
           "10.10",
-          "61.08 (OT)",
+          "72.01 (OT)",
+          "OT"
+        ],
+        [
+          "Gloria Alexander",
+          "Sat Nov 21",
+          "10:13 AM",
+          "8:15 PM",
+          "10.03",
+          "72.01 (OT)",
           "OT"
         ]
       ]

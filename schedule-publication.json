@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Schedule Publication",
-    "subtitle": "Window: Nov 24 \u2192 Dec 15, 2026",
-    "summary_line": "3 action needed \u00b7 4 heads up",
-    "last_refreshed_display": "Data through Tue Nov 24, 9:00 AM",
+    "subtitle": "Window: Nov 25 \u2192 Dec 16, 2026",
+    "summary_line": "4 action needed \u00b7 6 heads up",
+    "last_refreshed_display": "Data through Wed Nov 25, 7:06 AM",
     "back_label": "Dashboard",
     "back_url": "index.html"
   },
@@ -16,21 +16,28 @@
         {
           "shop": "4000 New Orleans",
           "manager": "",
-          "draft_count": 24,
-          "gap_days": 9,
+          "draft_count": 27,
+          "gap_days": 10,
           "lookahead_days": 14
         },
         {
           "shop": "Chicago - 840 W Armitage",
           "manager": "",
-          "draft_count": 10,
-          "gap_days": 2,
+          "draft_count": 13,
+          "gap_days": 3,
           "lookahead_days": 21
+        },
+        {
+          "shop": "1425 Basecamp",
+          "manager": "",
+          "draft_count": 7,
+          "gap_days": 3,
+          "lookahead_days": 14
         },
         {
           "shop": "Charleston",
           "manager": "",
-          "draft_count": 5,
+          "draft_count": 4,
           "gap_days": 1,
           "lookahead_days": 14
         }
@@ -42,21 +49,35 @@
       "description": "Schedule is published, but some individual shifts are still in draft.",
       "rows": [
         {
-          "shop": "Miami - Brickell",
+          "shop": "1000 Pittsburgh",
           "manager": "",
-          "draft_count": 4,
+          "draft_count": 8,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "10250 Century City",
           "manager": "",
-          "draft_count": 2,
+          "draft_count": 6,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "Miami - Brickell",
+          "manager": "",
+          "draft_count": 5,
           "gap_days": 0,
           "lookahead_days": 14
         },
         {
           "shop": "822 City Centre",
+          "manager": "",
+          "draft_count": 2,
+          "gap_days": 0,
+          "lookahead_days": 14
+        },
+        {
+          "shop": "103 Greenville",
           "manager": "",
           "draft_count": 1,
           "gap_days": 0,

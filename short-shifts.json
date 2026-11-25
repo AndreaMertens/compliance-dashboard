@@ -2,7 +2,7 @@
   "meta": {
     "title": "Short Shifts",
     "subtitle": "Pay period Nov 11 \u2013 Nov 24, 2026",
-    "summary_line": "No approved shifts under 20 minutes this pay period.",
+    "summary_line": "1 approved shift under 20 minutes across 1 shop",
     "last_refreshed_display": "Data through Tue Nov 24, 2026",
     "back_label": "Dashboard",
     "back_url": "index.html"
@@ -14,5 +14,20 @@
     "End",
     "Hours"
   ],
-  "groups": []
+  "groups": [
+    {
+      "shop": "Chicago - 840 W Armitage",
+      "manager": "Agnes Krol",
+      "count": 1,
+      "rows": [
+        [
+          "Viktoriia Fedorchak",
+          "Sun Nov 22",
+          "11:00 PM",
+          "11:00 PM",
+          "0.00"
+        ]
+      ]
+    }
+  ]
 }
