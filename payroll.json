@@ -4,7 +4,7 @@
     "check_label": "Nov 30, 2026",
     "period_start": "2026-11-11",
     "period_end": "2026-11-24",
-    "last_refreshed_display": "Generated Wed Nov 25, 2026"
+    "last_refreshed_display": "Generated Fri Nov 27, 2026"
   },
   "tiles": [
     {
@@ -320,9 +320,9 @@
     {
       "id": "payroll-unapproved",
       "title": "Unapproved Timecards",
-      "metric": 4,
-      "metric_unit": "shops",
-      "description": "75 timecards still unapproved across the full pay period.",
+      "metric": 1,
+      "metric_unit": "shop",
+      "description": "70 timecards still unapproved across the full pay period.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -750,36 +750,6 @@
           "CX Team",
           "2026-11-24",
           "9.72h"
-        ],
-        [
-          "Elbert Wiltz",
-          "Walnut Creek - 147 Broadway",
-          "2026-11-24",
-          "7.77h"
-        ],
-        [
-          "Jeremy Raymer",
-          "Walnut Creek - 147 Broadway",
-          "2026-11-24",
-          "8.20h"
-        ],
-        [
-          "Inessa Samusenko",
-          "1151 Roseville",
-          "2026-11-24",
-          "7.98h"
-        ],
-        [
-          "Taji-Mikal Mekki",
-          "1151 Roseville",
-          "2026-11-24",
-          "8.02h"
-        ],
-        [
-          "Cameron Randall",
-          "Salt Lake City - 50 E Main St. N",
-          "2026-11-24",
-          "2.83h"
         ]
       ]
     },
@@ -1455,9 +1425,9 @@
     {
       "id": "payroll-approved-not-paid",
       "title": "Approved, Not Yet Paid",
-      "metric": 152,
+      "metric": 138,
       "metric_unit": "timecards",
-      "description": "Hourly timecards approved but not yet marked Paid across 16 shop(s). Should reach 0 before payroll closes.",
+      "description": "Hourly timecards approved but not yet marked Paid across 14 shop(s). Should reach 0 before payroll closes.",
       "status": "attention",
       "columns": [
         "Employee",
@@ -1466,72 +1436,6 @@
         "Hours"
       ],
       "rows": [
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-11",
-          "8.08h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-12",
-          "8.07h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-13",
-          "4.18h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-14",
-          "4.38h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-15",
-          "7.25h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-16",
-          "8.07h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-17",
-          "8.13h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-18",
-          "8.37h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-19",
-          "8.18h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-23",
-          "8.03h"
-        ],
-        [
-          "Will Mathews",
-          "2900 Minneapolis",
-          "2026-11-24",
-          "8.13h"
-        ],
         [
           "Ivory Turner",
           "333 Milwaukee",
@@ -2077,24 +1981,6 @@
           "Greenwich Avenue",
           "2026-11-23",
           "7.67h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-11-19",
-          "4.00h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-11-23",
-          "8.22h"
-        ],
-        [
-          "Dominic Kowalski",
-          "HQ-Non-Kiosk",
-          "2026-11-24",
-          "8.13h"
         ],
         [
           "Clayton Brown",
